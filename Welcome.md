@@ -1,5 +1,3 @@
-This is your new *vault*.
+This notes about cyber security
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
-
-When you're ready, delete this note and make the vault your own.
+To get started click on the, [[Intro to cyber security]], or jump directly to [[Path in Cyber Security]].
