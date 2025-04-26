@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to Linux.md",
+                "file": "OS/Linux/Intro to Linux.md",
                 "mode": "source",
                 "source": false
               },
@@ -217,7 +217,7 @@
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
     "OS/Linux",
-    "Intro to Linux.md",
+    "OS/Linux/Intro to Linux.md",
     "Linux.md",
     "OS",
     "Welcome.md",
