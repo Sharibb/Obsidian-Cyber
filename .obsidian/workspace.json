@@ -180,9 +180,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "cd2e670c2aec56cc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -199,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "268d41af8d0ce4d0",
+  "active": "cd2e670c2aec56cc",
   "lastOpenFiles": [
     "Linux.md",
     "OS/Linux/Intro to Linux.md",
