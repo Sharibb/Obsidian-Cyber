@@ -1,5 +1,5 @@
 {
-  "commitMessage": "vault backup: {{date}}\nCommited Device:{{hostname}}",
+  "commitMessage": "vault backup: {{date}}\nComitted Device: {{hostname}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 0.1,
   "autoPushInterval": 0,
@@ -21,14 +21,14 @@
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
   "showedMobileNotice": true,
-  "refreshSourceControlTimer": 7000,
+  "refreshSourceControlTimer": 1000,
   "showBranchStatusBar": true,
   "setLastSaveToLastCommit": false,
   "submoduleRecurseCheckout": false,
   "gitDir": "",
   "showFileMenu": true,
-  "authorInHistoryView": "hide",
-  "dateInHistoryView": false,
+  "authorInHistoryView": "initials",
+  "dateInHistoryView": true,
   "diffStyle": "split",
   "lineAuthor": {
     "show": false,
@@ -55,5 +55,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "vault backup: {{date}}\nCommited Device:{{hostname}}"
+  "autoCommitMessage": "vault backup: {{date}}\nComitted Device: {{hostname}}"
 }
