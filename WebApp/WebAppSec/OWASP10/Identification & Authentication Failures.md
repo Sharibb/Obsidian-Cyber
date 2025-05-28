@@ -19,11 +19,11 @@ Identification and authentication failures occur when systems incorrectly implem
    - Missing multi-factor authentication (MFA) for sensitive actions.  
    - Authentication bypass (e.g., modifying parameters like `userid=admin`).  
 
-1. **Credential Stuffing & Leaks**  
+4. **Credential Stuffing & Leaks**  
    - Use of breached passwords due to lack of screening.  
    - Storing passwords in plaintext or with weak hashing (e.g., MD5).  
 
-1. **Misconfigured Identity Providers**  
+5. **Misconfigured Identity Providers**  
    - Incorrect OAuth/OpenID configurations allowing token theft or privilege escalation.  
 
 ---
@@ -44,4 +44,5 @@ Identification and authentication failures occur when systems incorrectly implem
 ---
 
 #### **OWASP References**  
-- [A07:2021 – Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures
+- [A07:2021 – Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)  
+
