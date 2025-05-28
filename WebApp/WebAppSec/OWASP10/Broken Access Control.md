@@ -53,57 +53,6 @@ Here’s a refined and consolidated version of your content on **Broken Access C
 
 ---
 
-### **Broken Access Control: Risks and Mitigation**  
-**OWASP Top 10 | Critical Security Risk**  
-
-#### **Definition**  
-Broken Access Control occurs when applications fail to enforce proper restrictions on authenticated users, allowing attackers to bypass authorization and perform unauthorized actions.  
-
-#### **Key Attack Vectors**  
-1. **Horizontal Privilege Escalation**  
-   - Accessing another user’s data at the same privilege level (e.g., `/profile?id=123` → `id=124`).  
-2. **Vertical Privilege Escalation**  
-   - Gaining elevated privileges (e.g., regular user accessing `/admin/dashboard`).  
-3. **Forced Browsing**  
-   - Directly navigating to restricted URLs (e.g., `/internal/reports`).  
-
----
-
-### **Common Examples & Exploits**  
-1. **Insecure Direct Object References (IDOR)**  
-   - Manipulating parameters (e.g., database IDs in URLs) to access unauthorized resources.  
-2. **Missing Function-Level Controls**  
-   - Server-side role checks omitted (e.g., admin APIs exposed to non-admins).  
-3. **API Abuse via Missing Rate Limits**  
-   - Brute-forcing endpoints (e.g., password reset tokens).  
-4. **CORS Misconfigurations**  
-   - Overly permissive headers (`Access-Control-Allow-Origin: *`) exposing sensitive data.  
-
----
-
-### **Impact of Broken Access Control**  
-- Data breaches (PII, financial records).  
-- Account takeovers and compliance violations (GDPR/HIPAA fines).  
-
----
-
-### **Prevention Strategies** (**Starred for Emphasis**)  
-
-1. ***Role-Based Access Control (RBAC)***  
-   - Enforce server-side checks for *every* request (e.g., `if user.role != "admin": deny`).  
-
-2. ***Indirect Object References***  
-   - Replace raw IDs with UUIDs or tokens (`/profile?token=xyz` vs. `/profile?id=1`).  
-
-3. ***Default-Deny Principle***  
-   - Explicitly whitelist authorized access; block all else by default.  
-
-1. ***Server-Side Validation*** (**Never trust client-side checks
-
- Here’s a polished and concise version of your **Broken Access Control** guide, with clear structure, removed redundancy, and enhanced readability:
-
----
-
 ### **Broken Access Control: Risks & Mitigation**  
 **OWASP Top 10 | Critical Security Risk**  
 
