@@ -18,7 +18,7 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
    - Developers, pentesters, CISOs, and compliance teams.  
 
 ---
-![[Pasted image 20250528162715.png]]
+![[OWASP1.png]]
 ---
 
 ### **2021 OWASP Top 10 Categories** *(Brief Overview)*  
