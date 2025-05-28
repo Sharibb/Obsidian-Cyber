@@ -25,3 +25,24 @@ SQL Injection is a web security vulnerability that allows attackers to interfere
 2. **Union-based**
    ```sql
    SELECT title, body FROM articles WHERE id=1 UNION SELECT username, password FROM users--
+   ```
+
+3. **Boolean-based Blind**
+   ```sql
+   SELECT * FROM products WHERE id=1 AND 1=1-- (returns normal page)
+   SELECT * FROM products WHERE id=1 AND 1=2-- (returns error/empty)
+   ```
+
+4. **Time-based Blind**
+   ```sql
+   SELECT * FROM users WHERE username='admin' AND IF(1=1,SLEEP(5),0)--'
+   ```
+
+## Prevention Methods
+
+- Use prepared statements with parameterized queries
+- Implement proper input validation
+- Apply the principle of least privilege for database accounts
+- Use web application firewalls (WAFs)
+
+Would you like me to elaborate on any specific aspect of SQL injection?
