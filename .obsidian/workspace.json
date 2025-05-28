@@ -196,7 +196,8 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
-    "Images/Untitled",
+    "Images/WebApp/OWASP",
+    "Images/WebApp",
     "Images/owasp-top-10-broken-access-control.webp",
     "Images",
     "Images/OWASP1.png",
@@ -228,7 +229,6 @@
     "Digital Forensics",
     "test.md",
     "OS/Windows/Windows.md",
-    "Networking",
     "Linux.md"
   ]
 }
