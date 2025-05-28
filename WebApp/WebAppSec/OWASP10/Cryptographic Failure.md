@@ -1,4 +1,4 @@
- 
+ ![[data-encryption-and-cryptographic-failures.webp]]
 
 **Description:**  
 Cryptographic failures occur when sensitive data is improperly protected due to weak or misconfigured encryption, hashing, or key management. This can lead to exposure of confidential information such as passwords, credit card numbers, or session tokens.  
