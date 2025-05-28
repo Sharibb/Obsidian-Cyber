@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to Cyber security.md",
+                "file": "WebApp/WebAppSec/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to Cyber security"
+              "title": "Untitled"
             }
           }
         ]
@@ -218,12 +218,13 @@
       "smart-connections:Open: View Smart Connections": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "268d41af8d0ce4d0",
   "lastOpenFiles": [
+    "Intro to Cyber security.md",
+    "WebApp/WebAppSec/Untitled.md",
     "WebApp/WebAppSec",
     "Path in Cyber Security.md",
     "Welcome.md",
-    "Intro to Cyber security.md",
     "OS/Linux/Intro to Linux.md",
     "Interview",
     "Reverse Engg",
@@ -236,7 +237,6 @@
     "Mobile/IOT",
     "Mobile/Android",
     "Mobile/IOS",
-    "Mobile",
     "Linux.md"
   ]
 }
