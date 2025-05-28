@@ -39,6 +39,7 @@ SQL Injection is a web security vulnerability that allows attackers to interfere
    ```
 ---
 ![[Sql-injection.png]]
+
 ---
 ## Prevention Methods
 
