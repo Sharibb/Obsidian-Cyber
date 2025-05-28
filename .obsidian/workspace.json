@@ -11,12 +11,14 @@
             "id": "5082b3c65e43c060",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/WebApp/OWASP/OWASP1.png"
+                "file": "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "OWASP1"
+              "icon": "lucide-file",
+              "title": "Broken Access Control"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/WebApp/OWASP/OWASP1.png",
+                "file": "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP1"
+              "title": "Outline of Broken Access Control"
             }
           },
           {
@@ -192,14 +194,14 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "5082b3c65e43c060",
   "lastOpenFiles": [
+    "Images/WebApp/OWASP/OWASP1.png",
     "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "Images/WebApp/OWASP",
     "Images/WebApp",
-    "Images/owasp-top-10-broken-access-control.webp",
+    "Images/WebApp/OWASP/owasp-top-10-broken-access-control.webp",
     "Images",
-    "Images/WebApp/OWASP/OWASP1.png",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/SSRF.md",
     "WebApp/WebAppSec/OWASP10/Software&Data Integrity Failures.md",
