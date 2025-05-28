@@ -11,14 +11,12 @@
             "id": "5082b3c65e43c060",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/WebApp/OWASP/OWASP1.png"
               },
-              "icon": "lucide-file",
-              "title": "Intro-OWASP"
+              "icon": "lucide-image",
+              "title": "OWASP1"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
+                "file": "Images/WebApp/OWASP/OWASP1.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro-OWASP"
+              "title": "Outline of OWASP1"
             }
           },
           {
@@ -196,12 +194,12 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "Images/WebApp/OWASP",
     "Images/WebApp",
     "Images/owasp-top-10-broken-access-control.webp",
     "Images",
-    "Images/OWASP1.png",
-    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
+    "Images/WebApp/OWASP/OWASP1.png",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/SSRF.md",
     "WebApp/WebAppSec/OWASP10/Software&Data Integrity Failures.md",
@@ -226,7 +224,6 @@
     "Reverse Engg",
     "WebApp",
     "Scripting",
-    "Digital Forensics",
     "test.md",
     "OS/Windows/Windows.md",
     "Linux.md"
