@@ -1,4 +1,4 @@
-From owasp top 10
+
 
  **Vulnerable & Outdated Components (A06:2021)**  
 
@@ -31,4 +31,3 @@ This risk refers to using components (libraries, frameworks, plugins, etc.) with
 - [OWASP Top 10 A06](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)  
 - [Dependency-Check Tool](https://owasp.org/www-project-dependency-check/)  
 
-Would you like a deeper dive into specific tools or case studies?
