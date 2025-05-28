@@ -39,4 +39,17 @@ http://victim.com/?url=http://localhost/admin
    - GCP: `http://metadata.google.internal/computeMetadata/v1/`  
 
 3. **Protocol Abuse**  
-   - Using
+   - Using `file://` to read local files (`file:///etc/passwd`).  
+   - Using `dict://`, `gopher://`, or `sftp://` for further exploitation.
+
+4. **Blind SSRF**  
+   - No direct response, but the server makes outbound requests (e.g., webhook callbacks).
+
+---
+
+### **Preventing SSRF**
+| **Mitigation**               | **Implementation** |
+|------------------------------|--------------------|
+| Input Whitelisting           | Allow only trusted domains/IPs (`api.example.com`). |
+| Blocklist Dangerous Schemes  | Deny `file://`, `gopher://`, etc. |
+| Use URL Parsers              | Validate hostnames and reject private IPs (`127.*
