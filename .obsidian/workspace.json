@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "d50520339ffc7dbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "99f01cb07663e34b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "268d41af8d0ce4d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WebApp/WebAppSec/OWASP10/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f623ee1c5a1b557d",
+    "type": "split",
+    "children": [
+      {
+        "id": "151e4791677e0b50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aadac7039e9a85dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bad95f49e85d49ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "980e6fa3d1d6b04c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "596c6345031405a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e2fc769fc8afc12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "949477132a3821d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "1d9c0b0dd70e3eab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "ed9e8c8ca0555990",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2a95be740bebd857",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "WebApp/WebAppSec/OWASP10/Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "cf01a86bda5b5850",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "cd2e670c2aec56cc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+    }
+  },
+  "active": "268d41af8d0ce4d0",
+  "lastOpenFiles": [
+    "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
+    "WebApp/WebAppSec/OWASP10/Untitled.md",
+    "WebApp/WebAppSec/OWASP10/Injection.md",
+    "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
+    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
+    "WebApp/WebAppSec/Intro to WebApp Penetration testing.md",
+    "Intro to Cyber security.md",
+    "Welcome.md",
+    "WebApp/WebAppSec/OWASP10",
+    "WebApp/WebAppSec",
+    "Path in Cyber Security.md",
+    "OS/Linux/Intro to Linux.md",
+    "Interview",
+    "Reverse Engg",
+    "WebApp",
+    "Scripting",
+    "Digital Forensics",
+    "test.md",
+    "OS/Windows/Windows.md",
+    "Networking",
+    "Mobile/IOT",
+    "Mobile/Android",
+    "Linux.md"
+  ]
+}
