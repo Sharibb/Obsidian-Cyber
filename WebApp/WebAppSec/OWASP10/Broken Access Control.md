@@ -109,3 +109,6 @@ Broken Access Control occurs when applications fail to enforce authorisation che
 5. ***Logging & Monitoring*** (**Detect anomalies**)   
    - Alert on repeated unauthorized access attempts.
 
+---
+
+![[BAC2.png]]
