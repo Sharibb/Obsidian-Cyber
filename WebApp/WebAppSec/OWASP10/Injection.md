@@ -1,7 +1,4 @@
 
-Injection from OWASP top 10
-
- # Injection (OWASP Top 10)
 
 ## Overview
 Injection flaws, ranked #3 in the OWASP Top 10 2021, occur when untrusted data is sent to an interpreter as part of a command or query. The attacker's hostile data can trick the interpreter into executing unintended commands or accessing unauthorized data.
