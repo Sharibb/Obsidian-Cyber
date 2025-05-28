@@ -40,20 +40,6 @@ owasp top 10
 ---
 
 ### **How to Mitigate**
-1. **Log Critical Events**  
-   - Authentication failures, input validation errors, server-side request forgery (SSRF) attempts.
-   - Use structured formats (JSON) for easier analysis.
-
-2. **Secure & Retain Logs**  
-   - Store logs centrally with integrity controls (e.g., immutable backups).
-   - Follow retention policies aligned with compliance needs.
-
-3. **Implement Monitoring**  
-   - Deploy SIEM (Security Information & Event Management) tools like Splunk or ELK Stack.
-   - Set thresholds for anomalies (e.g., 10 failed logins in 5 minutes).
-
-1. **Automate 
-Just give me the data from how to mitigate
 
  ### **How to Mitigate Security Logging & Monitoring Failures**  
 
