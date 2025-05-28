@@ -21,6 +21,8 @@ Broken Access Control occurs when an application fails to properly enforce restr
 
 4. **CORS Misconfigurations**  
    - Example: A poorly configured API allows any domain (`Access-Control-Allow-Origin: *`) to access sensitive data.
+
+
 ---
 ![[BAC1.jpg]]
 
