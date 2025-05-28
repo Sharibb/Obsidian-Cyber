@@ -1,5 +1,4 @@
 
-
 # Introduction to Web Application Penetration Testing
 
 Web application penetration testing (or "web app pentesting") is the process of identifying security vulnerabilities in web applications by simulating attacks from malicious actors. This practice helps organizations discover and fix weaknesses before attackers can exploit them.
