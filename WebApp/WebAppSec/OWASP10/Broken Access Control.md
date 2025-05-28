@@ -98,4 +98,60 @@ Broken Access Control occurs when applications fail to enforce proper restrictio
 3. ***Default-Deny Principle***  
    - Explicitly whitelist authorized access; block all else by default.  
 
-4. ***Server-Side Validation*** (**Never trust client-side checks
+1. ***Server-Side Validation*** (**Never trust client-side checks
+
+ Here’s a polished and concise version of your **Broken Access Control** guide, with clear structure, removed redundancy, and enhanced readability:
+
+---
+
+### **Broken Access Control: Risks & Mitigation**  
+**OWASP Top 10 | Critical Security Risk**  
+
+#### **Definition**  
+Broken Access Control occurs when applications fail to enforce authorization checks, allowing users to act beyond their intended permissions.  
+
+---
+
+### **Attack Types**  
+1. **Horizontal Privilege Escalation**  
+   - Accessing another user’s data at the same privilege level (e.g., `/profile?id=123` → `id=124`).  
+2. **Vertical Privilege Escalation**  
+   - Gaining elevated access (e.g., regular user accessing `/admin/dashboard`).  
+3. **Forced Browsing**  
+   - Directly requesting restricted URLs (e.g., `/internal/reports`).  
+
+---
+
+### **Common Exploits**  
+1. **IDOR (Insecure Direct Object Reference)**  
+   - Manipulating parameters like database IDs (`/invoice?id=1001`). Fix: Use UUIDs or tokens.  
+2. **Missing Role Checks**  
+   - Admin APIs without server-side validation. Fix: Enforce RBAC on every request.  
+3. **Rate Limit Bypass**  
+   - Brute-forcing endpoints (e.g., password resets). Fix: Implement throttling.  
+
+---
+
+### **Impact**  
+- Data leaks (PII, financial records).  
+- Account takeovers & regulatory fines (GDPR/HIPAA).  
+
+---
+
+### **Prevention Strategies** (**Key Fixes**)  
+
+1. ***Role-Based Access Control (RBAC)***  
+   - Enforce granular permissions (e.g., `user.can_edit_profile = false`).  
+
+2. ***Server-Side Validation*** (**Never trust client-side checks!**)  
+   - Reject requests unless explicitly authorized.  
+
+3. ***Indirect References*** (**Avoid exposing DB IDs**)   
+   - Use UUIDs (`/profile?token=a1b2c3`) instead of sequential IDs (`id=123`).  
+
+4. ***Default-Deny Principle*** (**Zero Trust**)   
+   - Block all access by default; whitelist permitted actions only.
+
+5. ***Logging & Monitoring*** (**Detect anomalies**)   
+   - Alert on repeated unauthorized access attempts.
+
