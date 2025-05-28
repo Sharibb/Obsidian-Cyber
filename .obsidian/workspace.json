@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Welcome.md",
+                "file": "OS/Windows/Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Windows"
             }
           }
         ],
@@ -205,16 +205,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "002c4561abdefca3",
   "lastOpenFiles": [
-    "Windows.md",
+    "Welcome.md",
+    "OS/Windows",
+    "OS/Windows/Windows.md",
     "test.md",
     "Path in Cyber Security.md",
     "Intro to cyber security.md",
     "OS/Linux/Intro to Linux.md",
     "Linux.md",
     "OS/Linux",
-    "OS",
-    "OS/Welcome.md"
+    "OS"
   ]
 }
