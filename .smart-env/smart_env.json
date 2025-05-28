@@ -24,7 +24,9 @@
     "results_limit": "20"
   },
   "smart_notices": {
-    "muted": {}
+    "muted": {
+      "embedding_complete": true
+    }
   },
   "smart_chat_threads": {
     "active_thread_key": "Untitled Chat 1748425009220",
