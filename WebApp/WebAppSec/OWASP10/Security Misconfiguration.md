@@ -1,4 +1,4 @@
-from owasp top 10
+
 
  ### **Security Misconfiguration (OWASP Top 10)**  
 
