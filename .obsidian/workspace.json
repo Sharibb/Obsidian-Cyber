@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
+                "file": "WebApp/WebAppSec/OWASP10/Security Logging & Monitoring Failures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to OWASP top 10"
+              "title": "Security Logging & Monitoring Failures"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
+                "file": "WebApp/WebAppSec/OWASP10/Security Logging & Monitoring Failures.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro to OWASP top 10"
+              "title": "Outline of Security Logging & Monitoring Failures"
             }
           },
           {
@@ -196,9 +196,10 @@
   },
   "active": "5082b3c65e43c060",
   "lastOpenFiles": [
+    "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
+    "WebApp/WebAppSec/OWASP10/Security Logging & Monitoring Failures.md",
     "WebApp/WebAppSec/Intro to WebApp Penetration testing.md",
     "WebApp/WebAppSec/OWASP10/Software&Data Integrity Failures.md",
-    "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
     "WebApp/WebAppSec/OWASP10/Security Misconfiguration.md",
     "Software/Data Integrity Failures.md",
     "Software",
