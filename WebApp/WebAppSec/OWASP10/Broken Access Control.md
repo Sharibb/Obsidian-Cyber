@@ -112,3 +112,5 @@ Broken Access Control occurs when applications fail to enforce authorisation che
 ---
 
 ![[BAC2.png]]
+
+---
