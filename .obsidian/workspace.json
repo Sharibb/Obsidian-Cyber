@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
+                "file": "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Broken Access Control"
+              "title": "Intro to OWASP top 10"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "268d41af8d0ce4d0",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
     "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
+    "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
     "WebApp/WebAppSec/Intro to WebApp Penetration testing.md",
     "WebApp/WebAppSec/OWASP10",
     "Intro to Cyber security.md",

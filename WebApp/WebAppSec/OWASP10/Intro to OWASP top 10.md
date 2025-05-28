@@ -22,16 +22,16 @@ The **OWASP Top 10** is a globally recognized list of the most critical web appl
 ---
 
 ### **2021 OWASP Top 10 Categories** *(Brief Overview)*  
-1. **Broken Access Control**  
-2. **Cryptographic Failures**  
-3. **Injection** (e.g., SQLi)  
-4. **Insecure Design** *(New in 2021)*  
-5. **Security Misconfiguration**  
-6. **Vulnerable/Outdated Components**  
-7. **Identification & Authentication Failures**  
-8. **Software/Data Integrity Failures** *(New)*  
-9. **Security Logging & Monitoring Failures**  
-10. **Server-Side Request Forgery (SSRF)** *(New)*  
+1.# **Broken Access Control**  
+1. **Cryptographic Failures**  
+2. **Injection** (e.g., SQLi)  
+3. **Insecure Design** *(New in 2021)*  
+4. **Security Misconfiguration**  
+5. **Vulnerable/Outdated Components**  
+6. **Identification & Authentication Failures**  
+7. **Software/Data Integrity Failures** *(New)*  
+8. **Security Logging & Monitoring Failures**  
+9. **Server-Side Request Forgery (SSRF)** *(New)*  
 
 ---
 
