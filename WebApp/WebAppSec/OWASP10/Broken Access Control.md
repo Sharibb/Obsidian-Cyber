@@ -47,3 +47,40 @@ Broken Access Control occurs when an application fails to properly enforce restr
 
 6. **Automate Testing**  
    - Use tools like OWASP ZAP or Burp Suite to scan for access control flawshe **OWASP Top 10**, formatted with starred blocks for key concepts:
+
+
+Here’s a refined and consolidated version of your content on **Broken Access Control**, with improved structure, clarity, and no duplication:
+
+---
+
+### **Broken Access Control: Risks and Mitigation**  
+**OWASP Top 10 | Critical Security Risk**  
+
+#### **Definition**  
+Broken Access Control occurs when applications fail to enforce proper restrictions on authenticated users, allowing attackers to bypass authorization and perform unauthorized actions.  
+
+#### **Key Attack Vectors**  
+1. **Horizontal Privilege Escalation**  
+   - Accessing another user’s data at the same privilege level (e.g., `/profile?id=123` → `id=124`).  
+1. **Vertical Privilege Escalation**  
+   - Gaining elevated privileges (e.g., regular user accessing `/admin/dashboard`).  
+1. **Forced Browsing**  
+   - Directly navigating to restricted URLs (e.g., `/internal/reports`).  
+
+---
+
+### **Common Examples & Exploits**  
+1. **Insecure Direct Object References (IDOR)**  
+   - Manipulating parameters (e.g., database IDs in URLs) to access unauthorized resources.  
+2. **Missing Function-Level Controls**  
+   - Server-side role checks omitted (e.g., admin APIs exposed to non-admins).  
+1. **API Abuse via Missing Rate Limits**  
+   - Brute-forcing endpoints (e.g., password reset tokens).  
+1. **CORS Misconfigurations**  
+   - Overly permissive headers (`Access-Control-Allow-Origin: *`) exposing sensitive data.  
+
+---
+
+### **Impact of Broken Access Control**  
+- Data breaches (PII, financial records).  
+- Account takeovers and compliance violations (GDP
