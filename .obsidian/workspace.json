@@ -194,8 +194,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "5082b3c65e43c060",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "WebApp/WebAppSec/OWASP10/Untitled",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
@@ -212,7 +213,6 @@
     "Images/WebApp/OWASP/OWASP1.png",
     "Images/WebApp/OWASP",
     "Images/WebApp",
-    "Images/WebApp/OWASP/owasp-top-10-broken-access-control.webp",
     "Images",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/SSRF.md",
