@@ -19,6 +19,7 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 
 ---
 ![[OWASP1.png]]
+
 ---
 
 ### **2021 OWASP Top 10 Categories** *(Brief Overview)*  
