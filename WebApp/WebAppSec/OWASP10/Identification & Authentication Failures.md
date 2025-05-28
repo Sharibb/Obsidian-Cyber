@@ -1,6 +1,4 @@
 
-### **Identification & Authentication Failures**  
-*(OWASP Top 10 Category)*  
 
 #### **Definition**  
 Identification and authentication failures occur when systems incorrectly implement user identity verification, session management, or credential handling, allowing attackers to compromise passwords, keys, or tokens—or exploit flaws to assume other users’ identities.  
