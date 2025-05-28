@@ -1,5 +1,4 @@
 
-
  ### **Server-Side Request Forgery (SSRF) - OWASP Top 10**
 
 #### **What is SSRF?**
