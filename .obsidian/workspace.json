@@ -194,8 +194,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "5082b3c65e43c060",
   "lastOpenFiles": [
+    "Images/WebApp/OWASP/BAC2.png",
     "Images/WebApp/OWASP/BAC1.jpg",
     "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
     "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
