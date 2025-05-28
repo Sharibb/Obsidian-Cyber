@@ -22,4 +22,15 @@ Security misconfiguration occurs when security settings are not properly defined
 ✅ **Secure Defaults:** Change default passwords and disable unnecessary features.  
 ✅ **Least Privilege Principle:** Restrict permissions for users and services to only what is necessary.  
 ✅ **Regular Updates:** Patch systems and dependencies promptly.  
-✅ **
+✅ **Automated Scanning:** Use tools like OWASP ZAP or Nessus to detect misconfigurations.  
+✅ **Hardening Guides:** Follow security best practices for servers (e.g., CIS Benchmarks).  
+
+#### **Example Attack Scenario**  
+An attacker scans a web server and finds an exposed `/phpinfo.php` file revealing server details, PHP version, and environment variables—leading to further exploitation.
+
+---
+
+### 🔥 **Why It Matters in OWASP Top 10?**  
+Security misconfigurations are a common entry point for attackers due to oversight in deployment and maintenance processes. Proper hardening and continuous monitoring are essential defenses.
+
+Would you like a deeper dive into specific misconfigurations (e.g., cloud, APIs)?
