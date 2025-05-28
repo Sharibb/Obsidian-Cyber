@@ -7,14 +7,14 @@ From owasp top 10
    - Lack of authentication/authorization checks for critical workflows.  
    - Absence of rate limiting, leading to brute-force attacks.  
 
-1. **Flawed Business Logic**:  
+2. **Flawed Business Logic**:  
    - Design allows abuse (e.g., purchasing negative quantities of items for profit).  
    - Weak password recovery mechanisms (e.g., answers to easily guessed questions).  
 
 3. **Insecure Defaults**:  
    - Default admin credentials or overly permissive access roles.  
 
-1. **Failure to Plan for Abuse Cases**:  
+4. **Failure to Plan for Abuse Cases**:  
    - Assuming users will follow intended workflows without malicious intent (e.g., bypassing steps in a multi-step process).  
 
 ### **Examples**:
@@ -22,4 +22,11 @@ From owasp top 10
 - A hotel booking system that lets users reserve rooms without payment by manipulating API parameters.  
 
 ### **How to Mitigate**:
-- **
+- **Threat Modeling**: Identify risks during design (e.g., using STRIDE or OWASP’s Threat Dragon).  
+- **Secure by Design Principles**: Enforce least privilege, fail-safe defaults, and defense-in-depth.  
+- **Abuse Case Testing**: Validate scenarios where users exploit design flaws (not just functional testing).  
+
+### **Why It’s in OWASP Top 10**:  
+Insecure design is increasingly recognized as a root cause of major breaches, as traditional secure coding practices alone cannot fix fundamentally flawed architectures.  
+
+Would you like deeper examples or mitigation strategies for a specific scenario?
