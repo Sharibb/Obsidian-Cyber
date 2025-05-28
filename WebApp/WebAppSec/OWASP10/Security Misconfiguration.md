@@ -1,7 +1,5 @@
 
 
- ### **Security Misconfiguration (OWASP Top 10)**  
-
 #### **Overview**  
 Security misconfiguration occurs when security settings are not properly defined, implemented, or maintained, leaving systems vulnerable to attacks. This can happen at any level of an application stack, including the network, server, database, application code, or cloud services.  
 
