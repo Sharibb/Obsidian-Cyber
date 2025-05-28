@@ -1,6 +1,4 @@
-
-
- **Vulnerable & Outdated Components (A06:2021)**  
+**Vulnerable & Outdated Components (A06:2021)**  
 
 ### **Overview**  
 This risk refers to using components (libraries, frameworks, plugins, etc.) with known vulnerabilities or outdated versions that lack security patches. Attackers exploit these weaknesses to compromise systems.  
