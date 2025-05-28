@@ -1,4 +1,3 @@
-owasp top 10
 
  **Security Logging & Monitoring Failures (A10:2021)** is a critical category in the **OWASP Top 10**, highlighting vulnerabilities that arise when systems fail to detect, log, or respond to security incidents effectively. Here’s a breakdown of its key aspects:
 

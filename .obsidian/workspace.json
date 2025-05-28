@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
+                "file": "WebApp/WebAppSec/OWASP10/Security Misconfiguration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro-OWASP"
+              "title": "Security Misconfiguration"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
+                "file": "WebApp/WebAppSec/OWASP10/Security Misconfiguration.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro-OWASP"
+              "title": "Outline of Security Misconfiguration"
             }
           },
           {
@@ -196,21 +196,21 @@
   },
   "active": "5082b3c65e43c060",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/Intro.md",
-    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
-    "WebApp/WebAppSec/OWASP10/SSRF.md",
-    "WebApp/WebAppSec/OWASP10/Insecure Design.md",
-    "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/Security Logging & Monitoring Failures.md",
+    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
+    "WebApp/WebAppSec/OWASP10/Insecure Design.md",
+    "WebApp/WebAppSec/OWASP10/Injection.md",
+    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
+    "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
+    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
+    "WebApp/WebAppSec/Intro.md",
+    "WebApp/WebAppSec/OWASP10/SSRF.md",
+    "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/Software&Data Integrity Failures.md",
     "WebApp/WebAppSec/OWASP10/Security Misconfiguration.md",
     "Software/Data Integrity Failures.md",
     "Software",
-    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "nsecure Design.md",
-    "WebApp/WebAppSec/OWASP10/Injection.md",
-    "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
-    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
     "Intro to Cyber security.md",
     "Welcome.md",
     "WebApp/WebAppSec/OWASP10",
