@@ -38,7 +38,8 @@ SQL Injection is a web security vulnerability that allows attackers to interfere
    SELECT * FROM users WHERE username='admin' AND IF(1=1,SLEEP(5),0)--'
    ```
 ---
-
+![[Sql-injection.png]]
+---
 ## Prevention Methods
 
 - Use prepared statements with parameterized queries
