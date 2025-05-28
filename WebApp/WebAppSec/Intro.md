@@ -5,7 +5,7 @@ Web application penetration testing (or "web app pentesting") is the process of 
 
 ## Key Concepts
 
-### 1. The OWASP Top 10 (Get started: [[WebApp/WebAppSec/OWASP10/Intro]])
+### 1. The OWASP Top 10 (Get started: [[Intro-OWASP]])
 The Open Web Application Security Project (OWASP) maintains a list of the most critical web application security risks:
 - Injection flaws
 - Broken authentication
