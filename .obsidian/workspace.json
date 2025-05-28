@@ -194,8 +194,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "5082b3c65e43c060",
   "lastOpenFiles": [
+    "Images/owasp-top-10-broken-access-control.webp",
     "Images",
     "Images/OWASP1.png",
     "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
@@ -227,7 +228,6 @@
     "test.md",
     "OS/Windows/Windows.md",
     "Networking",
-    "Mobile/IOT",
     "Linux.md"
   ]
 }
