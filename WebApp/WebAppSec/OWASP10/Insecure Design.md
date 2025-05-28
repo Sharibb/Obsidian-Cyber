@@ -1,4 +1,4 @@
-From owasp top 10
+
 
  The **Insecure Design** category in the **OWASP Top 10** refers to security risks that arise from flaws or missing controls in the design phase of software or systems, rather than implementation bugs or misconfigurations. Unlike vulnerabilities like SQL injection or XSS (which stem from coding errors), insecure design flaws are "baked in" due to inadequate threat modeling, poor architectural decisions, or failure to enforce security principles early in development.
 
