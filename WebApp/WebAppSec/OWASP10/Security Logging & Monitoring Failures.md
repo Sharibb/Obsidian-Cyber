@@ -16,11 +16,11 @@ owasp top 10
    - Critical events (logins, access control changes) aren’t logged.
    - Logs lack context (timestamps, user IDs, source IPs).
 
-1. **Poor Log Management**  
+2. **Poor Log Management**  
    - Logs aren’t stored securely or are overwritten too quickly.
    - No central aggregation (making correlation hard).
 
-1. **No Real-Time Monitoring**  
+3. **No Real-Time Monitoring**  
    - Alerts aren’t triggered for suspicious activities (e.g., brute-force attacks).
    - Reliance on manual reviews instead of automated tools.
 
@@ -28,4 +28,28 @@ owasp top 10
    - Logs are collected but never analyzed (e.g., missed SQL injection attempts in logs).
 
 5. **Weak Incident Response**  
-   - No playbook for investigating/alerts; slow reaction to breaches
+   - No playbook for investigating/alerts; slow reaction to breaches.
+
+---
+
+### **Examples of Exploits**
+- An attacker deletes logs to cover tracks after a breach.
+- A compromised API key goes unnoticed due to missing authentication logs.
+- Ransomware spreads because file-access anomalies weren’t monitored.
+
+---
+
+### **How to Mitigate**
+1. **Log Critical Events**  
+   - Authentication failures, input validation errors, server-side request forgery (SSRF) attempts.
+   - Use structured formats (JSON) for easier analysis.
+
+2. **Secure & Retain Logs**  
+   - Store logs centrally with integrity controls (e.g., immutable backups).
+   - Follow retention policies aligned with compliance needs.
+
+3. **Implement Monitoring**  
+   - Deploy SIEM (Security Information & Event Management) tools like Splunk or ELK Stack.
+   - Set thresholds for anomalies (e.g., 10 failed logins in 5 minutes).
+
+1. **Automate 
