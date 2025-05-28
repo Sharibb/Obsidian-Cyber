@@ -24,4 +24,8 @@ Cryptographic failures occur when sensitive data is improperly protected due to 
 ✅ Store keys securely (HSMs, environment variables) and rotate them regularly.  
 ✅ Apply proper salting and stretching techniques for password storage.  
 
+---
+![[CF2.png]]
+
+---
 🔍 **OWASP Reference:** [A02:2023 – Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)  
