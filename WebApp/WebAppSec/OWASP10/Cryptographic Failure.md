@@ -9,6 +9,7 @@ Cryptographic failures occur when sensitive data is improperly protected due to 
 3. **Improper Hashing** (e.g., storing passwords without salting or using fast hash functions like SHA-1).  
 4. **Lack of Transport Layer Security (TLS)** (e.g., transmitting data over unencrypted HTTP).  
 ---
+
 ![[CF1.png]]
 ### **Impact:**  
 - Unauthorized access to sensitive data.  
