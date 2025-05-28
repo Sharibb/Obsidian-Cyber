@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Untitled.md",
+                "file": "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Identification & Authentication Failures"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Untitled.md",
+                "file": "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Identification & Authentication Failures"
             }
           },
           {
@@ -197,7 +197,7 @@
   "active": "268d41af8d0ce4d0",
   "lastOpenFiles": [
     "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
-    "WebApp/WebAppSec/OWASP10/Untitled.md",
+    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/Security Misconfiguration.md",
     "nsecure Design.md",
