@@ -1,5 +1,5 @@
 
-
+![[Owasp Vulnerability SQL Injection.webp]]
 # SQL Injection (SQLi) - Introduction
 
 SQL Injection is a web security vulnerability that allows attackers to interfere with the queries that an application makes to its database. It's one of the most common and dangerous web vulnerabilities.
