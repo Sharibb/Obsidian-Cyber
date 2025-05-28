@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
+                "file": "WebApp/WebAppSec/OWASP10/Injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cryptographic Failure"
+              "title": "Injection"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
+                "file": "WebApp/WebAppSec/OWASP10/Injection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cryptographic Failure"
+              "title": "Outline of Injection"
             }
           },
           {
@@ -196,8 +196,10 @@
   },
   "active": "5082b3c65e43c060",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
+    "Images/WebApp/OWASP/Owasp Vulnerability SQL Injection.webp",
+    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
+    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
     "Images/WebApp/OWASP/CF2.png",
     "Images/WebApp/OWASP/CF1.png",
     "Images/WebApp/OWASP/data-encryption-and-cryptographic-failures.webp",
@@ -205,7 +207,6 @@
     "Images/WebApp/OWASP/BAC1.jpg",
     "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "Images/WebApp/OWASP/OWASP1.png",
-    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "Images/WebApp/OWASP",
     "Images/WebApp",
     "Images/WebApp/OWASP/owasp-top-10-broken-access-control.webp",
