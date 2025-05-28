@@ -40,4 +40,14 @@ Injection flaws, ranked #3 in the OWASP Top 10 2021, occur when untrusted data i
 
 ## Example Vulnerable Code (SQLi)
 ```php
-$query = "SELECT * FROM users WHERE username =
+$query = "SELECT * FROM users WHERE username = '" . $_POST['username'] . "'";
+$result = mysql_query($query);
+```
+
+## Secure Alternative (Parameterized Query)
+```php
+$stmt = $pdo->prepare('SELECT * FROM users WHERE username = :username');
+$stmt->execute(['username' => $_POST['username']]);
+```
+
+Injection remains one of the most dangerous web application vulnerabilities due to its potential for complete system compromise. Always validate, sanitize, and parameterize all external inputs.
