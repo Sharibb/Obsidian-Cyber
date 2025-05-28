@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
+                "file": "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Broken Access Control"
+              "title": "Cryptographic Failure"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
+                "file": "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Broken Access Control"
+              "title": "Outline of Cryptographic Failure"
             }
           },
           {
@@ -196,11 +196,12 @@
   },
   "active": "5082b3c65e43c060",
   "lastOpenFiles": [
+    "Images/WebApp/OWASP/data-encryption-and-cryptographic-failures.webp",
+    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
     "Images/WebApp/OWASP/BAC2.png",
     "Images/WebApp/OWASP/BAC1.jpg",
     "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
     "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
-    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
     "Images/WebApp/OWASP/OWASP1.png",
     "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "Images/WebApp/OWASP",
