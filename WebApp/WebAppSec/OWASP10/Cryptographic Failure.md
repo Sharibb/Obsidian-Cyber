@@ -11,6 +11,8 @@ Cryptographic failures occur when sensitive data is improperly protected due to 
 ---
 
 ![[CF1.png]]
+
+---
 ### **Impact:**  
 - Unauthorized access to sensitive data.  
 - Session hijacking or impersonation attacks.  
