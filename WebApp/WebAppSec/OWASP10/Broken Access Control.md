@@ -57,7 +57,7 @@ Here’s a refined and consolidated version of your content on **Broken Access C
 **OWASP Top 10 | Critical Security Risk**  
 
 #### **Definition**  
-Broken Access Control occurs when applications fail to enforce authorization checks, allowing users to act beyond their intended permissions.  
+Broken Access Control occurs when applications fail to enforce authorisation checks, allowing users to act beyond their intended permissions.  
 
 ---
 
