@@ -53,3 +53,4 @@ owasp top 10
    - Set thresholds for anomalies (e.g., 10 failed logins in 5 minutes).
 
 1. **Automate 
+   complete 
