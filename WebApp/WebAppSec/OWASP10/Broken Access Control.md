@@ -1,4 +1,4 @@
-
+![[owasp-top-10-broken-access-control.webp]]
 
 ### **Broken Access Control: Understanding and Mitigating the Risk**
 
