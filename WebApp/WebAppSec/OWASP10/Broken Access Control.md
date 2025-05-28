@@ -23,6 +23,7 @@ Broken Access Control occurs when an application fails to properly enforce restr
    - Example: A poorly configured API allows any domain (`Access-Control-Allow-Origin: *`) to access sensitive data.
 ---
 ![[BAC1.jpg]]
+
 ---
 #### **Impact**
 - Unauthorized data exposure (PII, financial records).
