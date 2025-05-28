@@ -1,4 +1,3 @@
-from owasp top 10 
 
 ### **Identification & Authentication Failures**  
 *(OWASP Top 10 Category)*  
