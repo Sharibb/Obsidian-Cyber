@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "99f01cb07663e34b",
+        "id": "27d9ca1c9442c59f",
         "type": "tabs",
         "children": [
           {
-            "id": "268d41af8d0ce4d0",
+            "id": "5082b3c65e43c060",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Intro to OWASP top 10"
+              "title": "New tab"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro to OWASP top 10"
+              "title": "Outline"
             }
           },
           {
@@ -194,10 +189,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "268d41af8d0ce4d0",
+  "active": "5082b3c65e43c060",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
+    "Software/Data Integrity Failures.md",
     "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
+    "Software",
+    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/Security Misconfiguration.md",
     "nsecure Design.md",
@@ -221,7 +218,6 @@
     "OS/Windows/Windows.md",
     "Networking",
     "Mobile/IOT",
-    "Mobile/Android",
     "Linux.md"
   ]
 }
