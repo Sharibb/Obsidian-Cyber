@@ -4,14 +4,14 @@
 ---
 
 ### **Introduction to OWASP Top 10**  
-The **OWASP Top 10** is a globally recognized list of the most critical web application security risks, published by the *Open Web Application Security Project (OWASP)*. It serves as a guideline for developers, security teams, and organizations to prioritize mitigation efforts.
+The **OWASP Top 10** is a globally recognised list of the most critical web application security risks, published by the *Open Web Application Security Project (OWASP)*. It serves as a guideline for developers, security teams, and organisations to prioritise mitigation efforts.
 
 ---
 
 ### **Key Highlights (Starred Blocks)**  
 1. **🔥 Purpose**:  
-   - Standardizes awareness of common vulnerabilities.  
-   - Helps organizations focus resources on the most severe risks.  
+   - Standardises awareness of common vulnerabilities.  
+   - Helps organisations focus resources on the most severe risks.  
 
 2. **📌 Updated Regularly**:  
    - Revised every 3–4 years (e.g., 2021, 2027) to reflect evolving threats.  
