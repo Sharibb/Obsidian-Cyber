@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/Intro.md",
+                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro"
+              "title": "Intro-OWASP"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/Intro.md",
+                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro"
+              "title": "Outline of Intro-OWASP"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "5082b3c65e43c060",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/Intro.md",
+    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/SSRF.md",
     "WebApp/WebAppSec/OWASP10/Insecure Design.md",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
