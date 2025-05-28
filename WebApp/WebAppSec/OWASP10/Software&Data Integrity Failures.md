@@ -1,4 +1,4 @@
-owasp top 10
+
 
  **Software and Data Integrity Failures** is a category in the **OWASP Top 10** (2021 edition) that focuses on vulnerabilities arising from failures to verify the integrity of software, data, or dependencies. This can lead to malicious code execution, unauthorized changes, or supply chain attacks.
 
