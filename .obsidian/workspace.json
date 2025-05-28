@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "33a45008235d40be",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ad6e093e4bb16ee3",
-            "type": "leaf",
-            "state": {
-              "type": "smart-chat-view",
-              "state": {},
-              "icon": "smart-chat",
-              "title": "Smart Chat"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -186,19 +170,9 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "e55bae2d4f00df7a",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -218,7 +192,7 @@
       "smart-connections:Open: View Smart Connections": false
     }
   },
-  "active": "ad6e093e4bb16ee3",
+  "active": "cd2e670c2aec56cc",
   "lastOpenFiles": [
     "WebApp/WebAppSec/Intro to WebApp Penetration testing.md",
     "WebApp/WebAppSec/OWASP10/Intro to OWASP top 10.md",
