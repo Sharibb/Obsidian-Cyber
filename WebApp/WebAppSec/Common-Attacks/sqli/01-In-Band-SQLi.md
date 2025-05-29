@@ -102,3 +102,30 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 
 4. Identify displayed columns by replacing NULLs one by one:
   continue from step-by step
+
+ # Continuing Step-by-Step Guide for In-Band SQL Injection (01-In-Band-SQLi)
+
+## Step 4: Identifying Vulnerable Parameters
+1. **Test all input fields**: Try basic SQL injection payloads in:
+   - URL parameters (e.g., `?id=1`)
+   - Form fields (login/search)
+   - HTTP headers (User-Agent, Referer)
+
+1. **Common vulnerable patterns**:
+   ```sql
+   ' OR 1=1 --
+   " OR 1=1 --
+   1' ORDER BY 1--
+   1' UNION SELECT null--
+   ```
+
+## Step 5: Determining Database Structure
+1. **Find number of columns**:
+   ```sql
+   ' ORDER BY 5-- 
+   ```
+   Increase number until error occurs to find column count
+
+2. **Identify useful columns**:
+   ```sql
+   ' UNION SELECT 1,2,3,4,
