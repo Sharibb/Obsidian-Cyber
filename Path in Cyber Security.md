@@ -58,11 +58,6 @@ Focuses on protecting systems by detecting and responding to threats.
 - Rise of XDR (Extended Detection and Response).  
 - Automation in SOC workflows via SOAR platforms.  
 
----  
-
-Add Purple Teaming append dont write it from the start
-
- Here’s the **Purple Teaming** section appended to your existing guide, as requested:
 
 ---
 
