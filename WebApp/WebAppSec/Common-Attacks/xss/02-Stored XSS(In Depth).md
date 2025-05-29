@@ -123,3 +123,5 @@ Set-Cookie: sessionID=abc123; HttpOnly; Secure; SameSite=Strict;
 ### **8. Regular Security Testing**  
 Automated and manual testing techniques:  
 - **Static Application Security Testing (
+
+Continue from Regular Security Testing, append dont write from start
