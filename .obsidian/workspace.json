@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/OSI-Layer/Intro to OSI Layer.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to OSI Layer"
+              "title": "00-Intro-OWASP"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/OSI-Layer/Intro to OSI Layer.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro to OSI Layer"
+              "title": "Outline of 00-Intro-OWASP"
             }
           },
           {
@@ -192,8 +192,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
+    "Networking/OSI-Layer/Intro to OSI Layer.md",
     "Tools/WAPT/Burpsuite",
     "Tools/Weaponisation/Metasploit",
     "Tools/Weaponisation",
@@ -221,7 +222,6 @@
     "Networking/Common-Protocols/01-Application-Layer-Protocols/02-FTP&SFTP Protocol.md",
     "Networking/Common-Protocols/Intro-To-Common-Protocols.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/01-HTTP&HTTPS Protocol.md",
-    "Networking/Common-Protocols/01-Application-Layer-Protocols",
     "Networking/TCP-IP-Layer/Intro-To-TCP-IP-Layer.md",
     "Pentesting/Intro-To-Pentesting.md",
     "Intro-to-Cybersecurity.md",
