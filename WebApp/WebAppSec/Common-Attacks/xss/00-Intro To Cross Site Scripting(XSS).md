@@ -153,16 +153,6 @@ The payload executes.
 
 ## **Conclusion**  
 
-| Type          | Storage Location         | Execution Trigger          | Persistence  |
-|--------------|--------------------------|----------------------------|-------------|
-| Reflected    | URL/HTTP Request         | Victim clicks malicious
-Conitnue from Conclusion point and append dont write everything from start
-
- Here's the continuation from the **Conclusion** point, without repeating previous content:
-
----
-
-## **Conclusion (Continued)**  
 
 | Type          | Storage Location         | Execution Trigger          | Persistence  |
 |--------------|--------------------------|----------------------------|-------------|
