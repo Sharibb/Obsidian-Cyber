@@ -1,3 +1,3 @@
 This notes about cyber security
 
-To get started click on the, [[Intro to Cyber security]], or jump directly to [[Path in Cyber Security]].
+To get started click on the, [[Intro-to-Cybersecurity]], or jump directly to [[Path in Cyber Security]].
