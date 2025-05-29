@@ -127,4 +127,21 @@ Boolean-based blind SQL injection relies on observing differences in application
 
 ### Example:
 ```sql
-SELECT * FROM products WHERE id = 1 AND SUBSTRING((SELECT password FROM users WHERE username = 'admin'),
+SELECT * FROM products WHERE id = 1 AND SUBSTRING((SELECT password FROM users WHERE username = 'admin'), 1, 1) = 'a'
+```
+- If the first character of admin's password is 'a', the query returns product details
+- If not, it might return an empty result or error page
+
+### Characteristics:
+- Faster than time-based but requires observable differences in responses
+- Often uses string comparison functions (SUBSTRING, LIKE)
+- Relies on inference from subtle application behavior changes
+- Commonly used when errors are suppressed but application behavior differs
+
+## Key Differences:
+
+| Aspect            | Time-Based                          | Boolean-Based                     |
+|-------------------|-------------------------------------|------------------------------------|
+| Detection Method  | Measures response time              | Observes behavioral differences    |
+| Speed             | Very slow                           | Relatively faster                  |
+| Reliability       | High (timing is unambiguous
