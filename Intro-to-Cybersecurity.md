@@ -59,9 +59,9 @@ Investigates cybercrimes and analyzes breaches:
 1. Assess your interests: Hands-on hacking vs. policy/analysis vs. engineering?  
 2. Gain foundational knowledge (e.g., CompTIA Security+, Network+).  
 3. Pursue role-specific certs:  
-   - Offensive: OSCP, CEH   
+   - Offensive: OSCP, CPTS
    - Defensive: CySA+, CISSP   
    - GRC: CISA, CRISC   
-4. Build experience via labs (TryHackMe), CTFs, or internships.  
+1. Build experience via labs (TryHackMe,Hac), CTFs, or internships.  
 
 Cybersecurity is broad—start general, then specialize as you discover your strengths!
