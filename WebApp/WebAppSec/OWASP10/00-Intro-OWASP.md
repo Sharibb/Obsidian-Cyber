@@ -81,13 +81,25 @@ The 2023 list refines API-specific risks with new trends and attack vectors:
 1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2023/en/)**  
    - Still #1: Unauthorized access to objects via insecure endpoints (e.g., `GET /api/users/{id}` without proper checks).  
 
-1. **[API2: Broken Authentication](https://owasp.org/API-Security/editions/2023/en/)**  
+2. **[API2: Broken Authentication](https://owasp.org/API-Security/editions/2023/en/)**  
    - Now broader, covering weak JWT validation, misconfigured OAuth, and credential stuffing.  
 
-1. **[API3: Broken Object Property Level Authorization](https://owasp.org/API-Security/editions/2023/en/)*** *(New)*  
+3. **[API3: Broken Object Property Level Authorization](https://owasp.org/API-Security/editions/2023/en/)*** *(New)*  
    - Subset of BOLA: Exploiting partial object property updates (e.g., `PATCH /api/users` modifying sensitive fields like `isAdmin`).  
 
-1. **[API4: Unrestricted Resource Consumption](https://ow
+4. **[API4: Unrestricted Resource Consumption](https://owasp.org/API-Security/editions/2023/en/)*** *(Renamed from API4 in 2019)*  
+   - Emphasizes cost-impacting attacks (e.g., expensive queries, PDF generation abuse).  
+
+5. **[API5: Broken Function Level Authorization](https://owasp.org/API-Security/editions/2023/en/)***  
+   - Privilege escalation via missing role checks (e.g., accessing `/api/admin` as a regular user).  
+
+6. **[API6: Unrestricted Access to Sensitive Business Flows](https://owasp.org//en/)*** *(New)*  
+   - APIs exposing business logic without rate limits (e.g., e-commerce "buy one-click" abused by bots).  
+
+7. **[API7: Server Side Request Forgery (SSRF)](https://owasp.org//en/)*** *(New in API Top 10)*  
+   - APIs fetching internal resources via user-supplied URLs (e.g., `GET /api/fetch?url=internal-ip`).  
+
+8. **[API8: Security Misconfiguration](https://owasp.org
 
 ---
 
