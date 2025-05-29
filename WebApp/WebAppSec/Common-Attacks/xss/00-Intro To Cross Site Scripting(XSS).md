@@ -171,4 +171,19 @@ Conitnue from Conclusion point and append dont write everything from start
 | DOM-based   | Client-side DOM          | Client-side JS processes input | Depends on URL |
 
 ### **Key Takeaways:**  
-- **Reflected XSS** requires user interaction (e.g., phishing
+- **Reflected XSS** requires user interaction (e.g., phishing).  
+- **Stored XSS** is more dangerous due to wider impact.  
+- **DOM-based XSS** bypasses server-side defenses.  
+
+### **General Mitigation Strategies:**  
+1. **Input Validation:** Reject or sanitize malicious inputs.  
+2. **Output Encoding:** Convert special characters (e.g., `<` → `&lt;`).  
+3. **Content Security Policy (CSP):** Restrict script sources.  
+4. **Secure APIs:** Prefer `.textContent` over `.innerHTML`.  
+
+### **Final Note:**  
+XSS remains a top web vulnerability due to improper handling of user input. Developers must adopt security-first coding practices to prevent exploitation.  
+
+--- 
+
+Let me know if you'd like
