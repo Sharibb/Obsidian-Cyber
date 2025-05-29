@@ -95,4 +95,9 @@ Start small:
 🔗 [MDN Web Docs](https://developer.mozilla.org/) for tutorials.   
 🔗 [FreeCodeCamp](https://www.freecodecamp.org/) for hands-on practice.   
 
-Would you like recommendations for specific learning paths?
+Add a point for WebAppSecurity
+
+ Here’s a concise addition for **Web Application Security** in your *Intro to Web Applications* content:  
+
+### **Web Application Security**  
+- **Importance
