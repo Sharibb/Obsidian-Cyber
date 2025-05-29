@@ -84,4 +84,5 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 
 **Example step-by-step:**
 
-Continue from Example Ste
+Continue from Example Step-by-step
+
