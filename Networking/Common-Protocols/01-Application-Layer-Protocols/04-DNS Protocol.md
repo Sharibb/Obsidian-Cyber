@@ -69,14 +69,14 @@ Client → Local Cache → Resolver → Root → TLD → Authoritative Server �
 ## **4. DNS Record Types**  
 DNS relies on various record types for different functions:  
 
-| Record  | Purpose                          | Example                     |  
-|---------|----------------------------------|-----------------------------|  
-| `A`     | IPv4 address mapping             | `example.com → 192.0.2.1`   |  
-| `AAAA`  | IPv6 address mapping             | `example.com → 2001:db8::1` |  
-| `CNAME` | Canonical name (alias)           | `www.example.com → example.com` |  
-| `MX`    | Mail server routing              | `example.com → mail.example.com` |  
-| `TXT`   | Text records (e.g., SPF, DKIM)   | `"v=spf1 include:_spf.example.com ~all"` |  
-
+| Record  | Purpose                        | Example                                  |     |
+| ------- | ------------------------------ | ---------------------------------------- | --- |
+| `A`     | IPv4 address mapping           | `example.com → 192.0.2.1`                |     |
+| `AAAA`  | IPv6 address mapping           | `example.com → 2001:db8::1`              |     |
+| `CNAME` | Canonical name (alias)         | `www.example.com → example.com`          |     |
+| `MX`    | Mail server routing            | `example.com → mail.example.com`         |     |
+| `TXT`   | Text records (e.g., SPF, DKIM) | `"v=spf1 include:_spf.example.com ~all"` |     |
+add all the dns records
 ---
 
 ## **5. Security Concerns & Mitigations**  
