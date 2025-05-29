@@ -148,48 +148,4 @@ msf6 > run   # Executes `whoami` on the target
 Identifies vulnerable SSH versions:
 ```bash
 msf6```
-Continue from above append but dont start from begining
-
- It looks like you'd like to continue discussing **Metasploit Auxiliary Modules (02-MSF-Auxiliary-Modules)** without starting from the beginning. Here's a focused continuation on key aspects:
-
----
-
-### **Key Auxiliary Modules in Metasploit**  
-Auxiliary modules are non-exploit tools for tasks like scanning, fuzzing, or information gathering. Examples include:  
-
-1. **Scanner Modules**  
-   - `auxiliary/scanner/portscan/tcp`: Basic TCP port scanning.  
-   - `auxiliary/scanner/smb/smb_version`: Detect SMB versions on targets.  
-
-1. **Service-Specific Modules**  
-   - `auxiliary/scanner/http/dir_scanner`: Bruteforce web directories.  
-   - `auxiliary/admin/smb/psexec_command`: Execute commands via SMB (no exploit).  
-
-1. **Information Gathering**  
-   - `auxiliary/gather/shodan_search`: Query Shodan for vulnerable hosts.  
-   - `auxiliary/spoof/dns/native_spoof`: DNS spoofing attacks.  
-
----
-
-### **How to Use Auxiliary Modules**  
-1. **Load a Module**:  
-   ```bash
-   use auxiliary/scanner/http/http_version
-   ```  
-2. **Set Options**:  
-   ```bash
-   set RHOSTS 192.168.1.1
-   set THREADS 10
-   ```  
-3. **Run**:  
-   ```bash
-   run
-   ```  
-
----
-
-### **Advanced Tips**  
-- **Bruteforcing**: Use modules like `auxiliary/scanner/ssh/ssh_login` with wordlists (`set PASS_FILE /path/to/list.txt`).  
-- **Fuzzing**: Modules like `auxiliary/fuzzers/ftp/ftp_pre_post` test for crashes without full exploitation.  
-
-Need details on a specific
+Continue from SSH version Detection append but dont start from begining 
