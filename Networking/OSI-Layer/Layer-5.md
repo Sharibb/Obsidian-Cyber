@@ -31,4 +31,3 @@ The **Session Layer (Layer 5)** of the **OSI (Open Systems Interconnection) mode
 - Below it, the *Transport Layer* (**Layer 4**) handles end-to-end reliability.  
 - Above it, the *Presentation Layer* (**Layer 6**) translates data formats.
 
-Would you like deeper examples or comparisons to TCP/IP’s model?
