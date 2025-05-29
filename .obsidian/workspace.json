@@ -194,8 +194,9 @@
   },
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
-    "Path in Cyber Security.md",
+    "Software/Data Integrity Failures.md",
     "Intro-to-Cybersecurity.md",
+    "Path in Cyber Security.md",
     "WebApp/WebAppSec/Common-Attacks/Injections/xss/00-Intro To Cross Site Scripting(XSS).md",
     "README.md",
     "WebApp/WebAppSec/Common-Attacks/Injections",
@@ -223,7 +224,6 @@
     "WebApp/WebAppSec/OWASP10/02-Cryptographic Failure.md",
     "WebApp/WebAppSec/OWASP10/07-Identification & Authentication Failures.md",
     "WebApp/WebAppSec/Common-Attacks",
-    "Networking/Intro To Computer Networking.md",
     "Networking/OSI-Layer",
     "WebApp/WebAppSec/Common-Attacks/Injections/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
