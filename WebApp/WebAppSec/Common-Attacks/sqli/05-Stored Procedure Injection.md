@@ -20,4 +20,24 @@ Stored procedure injection is a type of SQL injection attack that targets databa
 ## Prevention Methods
 
 1. **Parameterized Queries**: Use proper parameter binding when calling stored procedures
-2. **Input Validation**: Validate all inputs before
+2. **Input Validation**: Validate all inputs before passing to procedures
+3. **Least Privilege**: Run procedures with minimal required permissions
+4. **Secure Coding**: Avoid dynamic SQL generation within stored procedures
+
+## Example Vulnerable Code (Pseudocode)
+
+```
+// UNSAFE - concatenates user input into procedure call
+string query = "EXEC sp_GetUserInfo '" + username + "'";
+db.Execute(query);
+```
+
+## Secure Alternative
+
+```
+// SAFE - uses parameterized procedure call
+db.ExecuteStoredProcedure("sp_GetUserInfo", 
+                          new SqlParameter("@username", username));
+```
+
+This attack can be particularly dangerous because many organizations rely heavily on stored procedures for database operations, sometimes overlooking their security implications.
