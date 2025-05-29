@@ -35,3 +35,5 @@ Cross-Site Scripting (XSS) is a common web security vulnerability that allows at
 - Setting HttpOnly flag on cookies
 
 Understanding XSS is fundamental for both developers (to prevent vulnerabilities) and security professionals (to test for them).
+
+Further Explain the types of XSS extensively
