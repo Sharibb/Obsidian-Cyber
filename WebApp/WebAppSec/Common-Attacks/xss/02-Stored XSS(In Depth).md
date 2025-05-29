@@ -59,7 +59,7 @@ Stored XSS (also known as Persistent XSS) is one of the most dangerous types of 
    ```html
    <!-- Using HTML entities or other encoding tricks -->
    &lt;script&gt;alert(1)&lt;/script&gt;
-   
+   ```
 ### Impact Analysis
 
 | Severity Level | Potential Impact |
