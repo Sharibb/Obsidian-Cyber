@@ -67,17 +67,19 @@ Reflected Cross-Site Scripting (XSS) is a type of web vulnerability where an att
    - Use HTML entity encoding (`&lt;`) 
 1. **Content Security Policy (CSP)**  
    - Restrict inline scripts and external sources:  
+
  ```http      Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline'
  ```
  
-
+```
 1. **HTTP-Only & Secure Cookies**  
    - Prevent JavaScript access to cookies:  
-```http
+     ```http
      Set-Cookie: sessionid=123; HttpOnly; Secure
-      ```
+     ```
 5. **Framework Protections**  
    - Use built-in protections (e.g., React’s JSX escaping, Django’s template auto-escaping).  
+```
 
 
 ---
@@ -101,7 +103,6 @@ Attackers often evade filters using:
 3. **Alternative Tags**: `<img src=x onerror=alert(1)>`  
 
 ### Example Bypass Payloads:  
-
 ```html
 <svg/onload=alert(1)>  <!-- No spaces -->
 <script>alert`1`</script>  <!-- Backticks instead of parentheses -->
