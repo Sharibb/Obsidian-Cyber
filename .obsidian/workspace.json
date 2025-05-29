@@ -194,7 +194,8 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
-    "Pentesting/Untitled",
+    "Pentesting/WebAppPentesting/Untitled",
+    "Pentesting/NetworkPentesting(NPT)",
     "Pentesting",
     "Intro-to-Cybersecurity.md",
     "Welcome.md",
@@ -238,7 +239,6 @@
     "Images/WebApp/OWASP/BAC2.png",
     "Images/WebApp/OWASP/BAC1.jpg",
     "Images/WebApp/OWASP/OWASP1.png",
-    "Images/WebApp/OWASP",
-    "Images/WebApp"
+    "Images/WebApp/OWASP"
   ]
 }
