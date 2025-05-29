@@ -30,7 +30,7 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 5. **[[05-Security Misconfiguration]]**  
 6. **[[06-Vulnerable&Outdated Components]]**  
 7. **[[07-Identification & Authentication Failures]]**  
-8. **[[Software&Data Integrity Failures]]** *(New)*  
+8. **[[08-Software&Data Integrity Failures]]** *(New)*  
 9. **[[Security Logging & Monitoring Failures]]**  
 10. **[[SSRF]]** *(New)*  
 
