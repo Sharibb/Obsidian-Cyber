@@ -95,20 +95,6 @@ Start small:
 🔗 [MDN Web Docs](https://developer.mozilla.org/) for tutorials.   
 🔗 [FreeCodeCamp](https://www.freecodecamp.org/) for hands-on practice.   
 
----
-### **Web Application Security**  *([[Intro to WebAppSec|Get Started]])*
-- **Importance**: Protects sensitive data, ensures user privacy, and prevents attacks like breaches or service disruptions.  
-- **Common Threats**:  
-  - **Injection Attacks** (e.g., SQL, XSS)  
-  - **Broken Authentication** (weak passwords/session handling)  
-  - **Sensitive Data Exposure** (poor encryption)  
-- **Mitigation**:  
-  - Use HTTPS, input validation, and parameterized queries.  
-  - Regular security audits (e.g., penetration testing).  
-
-Also add api security point
-
- Here’s your updated **Web Application Security** section with an added **API Security** subsection:  
 
 ---
 
