@@ -27,6 +27,6 @@ In-Band SQL Injection is one of the most common and straightforward types of SQL
 - Apply principle of least privilege for DB accounts
 - Use web application firewalls (WAFs)
 
-Explain Error Based and Union Based a bit more
+Explain Error Based and Union Based a bit more in depth
 
  
