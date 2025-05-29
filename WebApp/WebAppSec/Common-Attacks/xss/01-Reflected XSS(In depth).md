@@ -23,7 +23,7 @@ Reflected Cross-Site Scripting (XSS) is a type of web vulnerability where an att
 ## **Common Injection Vectors**
 1. **URL Parameters**  
    - `?search=<script>alert(1)</script>`
-1. **Form Inputs**  
+2. **Form Inputs**  
    - `<input type="text" value="<img src=x onerror=alert(1)>">`
 3. **HTTP Headers**  
    - `User-Agent: <script>alert(1)</script>`
@@ -54,4 +54,16 @@ Reflected Cross-Site Scripting (XSS) is a type of web vulnerability where an att
 - Stealing cookies (`document.cookie`)
 - Session hijacking
 - Phishing attacks (fake login forms)
-- Key
+- Keylogging
+- Defacement
+
+---
+
+## **Prevention & Mitigation**
+1. **Input Validation**  
+   - Whitelist allowed characters.
+   - Reject or sanitize suspicious inputs.
+2. **Output Encoding**  
+   - Use HTML entity encoding (`&lt;
+
+Append
