@@ -137,9 +137,7 @@ Ensures organizations meet regulatory requirements and manage cybersecurity risk
 - **CRISC (Certified in Risk and Information Systems Control)** – Risk management specialization.   
 
 ### Industry Trends:    
-continue append but dont start from the begiinging 
 
-Here’s the **appended content** for **Specialized Roles (Cloud Security, AppSec, IoT, etc.)**, integrated seamlessly into your existing guide without repeating earlier sections:
 
 ---
 
