@@ -114,9 +114,7 @@ Prevents data exfiltration via `fetch()` or `<img src="attacker.com">`.
 ---
 
 ## **Real-World Examples**  
-Continue From Real-World Examples and and append dont write from the start
 
- ## **Real-World Examples of Blind XSS Attacks**
 
 ### **1. Ticket Support Systems (Zendesk, Freshdesk)**
 - **Scenario**: An attacker submits a malicious ticket with a JavaScript payload in the "description" field.
@@ -170,3 +168,4 @@ Continue From Real-World Examples and and append dont write from the start
 1. **Stealthy Persistence**: Payloads can remain dormant for weeks until triggered.
 2. **High Impact Targets**: Often exploits privileged users (admins, auditors).
 3. **B
+St
