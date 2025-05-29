@@ -162,3 +162,19 @@ sqlmap -u "http://example.com/page?id=1" --dbs --batch
 Would you like me to elaborate on any particular step or provide more specific examples for a certain database type?
 
 Fix after the step-by-step implementation
+
+ # Fixing In-Band SQL Injection (01-In-Band-SQLi)
+
+## Implementation Steps
+
+1. **Identify vulnerable parameters**:
+   - Locate all user input fields that interact with database queries
+   - Common targets: login forms, search fields, URL parameters
+
+2. **Implement parameterized queries**:
+   ```python
+   # Vulnerable
+   query = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'"
+   
+   # Fixed with parameterized query
+   cursor.execute("SELECT * FROM users WHERE username =
