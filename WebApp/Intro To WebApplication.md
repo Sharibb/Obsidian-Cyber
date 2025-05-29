@@ -107,3 +107,31 @@ Start small:
   - Regular security audits (e.g., penetration testing).  
 
 Also add api security point
+
+ Here’s your updated **Web Application Security** section with an added **API Security** subsection:  
+
+---
+
+### **Web Application Security** *([[Intro to WebAppSec|Get Started]])*  
+- **Importance**: Protects sensitive data, ensures user privacy, and prevents attacks like breaches or service disruptions.  
+- **Common Threats**:  
+  - **Injection Attacks** (e.g., SQL, XSS)  
+  - **Broken Authentication** (weak passwords/session handling)  
+  - **Sensitive Data Exposure** (poor encryption)  
+- **Mitigation**:  
+  - Use HTTPS, input validation, and parameterized queries.  
+  - Regular security audits (e.g., penetration testing).  
+
+#### **API Security** *(Critical for Modern Apps)*  
+- **Risks**:  
+  - **Unauthorized Access** (weak API keys/tokens)  
+  - **Data Leakage** (excessive data in responses)  
+  - **DoS Attacks** (unlimited requests overwhelming APIs).  
+- **Best Practices**:  
+  - Implement authentication (OAuth2, JWT) and rate limiting.  
+  - Encrypt payloads (HTTPS/TLS) and sanitize input/output.  
+  - Use API gateways for monitoring and threat detection.  
+
+---
+
+This keeps the
