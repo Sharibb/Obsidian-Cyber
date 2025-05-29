@@ -69,7 +69,7 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
    - Deprecated API versions exposed or undocumented endpoints left active.  
 
 10
-
+add the latest list of 2023 
 
 ---
 
