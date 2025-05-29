@@ -99,4 +99,4 @@ When another user loads the page, their cookies are sent to the attacker.
 - Long-term compromise of user accounts.
 - Spread of malware
 
-Continue from Stored XSS(persistent)
+Continue from Stored XSS(persistent) Impact point
