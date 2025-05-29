@@ -112,4 +112,9 @@ Prevents data exfiltration via `fetch()` or `<img src="attacker.com">`.
 - Implement WAF rules to block known XSS payloads.  
 
 ### **(4) Least Privilege for Admin Views**  
-- Render user-submitted content as plain
+- Render user-submitted content as plain text in admin dashboards.  
+- Use iframes with sandbox attributes for unsafe content.  
+
+---
+
+## **Real-World Examples**  
