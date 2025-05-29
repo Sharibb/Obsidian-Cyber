@@ -67,7 +67,7 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
 
 9. **[API9: Improper Assets Management](https://owasp.org//en/)***  
    - Deprecated API versions exposed or undocumented endpoints left active.  
-10.# API10:2019 Insufficient Logging & Monitoring
+10.**API10:2019 Insufficient Logging & Monitoring
 
 ---
 
