@@ -1,7 +1,4 @@
 
-
-Give brief explanation about application layer protocol 
-
 The **Application Layer Protocol** is the topmost layer in the OSI and TCP/IP models, responsible for providing network services directly to end-user applications. It defines how applications communicate over a network, including message formats, data exchange rules, and error handling.
 
 ### **Key Features:**
