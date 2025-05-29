@@ -108,4 +108,10 @@ Focuses on protecting systems by detecting and responding to threats.
 - **Threat Hunter** – Proactively hunts for IOCs/TTPs.  
 
 ### **Required Skills:**
--
+- SIEM tools (Splunk, Sentinel).  
+- EDR/XDR solutions (CrowdStrike, Microsoft Defender).  
+- Log analysis & forensics (FTK, Autopsy).  
+
+### **Certifications:**
+- **Security+** – Entry-level SOC roles.  
+- **CySA+** – Intermediate blue
