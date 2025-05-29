@@ -87,3 +87,9 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
 1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)** – Unauthorized access to objects via
    
    Continue
+
+ Here’s the continuation of the **OWASP API Security Top 10 (2019)** section, formatted for clarity and consistency with your document:
+
+---
+
+### **OW
