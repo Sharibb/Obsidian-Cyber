@@ -180,4 +180,29 @@ XSS attacks are categorized into three main types:
 - Server reflects the script back unsafely in the response (e.g., search results).  
 - Victim’s browser executes the script.  
 
-### **
+### **Example:**
+```http
+https://example.com/search?query=<script>alert('XSS')</script>
+```
+If `query` is displayed without sanitization, the script runs.
+
+### **Impact:**
+- Session hijacking via `document.cookie`.  
+- Redirects to malicious sites (`window.location`).  
+- Phishing by modifying page content dynamically.  
+
+### **Mitigation:**
+- Input validation + output encoding (e.g., HTML entity encoding).  
+- Implement **Content Security Policy (CSP)**.  
+- Use frameworks that auto-escape content (e.g., React’s JSX).  
+
+---
+
+## **2. Stored XSS (Persistent)**
+### **How It Works:**
+- Attacker submits malicious input stored on the server (e.g., forum post).  
+- Victim loads a page containing the stored payload.  
+- Server delivers the script to the victim’s browser.  
+- Script executes in their context.  
+
+###
