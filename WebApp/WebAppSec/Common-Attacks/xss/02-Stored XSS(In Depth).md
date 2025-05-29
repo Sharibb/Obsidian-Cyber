@@ -19,7 +19,7 @@ Stored XSS (also known as Persistent XSS) is one of the most dangerous types of 
    - Product reviews
    - User profiles
 
-1. **Application Features**:
+2. **Application Features**:
    - File uploads (with malicious filenames/metadata)
    - Messaging systems
    - Support tickets
@@ -65,4 +65,13 @@ Stored XSS (also known as Persistent XSS) is one of the most dangerous types of 
 | Severity Level | Potential Impact |
 |----------------|------------------|
 | Low            | Defacement, Annoyance |
-| Medium         |
+| Medium         | Session hijacking, Cookie theft |
+| High           | Account takeover, Malware distribution |
+| Critical       | Full system compromise, Pivot to internal networks |
+
+## Defense Strategies
+
+1. **Input Validation**:
+```javascript
+// Example of whitelist validation in Node.js
+function sanitize(input
