@@ -1,5 +1,5 @@
 
-**Out-of-Band SQL Injection (OOB SQLi)**, which is a type of SQL injection attack where the attacker retrieves data from a database by leveraging external network channels (like DNS, HTTP requests, or other protocols) rather than directly through the application's response.
+**Out-of-Band SQL Injection (OOB SQLi)** is a type of SQL injection attack where the attacker retrieves data from a database by leveraging external network channels (like DNS, HTTP requests, or other protocols) rather than directly through the application's response.
 
 ### **Key Concepts of Out-of-Band SQLi:**
 1. **How it Works**:
