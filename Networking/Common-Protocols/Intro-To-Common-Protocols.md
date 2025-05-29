@@ -78,6 +78,6 @@ Here’s an introduction to common networking protocols, categorized by their pr
 ---
 
 #### Key Takeaways:  
-1. Protocols are organized by OSI model layers but often span multiple layers in practice.  
+1. Protocols are organized by **[[Intro to OSI Layer|OSI]]** model layers but often span multiple layers in practice.  
 2. Security-focused protocols (TLS, SSH, SFTP) are critical for protecting data in transit.  
 3. UDP prioritizes speed over reliability, while TCP ensures accurate delivery.  
