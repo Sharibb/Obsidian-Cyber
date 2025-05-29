@@ -28,7 +28,7 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 3. **[[03-Injection]]** (e.g., SQLi)  
 4. **[[04-Insecure Design]]** *(New in 2021)*  
 5. **[[05-Security Misconfiguration]]**  
-6. **[[Vulnerable&Outdated Components]]**  
+6. **[[06-Vulnerable&Outdated Components]]**  
 7. **[[Identification & Authentication Failures]]**  
 8. **[[Software&Data Integrity Failures]]** *(New)*  
 9. **[[Security Logging & Monitoring Failures]]**  
