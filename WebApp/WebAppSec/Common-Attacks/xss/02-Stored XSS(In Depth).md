@@ -121,12 +121,6 @@ Set-Cookie: sessionID=abc123; HttpOnly; Secure; SameSite=Strict;
 - `Secure` ensures cookies are sent only over HTTPS.  
 
 ### **8. Regular Security Testing**  
-Automated and manual testing techniques:  
-- **Static Application Security Testing (
-
-Continue from Regular Security Testing, append dont write from start
-
- **8. Regular Security Testing (Continued)**  
 
 Automated and manual testing techniques:  
 - **Static Application Security Testing (SAST)**: Analyze source code for vulnerabilities (e.g., SonarQube, Checkmarx).  
