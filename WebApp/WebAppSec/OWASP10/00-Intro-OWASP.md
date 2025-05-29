@@ -41,3 +41,37 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 - Aligns with compliance standards (e.g., PCI-DSS, ISO 27001).  
 
 Also add owasp api list and info 
+
+Here’s your updated document with the **OWASP API Security Top 10** included, formatted consistently with the existing content:
+
+---
+
+### **Introduction to OWASP Top 10**  
+The **OWASP Top 10** is a globally recognised list of the most critical web application security risks, published by the *Open Web Application Security Project (OWASP)*. It serves as a guideline for developers, security teams, and organisations to prioritise mitigation efforts.
+
+---
+
+### **Key Highlights (Starred Blocks)**  
+1. **🔥 Purpose**:  
+   - Standardises awareness of common vulnerabilities.  
+   - Helps organisations focus resources on the most severe risks.  
+
+2. **📌 Updated Regularly**:  
+   - Revised every 3–4 years (e.g., 2021, 2027) to reflect evolving threats.  
+
+3. **🎯 Target Audience**:  
+   - Developers, pentesters, CISOs, and compliance teams.  
+
+---
+![[OWASP1.png]]
+
+---
+
+### **2021 OWASP Top 10 Categories** *(Brief Overview)*  
+1. **[[01-Broken Access Control || Broken Access Control]]**  
+2. **[[02-Cryptographic Failure||Cryptographic Failures]]**  
+3. **[[03-Injection|Injection]]** (e.g., SQLi)  
+4. **[[04-Insecure Design|Insecure Design]]** *(New in 2021)*  
+5. **[[05-Security Misconfiguration|Security Misconfiguration]]**  
+6. **[[06-Vulnerable&Outdated Components|Vulnerable and Outdated Components]]**  
+7
