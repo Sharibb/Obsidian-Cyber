@@ -153,4 +153,33 @@ Focuses on securing cloud environments (AWS, Azure, GCP) and hybrid infrastructu
 - **Cloud Penetration Tester** – Specializes in cloud-native vulnerability assessments.  
 
 ### **Required Skills:**  
-- Cloud platform expertise (IAM, KMS, CSPM
+- Cloud platform expertise (IAM, KMS, CSPM tools like Prisma Cloud).  
+- Container security (Kubernetes, Docker).  
+- Infrastructure-as-Code (Terraform, Ansible) security.  
+
+### **Certifications:**  
+- **CCSP (Certified Cloud Security Professional)** – Vendor-neutral advanced cloud security.  
+- **AWS/Azure/GCP Security Certifications** (e.g., AWS Certified Security – Specialty).  
+- **Certified Kubernetes Security Specialist (CKS)** – Container-specific security.  
+
+### **Industry Trends:**  
+- Shift-left security in DevOps pipelines.  
+- Rise of serverless and multi-cloud security challenges.  
+
+---
+
+## **7. Application Security (AppSec)**  
+### **Overview**  
+Ensures software is developed securely by identifying and mitigating vulnerabilities in code and dependencies.  
+
+### **Key Roles:**  
+- **Application Security Engineer** – Conducts code reviews and SAST/DAST testing.  
+- **Secure Code Reviewer** – Audits code for vulnerabilities (OWASP Top 10).  
+
+### **Required Skills:**  
+- Static/Dynamic Analysis Tools (Checkmarx, SonarQube, Burp Suite).  
+- Secure coding practices (C++, Java, Python).  
+- Dependency scanning (Snyk, Dependency-Track).  
+
+### **Certifications:**  
+- **OSWE (
