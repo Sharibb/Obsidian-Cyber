@@ -85,4 +85,4 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
    - Document all APIs (including deprecated ones) and retire unused endpoints.  
 
 1. **[API10] Unsafe Consumption of APIs** *(New!)*  
-    -
+    -continue
