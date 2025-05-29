@@ -117,3 +117,12 @@ Attackers often evade filters using:
 ## **Summary Checklist for Developers** ✅
 
 Append from here 
+
+Here’s the complete, consolidated guide on **Reflected XSS (In-Depth)** with no duplicates and improved flow:
+
+---
+
+# **Reflected XSS (In-Depth)**
+
+## **Overview**  
+Reflected Cross-Site Scripting (XSS) is a web vulnerability where an attacker injects malicious scripts into a web application, which are then reflected back to the victim's browser.
