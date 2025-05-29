@@ -144,8 +144,49 @@ msf6 > set COMMAND "whoami"
 msf6 > run   # Executes `whoami` on the target
 ```
 
+
 #### **(c) SSH Version Detection**  
-Identifies vulnerable SSH versions:
+Identifies vulnerable SSH versions (e.g., OpenSSH 7.2p2):  
 ```bash
-msf6```
-Continue from SSH version Detection append but dont start from begining 
+msf6 > use auxiliary/scanner/ssh/ssh_version  
+msf6 > set RHOSTS 10.0.0.1-50  
+msf6 > run  
+```
+- Output example:  
+  ```
+  [+] 10.0.0.5:22     - SSH server version: SSH-2.0-OpenSSH_7.2p2 (Ubuntu)  
+  [!] 10.0.0.12:22    - Vulnerable to CVE-2018-15473 (OpenSSH user enumeration)  
+  ```
+
+---
+
+### **5. Output Handling & Data Management**  
+Auxiliary modules integrate with Metasploit's **database** for structured results:  
+
+#### **(a) Saving to Workspace**  
+```bash
+msf6 > services -S ssh  # Filter all discovered SSH services in the database  
+msf6 > hosts -c address,os_name  # List hosts with OS info  
+```
+
+#### **(b) Exporting Results**  
+- **Loot**: Stores credentials, screenshots, or config files:  
+  ```bash
+  msf6 > loot  # View captured data  
+  ```
+- **Reports**: Generate HTML/CSV reports:  
+  ```bash
+  msf6 > db_export -f xml /path/to/report.xml  
+  ```
+
+---
+
+### **Key Takeaways**  
+1. **No Exploitation**: Auxiliary modules focus on pre/post-exploitation tasks without payload delivery.  
+2. **Flexibility**: Combine scanners (e.g., `smb_version` + `smb_login`) for deeper reconnaissance.  
+3. **Resource Efficiency**: Use `THREADS` cautiously to avoid overwhelming targets or detection.  
+
+For further learning, explore modules like:  
+- `auxiliary/scanner/http/crawler` (Website crawling).  
+- `auxiliary/gather/windows_secrets_dump` (Post-exploitation credential extraction).  
+
