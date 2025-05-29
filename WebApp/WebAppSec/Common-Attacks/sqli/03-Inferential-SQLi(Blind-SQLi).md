@@ -111,4 +111,20 @@ SELECT * FROM users WHERE username = 'admin' AND IF(1=1,SLEEP(5),0)--
 - If false, it responds immediately
 
 ### Characteristics:
-- Relies on database functions like `SLEEP()`, `WAITFOR
+- Relies on database functions like `SLEEP()`, `WAITFOR DELAY`, or heavy queries
+- Works even when no visible output differences exist
+- Very slow but reliable method
+- Often used when other blind techniques fail
+
+## Boolean-Based Blind SQL Injection
+
+Boolean-based blind SQL injection relies on observing differences in application behavior based on true/false conditions in injected queries.
+
+### How it works:
+1. The attacker crafts queries that return different responses based on boolean conditions
+2. The application's behavior (error messages, content changes, HTTP status codes) reveals whether the condition was true or false
+3. By systematically testing conditions, the attacker can reconstruct data
+
+### Example:
+```sql
+SELECT * FROM products WHERE id = 1 AND SUBSTRING((SELECT password FROM users WHERE username = 'admin'),
