@@ -30,12 +30,6 @@ Introduction to **Auxiliary Modules** in Metasploit (non-exploit modules for sca
 5. **Output Handling:**  
    - Results often saved to the Metasploit database (`workspace`) or exported to files (`loot`).  
 
----
-
-explain further
-
-
-Certainly! Below is a deeper explanation of **Metasploit Auxiliary Modules**, their use cases, and how they fit into the penetration testing workflow.
 
 ---
 
@@ -80,15 +74,7 @@ msf6 > use auxiliary/scanner/portscan/tcp
 - Loads the TCP port scanner module.
 
 #### **(b) Configuring Options**
-```bash
-msf6 > show options
 
----
-
-```
-
-
- #### **(b) Configuring Options**  
 ```bash
 msf6 > show options
 ```
