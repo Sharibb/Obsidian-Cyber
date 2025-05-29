@@ -48,3 +48,4 @@ SQL Injection is a web security vulnerability that allows attackers to interfere
 - Apply the principle of least privilege for database accounts
 - Use web application firewalls (WAFs)
 
+Explain more about the types of SQLi
