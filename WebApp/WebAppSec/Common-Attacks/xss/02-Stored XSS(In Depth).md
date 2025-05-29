@@ -125,3 +125,27 @@ Automated and manual testing techniques:
 - **Static Application Security Testing (
 
 Continue from Regular Security Testing, append dont write from start
+
+ **8. Regular Security Testing (Continued)**  
+
+Automated and manual testing techniques:  
+- **Static Application Security Testing (SAST)**: Analyze source code for vulnerabilities (e.g., SonarQube, Checkmarx).  
+- **Dynamic Application Security Testing (DAST)**: Scan running apps for XSS flaws (e.g., OWASP ZAP, Burp Suite).  
+- **Manual Penetration Testing**: Ethical hackers simulate attacks to uncover stored XSS vectors.  
+
+### **9. Framework-Specific Protections**  
+Leverage built-in security features:  
+- **React**: Auto-escapes JSX expressions (`{userInput}` is safe by default).  
+- **Angular**: Sanitizes bound values via `DomSanitizer`.  
+- **Django**: Templates auto-escape variables (`{{ user_input }}`).  
+
+**Example (React):**  
+```javascript
+// Safe rendering without dangerous HTML injection
+function SafeComponent({ userInput }) {
+  return <div>{userInput}</div>; // Automatically escaped
+}
+```
+
+### **10. Monitoring & Incident Response**  
+Detect and mitigate exploitation
