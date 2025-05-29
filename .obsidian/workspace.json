@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/Intro to WebAppSec.md",
+                "file": "WebApp/Intro To WebApplication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to WebAppSec"
+              "title": "Intro To WebApplication"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/Intro to WebAppSec.md",
+                "file": "WebApp/Intro To WebApplication.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro to WebAppSec"
+              "title": "Outline of Intro To WebApplication"
             }
           },
           {
@@ -194,8 +194,8 @@
   },
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
-    "WebApp/Intro To WebApplication.md",
     "WebApp/WebAppSec/Intro to WebAppSec.md",
+    "WebApp/Intro To WebApplication.md",
     "Networking/OSI-Layer/Layer-1.md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "WebApp/WebAppSec/OWASP10/00-Intro-OWASP.md",

@@ -106,3 +106,4 @@ Start small:
   - Use HTTPS, input validation, and parameterized queries.  
   - Regular security audits (e.g., penetration testing).  
 
+Also add api security point
