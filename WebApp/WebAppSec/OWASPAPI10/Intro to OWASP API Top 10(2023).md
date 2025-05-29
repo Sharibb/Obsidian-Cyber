@@ -111,5 +111,3 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
 ### **Resources**  
 - [OWASP API Security Project](https://owasp.org/www-project-api-security/)  
 - [Cheat Sheets for Developers](https://cheatsheetseries.owasp.org/)  
-
-Let me know if you'd like a deeper dive into any specific risk! 🔍
