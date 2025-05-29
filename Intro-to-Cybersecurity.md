@@ -23,7 +23,7 @@ Here’s a structured introduction to cybersecurity based on your starred block:
 
 ---
 
-## **PATH IN **
+## **[[Pa**
 
 Cybersecurity offers diverse career paths, each focusing on different aspects of protecting digital assets. Below are key roles and specializations:  
 
