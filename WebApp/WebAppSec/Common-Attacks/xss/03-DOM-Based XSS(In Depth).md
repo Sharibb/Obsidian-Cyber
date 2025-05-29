@@ -59,3 +59,26 @@ When visited, the script executes in the victim's browser.
 1. Trace input sources (`location.hash`, `location.search
 
 Append From Detection & Exploitation do not write it all just continue
+
+ Here’s the continuation of the **Detection & Exploitation** section:
+
+---
+
+## **Detection & Exploitation**
+### **Manual Testing Steps**
+1. **Identify sinks** (dangerous JavaScript functions that write to DOM):
+   - `innerHTML`, `outerHTML`, `document.write()`, `eval()`
+   - jQuery’s `html()`, `append()`, etc.
+1. **Trace input sources** (`location.hash`, `location.search`, `document.referrer`, form inputs).
+2. **Test payloads** in identified sources:
+   - Basic probes: `<img src=x onerror=alert(1)>`
+   - DOM-specific: `<svg onload=alert(document.domain)>`
+4. **Observe execution context**:
+   - Is input reflected inside a JavaScript string, HTML attribute, or raw HTML?
+1. **Bypass filters**:
+   - Use alternative event handlers (`onmouseover`, `onfocus`).
+   - Encode payloads to evade blacklists (e.g., `\u0061lert(1)`).
+
+### **Automated Tools**
+- **Burp Suite DOM Invader**: Identifies DOM sinks and sources.
+- **OW
