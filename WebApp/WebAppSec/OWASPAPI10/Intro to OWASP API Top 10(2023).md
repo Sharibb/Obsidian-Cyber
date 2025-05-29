@@ -94,4 +94,22 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
 ### **Mitigation Strategies** *(Continued)*  
 10. **[API10:2023] Unsafe Consumption of APIs**  
    - **Validate responses** from third-party APIs (e.g., sanitize data before processing).  
-   - **Enforce TLS encryption** and verify
+   - **Enforce TLS encryption** and verify certificates to prevent MITM attacks.  
+   - **Limit trust**: Assume external APIs are compromised (zero-trust principles).  
+
+---
+
+### **Final Recommendations**  
+1. **Shift Left**: Integrate security into CI/CD pipelines (e.g., SAST/DAST tools).  
+2. **Automate Defense**: Use API gateways for rate limiting, logging, and schema validation.  
+3. **Monitor & Respond**: Detect anomalies (e.g., abnormal payloads, traffic spikes) with SIEM solutions.  
+
+> 💡 **Remember**: The OWASP API Top 10 is a starting point—customize defenses based on your API’s context (e.g., healthcare APIs vs. e-commerce).  
+
+---
+
+### **Resources**  
+- [OWASP API Security Project](https://owasp.org/www-project-api-security/)  
+- [Cheat Sheets for Developers](https://cheatsheetseries.owasp.org/)  
+
+Let me know if you'd like a deeper dive into any specific risk! 🔍
