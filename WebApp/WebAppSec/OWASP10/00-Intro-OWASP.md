@@ -121,3 +121,16 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
 
 9. **[API9: Improper Assets Management](https://owasp.org/api-security/assets-management/)**
   continue
+
+ Here’s the complete and polished **OWASP API Security Top 10 (2019)** section, following your document's structure and style:
+
+---
+
+### **OWASP API Security Top 10 (2019)** *(For API-Specific Risks)*  
+Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):  
+
+1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
+   - Unauthorized access to objects via insecure endpoints (e.g., `/api/users/{id}`).  
+
+1. **[API2: Broken User Authentication](https://owasp.org/API-Security/editions/2019/en/)**  
+   - Weak
