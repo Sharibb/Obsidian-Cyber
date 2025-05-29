@@ -30,7 +30,7 @@ A **computer network** is a system of interconnected devices (computers, servers
 
 ---
 
-### **5. The OSI Model** *([Get Started] (OSI-Layer/Intro to OSI Layer))*  
+### **5. The OSI Model** *([Get Started] (/OSI-Layer/Intro to OSI Layer))*  
 A framework for network communication:  
 1. Physical → 2. Data Link → 3. Network → 4. Transport → 5. Session → 6. Presentation → 7. Application  
 
