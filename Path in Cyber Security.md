@@ -112,4 +112,28 @@ Focuses on investigating cyber incidents, collecting evidence, and restoring sys
 - **CHFI (Computer Hacking Forensic Investigator)** – Entry-level forensics.  
 
 ### **Industry Trends:**  
-- Rise of cloud forensics tools (AWS
+- Rise of cloud forensics tools (AWS/GCP incident response).  
+- Integration of AI for faster threat triage.  
+
+---
+
+## **5. Governance, Risk & Compliance (GRC)**  
+### **Overview**  
+Ensures organizations meet regulatory requirements and manage cybersecurity risks effectively.  
+
+### **Key Roles:**  
+- **Compliance Auditor** – Assesses adherence to standards (e.g., ISO 27001).  
+- **Risk Manager** – Identifies and mitigates security risks.  
+- **Privacy Officer** – Ensures GDPR/CCPA compliance.  
+
+### **Required Skills:**  
+- Knowledge of frameworks (**NIST CSF**, ISO 27001, SOC 2).  
+- Risk assessment methodologies (FAIR, OCTAVE).   
+- Policy drafting and vendor risk management.  
+
+### **Certifications:**   
+- **CISSP** – Covers security governance domains.   
+- **CISA (Certified Information Systems Auditor)** – Focus on IT audits.   
+- **CRISC (Certified in Risk and Information Systems Control)** – Risk management specialization.   
+
+### Industry Trends:    
