@@ -64,16 +64,8 @@ Reflected Cross-Site Scripting (XSS) is a type of web vulnerability where an att
    - Whitelist allowed characters.
    - Reject or sanitize suspicious inputs.
 2. **Output Encoding**  
-   - Use HTML entity encoding (`&lt;
-
-Append AFter Prevention & Mitigation
-
- Here’s the continuation of the **Prevention & Mitigation** section, followed by additional relevant content to complete the guide:
-
----
-
-## **Prevention & Mitigation (Continued)**  
-3. **Content Security Policy (CSP)**  
+   - Use HTML entity encoding (`&lt;`) 
+1. **Content Security Policy (CSP)**  
    - Restrict inline scripts and external sources:  
      ```http
      Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline'
