@@ -88,3 +88,16 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 - Works well when you can see
 
  continue from Advantages in Union based section complete it with limitation as you did with above
+
+ ### **Union-Based SQL Injection**  
+
+#### **Advantages:**  
+1. **Direct Data Extraction** – Retrieves data directly from the database by appending results to the original query.  
+2. **Flexible Data Retrieval** – Can extract any data accessible by the vulnerable query (e.g., usernames, passwords, sensitive records).  
+3. **Works with Multiple DBMS** – Compatible with databases like MySQL, PostgreSQL, Oracle, and SQL Server (with minor syntax adjustments).  
+4. **No Blind Techniques Needed** – Unlike Boolean or Time-Based SQLi, it provides immediate visible results in the application's response.  
+
+#### **Limitations:**  
+1. **Requires Matching Columns** – The number and data types of columns in the `UNION` must match the original query, requiring trial and error.  
+2. **Visible Errors May Be Needed** – If the application does not display query results, manual probing (e.g., via error messages) is necessary to confirm injection success.  
+3. **Limited to SELECT Statements** – Only works where a `SELECT`
