@@ -42,4 +42,15 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 - Simplifies troubleshooting by isolating layer-specific issues.  
 - Guides protocol development and network architecture design.
 
-Create a table for all the layers and add the function common protocols useds and use 
+Create a table for all the layers and add the function common protocols useds and use common cyber threats for those layers
+
+
+Here’s a structured table summarizing the **OSI Model layers**, their **functions**, **common protocols**, and associated **cyber threats**:  
+
+| **Layer**         | **Name**           | **Function**                                                                 | **Common Protocols**                     | **Common Cyber Threats**                                                                 |
+|-------------------|--------------------|-----------------------------------------------------------------------------|------------------------------------------|-----------------------------------------------------------------------------------------|
+| **Layer 1**       | Physical           | Transmits raw bits over physical media (cables, Wi-Fi).                     | Ethernet, USB, Bluetooth, DSL           | Cable tampering, signal jamming, RFID cloning.                                          |
+| **Layer 2**       | Data Link          | Node-to-node communication (MAC addressing), error detection (CRC).         | Ethernet (MAC), PPP, VLANs               | MAC spoofing, ARP poisoning, VLAN hopping.                                               |
+| **Layer 3**       | Network            | Logical addressing (IP), routing packets across networks.                   | IP, ICMP, BGP, OSPF                      | IP spoofing, DDoS (e.g., ICMP floods), route hijacking.                                  |
+| **Layer 4**       | Transport          | End-to-end reliability (TCP) or speed (UDP), flow control.                  | TCP, UDP, SCTP                           | SYN floods (TCP), UDP amplification attacks.                                             |
+| **Layer 5**       | Session            | Manages sessions between applications (setup/teardown).                     |
