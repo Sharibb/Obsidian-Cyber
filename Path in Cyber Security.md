@@ -50,3 +50,4 @@ Focuses on protecting systems by detecting and responding to threats.
 ### **Certifications:**
 - **Security+ (CompTIA)** – Entry-level SOC roles.
 - **CySA+ (CompTIA Cyber Security Analyst)** – Intermediate blue teaming.
+Continue from Certifications in Defensive Security Certifications part and append dont write anything else
