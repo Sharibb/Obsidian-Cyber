@@ -181,7 +181,7 @@ Prevents data exfiltration via `fetch()` or `<img src="attacker.com">`.
    - Payloads remain dormant in logs/databases for weeks/months until triggered.  
    - Hard to trace the origin after discovery due to delayed execution.  
 
-6. **Automated Exfiltration**:  
+1. **Automated Exfiltration**:  
    - Attackers use callback services (XSS Hunter, Interact.sh) to automate data theft without manual interaction.  
 
 ---
