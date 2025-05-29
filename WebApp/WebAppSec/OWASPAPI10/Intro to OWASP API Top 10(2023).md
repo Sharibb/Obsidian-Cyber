@@ -1,7 +1,4 @@
 
-
-
-
 Here's an introduction to the **OWASP API Top 10 (2023)**, a critical resource for understanding common security risks in APIs:
 
 ---
