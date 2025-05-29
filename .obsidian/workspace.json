@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/OSI-Layer/Layer-3.md",
+                "file": "Networking/OSI-Layer/Layer-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Layer-3"
+              "title": "Layer-1"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/OSI-Layer/Layer-3.md",
+                "file": "Networking/OSI-Layer/Layer-1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Layer-3"
+              "title": "Outline of Layer-1"
             }
           },
           {
@@ -194,9 +194,9 @@
   },
   "active": "5082b3c65e43c060",
   "lastOpenFiles": [
-    "Networking/OSI-Layer/Layer-1.md",
     "Networking/OSI-Layer/Layer-2.md",
     "Networking/OSI-Layer/Layer-3.md",
+    "Networking/OSI-Layer/Layer-1.md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "Networking/Intro To Computer Networking.md",
     "Networking/OSI-Layer",
