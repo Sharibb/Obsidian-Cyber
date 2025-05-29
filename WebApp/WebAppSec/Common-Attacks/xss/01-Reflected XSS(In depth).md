@@ -77,7 +77,7 @@ Reflected Cross-Site Scripting (XSS) is a type of web vulnerability where an att
      ```
 5. **Framework Protections**  
    - Use built-in protections (e.g., React’s JSX escaping, Django’s template auto-escaping).  
-```
+
 
 
 ---
