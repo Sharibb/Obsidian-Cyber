@@ -32,7 +32,7 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 7. **[[07-Identification & Authentication Failures|Indentification and Authentication Failures]]**  
 8. **[[08-Software&Data Integrity Failures| Software and Data Integrity Failures]]** *(New)*  
 9. **[[09-Security Logging & Monitoring Failures]]**  
-10. **[[10-SSRF]]** *(New)*  
+10. **[[10-SSRF|Server Side Request Forger]]** *(New)*  
 
 ---
 
