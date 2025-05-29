@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/sqli/Untitled.md",
+                "file": "WebApp/WebAppSec/Common-Attacks/sqli/06-SQLi Payloads list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "06-SQLi Payloads list"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/sqli/Untitled.md",
+                "file": "WebApp/WebAppSec/Common-Attacks/sqli/06-SQLi Payloads list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of 06-SQLi Payloads list"
             }
           },
           {
@@ -195,7 +195,7 @@
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
     "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
-    "WebApp/WebAppSec/Common-Attacks/sqli/Untitled.md",
+    "WebApp/WebAppSec/Common-Attacks/sqli/06-SQLi Payloads list.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/05-Stored Procedure Injection.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/04-Second Order SQLi.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/03-Inferential-SQLi(Blind-SQLi).md",
