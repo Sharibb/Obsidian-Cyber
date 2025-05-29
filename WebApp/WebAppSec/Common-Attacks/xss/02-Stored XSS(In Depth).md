@@ -130,4 +130,5 @@ Set-Cookie: sessionID=abc123; HttpOnly; Secure; SameSite=Strict;
 - `Secure` ensures cookies are sent only over HTTPS.  
 
 ### **8. Regular Security Testing**  
-Automated
+Automated and manual testing techniques:  
+- **Static Application Security Testing (
