@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/Intro-To-Pentesting.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro-To-Pentesting"
+              "title": "Intro to WebAppSec"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/Intro-To-Pentesting.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro-To-Pentesting"
+              "title": "Outline of Intro to WebAppSec"
             }
           },
           {
@@ -194,8 +194,8 @@
   },
   "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
-    "Path in Cyber Security.md",
     "Pentesting/Intro-To-Pentesting.md",
+    "Path in Cyber Security.md",
     "WebApp/Intro To WebApplication.md",
     "Pentesting/WebAppPentesting(WAPT)/Untitled",
     "Pentesting/NetworkPentesting(NPT)",
