@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASPAPI10/Intro to OWASP API Top 10(2023).md",
+                "file": "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to OWASP API Top 10(2023)"
+              "title": "00-Sqli-Intro"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASPAPI10/Intro to OWASP API Top 10(2023).md",
+                "file": "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro to OWASP API Top 10(2023)"
+              "title": "Outline of 00-Sqli-Intro"
             }
           },
           {
@@ -192,14 +192,14 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "c37767688f3fbd1e",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/OWASP10/00-Intro-OWASP.md",
+    "WebApp/WebAppSec/Intro to WebAppSec.md",
     "WebApp/WebAppSec/OWASPAPI10/Intro to OWASP API Top 10(2023).md",
+    "WebApp/WebAppSec/OWASP10/00-Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/01-Broken Access Control.md",
     "WebApp/Intro To WebApplication.md",
     "WebApp/WebAppSec/OWASPAPI10",
-    "WebApp/WebAppSec/Intro to WebAppSec.md",
     "Networking/OSI-Layer/Layer-1.md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "WebApp/WebAppSec/OWASP10/02-Cryptographic Failure.md",
@@ -218,7 +218,7 @@
     "WebApp/WebAppSec/OWASP10/06-Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/04-Insecure Design.md",
     "WebApp/WebAppSec/OWASP10/03-Injection.md",
-    "WebApp/WebAppSec/Common-Attacks/sqli/Sqli-Intro.md",
+    "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
     "WebApp/WebAppSec/Common-Attacks/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
