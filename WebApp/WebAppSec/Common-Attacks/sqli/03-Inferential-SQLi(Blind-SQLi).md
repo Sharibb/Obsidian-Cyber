@@ -146,3 +146,13 @@ SELECT * FROM products WHERE id = 1 AND SUBSTRING((SELECT password FROM users WH
 | Speed             | Very slow                           | Relatively faster                  |
 | Reliability       | High (timing is unambiguous
 continue from Key differences
+
+ ### **03-Inferential SQL Injection (Blind SQLi) - Key Differences Continued**
+
+Inferential SQL Injection (Blind SQLi) is a type of attack where the attacker cannot directly see the results of their injected queries. Instead, they infer information by observing the behavior (responses, delays, or errors) of the application. Below are key differences compared to other SQL injection types:
+
+---
+
+### **1. No Direct Output**
+   - Unlike **Union-Based** or **Error-Based** SQLi, Blind SQLi does not return database results directly in the response.
+   - The attacker must deduce information indirectly by sending crafted queries
