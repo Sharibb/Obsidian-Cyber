@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
-                "mode": "source",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Intro-OWASP"
+              "title": "01-Broken Access Control"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-Intro-OWASP"
+              "title": "Outline of 01-Broken Access Control"
             }
           },
           {
@@ -192,8 +192,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
     "Compliance",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "Tools/WAPT/Burpsuite",
@@ -215,7 +217,6 @@
     "Networking/Ports/00-Intro to Ports.md",
     "Pentesting/Methodologies",
     "Networking/Untitled.md",
-    "Networking/Ports",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/05-SSH Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/03-SMTP,IMAP,POP3 Protocols.md",
@@ -227,7 +228,6 @@
     "Pentesting/Intro-To-Pentesting.md",
     "Intro-to-Cybersecurity.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
     "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
     "WebApp/Intro To WebApplication.md",
     "Images/WebApp/OWASP/Sql-injection.png",
