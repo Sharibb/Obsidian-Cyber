@@ -114,4 +114,4 @@ Prevents data exfiltration via `fetch()` or `<img src="attacker.com">`.
 ---
 
 ## **Real-World Examples**  
-Continue From Real-World Examples and and ap
+Continue From Real-World Examples and and append dont write from the start
