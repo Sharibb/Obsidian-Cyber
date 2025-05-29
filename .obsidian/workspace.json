@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/sqli/02-Out-of-Band-SQLi.md",
+                "file": "WebApp/WebAppSec/Common-Attacks/sqli/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Out-of-Band-SQLi"
+              "title": "Untitled"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/sqli/02-Out-of-Band-SQLi.md",
+                "file": "WebApp/WebAppSec/Common-Attacks/sqli/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02-Out-of-Band-SQLi"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -194,9 +194,10 @@
   },
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/Common-Attacks/sqli/01-In-Band-SQLi.md",
-    "WebApp/WebAppSec/Common-Attacks/sqli/02-Out-of-Band-SQLi.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
+    "WebApp/WebAppSec/Common-Attacks/sqli/Untitled.md",
+    "WebApp/WebAppSec/Common-Attacks/sqli/02-Out-of-Band-SQLi.md",
+    "WebApp/WebAppSec/Common-Attacks/sqli/01-In-Band-SQLi.md",
     "WebApp/WebAppSec/Intro to WebAppSec.md",
     "WebApp/WebAppSec/OWASPAPI10/Intro to OWASP API Top 10(2023).md",
     "WebApp/WebAppSec/OWASP10/00-Intro-OWASP.md",
@@ -236,7 +237,6 @@
     "Images/WebApp",
     "Images",
     "WebApp/WebAppSec/OWASP10/08-Software&Data Integrity Failures.md",
-    "WebApp/WebAppSec/OWASP10/05-Security Misconfiguration.md",
     "Software",
     "WebApp/WebAppSec/OWASP10",
     "WebApp/WebAppSec"
