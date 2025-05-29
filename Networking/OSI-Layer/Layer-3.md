@@ -1,4 +1,4 @@
-### Network layer of OSI
+## Network layer of OSI
 
 
 The **Network Layer (Layer 3)** in the **OSI (Open Systems Interconnection) model** is responsible for:  
