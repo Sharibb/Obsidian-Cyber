@@ -116,9 +116,6 @@ Attackers often evade filters using:
 
 ## **Summary Checklist for Developers** ✅
 
-Append from Summary and dont rewrite the whole thing just continue
-
- ## **Summary Checklist for Developers** ✅  
 
 - [ ] **Validate & Sanitize Inputs**: Whitelist allowed characters and sanitize user-supplied data.  
 - [ ] **Encode Outputs**: Use context-aware encoding (HTML, JavaScript, URL) before rendering dynamic content.  
