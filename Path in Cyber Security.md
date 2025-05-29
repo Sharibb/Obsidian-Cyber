@@ -61,3 +61,11 @@ Focuses on protecting systems by detecting and responding to threats.
 ---  
 
 Add Purple Teaming append dont write it from the start
+
+ Here’s the **Purple Teaming** section appended to your existing guide, as requested:
+
+---
+
+## **3. Purple Teaming (Collaborative Offense & Defense)**  
+### **Overview**  
+Bridges the gap between **Red Team (attack)** and **Blue Team (defense)** by fostering collaboration to improve an organization’s security posture. Focuses on continuous feedback loops to refine detection and
