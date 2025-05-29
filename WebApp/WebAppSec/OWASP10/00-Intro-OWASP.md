@@ -99,8 +99,6 @@ The 2023 list refines API-specific risks with new trends and attack vectors:
 7. **[API7: Server Side Request Forgery (SSRF)](https://owasp.org//en/)*** *(New in API Top 10)*  
    - APIs fetching internal resources via user-supplied URLs (e.g., `GET /api/fetch?url=internal-ip`).  
 
-1.
-
 2. **[API8: Security Misconfiguration](https://owasp.org/API-Security/editions/2023/en/)**  
    - Includes:  
      - Unpatched servers or unnecessary features (e.g., debug endpoints).  
