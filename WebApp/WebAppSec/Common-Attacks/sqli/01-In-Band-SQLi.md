@@ -28,3 +28,21 @@ In-Band SQL Injection is one of the most common and straightforward types of SQL
 - Use web application firewalls (WAFs)
 
 Explain Error Based and Union Based a bit more
+
+ # In-Band SQL Injection: Error-Based and Union-Based
+
+## Error-Based SQL Injection
+
+Error-based SQL injection is a technique where attackers deliberately cause the database to generate error messages that reveal information about the database structure or contents.
+
+**How it works:**
+1. The attacker submits malicious input that causes a SQL error
+2. The application displays the error message (either directly or in logs)
+3. The error contains sensitive information about:
+   - Database structure (table names, column names)
+   - Database type/version
+   - Query syntax that can be exploited further
+
+**Example:**
+```sql
+' AND 1=CONVERT
