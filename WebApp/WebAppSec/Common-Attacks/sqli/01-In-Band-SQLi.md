@@ -101,5 +101,3 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
    ```
 
 4. Identify displayed columns by replacing NULLs one by one:
-
-
