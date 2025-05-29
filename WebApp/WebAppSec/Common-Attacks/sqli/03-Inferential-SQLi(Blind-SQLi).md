@@ -151,4 +151,7 @@ complete the reliabilty in table key differences
 
 | **Feature**            | **Inferential (Blind) SQLi**                          | **Classic (Error-Based/Union-Based) SQLi**          | **Boolean-Based Blind SQLi**                       | **Time-Based Blind SQLi**                          |
 |-------------------------|------------------------------------------------------|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
-| **Reliability**         | Moderate to High (depends on inference accuracy)     | High (direct data retrieval)                       |
+| **Reliability**         | Moderate to High (depends on inference accuracy)     | High (direct data retrieval)                       | Moderate (relies on true/false responses)         | Low to Moderate (affected by network delays)      |
+| **Detection Method**    | Observing behavioral changes in responses            | Direct error messages or UNION-based exploitation  | Boolean conditions (true/false responses)         | Delays in response time                           |
+| **Data Extraction Speed**| Slow (requires many requests for inference)          | Fast (immediate data leakage via errors/unions)    | Slower than classic but faster than time-based    | Very slow (requires timing delays per request)    |
+| **Stealthiness**        | High (no direct errors, harder to detect)           | Low (errors may trigger WAFs/logs)                 | Moderate                                          | High
