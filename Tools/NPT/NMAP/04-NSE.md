@@ -58,20 +58,6 @@ nmap --script-help "*smb*"
 
 ---
 
-### **Commonly Used NSE Scripts**
-| Category       | Example Scripts                     | Description |
-|----------------|-------------------------------------|-------------|
-| Discovery      | `dns-brute`, `snmp-info`            | Enumerates hosts/services |
-| Vulnerability  | `http-vuln-cve2021-44228` (Log4j)   | Checks for CVEs |
-| Brute Force    | `ssh-brute`, `mysql-brute`          | Password attacks |
-| Exploitation   | `smb-vuln-ms
-complete the table above
-
-
-Here’s the completed table along with a brief discussion about Nmap's NSE and the cheat sheet:
-
----
-
 ### **Commonly Used NSE Scripts**  
 | Category       | Example Scripts                     | Description |
 |----------------|-------------------------------------|-------------|

@@ -18,9 +18,4 @@ nmap -sS -A 192.168.1.1
 
 NMAP is widely used in penetration testing, network audits, and cybersecurity assessments. 🚀
 
-## It helps in:  
-  - Discovering live hosts on a network (**host discovery**).  
-  - Identifying open ports and services (**port scanning**).  
-  - Detecting operating systems (**OS fingerprinting**).  
-  - Finding vulnerabilities (**scripting engine with NSE – Nmap Scripting Engine**).  
 
