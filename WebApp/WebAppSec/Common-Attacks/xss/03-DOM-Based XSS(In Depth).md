@@ -58,4 +58,4 @@ When visited, the script executes in the victim's browser.
    - jQuery’s `html()`, `append()`, etc.
 1. Trace input sources (`location.hash`, `location.search
 
-Append From Detection & Exploitation do not write 
+Append From Detection & Exploitation do not write it all just continue
