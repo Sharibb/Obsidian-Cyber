@@ -151,30 +151,3 @@ Might return:
 ```
 Conversion failed when converting the nvarchar value '
 
-continue
-
- It looks like you're referencing a topic related to **In-Band SQL Injection (SQLi)**, possibly from a tutorial or course.  
-
-### **What is In-Band SQL Injection?**  
-In-Band SQL Injection is one of the most straightforward types of SQLi, where an attacker uses the same communication channel to both launch the attack and retrieve results. There are two main types:  
-
-1. **Error-Based SQLi** – Exploits database error messages to extract information.  
-2. **Union-Based SQLi** – Uses the `UNION` operator to combine malicious queries with legitimate ones, retrieving data from different tables.  
-
-### **Example of Union-Based SQLi**  
-Suppose a vulnerable website has a URL like:  
-```
-http://example.com/products?id=1
-```  
-An attacker might inject:  
-```
-http://example.com/products?id=1 UNION SELECT username, password FROM users--
-```  
-This could dump user credentials if the application is vulnerable.  
-
-### **Mitigation Techniques**  
-- Use **Prepared Statements (Parameterized Queries)**  
-- Implement **Input Validation & Sanitization**  
-- Apply the **Principle of Least Privilege** for database accounts  
-
-Would you like a deeper dive into any specific aspect (e.g., payloads, bypass techniques, or labs)?
