@@ -144,4 +144,4 @@ DOM-Based XSS is stealthy because it bypasses server-side protections. Always:
 2. Assume all client-side input is malicious.  
 3. Combine CSP with sanitization for defense-in-depth.  
 
-Use tools like **
+Use tools like **DOM Invader** during testing to automate discovery of vulnerable sinks.
