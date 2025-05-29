@@ -211,7 +211,7 @@
     "Networking/OSI-Layer",
     "WebApp/WebAppSec/OWASP10/SSRF.md",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
-    "WebApp/WebAppSec/OWASP10/Insecure Design.md",
+    "WebApp/WebAppSec/OWASP10/04-Insecure Design.md",
     "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/03-Injection.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/Sqli-Intro.md",
