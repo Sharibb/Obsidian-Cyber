@@ -188,4 +188,20 @@ Ensures software is developed securely by identifying and mitigating vulnerabili
 
 write industy trends for GRC and Appsec append
 
- Here are the **appended industry trends** for **GRC (Governance, Risk & Compliance)** and **Application Security (AppSec)**, integrated into your
+ Here are the **appended industry trends** for **GRC (Governance, Risk & Compliance)** and **Application Security (AppSec)**, integrated into your existing guide:
+
+---
+
+## **5. Governance, Risk & Compliance (GRC)**  
+### **Industry Trends:**  
+- **Expansion of Privacy Regulations**: Stricter enforcement of GDPR, CCPA, and emerging laws (e.g., India’s DPDP Act) driving demand for privacy officers.  
+- **Third-Party Risk Management (TPRM)**: Focus on securing supply chains due to high-profile vendor breaches (e.g., SolarWinds).  
+- **AI in Compliance Automation**: Tools like AI-driven policy management and continuous compliance monitoring (e.g., Drata, Vanta).  
+- **ESG Integration**: Cybersecurity risk becoming a core component of Environmental, Social, and Governance (ESG) reporting.  
+- **Zero Trust Frameworks**: Adoption of NIST SP 800-207 as a compliance benchmark for access control.  
+
+---
+
+## **7. Application Security (AppSec)**  
+### **Industry Trends:**  
+- **Shift-Left Acceleration**: Embedding security earlier in SDLC via DevSecOps pipelines (e.g., GitLab SA
