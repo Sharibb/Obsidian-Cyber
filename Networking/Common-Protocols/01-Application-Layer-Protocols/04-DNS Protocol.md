@@ -126,10 +126,10 @@ Used for **reverse DNS lookups**, mapping an IP address to a hostname. Commonly 
 
 ### **Additional Specialized DNS Records**  
 
-| Record  | Purpose                          | Example Syntax                          | Notes |
-|---------|----------------------------------|----------------------------------------|-------|
-| **SRV**  | Service location (e.g., VoIP, LDAP) | `_sip._tcp.example.com. 3600 IN SRV 10 5 5060 sipserver.example.com` | Format: `[Priority] [Weight] [Port] [Target]`. |
-| **CAA**  | Certificate Authority Authorization | `example.com. IN CAA 0 issue "letsencrypt.org"` | Restricts which CAs can issue certs for the domain. |
+| Record  | Purpose                             | Example Syntax                                                       | Notes                                               |
+| ------- | ----------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------- |
+| **SRV** | Service location (e.g., VoIP, LDAP) | `_sip._tcp.example.com. 3600 IN SRV 10 5 5060 sipserver.example.com` | Format: `[Priority] [Weight] [Port] [Target]`.      |
+| **CAA** | Certificate Authority Authorization | `example.com. IN CAA 0 issue "letsencrypt.org"`                      | Restricts which CAs can issue certs for the domain. |
 | **NAPTR**| Dynamic URI rewriting (e.g., SIP) | `example.com. IN NAPTR "S" "SIP+D2U" "" _sip._udp.example.com` | Used in telephony protocols like ENUM for E164 numbers to SIP URIs conversion, or even in some modern service discovery mechanisms where complex URI transformations are needed beyond simple SRV redirects.. For example:<br>`; order pref flags service regexp replacement<br>IN NAPTR 100 50 "s" "S
 ---
 
