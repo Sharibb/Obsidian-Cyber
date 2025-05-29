@@ -105,4 +105,13 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
    - APIs returning more data than needed (e.g., full user objects when only names are required).  
 
 1. **[API4: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/)**  
-   -
+   - Missing throttling leading to brute force attacks or denial-of-service (DoS).  
+
+1. **[API5: Broken Function Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
+   - Privilege escalation due to improper role checks (e.g., regular users accessing admin endpoints).  
+
+1. **[API6: Mass Assignment](https://owasp.org/API-Security/editions/2019/en/)**
+   - Binding client-provided data to internal objects without whitelisting (e.g., `isAdmin=true` in JSON payloads).  
+
+1. **[API7: Security Misconfiguration](https://owasp.org/API-Security/editions/2019/en/)**
+   - Default settings, verbose error messages, or unsecured cloud storage
