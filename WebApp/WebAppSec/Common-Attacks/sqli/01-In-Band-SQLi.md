@@ -150,3 +150,5 @@ Attackers often use these functions for error-based extraction:
 Might return:
 ```
 Conversion failed when converting the nvarchar value '
+
+continue
