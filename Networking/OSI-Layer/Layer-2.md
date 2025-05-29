@@ -56,6 +56,24 @@ The **Data Link Layer (Layer 2)** of the OSI model is subdivided into two sublay
    - **Key Functions**:  
      - **MAC Addressing**: Uses hardware addresses (`00:1A:2B:...`) for local delivery.  
      - **Medium Access**: Implements protocols like:  
-       - **CSMA/CD** (Carrier Sense Multiple Access/C
+       - **CSMA/CD** (Carrier Sense Multiple Access/Collision Detection) for Ethernet.  
+       - **CSMA/CA** (Collision Avoidance) for Wi-Fi.  
+       - **Token Passing** in legacy networks (e.g., Token Ring).  
+     - **Frame Delimiting**: Adds headers/trailers to form frames for transmission.  
+
+---
+
+### **Why Two Sublayers?**  
+- **Modularity**: Separates *medium-independent* tasks (LLC) from *medium-dependent* tasks (MAC). For example:  
+  - The same LLC can work over Ethernet (wired) or Wi-Fi (wireless), while MAC adapts to each medium’s rules.  
+- **Efficiency**: MAC handles collisions/contention, while LLC ensures reliable delivery to upper layers.
+
+---
+
+### Example Workflow: Sending a Frame  
+1. LLC receives data from Layer 3 → adds control info (e.g., protocol type).  
+2. MAC sublayer appends source/destination MAC addresses → applies medium-specific rules (e.g., CSMA/CA for Wi-Fi).  
+
+This division ensures flexibility across different network types while maintaining consistency for higher layers!
 
  
