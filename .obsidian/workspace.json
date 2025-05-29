@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
+                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identification & Authentication Failures"
+              "title": "Intro-OWASP"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
+                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Identification & Authentication Failures"
+              "title": "Outline of Intro-OWASP"
             }
           },
           {
@@ -192,8 +192,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
+    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "WebApp/WebAppSec/Common-Attacks",
     "WebApp/WebAppSec/OWASP10/02-Cryptographic Failure.md",
     "WebApp/WebAppSec/OWASP10/01-Broken Access Control.md",
@@ -213,7 +214,6 @@
     "WebApp/WebAppSec/OWASP10/Insecure Design.md",
     "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/Injection.md",
-    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/Sqli-Intro.md",
     "WebApp/WebAppSec/Common-Attacks/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
@@ -238,7 +238,6 @@
     "nsecure Design.md",
     "WebApp/WebAppSec/OWASP10",
     "WebApp/WebAppSec",
-    "Interview",
-    "Reverse Engg"
+    "Interview"
   ]
 }
