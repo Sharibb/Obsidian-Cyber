@@ -103,4 +103,3 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 3. **Limited to SELECT Statements** – Only works where a `SELECT` query is injectable; cannot directly modify data (`INSERT`, `UPDATE`, `DELETE`).  
 4. **May Trigger WAFs/IDS** – Signature-based security systems can detect common `UNION` payloads and block them.  
 
-Would you like me to expand on any specific part or add more details?
