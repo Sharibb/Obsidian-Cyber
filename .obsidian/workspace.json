@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
+                "file": "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Intro-To-Metasploit"
+              "title": "04-MSF-Payload-Modules"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
+                "file": "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-Intro-To-Metasploit"
+              "title": "Outline of 04-MSF-Payload-Modules"
             }
           },
           {
@@ -194,10 +194,11 @@
   },
   "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
+    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
+    "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
+    "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Tools/Weaponisation/Metasploit/02-MSF-Auxilary-Modules.md",
-    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
-    "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
     "WebApp/Intro To WebApplication.md",
     "Path in Cyber Security.md",
@@ -229,7 +230,6 @@
     "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/03-SMTP,IMAP,POP3 Protocols.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/00-Intro-To-Application-Layer-Protocol.md",
-    "Networking/Common-Protocols/01-Application-Layer-Protocols/02-FTP&SFTP Protocol.md",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
