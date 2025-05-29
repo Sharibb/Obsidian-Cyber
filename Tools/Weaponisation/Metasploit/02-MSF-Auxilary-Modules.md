@@ -86,5 +86,65 @@ msf6 > show options
 ---
 
 ```
-Continue from above b
+Continue from above append but dont start from begining
+
+ #### **(b) Configuring Options**  
+```bash
+msf6 > show options
 ```
+- Displays required (`Required: yes`) and optional parameters.  
+- Example output:
+  ```
+  Module options (auxiliary/scanner/portscan/tcp):
+
+     Name         Current Setting  Required  Description
+     ----         ---------------  --------  -----------
+     RHOSTS                        yes       Target IP(s) or CIDR range
+     PORTS        1-1000           yes       Ports to scan (e.g., 22,80,443)
+     THREADS      10               yes       Concurrent threads
+  ```
+
+#### **(c) Setting Parameters**  
+```bash
+msf6 > set RHOSTS 192.168.1.0/24   # Target network
+msf6 > set PORTS 80,443,22,3389    # Specific ports 
+msf6 > set THREADS 20              # Increase speed (with caution)
+```
+
+#### **(d) Executing the Module**  
+```bash
+msf6 > run   # or `exploit` for some modules
+```
+- Output example:
+  ```
+  [+] 192.168.1.10:22 - TCP OPEN (SSH)
+  [+] 192.168.1.15:80 - TCP OPEN (HTTP)
+  [-] 192.168.1.20:443 - Filtered (No response)
+  ```
+
+---
+
+### **4. Advanced Usage Examples**
+#### **(a) HTTP Title Scanner**  
+Extracts webpage titles from web servers:
+```bash
+msf6 > use auxiliary/scanner/http/title  
+msf6 > set RHOSTS file:/path/to/targets.txt  
+msf6 > run   # Outputs titles like "Company Login Portal"
+```
+
+#### **(b) SMB Command Execution**  
+Runs commands via SMB without payload deployment:
+```bash
+msf6 > use auxiliary/admin/smb/psexec_command  
+msf6 > set RHOSTS 192.168.1.100  
+msf6 > set SMBUser admin  
+msf6 > set SMBPass password123  
+msf6 > set COMMAND "whoami"  
+msf6 > run   # Executes `whoami` on the target
+```
+
+#### **(c) SSH Version Detection**  
+Identifies vulnerable SSH versions:
+```bash
+msf6
