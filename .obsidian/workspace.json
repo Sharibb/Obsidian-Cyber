@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/sqli/Sqli-Intro.md",
+                "file": "Networking/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sqli-Intro"
+              "title": "Untitled"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/sqli/Sqli-Intro.md",
+                "file": "Networking/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sqli-Intro"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -188,40 +188,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
   "active": "5082b3c65e43c060",
   "lastOpenFiles": [
+    "WebApp/WebAppSec/OWASP10/SSRF.md",
+    "Networking/Untitled.md",
+    "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
+    "WebApp/WebAppSec/OWASP10/Insecure Design.md",
+    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/Injection.md",
+    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
+    "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
+    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
     "WebApp/WebAppSec/OWASP10/sqli/Sqli-Intro.md",
     "WebApp/WebAppSec/OWASP10/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
     "Images/WebApp/OWASP/Owasp Vulnerability SQL Injection.webp",
-    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
-    "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
-    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
     "Images/WebApp/OWASP/CF2.png",
     "Images/WebApp/OWASP/CF1.png",
     "Images/WebApp/OWASP/data-encryption-and-cryptographic-failures.webp",
     "Images/WebApp/OWASP/BAC2.png",
     "Images/WebApp/OWASP/BAC1.jpg",
-    "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "Images/WebApp/OWASP/OWASP1.png",
     "Images/WebApp/OWASP",
     "Images/WebApp",
     "Images",
-    "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
-    "WebApp/WebAppSec/OWASP10/SSRF.md",
     "WebApp/WebAppSec/OWASP10/Software&Data Integrity Failures.md",
     "WebApp/WebAppSec/OWASP10/Security Misconfiguration.md",
     "WebApp/WebAppSec/OWASP10/Security Logging & Monitoring Failures.md",
-    "WebApp/WebAppSec/OWASP10/Insecure Design.md",
     "WebApp/WebAppSec/Intro.md",
     "Software/Data Integrity Failures.md",
     "Software",
