@@ -230,7 +230,7 @@
     "Images/WebApp",
     "Images",
     "WebApp/WebAppSec/OWASP10/Software&Data Integrity Failures.md",
-    "WebApp/WebAppSec/OWASP10/Security Misconfiguration.md",
+    "WebApp/WebAppSec/OWASP10/05-Security Misconfiguration.md",
     "WebApp/WebAppSec/OWASP10/Security Logging & Monitoring Failures.md",
     "WebApp/WebAppSec/Intro.md",
     "Software/Data Integrity Failures.md",
