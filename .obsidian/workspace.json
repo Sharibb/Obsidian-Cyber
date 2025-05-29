@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
+                "file": "WebApp/WebAppSec/OWASP10/02-Cryptographic Failure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro-OWASP"
+              "title": "02-Cryptographic Failure"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
+                "file": "WebApp/WebAppSec/OWASP10/02-Cryptographic Failure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro-OWASP"
+              "title": "Outline of 02-Cryptographic Failure"
             }
           },
           {
@@ -192,8 +192,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
+    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/07-Identification & Authentication Failures.md",
     "WebApp/WebAppSec/Common-Attacks",
     "WebApp/WebAppSec/OWASP10/02-Cryptographic Failure.md",
@@ -212,7 +213,6 @@
     "WebApp/WebAppSec/OWASP10/10-SSRF.md",
     "WebApp/WebAppSec/OWASP10/06-Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/04-Insecure Design.md",
-    "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/03-Injection.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/Sqli-Intro.md",
     "WebApp/WebAppSec/Common-Attacks/sqli",
