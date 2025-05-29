@@ -1,5 +1,4 @@
 
-
 Stored procedure injection is a type of SQL injection attack that targets database stored procedures. This vulnerability occurs when user-supplied input is improperly sanitized before being used in calls to stored procedures.
 
 ## Key Characteristics
