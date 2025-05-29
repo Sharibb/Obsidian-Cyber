@@ -168,4 +168,4 @@ Prevents data exfiltration via `fetch()` or `<img src="attacker.com">`.
 1. **Stealthy Persistence**: Payloads can remain dormant for weeks until triggered.
 2. **High Impact Targets**: Often exploits privileged users (admins, auditors).
 3. **B
-Continue from Why blind XSS is Dangerous Append dont write all
+Continue from Why blind XSS is Dangerous Append dont write all of it
