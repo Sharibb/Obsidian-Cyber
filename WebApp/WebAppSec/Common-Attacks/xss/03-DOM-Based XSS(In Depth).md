@@ -118,3 +118,30 @@ Append From Detection & Exploitation do not write it all just continue
 
 
 Continue from Real-World Case Study append dont write anything from the start just append
+
+ to dynamically render content without sanitization:  
+```javascript
+const page = window.location.hash.slice(1);  
+document.getElementById('content').innerHTML = page; // Vulnerable
+```
+
+**Exploitation:**  
+An attacker crafted a URL like:  
+```
+https://app.com/#<img src=x onerror=stealCookies()>
+```  
+When victims clicked the link, their session cookies were exfiltrated.  
+
+**Fix Implemented:**  
+- Replaced `innerHTML` with `textContent`.  
+- Added DOMPurify for cases requiring HTML rendering.  
+
+---
+
+## **Final Notes**
+DOM-Based XSS is stealthy because it bypasses server-side protections. Always:  
+1. Audit client-side code for unsafe DOM operations.  
+2. Assume all client-side input is malicious.  
+3. Combine CSP with sanitization for defense-in-depth.  
+
+Use tools like **
