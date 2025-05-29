@@ -113,11 +113,10 @@ The 2023 list refines API-specific risks with new trends and attack vectors:
      - Verbose error messages leaking stack traces or system details.  
      - Improper CORS policies allowing unauthorized cross-origin requests.  
 
-8. **[API9: Improper Inventory Management](https://owasp.org/API-Security/editions/2023/en/)*** *(Renamed from "Assets Management")*  
+9. **[API9: Improper Inventory Management](https://owasp.org/API-Security/editions/2023/en/)*** *(Renamed from "Assets Management")*  
    - Focuses on shadow/undocumented APIs, deprecated versions, or outdated documentation.  
 
-8. **[API10: Unsafe Consumption of APIs](https
-://owasp.org//en/)*** *(New)*  
+10. **[API10: Unsafe Consumption of APIs](https://owasp.org//en/)*** *(New)*  
     - Risks from trusting third-party APIs without validation:  
       - Data poisoning (e.g., malicious responses from external services).  
       - Insecure API chains (e.g., your API blindly forwards data from an untrusted source).  
@@ -127,7 +126,20 @@ The 2023 list refines API-specific risks with new trends and attack vectors:
 ### **Key Changes in 2023 vs. 2019**  
 - **New Additions**:  
   - *API3: Broken Object Property Level Authorization* (granular BOLA).  
-  - *API6: Un
+  - *API6: Unrestricted Access to Sensitive Business Flows* (anti-automation).  
+  - *API7: SSRF* (moved from general OWASP Top 10).  
+  - *API10: Unsafe Consumption of APIs* (third-party risks).  
+
+- **Renamed/Merged**:  
+  - "Excessive Data Exposure" (2019) split into *API1/BOLA* and *API3*.  
+  - "Mass Assignment" folded into *Broken Object Property Authorization*.  
+
+- **Emphasis Shift**:  
+  More focus on **business logic abuse** and **supply-chain risks** in APIs.  
+
+--- 
+
+Let me know if you'd like deeper explanations or examples for any item!
 ---
 
 ### **Why It Matters?** 🌍  
