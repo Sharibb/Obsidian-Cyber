@@ -96,8 +96,6 @@ Start small:
 🔗 [FreeCodeCamp](https://www.freecodecamp.org/) for hands-on practice.   
 
 ---
-
-
 ### **Web Application Security**  
 - **Importance**: Protects sensitive data, ensures user privacy, and prevents attacks like breaches or service disruptions.  
 - **Common Threats**:  
