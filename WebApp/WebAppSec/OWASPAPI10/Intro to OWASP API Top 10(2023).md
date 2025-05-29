@@ -41,3 +41,4 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
 
 ### **How to Use This Guide**  
 - **Developers**: Integrate mitigations into your API design (e.g., strict authZ checks).
+- continue
