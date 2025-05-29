@@ -77,3 +77,29 @@ Stored XSS (also known as Persistent XSS) is one of the most dangerous types of 
 function sanitize(input 
 ```
 Continue from Defense Strategies , append and dont write it from the start
+
+ # **02-Stored XSS (In-Depth) - Continued**  
+
+## **Defense Strategies (Continued)**  
+
+### **4. Context-Aware Output Encoding**  
+Different contexts (HTML, JavaScript, URL, CSS) require different encoding methods:  
+- **HTML Entity Encoding**: Convert `<`, `>`, `&`, `"`, `'` to `&lt;`, `&gt;`, `&amp;`, `&quot;`, `&#39;`.  
+- **JavaScript Encoding**: Use Unicode escapes (`\uXXXX`) for dynamic script content.  
+- **URL Encoding**: Encode user input in URLs using `encodeURIComponent()`.  
+
+**Example:**  
+```javascript
+// HTML Context
+const encodedInput = input.replace(/[<>'"&]/g, function(match) {
+    return {
+        '<': '&lt;',
+        '>': '&gt;',
+        '&': '&amp;',
+        '"': '&quot;',
+        "'": '&#39;'
+    }[match];
+});
+
+// JavaScript Context
+const jsEncoded =
