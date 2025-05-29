@@ -65,4 +65,28 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 **How it works:**
 1. The attacker determines the number of columns in the original query
 2. They craft a UNION SELECT statement with matching columns
-3. The
+3. The database combines and returns results from both queries
+
+**Example:**
+```sql
+' UNION SELECT username, password FROM users--
+```
+
+**Key requirements:**
+1. Both queries must return the same number of columns
+2. Corresponding columns must have compatible data types
+
+**Process for exploitation:**
+1. Find vulnerable parameter (through testing with `'` or `"`)
+2. Determine number of columns (using ORDER BY or UNION SELECT NULL,...)
+3. Identify which columns are displayed in output
+4. Craft UNION SELECT to extract desired data
+
+**Example step-by-step:**
+
+1. Test for vulnerability:
+   ```sql
+   product.php?id=1'
+   ```
+
+2. Find number
