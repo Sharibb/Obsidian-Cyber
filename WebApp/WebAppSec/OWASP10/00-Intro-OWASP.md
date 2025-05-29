@@ -105,8 +105,29 @@ The 2023 list refines API-specific risks with new trends and attack vectors:
 
 ---
 
+### **OWASP API Security Top 10 (2023)** *(Continued)*  
 
+8. **[API8: Security Misconfiguration](https://owasp.org/API-Security/editions/2023/en/)**  
+   - Includes:  
+     - Unpatched servers or unnecessary features (e.g., debug endpoints).  
+     - Verbose error messages leaking stack traces or system details.  
+     - Improper CORS policies allowing unauthorized cross-origin requests.  
 
+8. **[API9: Improper Inventory Management](https://owasp.org/API-Security/editions/2023/en/)*** *(Renamed from "Assets Management")*  
+   - Focuses on shadow/undocumented APIs, deprecated versions, or outdated documentation.  
+
+8. **[API10: Unsafe Consumption of APIs](https
+://owasp.org//en/)*** *(New)*  
+    - Risks from trusting third-party APIs without validation:  
+      - Data poisoning (e.g., malicious responses from external services).  
+      - Insecure API chains (e.g., your API blindly forwards data from an untrusted source).  
+
+---
+
+### **Key Changes in 2023 vs. 2019**  
+- **New Additions**:  
+  - *API3: Broken Object Property Level Authorization* (granular BOLA).  
+  - *API6: Un
 ---
 
 ### **Why It Matters?** 🌍  
