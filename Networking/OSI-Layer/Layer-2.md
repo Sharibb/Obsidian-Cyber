@@ -40,3 +40,21 @@ The **Data Link Layer (Layer 2)** of the **OSI model** is responsible for **node
 Layer 2 ensures reliable communication within a local network, forming the foundation for higher-layer protocols (e.g., IP at Layer 3). Issues like MAC flooding or VLAN misconfigurations can disrupt connectivity.
 
 Data Link is further divided into 2 parts complete from there
+
+ Certainly! The **Data Link Layer (Layer 2)** is subdivided into two sublayers to streamline its functions:
+
+### **Sublayers of the Data Link Layer:**
+1. **Logical Link Control (LLC) Sublayer**  
+   - **Function**: Manages communication between devices, independent of the underlying physical medium.  
+   - **Key Tasks**:  
+     - **Flow Control**: Coordinates data transmission rates (e.g., via acknowledgments).  
+     - **Error Control**: Detects and retransmits corrupted frames (using mechanisms like ARQ).  
+     - **Multiplexing**: Allows multiple network protocols (e.g., IP, IPX) to share a single physical link.  
+
+1. **Media Access Control (MAC) Sublayer**  
+   - **Function**: Governs how devices access and transmit data over the shared medium.  
+   - **Key Tasks**:  
+     - **Physical Addressing**: Uses MAC addresses for device identification.  
+     - **Access Control**: Implements protocols like CSMA/CD (Ethernet) or CSMA/CA (Wi-Fi) to avoid collisions.  
+     - **Frame Delimiting**: Adds headers/trailers to define frame boundaries.  
+
