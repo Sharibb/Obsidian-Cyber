@@ -46,13 +46,6 @@ When you enter a URL, the following steps occur:
    - If not cached, the request goes to a **DNS resolver** (usually ISP or public resolvers like Google’s `8.8.8.8`).
 
 3. **Iterative Query Process**  
-   - The resolver queries the root. continue, append but dont write from the start
-
- Here’s the continuation of the DNS resolution process, building on your existing content without repetition:
-
----
-
-3. **Iterative Query Process**  
    - The resolver queries the **root servers** (`.`) for the TLD (e.g., `.com`).  
    - The root responds with a referral to the appropriate **TLD server**.  
    - The resolver then queries the TLD server (e.g., `.com`), which refers it to the **authoritative name server** for the domain (e.g., `google.com`).  
