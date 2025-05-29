@@ -164,4 +164,20 @@ Here's the properly structured and complete version of your **Introduction to Cr
 
 # **Introduction to Cross-Site Scripting (XSS) - Types Explained Extensively**
 
-Cross-Site Scripting (XSS) is a security vulnerability that allows attackers to inject malicious
+Cross-Site Scripting (XSS) is a security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. These scripts execute in the victim's browser, potentially stealing sensitive data, hijacking sessions, or defacing websites.
+
+XSS attacks are categorized into three main types:  
+1. **Reflected XSS**  
+2. **Stored XSS**  
+3. **DOM-based XSS**  
+
+---
+
+## **1. Reflected XSS (Non-Persistent)**
+### **How It Works:**
+- Attacker crafts a malicious URL containing JavaScript (e.g., in a phishing email).  
+- Victim clicks the link, sending the payload to the server.  
+- Server reflects the script back unsafely in the response (e.g., search results).  
+- Victim’s browser executes the script.  
+
+### **
