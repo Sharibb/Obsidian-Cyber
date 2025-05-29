@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/sqli/04-Second Order SQLi.md",
+                "file": "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Second Order SQLi"
+              "title": "00-Sqli-Intro"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/sqli/04-Second Order SQLi.md",
+                "file": "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 04-Second Order SQLi"
+              "title": "Outline of 00-Sqli-Intro"
             }
           },
           {
@@ -194,8 +194,9 @@
   },
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
+    "WebApp/WebAppSec/Common-Attacks/sqli/05-.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/04-Second Order SQLi.md",
+    "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/03-Inferential-SQLi(Blind-SQLi).md",
     "WebApp/WebAppSec/Common-Attacks/sqli/02-Out-of-Band-SQLi.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/01-In-Band-SQLi.md",
@@ -222,7 +223,6 @@
     "WebApp/WebAppSec/OWASP10/10-SSRF.md",
     "WebApp/WebAppSec/OWASP10/06-Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/04-Insecure Design.md",
-    "WebApp/WebAppSec/OWASP10/03-Injection.md",
     "WebApp/WebAppSec/Common-Attacks/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
