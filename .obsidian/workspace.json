@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Ports/00-Intro to Ports.md",
+                "file": "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Intro to Ports"
+              "title": "00-Intro-To-Pentesting-Methodologies"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Ports/00-Intro to Ports.md",
+                "file": "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-Intro to Ports"
+              "title": "Outline of 00-Intro-To-Pentesting-Methodologies"
             }
           },
           {
@@ -194,8 +194,10 @@
   },
   "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
-    "Networking/Untitled.md",
     "Networking/Ports/00-Intro to Ports.md",
+    "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
+    "Pentesting/Methodologies",
+    "Networking/Untitled.md",
     "Networking/Ports",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/05-SSH Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
@@ -228,8 +230,6 @@
     "Software/Data Integrity Failures.md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/00-Intro To Cross Site Scripting(XSS).md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections",
-    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/01-Reflected XSS(In depth).md",
-    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
