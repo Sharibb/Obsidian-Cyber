@@ -184,3 +184,6 @@ Ensures software is developed securely by identifying and mitigating vulnerabili
 - **GWEB (GIAC Web Application Defender)** – Focuses on defensive AppSec.  
 
 ### Industry Trends:    
+
+
+write industy trends for GRC and 
