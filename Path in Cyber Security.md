@@ -60,4 +60,4 @@ Focuses on protecting systems by detecting and responding to threats.
 
 ---  
 
-*(Appended as requested—no additional content beyond certifications and trends for Defensive Security.)*
+Add Purple Teaming
