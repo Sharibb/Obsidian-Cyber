@@ -25,3 +25,44 @@ Stored XSS (also known as Persistent XSS) is one of the most dangerous types of 
    - Support tickets
 
 3. **Admin Interfaces**:
+   - Sometimes less secured than main user interfaces
+   - Can lead to privilege escalation
+
+## Technical Breakdown
+
+### Injection Points:
+```html
+<!-- Simple example in a comment field -->
+<script>alert('XSS')</script>
+
+<!-- More stealthy example using event handlers -->
+<img src="x" onerror="maliciousCode()">
+
+<!-- Using SVG files for XSS -->
+<svg onload="alert('XSS')"></svg>
+```
+
+### Advanced Techniques:
+1. **DOM-based Stored XSS**:
+   ```javascript
+   // When application reads from storage and writes to DOM without sanitization
+   document.getElementById('output').innerHTML = unescapedUserInput;
+   ```
+
+2. **Polyglot Payloads**:
+   ```html
+   <!-- Works in multiple contexts -->
+   ';alert('XSS')//
+   ```
+
+3. **Encoding Evasion**:
+   ```html
+   <!-- Using HTML entities or other encoding tricks -->
+   &lt;script&gt;alert(1)&lt;/script&gt;
+   
+### Impact Analysis
+
+| Severity Level | Potential Impact |
+|----------------|------------------|
+| Low            | Defacement, Annoyance |
+| Medium         |
