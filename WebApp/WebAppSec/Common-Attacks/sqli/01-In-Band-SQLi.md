@@ -126,7 +126,6 @@ If successful, they might see numbers `1`, `2`, or `3` in the output, indicating
 - Implement proper **Input Validation & Sanitization**.  
 - Apply **Least Privilege Principle** for database users.  
 
-Would you like me to expand on any specific part?
 
 1## Step 8: Automated Tools (Optional)
 Consider using sqlmap for more efficient exploitation:
