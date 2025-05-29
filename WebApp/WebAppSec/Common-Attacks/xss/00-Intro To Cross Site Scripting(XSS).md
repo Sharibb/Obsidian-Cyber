@@ -96,4 +96,5 @@ A blog comment with:
 When another user loads the page, their cookies are sent to the attacker.
 
 ### **Impact:**
-- Long-term compromise of user
+- Long-term compromise of user accounts.
+- Spread of malware
