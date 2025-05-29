@@ -96,7 +96,7 @@ Start small:
 🔗 [FreeCodeCamp](https://www.freecodecamp.org/) for hands-on practice.   
 
 ---
-### **Web Application Security**  *([[Intro|Get Started]]*
+### **Web Application Security**  *([[Intro|Get Started]])*
 - **Importance**: Protects sensitive data, ensures user privacy, and prevents attacks like breaches or service disruptions.  
 - **Common Threats**:  
   - **Injection Attacks** (e.g., SQL, XSS)  
