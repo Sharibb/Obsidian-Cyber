@@ -102,4 +102,32 @@ const encodedInput = input.replace(/[<>'"&]/g, function(match) {
 });
 
 // JavaScript Context
-const jsEncoded =
+const jsEncoded = input.replace(/['"\\]/g, '\\$&');
+```
+
+### **5. Content Security Policy (CSP)**  
+A strong CSP header mitigates XSS by restricting script execution sources:  
+```http
+Content-Security-Policy: default-src 'self'; script-src 'self' https://trusted.cdn.com; object-src 'none';
+```
+- Prevents inline scripts (`unsafe-inline`).  
+- Blocks external script loading from untrusted domains.  
+
+### **6. Input Validation & Sanitization Libraries**  
+Use libraries like:  
+- **DOMPurify** (JS) – Removes malicious HTML while preserving safe markup.  
+  ```javascript
+  const clean = DOMPurify.sanitize(userInput);
+  ```
+- **OWASP Java Encoder** – Context-aware encoding for Java apps.  
+
+### **7. Secure Cookie Attributes**  
+Prevent session hijacking via XSS:  
+```http
+Set-Cookie: sessionID=abc123; HttpOnly; Secure; SameSite=Strict;
+```
+- `HttpOnly` blocks JavaScript cookie access.  
+- `Secure` ensures cookies are sent only over HTTPS.  
+
+### **8. Regular Security Testing**  
+Automated
