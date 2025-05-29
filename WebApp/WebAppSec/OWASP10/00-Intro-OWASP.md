@@ -133,4 +133,15 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
    - Unauthorized access to objects via insecure endpoints (e.g., `/api/users/{id}`).  
 
 1. **[API2: Broken User Authentication](https://owasp.org/API-Security/editions/2019/en/)**  
-   - Weak
+   - Weak credential management, token leaks, or flawed session handling.  
+
+1. **[API3: Excessive Data Exposure](https://owasp.org/API-Security/editions/2019/en/)**  
+   - APIs returning more data than needed (e.g., full user objects instead of filtered fields).  
+
+1. **[API4: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/)**  
+   - No throttling leads to brute-force attacks or denial-of-service (DoS).  
+
+1. **[API5: Broken Function Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
+   - Privilege escalation due to missing role checks (e.g., admin APIs accessible to regular users).  
+
+6. **[API
