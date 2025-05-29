@@ -154,4 +154,13 @@ complete the reliabilty in table key differences
 | **Reliability**         | Moderate to High (depends on inference accuracy)     | High (direct data retrieval)                       | Moderate (relies on true/false responses)         | Low to Moderate (affected by network delays)      |
 | **Detection Method**    | Observing behavioral changes in responses            | Direct error messages or UNION-based exploitation  | Boolean conditions (true/false responses)         | Delays in response time                           |
 | **Data Extraction Speed**| Slow (requires many requests for inference)          | Fast (immediate data leakage via errors/unions)    | Slower than classic but faster than time-based    | Very slow (requires timing delays per request)    |
-| **Stealthiness**        | High (no direct errors, harder to detect)           | Low (errors may trigger WAFs/logs)                 | Moderate                                          | High
+| **Stealthiness**        | High (no direct errors, harder to detect)           | Low (errors may trigger WAFs/logs)                 | Moderate                                          | High                                              |
+| **Use Case Example**    | When the app shows generic responses but behaves differently based on queries. | When the app leaks errors or allows UNION queries.  | When boolean conditions affect output indirectly.  | When no direct feedback exists except delays.     |
+
+### Explanation of Reliability:
+- **Inferential SQLi**: Reliability depends on how accurately an attacker can infer data from subtle behavioral differences.
+- **Classic SQLi**: Highly reliable because it directly exposes data through errors or UNION queries.
+- **Boolean-Based Blind**: Moderately reliable since it relies on binary responses, which can sometimes be ambiguous.
+- **Time-Based Blind**: Least reliable due to potential false positives from network latency.
+
+Would you like any refinements or additional details?
