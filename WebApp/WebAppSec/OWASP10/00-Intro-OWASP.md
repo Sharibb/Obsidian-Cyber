@@ -71,6 +71,24 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
 10
 add the latest list of 2023 
 
+Here’s the updated section with the **OWASP API Security Top 10 (2023)**, the latest edition as of June 2024:
+
+---
+
+### **OWASP API Security Top 10 (2023)** *(Latest Edition)*  
+The 2023 list refines API-specific risks with new trends and attack vectors:  
+
+1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2023/en/)**  
+   - Still #1: Unauthorized access to objects via insecure endpoints (e.g., `GET /api/users/{id}` without proper checks).  
+
+1. **[API2: Broken Authentication](https://owasp.org/API-Security/editions/2023/en/)**  
+   - Now broader, covering weak JWT validation, misconfigured OAuth, and credential stuffing.  
+
+1. **[API3: Broken Object Property Level Authorization](https://owasp.org/API-Security/editions/2023/en/)*** *(New)*  
+   - Subset of BOLA: Exploiting partial object property updates (e.g., `PATCH /api/users` modifying sensitive fields like `isAdmin`).  
+
+1. **[API4: Unrestricted Resource Consumption](https://ow
+
 ---
 
 ### **Why It Matters?** 🌍  
