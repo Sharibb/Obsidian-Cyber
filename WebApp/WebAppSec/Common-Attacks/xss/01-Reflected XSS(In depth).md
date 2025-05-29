@@ -125,4 +125,17 @@ Here’s the complete, consolidated guide on **Reflected XSS (In-Depth)** with n
 # **Reflected XSS (In-Depth)**
 
 ## **Overview**  
-Reflected Cross-Site Scripting (XSS) is a web vulnerability where an attacker injects malicious scripts into a web application, which are then reflected back to the victim's browser.
+Reflected Cross-Site Scripting (XSS) is a web vulnerability where an attacker injects malicious scripts into a web application, which are then reflected back to the victim's browser. Unlike stored XSS, reflected XSS does not persist on the server—it requires user interaction with a crafted URL or input.
+
+---
+
+## **How Reflected XSS Works**  
+1. **Injection Point**: Attacker identifies a vulnerable parameter (e.g., search box, URL parameters).  
+2. **Malicious Payload**: Crafts a URL with JavaScript (e.g., `<script>alert(1)</script>`).  
+3. **Victim Interaction**: Victim clicks the malicious link (often via phishing).  
+4. **Execution**: Server reflects the payload in the response, executing it in the victim’s browser.  
+
+### **Example Scenario**  
+- Vulnerable URL:  
+  ```plaintext
+  https://example.com/search?query=<script>alert('XSS')</
