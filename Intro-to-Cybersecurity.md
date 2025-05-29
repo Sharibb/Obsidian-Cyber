@@ -23,4 +23,4 @@ Here’s a structured introduction to cybersecurity based on your starred block:
 
 ---
 
-Would you like to dive deeper into a specific subtopic (e.g., ethical hacking, cryptography)?
+Describe Paths in Cyber Security
