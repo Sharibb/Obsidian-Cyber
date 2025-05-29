@@ -59,7 +59,7 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
    - Enforce granular access controls (e.g., user-owned resources).  
    - Use UUIDs instead of sequential IDs to prevent IDOR.  
 
-1. **[API2] Broken Authentication**  
+2. **[API2] Broken Authentication**  
    - Implement multi-factor authentication (MFA).  
    - Block weak credentials and enforce short-lived tokens.  
 
