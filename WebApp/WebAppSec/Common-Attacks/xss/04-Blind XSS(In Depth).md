@@ -115,3 +115,9 @@ Prevents data exfiltration via `fetch()` or `<img src="attacker.com">`.
 
 ## **Real-World Examples**  
 Continue From Real-World Examples and and append dont write from the start
+
+ ## **Real-World Examples of Blind XSS Attacks**
+
+### **1. Ticket Support Systems (Zendesk, Freshdesk)**
+- **Scenario**: An attacker submits a malicious ticket with a JavaScript payload in the "description" field.
+- **Execution**: When a support agent views the ticket in the admin panel, the payload executes,
