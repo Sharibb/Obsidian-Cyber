@@ -44,6 +44,24 @@ Error-based SQL injection is a technique where attackers deliberately cause the 
    - Sometimes even actual data values
 
 ### Example Techniques:
-- **Type Conversion Errors**: `AND 1=CONVERT(int, (SELECT table_name FROM information
+- **Type Conversion Errors**: `AND 1=CONVERT(int, (SELECT table_name FROM information_schema.tables))`
+- **Divide-by-Zero Errors**: `OR 1=1/0` (when certain conditions are met)
+- **Function-Based Errors**: Using functions that don't exist or are used incorrectly
+
+### Advantages:
+- Doesn't require a visible output in the application
+- Works even when UNION statements are blocked
+- Can extract data directly from error messages
+
+### Limitations:
+- Requires that errors are displayed to the user
+- May be blocked by proper error handling
+
+## Union-Based SQL Injection
+
+Union-based SQL injection leverages the UNION SQL operator to combine results from the original query with results from an injected query.
+
+### How it works:
+1. **Determine Columns**: First determine the number of columns
 
  
