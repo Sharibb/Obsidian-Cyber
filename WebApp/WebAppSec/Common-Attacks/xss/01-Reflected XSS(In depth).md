@@ -167,4 +167,23 @@ Reflected Cross-Site Scripting (XSS) is a web vulnerability where an attacker in
 ```  
 ### Image Tag with `onerror`:  
 ```html
-<img src=x onerror=alert(1
+<img src=x onerror=alert(1)>
+```  
+### SVG-Based XSS:  
+```html
+<svg onload=alert(1)>
+```  
+
+---
+
+## **Impact of Reflected XSS**  
+- Cookie theft (`document.cookie`).  
+- Session hijacking.  
+- Phishing (injecting fake login forms).  
+
+---
+
+## **Prevention & Mitigation**  
+
+| Technique               | Implementation Example                          |
+|-------------------------|------------------------------------------------
