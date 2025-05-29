@@ -39,3 +39,5 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 ### **Why It Matters?** 🌍  
 - Addresses >90% of real-world application vulnerabilities.  
 - Aligns with compliance standards (e.g., PCI-DSS, ISO 27001).  
+
+Also add owasp api list and info 
