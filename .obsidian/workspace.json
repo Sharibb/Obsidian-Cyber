@@ -192,7 +192,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "c37767688f3fbd1e",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
     "WebApp/WebAppSec/OWASP10/02-Cryptographic Failure.md",
     "WebApp/WebAppSec/OWASP10/01-Broken Access Control.md",
@@ -213,8 +213,8 @@
     "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
     "WebApp/WebAppSec/OWASP10/Injection.md",
     "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
-    "WebApp/WebAppSec/OWASP10/sqli/Sqli-Intro.md",
-    "WebApp/WebAppSec/OWASP10/sqli",
+    "WebApp/WebAppSec/sqli/Sqli-Intro.md",
+    "WebApp/WebAppSec/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
