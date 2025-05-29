@@ -145,9 +145,7 @@ SELECT * FROM products WHERE id = 1 AND SUBSTRING((SELECT password FROM users WH
 | Detection Method  | Measures response time              | Observes behavioral differences    |
 | Speed             | Very slow                           | Relatively faster                  |
 | Reliability       | High (timing is unambiguous
-complete the reliabilty in table key differences
-
- Certainly! Below is a completed table outlining the key differences between **Inferential SQL Injection (Blind SQLi)** and other types of SQL Injection, with a focus on **reliability**:
+Below is a completed table outlining the key differences between **Inferential SQL Injection (Blind SQLi)** and other types of SQL Injection, with a focus on **reliability**:
 
 | **Feature**            | **Inferential (Blind) SQLi**                          | **Classic (Error-Based/Union-Based) SQLi**          | **Boolean-Based Blind SQLi**                       | **Time-Based Blind SQLi**                          |
 |-------------------------|------------------------------------------------------|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
