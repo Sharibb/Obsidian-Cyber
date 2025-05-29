@@ -30,4 +30,3 @@ Think of Layer 4 as a postal service:
 ### **Why It Matters**:
 Ensures data arrives *completely* and *in order* (TCP) or prioritizes speed over reliability (UDP), depending on application needs.  
 
-Would you like deeper dives into TCP/UDP or comparisons with Layer 3?
