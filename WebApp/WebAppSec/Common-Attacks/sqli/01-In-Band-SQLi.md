@@ -80,16 +80,7 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 4. Extract data: 
    ```
    product.php?id=-1 UNION SELECT 1,username,password,4,5 FROM users--
-   ```
-
-### Advantages:
-- Directly returns data in the application's normal output
-- Can extract large amounts of data efficiently
-- Works well when you can see
-
- continue from Advantages in Union based section complete it with limitation as you did with above
-
- ### **Union-Based SQL Injection**  
+   ``` 
 
 #### **Advantages:**  
 1. **Direct Data Extraction** – Retrieves data directly from the database by appending results to the original query.  
