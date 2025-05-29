@@ -87,4 +87,4 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 - Can extract large amounts of data efficiently
 - Works well when you can see
 
- 
+ continue from Advantages in Union based section complete it with limitation as you did with above
