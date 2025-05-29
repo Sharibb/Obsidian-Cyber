@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro-to-Cybersecurity.md",
+                "file": "Path in Cyber Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro-to-Cybersecurity"
+              "title": "Path in Cyber Security"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intro-to-Cybersecurity.md",
+                "file": "Path in Cyber Security.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro-to-Cybersecurity"
+              "title": "Outline of Path in Cyber Security"
             }
           },
           {
@@ -194,6 +194,7 @@
   },
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
+    "Intro-to-Cybersecurity.md",
     "WebApp/WebAppSec/Common-Attacks/Injections/xss/00-Intro To Cross Site Scripting(XSS).md",
     "README.md",
     "WebApp/WebAppSec/Common-Attacks/Injections",
@@ -223,7 +224,6 @@
     "WebApp/WebAppSec/Common-Attacks",
     "Networking/Intro To Computer Networking.md",
     "[Intro to OSI Layer.md",
-    "Networking/OSI-Layer/Layer-5.md",
     "Networking/OSI-Layer",
     "WebApp/WebAppSec/Common-Attacks/Injections/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
