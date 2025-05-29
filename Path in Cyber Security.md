@@ -86,3 +86,30 @@ Bridges the gap between **Red Team (attack)** and **Blue Team (defense)** by fos
 ---  
 
 Add DFIR , compliance and Specialised task like cloud, append and dont write from the start
+
+ Here’s the **appended content** for **DFIR, Compliance, and Specialized Roles (Cloud, AppSec, etc.)**, integrated seamlessly into your existing guide:
+
+---
+
+## **4. Digital Forensics & Incident Response (DFIR)**  
+### **Overview**  
+Focuses on investigating cyber incidents, collecting evidence, and restoring systems after breaches.  
+
+### **Key Roles:**  
+- **Incident Responder** – Contains and mitigates active threats.  
+- **Forensic Analyst** – Recovers and analyzes digital evidence.  
+- **Malware Analyst** – Reverse-engineers malicious code.  
+
+### **Required Skills:**  
+- Disk/Network Forensics (FTK, Autopsy, Wireshark).  
+- Memory Analysis (Volatility, Rekall).  
+- Malware Analysis (IDA Pro, Ghidra).  
+- Legal/compliance knowledge (chain of custody).  
+
+### **Certifications:**  
+- **GCFA (GIAC Certified Forensic Analyst)** – Advanced forensics.  
+- **GCFE (GIAC Certified Forensic Examiner)** – Focus on endpoint forensics.  
+- **CHFI (Computer Hacking Forensic Investigator)** – Entry-level forensics.  
+
+### **Industry Trends:**  
+- Rise of cloud forensics tools (AWS
