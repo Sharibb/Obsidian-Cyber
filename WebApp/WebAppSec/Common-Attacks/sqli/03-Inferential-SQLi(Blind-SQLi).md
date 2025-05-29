@@ -90,4 +90,4 @@ continue from exploitation process point number 3
 ```
 Remember that Blind SQLi attacks can be time-consuming but are often successful against vulnerable applications that don't properly sanitize input.
 
-Explain TIme based and Boolean Based more  
+Explain TIme based and Boolean Based more thorougly
