@@ -189,18 +189,4 @@ Inferential SQL Injection (Blind SQLi) is a type of attack where the attacker ca
    - Harder to detect because:
      - No visible errors are returned.
      - Requests appear legitimate but contain subtle conditional logic.
-   - Requires monitoring for abnormal behavior (e.g., repeated similar requests with slight variations).
-
----
-
-### **5. Common Exploitation Scenarios**
-   Blind SQLi is often found in:
-   - Login forms with generic error messages ("Login failed").
-   - Search functionalities that return "No results found."
-   - APIs that respond with HTTP status codes instead of detailed errors.
-
----
-
-### **6. Mitigation Techniques**
-   To prevent Blind SQLi:
-   1. Use **parameterized queries** or
+   - Requires monitoring
