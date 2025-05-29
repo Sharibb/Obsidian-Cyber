@@ -192,8 +192,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3dcdcfaca39ed188",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Compliance",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "Tools/WAPT/Burpsuite",
     "Tools/Weaponisation/Metasploit",
@@ -229,7 +230,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
     "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
     "WebApp/Intro To WebApplication.md",
-    "Path in Cyber Security.md",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
