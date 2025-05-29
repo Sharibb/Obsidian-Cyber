@@ -98,20 +98,26 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
 1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
    - Unauthorized access to objects via insecure endpoints (e.g., `/users/{id}` exposing other users' data).  
 
-1. **[API2: Broken User Authentication](https://owasp.org/API-Security/editions/2019/en/)**  
+2. **[API2: Broken User Authentication](https://owasp.org/API-Security/editions/2019/en/)**  
    - Weak or misconfigured authentication mechanisms (e.g., JWT flaws, credential stuffing).  
 
-1. **[API3: Excessive Data Exposure](https://owasp.org/API-Security/editions/2019/en/)**  
+3. **[API3: Excessive Data Exposure](https://owasp.org/API-Security/editions/2019/en/)**  
    - APIs returning more data than needed (e.g., full user objects when only names are required).  
 
-1. **[API4: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/)**  
+4. **[API4: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/)**  
    - Missing throttling leading to brute force attacks or denial-of-service (DoS).  
 
-1. **[API5: Broken Function Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
+5. **[API5: Broken Function Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
    - Privilege escalation due to improper role checks (e.g., regular users accessing admin endpoints).  
 
-1. **[API6: Mass Assignment](https://owasp.org/API-Security/editions/2019/en/)**
+6. **[API6: Mass Assignment](https://owasp.org/API-Security/editions/2019/en/)**
    - Binding client-provided data to internal objects without whitelisting (e.g., `isAdmin=true` in JSON payloads).  
 
-1. **[API7: Security Misconfiguration](https://owasp.org/API-Security/editions/2019/en/)**
-   - Default settings, verbose error messages, or unsecured cloud storage
+7. **[API7: Security Misconfiguration](https://owasp.org/API-Security/editions/2019/en/)**
+   - Default settings, verbose error messages, or unsecured cloud storage.  
+
+8. **[API8: Injection](https://owasp.org/API-Security/editions/2019/en/)**
+   - SQLi, NoSQLi, or command injection via unfiltered API inputs.  
+
+9. **[API9: Improper Assets Management](https://owasp.org/api-security/assets-management/)**
+  
