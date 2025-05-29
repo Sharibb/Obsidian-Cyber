@@ -202,7 +202,6 @@ write industy trends for GRC and Appsec append
 
 ---
 
-## **7. Application Security (AppSec)**  
 ### **Industry Trends:**  
 - **Shift-Left Acceleration**: Embedding security earlier in SDLC via DevSecOps pipelines (e.g., GitLab SAST, GitHub CodeQL).  
 - **API Security Surge**: Focus on securing APIs due to rising attacks (OWASP API Top 10).  
@@ -212,4 +211,3 @@ write industy trends for GRC and Appsec append
 
 --- 
 
-Let me know if you'd like further refinements!
