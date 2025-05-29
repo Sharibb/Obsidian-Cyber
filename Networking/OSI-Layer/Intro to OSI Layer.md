@@ -32,7 +32,7 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
    - Translates data formats between applications (encryption/decryption, compression).  
    - Example: SSL/TLS for secure transmission.  
 
-1. **Application Layer (Layer 7]])**  
+1. **Application Layer ([[Layer-7]])**  
    - User-facing protocols like HTTP(S), FTP, SMTP—directly interacts with software apps.  
 
 ---
