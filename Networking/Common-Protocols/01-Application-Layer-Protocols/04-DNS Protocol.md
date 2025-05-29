@@ -84,43 +84,17 @@ add all the dns records
 
 ## **Complete List of DNS Record Types**
 
-| Record    | Purpose                            | Example Syntax                                                                                                                                                                                                                                         | TTL                  | Notes                                                |
-| --------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ---------------------------------------------------- |
-| **A**     | Maps a hostname to IPv4            | `example.com. 3600 IN A 192.0.2.1`                                                                                                                                                                                                                     | 3600                 | Most common record.                                  |
-| **AAAA**  | Maps a hostname to IPv6            | `example.com. 3600 IN AAAA 2001:db8::1`                                                                                                                                                                                                                | 3600                 | IPv6 equivalent of `A`.                              |
-| **CNAME** | Canonical name (alias)             | `www.example.com. IN CNAME example.com`                                                                                                                                                                                                                | Inherits from target | Cannot coexist with other records for the same name. |
-| **MX**    | Mail server routing                | `example.com. 3600 IN MX 10 mail.example.com`                                                                                                                                                                                                          | 3600                 | Priority value (lower = higher priority).            |
-| **TXT**   | Arbitrary text data                | `example.com. IN TXT "v=spf1 include:_spf.example.com ~all"`                                                                                                                                                                                           | Varies               | Used for SPF, DKIM, DMARC, verification.             |
-| **NS**    | Authoritative name servers         | `example.com. 86400 IN NS ns1.example-dns.net`                                                                                                                                                                                                         | 86400                | Delegates subdomains or zones.                       |
-| **SOA**   | Start of Authority (zone metadata) | `example.com. IN SOA ns1.example-dns.net admin.example.com (2023082001 ...)`                                                                                                                                                                           | Varies               | Contains serial number, refresh/retry intervals.     |
-| **PTR**   | Reverse DNS (IP → hostname)        | `1.2.0.192.in-addr.arpa. IN PTR example.com`   -or-<br>`1..8.b.d...ip6.arpa IN PTR example.com` (IPv6)   -or-<br>`2-3-4-5.rev.example.com PTR host.example.org` (Custom reverse zone)   -or-<br>`3/26.rev.vpc.amazonaws.com PTR ec2-host.example.com.` |                      |                                                      |
+| Record    | Purpose                            | Example Syntax                                                                                                                                                                                                                                         | TTL                  | Notes                                                                                                                                                                                                                 |
+| --------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **A**     | Maps a hostname to IPv4            | `example.com. 3600 IN A 192.0.2.1`                                                                                                                                                                                                                     | 3600                 | Most common record.                                                                                                                                                                                                   |
+| **AAAA**  | Maps a hostname to IPv6            | `example.com. 3600 IN AAAA 2001:db8::1`                                                                                                                                                                                                                | 3600                 | IPv6 equivalent of `A`.                                                                                                                                                                                               |
+| **CNAME** | Canonical name (alias)             | `www.example.com. IN CNAME example.com`                                                                                                                                                                                                                | Inherits from target | Cannot coexist with other records for the same name.                                                                                                                                                                  |
+| **MX**    | Mail server routing                | `example.com. 3600 IN MX 10 mail.example.com`                                                                                                                                                                                                          | 3600                 | Priority value (lower = higher priority).                                                                                                                                                                             |
+| **TXT**   | Arbitrary text data                | `example.com. IN TXT "v=spf1 include:_spf.example.com ~all"`                                                                                                                                                                                           | Varies               | Used for SPF, DKIM, DMARC, verification.                                                                                                                                                                              |
+| **NS**    | Authoritative name servers         | `example.com. 86400 IN NS ns1.example-dns.net`                                                                                                                                                                                                         | 86400                | Delegates subdomains or zones.                                                                                                                                                                                        |
+| **SOA**   | Start of Authority (zone metadata) | `example.com. IN SOA ns1.example-dns.net admin.example.com (2023082001 ...)`                                                                                                                                                                           | Varies               | Contains serial number, refresh/retry intervals.                                                                                                                                                                      |
+| **PTR**   | Reverse DNS (IP → hostname)        | `1.2.0.192.in-addr.arpa. IN PTR example.com`   -or-<br>`1..8.b.d...ip6.arpa IN PTR example.com` (IPv6)   -or-<br>`2-3-4-5.rev.example.com PTR host.example.org` (Custom reverse zone)   -or-<br>`3/26.rev.vpc.amazonaws.com PTR ec2-host.example.com.` |                      | Used for **reverse DNS lookups**, mapping an IP address to a hostname. Commonly used in:  <br>- Email server validation (anti-spam measures).  <br>- Network troubleshooting (e.g., identifying devices by IP).  <br> |
 
- Here’s the continuation of the **DNS Record Types** section, focusing on **PTR records** and additional specialized records:
-
----
-
-### **PTR (Pointer Record)**  
-Used for **reverse DNS lookups**, mapping an IP address to a hostname. Commonly used in:  
-- Email server validation (anti-spam measures).  
-- Network troubleshooting (e.g., identifying devices by IP).  
-
-#### **Syntax Examples:**  
-1. **IPv4:**  
-   ```plaintext
-   1.2.0.192.in-addr.arpa. 3600 IN PTR example.com.
-   ```  
-   *(For IP `192.0.2.1`)*  
-
-2. **IPv6:**  
-   ```plaintext
-   1.0.0.0...8.b.d...ip6.arpa. 3600 IN PTR example.com.
-   ```  
-   *(For IPv6 `2001:db8::1`)*  
-
-3. **Custom Reverse Zones (e.g., AWS VPC):**  
-   ```plaintext
-   3/26.rev.vpc.amazonaws.com. IN PTR ec2-host.example.com.
-   ```  
 
 ---
 
