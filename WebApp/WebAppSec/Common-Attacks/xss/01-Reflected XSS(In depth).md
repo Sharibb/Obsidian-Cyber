@@ -75,7 +75,7 @@ Reflected Cross-Site Scripting (XSS) is a type of web vulnerability where an att
    - Prevent JavaScript access to cookies:  
 ```http
      Set-Cookie: sessionid=123; HttpOnly; Secure
-     ```
+      ```
 5. **Framework Protections**  
    - Use built-in protections (e.g., React’s JSX escaping, Django’s template auto-escaping).  
 
