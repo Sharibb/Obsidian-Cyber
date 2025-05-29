@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/Intro To Computer Networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Intro To Computer Networking"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/Intro To Computer Networking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Intro To Computer Networking"
             }
           },
           {
@@ -195,7 +195,7 @@
   "active": "5082b3c65e43c060",
   "lastOpenFiles": [
     "WebApp/WebAppSec/OWASP10/SSRF.md",
-    "Networking/Untitled.md",
+    "Networking/Intro To Computer Networking.md",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/Insecure Design.md",
     "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
