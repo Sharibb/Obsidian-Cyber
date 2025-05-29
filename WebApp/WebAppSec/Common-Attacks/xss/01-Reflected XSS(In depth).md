@@ -78,12 +78,12 @@ Append AFter Prevention & Mitigation
      ```http
      Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline'
      ```
-3. **HTTP-Only & Secure Cookies**  
+4. **HTTP-Only & Secure Cookies**  
    - Prevent JavaScript access to cookies:  
      ```http
      Set-Cookie: sessionid=123; HttpOnly; Secure
      ```
-3. **Framework Protections**  
+5. **Framework Protections**  
    - Use built-in protections (e.g., React’s JSX escaping, Django’s template auto-escaping).  
 
 ---
@@ -102,4 +102,22 @@ Append AFter Prevention & Mitigation
 
 ## **Advanced Bypass Techniques**  
 Attackers often evade filters using:  
-1. **Case Manipulation**: `<ScRiPt>alert
+1. **Case Manipulation**: `<ScRiPt>alert(1)</ScRiPt>`  
+2. **Encoding**: `%3Cscript%3Ealert(1)%3C/script%3E`  
+3. **Alternative Tags**: `<img src=x onerror=alert(1)>`  
+
+### Example Bypass Payloads:  
+```html
+<svg/onload=alert(1)>  <!-- No spaces -->
+<script>alert`1`</script>  <!-- Backticks instead of parentheses -->
+```
+
+---
+
+## **Real-World Case Studies**  
+1. **Google XSS (2020)**: A reflected XSS in Google Search allowed execution via malformed URLs ([CVE-2020-6502](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6502)).  
+2. **PayPal Phishing (2019)**: Attackers used reflected XSS to inject fake login forms into legitimate pages.  
+
+---
+
+## **Summary Checklist for Developers** ✅
