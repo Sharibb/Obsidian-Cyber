@@ -145,4 +145,4 @@ SELECT * FROM products WHERE id = 1 AND SUBSTRING((SELECT password FROM users WH
 | Detection Method  | Measures response time              | Observes behavioral differences    |
 | Speed             | Very slow                           | Relatively faster                  |
 | Reliability       | High (timing is unambiguous
-complete the reliab
+complete the reliabilty in table key differences
