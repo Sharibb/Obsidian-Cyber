@@ -82,4 +82,12 @@ Bridges the gap between **Red Team (attack)** and **Blue Team (defense)** by fos
 ### **Certifications:**  
 - **OSCP + CySA+** – Combines offensive and defensive certs.  
 - **CRTO (Certified Red Team Operator)** – Focuses on adversary emulation.  
-- **GXPN (GIAC Exploit Researcher
+- **GXPN (GIAC Exploit Researcher)** – Advanced offensive skills for purple teaming.  
+
+### **Industry Trends:**  
+- Growth of automated purple teaming platforms (e.g., SafeBreach, AttackIQ).  
+- Integration of threat intelligence into purple team exercises.  
+
+---  
+
+Let me know if you'd like any refinements! The rest of your original content remains intact.
