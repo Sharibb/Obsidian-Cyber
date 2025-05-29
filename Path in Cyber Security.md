@@ -188,20 +188,7 @@ Ensures software is developed securely by identifying and mitigating vulnerabili
 - **OSWE (Offensive Security Web Expert)** – Advanced web app exploitation.  
 - **GWEB (GIAC Web Application Defender)** – Focuses on defensive AppSec.  
 
-### Industry Trends:    
-
-
-write industy trends for GRC and Appsec append
-
- Here are the **appended industry trends** for **GRC (Governance, Risk & Compliance)** and **Application Security (AppSec)**, integrated into your existing guide:
-
 ---
-
-## **5. Governance, Risk & Compliance (GRC)**  
-
-
----
-
 ### **Industry Trends:**  
 - **Shift-Left Acceleration**: Embedding security earlier in SDLC via DevSecOps pipelines (e.g., GitLab SAST, GitHub CodeQL).  
 - **API Security Surge**: Focus on securing APIs due to rising attacks (OWASP API Top 10).  
