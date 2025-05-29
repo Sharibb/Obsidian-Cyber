@@ -66,4 +66,4 @@ Reflected Cross-Site Scripting (XSS) is a type of web vulnerability where an att
 2. **Output Encoding**  
    - Use HTML entity encoding (`&lt;
 
-Append
+Append AFter Prevention & Mitigattion
