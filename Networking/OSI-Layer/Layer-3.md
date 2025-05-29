@@ -1,4 +1,4 @@
-Network layer of OSI
+### Network layer of OSI
 
 
 The **Network Layer (Layer 3)** in the **OSI (Open Systems Interconnection) model** is responsible for:  
@@ -26,4 +26,3 @@ The **Network Layer (Layer 3)** in the **OSI (Open Systems Interconnection) mode
 ### **Comparison with TCP/IP Model:**  
 - In the TCP/IP model, Layer 3 corresponds to the **Internet Layer**.  
 
-Would you like more details on any specific aspect?
