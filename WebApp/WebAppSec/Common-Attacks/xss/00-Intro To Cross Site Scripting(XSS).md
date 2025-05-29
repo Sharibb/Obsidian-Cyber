@@ -100,3 +100,26 @@ When another user loads the page, their cookies are sent to the attacker.
 - Spread of malware
 
 Continue from Stored XSS(persistent) Impact point
+
+ Here's the continuation of the **Stored XSS (Persistent)** section, followed by **DOM-based XSS** and a conclusion:
+
+---
+
+## **2. Stored XSS (Persistent) - Continued**
+
+### **Impact (Continued):**
+- **Mass infection of users** (e.g., in social media posts or forums).  
+- **Defacement of websites** by injecting permanent malicious content.  
+- **Keylogging** by capturing user inputs (`onkeypress` events).  
+- **Exploiting trust** (users trust the legitimate site, making attacks harder to detect).  
+
+### **Mitigation:**  
+- Strict input validation (whitelist allowed characters).  
+- Output encoding before rendering user-generated content.  
+- Regular security audits for stored data.  
+- Use HTTP-only and Secure flags for cookies to limit theft.  
+
+---
+
+## **3. DOM-based XSS**  
+DOM-based XSS occurs when JavaScript modifies the DOM unsafely using attacker-controlled input (e.g., URL fragments or `document.location`). Unlike Reflected/Stored XSS, the server isn’t directly
