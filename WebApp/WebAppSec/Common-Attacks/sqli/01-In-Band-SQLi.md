@@ -160,3 +160,5 @@ sqlmap -u "http://example.com/page?id=1" --dbs --batch
 ```
 
 Would you like me to elaborate on any particular step or provide more specific examples for a certain database type?
+
+Fix after the step-by-step implementation
