@@ -90,4 +90,3 @@ Bridges the gap between **Red Team (attack)** and **Blue Team (defense)** by fos
 
 ---  
 
-Let me know if you'd like any refinements! The rest of your original content remains intact.
