@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/sqli/06-SQLi Payloads list.md",
+                "file": "WebApp/WebAppSec/Common-Attacks/xss/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-SQLi Payloads list"
+              "title": "Untitled"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/sqli/06-SQLi Payloads list.md",
+                "file": "WebApp/WebAppSec/Common-Attacks/xss/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 06-SQLi Payloads list"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -194,8 +194,11 @@
   },
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/06-SQLi Payloads list.md",
+    "WebApp/WebAppSec/Common-Attacks/xss/Untitled.md",
+    "WebApp/WebAppSec/Common-Attacks/xss",
+    "WebApp/WebAppSec/Common-Attacks/Untitled.md",
+    "WebApp/WebAppSec/Common-Attacks/sqli/00-Sqli-Intro.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/05-Stored Procedure Injection.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/04-Second Order SQLi.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/03-Inferential-SQLi(Blind-SQLi).md",
@@ -221,8 +224,6 @@
     "Networking/OSI-Layer/Layer-6.md",
     "Networking/OSI-Layer/Layer-7.md",
     "Networking/OSI-Layer",
-    "WebApp/WebAppSec/OWASP10/10-SSRF.md",
-    "WebApp/WebAppSec/OWASP10/06-Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/Common-Attacks/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
@@ -238,7 +239,6 @@
     "Images/WebApp",
     "Images",
     "Software",
-    "WebApp/WebAppSec/OWASP10",
-    "WebApp/WebAppSec"
+    "WebApp/WebAppSec/OWASP10"
   ]
 }
