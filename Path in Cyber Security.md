@@ -182,4 +182,7 @@ Ensures software is developed securely by identifying and mitigating vulnerabili
 - Dependency scanning (Snyk, Dependency-Track).  
 
 ### **Certifications:**  
-- **OSWE (
+- **OSWE (Offensive Security Web Expert)** – Advanced web app exploitation.  
+- **GWEB (GIAC Web Application Defender)** – Focuses on defensive AppSec.  
+
+### Industry Trends:    
