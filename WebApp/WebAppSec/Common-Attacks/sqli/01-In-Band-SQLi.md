@@ -62,6 +62,22 @@ Error-based SQL injection is a technique where attackers deliberately cause the 
 Union-based SQL injection leverages the UNION SQL operator to combine results from the original query with results from an injected query.
 
 ### How it works:
-1. **Determine Columns**: First determine the number of columns
+1. **Determine Columns**: First determine the number of columns in the original query (often using ORDER BY or UNION SELECT with NULL values)
+2. **Match Columns**: Ensure your injected query returns the same number of columns
+3. **Extract Data**: Use UNION to append your malicious query results to the legitimate ones
+
+### Example Process:
+1. Find vulnerable parameter: `product.php?id=1`
+2. Determine columns: 
+   ```
+   product.php?id=1 ORDER BY 5-- (no error)
+   product.php?id=1 ORDER BY 6-- (error) → 5 columns
+   ```
+3. Find visible columns: 
+   ```
+   product.php?id=-1 UNION SELECT 1,2,3,4,5--
+   ```
+4. Extract data: 
+  
 
  
