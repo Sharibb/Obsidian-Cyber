@@ -42,4 +42,4 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 - Simplifies troubleshooting by isolating layer-specific issues.  
 - Guides protocol development and network architecture design.
 
-Would you like a deeper dive into any specific layer?
+Create a table for all the layers and add the function common protocols useds and use 
