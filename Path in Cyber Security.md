@@ -78,4 +78,34 @@ Professionals simulate cyberattacks to identify vulnerabilities before malicious
 
 ### **Key Roles:**
 - **Penetration Tester (Pentester)** – Tests systems for weaknesses.  
-- **Red Teamer** – Conducts advanced simulated attacks
+- **Red Teamer** – Conducts advanced simulated attacks (e.g., adversary emulation).  
+- **Bug Bounty Hunter** – Finds vulnerabilities for rewards (e.g., HackerOne, Bugcrowd).  
+
+### **Required Skills:**
+- Network/web application security (OWASP Top 10).  
+- Exploit development (Metasploit, Burp Suite).  
+- Scripting (Python, Bash, PowerShell).  
+- Social engineering techniques.  
+
+### **Certifications:**
+- **OSCP** (Offensive Security Certified Professional) – Gold standard for pentesters.  
+- **CEH** (Certified Ethical Hacker) – Entry-level ethical hacking.  
+- **GPEN** (GIAC Penetration Tester) – Advanced pentesting.  
+
+### **Industry Trends:**
+- Cloud/IoT security testing demand.  
+- AI-driven penetration testing tools (e.g., automated vulnerability scanners).  
+
+---
+
+## **2. Defensive Security (Blue Team & SOC)**
+### **Overview**  
+Focuses on protecting systems by detecting and responding to threats.
+
+### **Key Roles:**
+- **SOC Analyst** – Monitors alerts in SIEM tools.  
+- **Incident Responder** – Handles active breaches.  
+- **Threat Hunter** – Proactively hunts for IOCs/TTPs.  
+
+### **Required Skills:**
+-
