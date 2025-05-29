@@ -45,4 +45,24 @@ Error-based SQL injection is a technique where attackers deliberately cause the 
 
 **Example:**
 ```sql
-' AND 1=CONVERT
+' AND 1=CONVERT(int, (SELECT table_name FROM information_schema.tables))--
+```
+This might return an error like:
+```
+Conversion failed when converting the nvarchar value 'users' to data type int.
+```
+Revealing that there's a table called "users".
+
+**Characteristics:**
+- Relies on verbose error reporting
+- Works even when no data is returned to the user
+- Often used for reconnaissance before other attacks
+
+## Union-Based SQL Injection
+
+Union-based SQL injection leverages the UNION SQL operator to combine results from the original query with results from an injected query.
+
+**How it works:**
+1. The attacker determines the number of columns in the original query
+2. They craft a UNION SELECT statement with matching columns
+3. The
