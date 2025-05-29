@@ -8,7 +8,7 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 
 ### **The 7 Layers of the OSI Model**  
 
-1. **Physical Layer (Layer 1) [[**  
+1. **Physical Layer (Layer 1) [[Layer-1]]**  
    - Deals with raw bit transmission over physical media (e.g., cables, Wi-Fi).  
    - Defines electrical, mechanical, and procedural aspects (voltage levels, pin layouts).  
 
