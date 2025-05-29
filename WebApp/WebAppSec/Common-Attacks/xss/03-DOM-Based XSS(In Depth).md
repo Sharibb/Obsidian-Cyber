@@ -41,7 +41,7 @@ When visited, the script executes in the victim's browser.
      document.getElementById('search-results').innerHTML = searchTerm; // Unsafe
      ```
 
-1. **Stored DOM-XSS**  
+2. **Stored DOM-XSS**  
    - Malicious payload is stored (e.g., in localStorage) and later retrieved & executed.
    - Example:  
      ```javascript
@@ -49,4 +49,14 @@ When visited, the script executes in the victim's browser.
      document.body.innerHTML += storedData; // Unsafe
      ```
 
-3. **
+3. **Mutated DOM-XSS (Advanced)**  
+   - Browser quirks or frameworks modify HTML in unexpected ways, leading to script execution.
+
+---
+
+## **Detection & Exploitation**
+### **Manual Testing Steps**
+1. Identify sinks (dangerous JavaScript functions that write to DOM):
+   - `innerHTML`, `outerHTML`, `document.write()`, `eval()`
+   - jQuery’s `html()`, `append()`, etc.
+2. Trace input sources (`location.hash`, `location.search
