@@ -62,6 +62,6 @@ Investigates cybercrimes and analyzes breaches:
    - Offensive: OSCP, CPTS
    - Defensive: CySA+, CISSP   
    - GRC: CISA, CRISC   
-1. Build experience via labs (TryHackMe,Hac), CTFs, or internships.  
+1. Build experience via labs (TryHackMe,HackTheBox,VulnHub), CTFs, or internships.  
 
 Cybersecurity is broad—start general, then specialize as you discover your strengths!
