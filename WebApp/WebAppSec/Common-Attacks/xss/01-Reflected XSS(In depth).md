@@ -133,4 +133,6 @@ Append from Summary and dont rewrite the whole thing just continue
 ### **Final Notes**  
 Reflected XSS remains a high-risk vulnerability due to its prevalence in web applications and ease of exploitation via phishing. Proactive defense requires a combination of secure coding practices, robust filtering, and continuous testing.  
 
-🔗 **Further Reading
+🔗 **Further Reading**:  
+- [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)  
+- [PortSwigger XSS Labs](https://portswigger.net/web-security/cross-site-scripting)
