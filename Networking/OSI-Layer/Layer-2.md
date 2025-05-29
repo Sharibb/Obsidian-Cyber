@@ -42,4 +42,20 @@ Layer 2 ensures reliable communication within a local network, forming the found
 Data Link is further divided into 2 parts complete from there
 
 
+The **Data Link Layer (Layer 2)** of the OSI model is subdivided into two sublayers to streamline its functions:
+
+### **1. Logical Link Control (LLC) Sublayer (IEEE 802.2)**  
+   - **Purpose**: Manages communication between devices *independent* of the physical medium.  
+   - **Key Functions**:  
+     - **Multiplexing**: Allows multiple Layer 3 protocols (e.g., IP, IPX) to share a single physical link.  
+     - **Flow & Error Control**: Uses mechanisms like **ACK/NACK** and sliding windows (if needed).  
+     - Provides a unified interface to the Network Layer (Layer 3).  
+
+### **2. Media Access Control (MAC) Sublayer (IEEE 802.3, 802.11, etc.)**  
+   - **Purpose**: Governs how devices *access* and transmit data over the shared physical medium.  
+   - **Key Functions**:  
+     - **MAC Addressing**: Uses hardware addresses (`00:1A:2B:...`) for local delivery.  
+     - **Medium Access**: Implements protocols like:  
+       - **CSMA/CD** (Carrier Sense Multiple Access/C
+
  
