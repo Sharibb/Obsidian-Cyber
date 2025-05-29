@@ -157,3 +157,18 @@ The payload executes.
 |--------------|--------------------------|----------------------------|-------------|
 | Reflected    | URL/HTTP Request         | Victim clicks malicious
 Conitnue from Conclusion point and append dont write everything from start
+
+ Here's the continuation from the **Conclusion** point, without repeating previous content:
+
+---
+
+## **Conclusion (Continued)**  
+
+| Type          | Storage Location         | Execution Trigger          | Persistence  |
+|--------------|--------------------------|----------------------------|-------------|
+| Reflected    | URL/HTTP Request         | Victim clicks malicious link | Non-persistent |
+| Stored       | Server (DB, comments)    | Victim loads infected page  | Persistent   |
+| DOM-based   | Client-side DOM          | Client-side JS processes input | Depends on URL |
+
+### **Key Takeaways:**  
+- **Reflected XSS** requires user interaction (e.g., phishing
