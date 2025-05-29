@@ -32,4 +32,3 @@ The **Application Layer (Layer 7)** is the topmost layer of the **OSI (Open Syst
 ### Difference from TCP/IP Model:
 In the TCP/IP model, Layer 7 combines OSI’s *Application*, *Presentation*, and *Session* layers into a single "Application Layer."  
 
-Would you like examples of Layer-7 attacks or tools that operate at this layer?
