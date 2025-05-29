@@ -100,4 +100,13 @@ Add a point for WebAppSecurity
  Here’s a concise addition for **Web Application Security** in your *Intro to Web Applications* content:  
 
 ### **Web Application Security**  
-- **Importance
+- **Importance**: Protects sensitive data, ensures user privacy, and prevents attacks like breaches or service disruptions.  
+- **Common Threats**:  
+  - **Injection Attacks** (e.g., SQL, XSS)  
+  - **Broken Authentication** (weak passwords/session handling)  
+  - **Sensitive Data Exposure** (poor encryption)  
+- **Mitigation**:  
+  - Use HTTPS, input validation, and parameterized queries.  
+  - Regular security audits (e.g., penetration testing).  
+
+Let me know if you'd like deeper coverage on any area!
