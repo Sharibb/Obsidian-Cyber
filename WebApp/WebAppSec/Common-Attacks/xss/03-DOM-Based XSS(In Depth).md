@@ -115,3 +115,6 @@ Append From Detection & Exploitation do not write it all just continue
 ## **Real-World Case Study**
 ### **Bug Bounty Example**
 - A popular SPA (Single Page App) used `location.hash`
+
+
+Continue from Real
