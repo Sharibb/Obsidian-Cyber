@@ -159,4 +159,4 @@ Read/write files (if DB permissions allow):
 SELECT @@version  
 
 -- List databases  
-SELECT schema_name FROM information
+SELECT schema_name FROM information_schema.schemata
