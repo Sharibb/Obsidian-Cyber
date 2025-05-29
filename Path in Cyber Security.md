@@ -204,4 +204,12 @@ write industy trends for GRC and Appsec append
 
 ## **7. Application Security (AppSec)**  
 ### **Industry Trends:**  
-- **Shift-Left Acceleration**: Embedding security earlier in SDLC via DevSecOps pipelines (e.g., GitLab SA
+- **Shift-Left Acceleration**: Embedding security earlier in SDLC via DevSecOps pipelines (e.g., GitLab SAST, GitHub CodeQL).  
+- **API Security Surge**: Focus on securing APIs due to rising attacks (OWASP API Top 10).  
+- **Software Bill of Materials (SBOM)**: Mandates like U.S. Executive Order 14028 driving adoption for transparency in dependencies.  
+- **AI-Powered Code Review**: Tools like Semgrep and SonarQube using ML to detect vulnerabilities faster.  
+- **Low-Code/No-Code Risks**: Security challenges in citizen-developed apps prompting new tooling (e.g., Snyk for low-code platforms).  
+
+--- 
+
+Let me know if you'd like further refinements!
