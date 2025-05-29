@@ -161,4 +161,20 @@ In-Band SQL Injection is one of the most straightforward types of SQLi, where an
 1. **Error-Based SQLi** – Exploits database error messages to extract information.  
 2. **Union-Based SQLi** – Uses the `UNION` operator to combine malicious queries with legitimate ones, retrieving data from different tables.  
 
-### **Example of Union-Based
+### **Example of Union-Based SQLi**  
+Suppose a vulnerable website has a URL like:  
+```
+http://example.com/products?id=1
+```  
+An attacker might inject:  
+```
+http://example.com/products?id=1 UNION SELECT username, password FROM users--
+```  
+This could dump user credentials if the application is vulnerable.  
+
+### **Mitigation Techniques**  
+- Use **Prepared Statements (Parameterized Queries)**  
+- Implement **Input Validation & Sanitization**  
+- Apply the **Principle of Least Privilege** for database accounts  
+
+Would you like a deeper dive into any specific aspect (e.g., payloads, bypass techniques, or labs)?
