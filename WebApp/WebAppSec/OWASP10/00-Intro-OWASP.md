@@ -71,8 +71,6 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
 10
 add the latest list of 2023 
 
-Here’s the updated section with the **OWASP API Security Top 10 (2023)**, the latest edition as of June 2024:
-
 ---
 
 ### **OWASP API Security Top 10 (2023)** *(Latest Edition)*  
