@@ -71,16 +71,7 @@ Stored XSS (also known as Persistent XSS) is one of the most dangerous types of 
 
 ## Defense Strategies
 
-1. **Input Validation**:
-```javascript
-// Example of whitelist validation in Node.js
-function sanitize(input 
-```
-Continue from Defense Strategies , append and dont write it from the start
-
- # **02-Stored XSS (In-Depth) - Continued**  
-
-## **Defense Strategies (Continued)**  
+ 
 
 ### **4. Context-Aware Output Encoding**  
 Different contexts (HTML, JavaScript, URL, CSS) require different encoding methods:  
