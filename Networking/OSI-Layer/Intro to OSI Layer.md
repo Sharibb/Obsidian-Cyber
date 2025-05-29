@@ -43,7 +43,6 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 - Guides protocol development and network architecture design.
 
 
-
 Here’s a structured table summarizing the **OSI Model layers**, their **functions**, **common protocols**, and associated **cyber threats**:  
 
 | **Layer**         | **Name**           | **Function**                                                                 | **Common Protocols**                     | **Common Cyber Threats**                                                                 |
@@ -58,7 +57,3 @@ Here’s a structured table summarizing the **OSI Model layers**, their **functi
 
 ---
 
-### **Key Takeaways**:  
-- Each layer has unique vulnerabilities requiring targeted defenses (e.g., firewalls for L3/L4; encryption for L6).  
-- Attacks often exploit protocol weaknesses (e.g., ARP spoofing at L2; HTTP-based exploits at L7).  
-- Layered security ("defense in depth") aligns with the
