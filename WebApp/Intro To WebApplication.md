@@ -95,9 +95,8 @@ Start small:
 🔗 [MDN Web Docs](https://developer.mozilla.org/) for tutorials.   
 🔗 [FreeCodeCamp](https://www.freecodecamp.org/) for hands-on practice.   
 
-Add a point for WebAppSecurity
+---
 
- Here’s a concise addition for **Web Application Security** in your *Intro to Web Applications* content:  
 
 ### **Web Application Security**  
 - **Importance**: Protects sensitive data, ensures user privacy, and prevents attacks like breaches or service disruptions.  
@@ -109,4 +108,3 @@ Add a point for WebAppSecurity
   - Use HTTPS, input validation, and parameterized queries.  
   - Regular security audits (e.g., penetration testing).  
 
-Let me know if you'd like deeper coverage on any area!
