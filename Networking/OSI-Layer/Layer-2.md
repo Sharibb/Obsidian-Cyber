@@ -39,4 +39,4 @@ The **Data Link Layer (Layer 2)** of the **OSI model** is responsible for **node
 ### Why It Matters:
 Layer 2 ensures reliable communication within a local network, forming the foundation for higher-layer protocols (e.g., IP at Layer 3). Issues like MAC flooding or VLAN misconfigurations can disrupt connectivity.
 
-Would you like deeper dives into specific Layer-2 protocols or troubleshooting?
+Data Link is further divi
