@@ -24,3 +24,22 @@ Here’s a structured introduction to cybersecurity based on your starred block:
 ---
 
 Describe Paths in Cyber Security
+
+ ### **Paths in Cybersecurity**  
+
+Cybersecurity offers diverse career paths, each focusing on different aspects of protecting digital assets. Below are key roles and specializations:  
+
+#### **1. Defensive Security**  
+Focuses on **preventing and mitigating attacks**. Roles include:  
+- **Security Analyst**: Monitors networks for threats, investigates incidents, and implements defenses.  
+- **Incident Responder**: Handles breaches, contains damage, and recovers systems.  
+- **Security Engineer**: Designs secure systems (firewalls, IDS/IPS) and enforces policies.  
+
+#### **2. Offensive Security (Ethical Hacking)**  
+Involves **proactively testing systems for vulnerabilities**. Roles include:  
+- **Penetration Tester**: Simulates attacks to find weaknesses (e.g., web apps, networks).  
+- **Red Teamer**: Conducts advanced adversary simulations to test defenses.  
+
+#### **3. Governance, Risk & Compliance (GRC)**  
+Ensures organizations meet security standards/laws:  
+- **Compliance Auditor**:
