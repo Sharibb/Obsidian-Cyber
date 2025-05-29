@@ -138,3 +138,19 @@ Ensures organizations meet regulatory requirements and manage cybersecurity risk
 
 ### Industry Trends:    
 continue append but dont start from the begiinging 
+
+Here’s the **appended content** for **Specialized Roles (Cloud Security, AppSec, IoT, etc.)**, integrated seamlessly into your existing guide without repeating earlier sections:
+
+---
+
+## **6. Cloud Security**  
+### **Overview**  
+Focuses on securing cloud environments (AWS, Azure, GCP) and hybrid infrastructures.  
+
+### **Key Roles:**  
+- **Cloud Security Architect** – Designs secure cloud frameworks.  
+- **DevSecOps Engineer** – Integrates security into CI/CD pipelines.  
+- **Cloud Penetration Tester** – Specializes in cloud-native vulnerability assessments.  
+
+### **Required Skills:**  
+- Cloud platform expertise (IAM, KMS, CSPM
