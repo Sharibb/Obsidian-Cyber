@@ -178,11 +178,6 @@ Continue with DNSSEC
 **Failure Modes:**  
 - If validation fails, resolvers may block the response (SERVFAIL) or warn users.  
 
----
-
-Let me know if you'd like to expand on specific aspects (e.g., key rotation, real-world attacks mitigated by DNSSEC)! Yes continue
-
- Here’s an expansion on **DNSSEC key management** and **real-world attack mitigations**, diving deeper into operational and security aspects:
 
 ---
 
@@ -272,4 +267,3 @@ Let me know if you'd like to expand on specific aspects (e.g., key rotation, rea
 ✔️ Key rotation requires careful planning to avoid outages.   
 ✔️ Real-world attacks like cache poisoning are mitigated by cryptographic validation.  
 
-Let me know if you'd like to
