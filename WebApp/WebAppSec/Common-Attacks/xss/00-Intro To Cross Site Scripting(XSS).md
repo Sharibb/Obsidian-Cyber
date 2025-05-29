@@ -157,3 +157,11 @@ The payload executes.
 |--------------|--------------------------|----------------------------|-------------|
 | Reflected    | URL/HTTP Request         | Victim clicks malicious
 Conitnue from Conclusion 
+
+Here's the properly structured and complete version of your **Introduction to Cross-Site Scripting (XSS)** guide, with all sections consolidated and duplicates removed:
+
+---
+
+# **Introduction to Cross-Site Scripting (XSS) - Types Explained Extensively**
+
+Cross-Site Scripting (XSS) is a security vulnerability that allows attackers to inject malicious
