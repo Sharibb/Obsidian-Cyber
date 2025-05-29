@@ -137,9 +137,7 @@ The 2023 list refines API-specific risks with new trends and attack vectors:
 - **Emphasis Shift**:  
   More focus on **business logic abuse** and **supply-chain risks** in APIs.  
 
---- 
 
-Let me know if you'd like deeper explanations or examples for any item!
 ---
 
 ### **Why It Matters?** 🌍  
