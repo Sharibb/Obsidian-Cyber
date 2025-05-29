@@ -132,16 +132,28 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
 1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
    - Unauthorized access to objects via insecure endpoints (e.g., `/api/users/{id}`).  
 
-1. **[API2: Broken User Authentication](https://owasp.org/API-Security/editions/2019/en/)**  
+2. **[API2: Broken User Authentication](https://owasp.org/API-Security/editions/2019/en/)**  
    - Weak credential management, token leaks, or flawed session handling.  
 
-1. **[API3: Excessive Data Exposure](https://owasp.org/API-Security/editions/2019/en/)**  
+3. **[API3: Excessive Data Exposure](https://owasp.org/API-Security/editions/2019/en/)**  
    - APIs returning more data than needed (e.g., full user objects instead of filtered fields).  
 
-1. **[API4: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/)**  
+4. **[API4: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/)**  
    - No throttling leads to brute-force attacks or denial-of-service (DoS).  
 
-1. **[API5: Broken Function Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
+5. **[API5: Broken Function Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
    - Privilege escalation due to missing role checks (e.g., admin APIs accessible to regular users).  
 
-6. **[API
+6. **[API6: Mass Assignment](https://owasp.org/API-Security/editions/2019/en/)***  
+   - Client-supplied data (e.g., JSON) blindly bound to internal objects, enabling parameter tampering.  
+
+7. **[API7: Security Misconfiguration](https://owasp.org/API-Security/editions/2019/en/)***  
+   - Unpatched servers, verbose error messages, or insecure default configurations.  
+
+8. **[API8: Injection](https://owasp.org/API-Security/editions/2019/en/)***  
+   - SQLi, NoSQLi, or command injection via unfiltered API inputs.  
+
+9. **[API9: Improper Assets Management](https://owasp.org//en/)***  
+   - Deprecated API versions exposed or undocumented endpoints left active.  
+
+10
