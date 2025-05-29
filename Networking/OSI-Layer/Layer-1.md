@@ -1,6 +1,5 @@
 ## Physical layer of OSI
 
-
 The **Physical Layer (Layer 1)** is the first and lowest layer of the **OSI (Open Systems Interconnection) model**. It deals with the **physical transmission of raw, unstructured data bits** over a communication medium.  
 
 ### **Key Functions of the Physical Layer:**  
