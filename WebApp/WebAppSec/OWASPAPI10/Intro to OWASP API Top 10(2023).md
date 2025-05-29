@@ -86,3 +86,12 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
 
 1. **[API10] Unsafe Consumption of APIs** *(New!)*  
     -continue
+
+ Here’s the continuation of your **OWASP API Top 10 (2023)** guide, focusing on mitigation for **API10** and closing with actionable takeaways:  
+
+---
+
+### **Mitigation Strategies** *(Continued)*  
+10. **[API10:2023] Unsafe Consumption of APIs**  
+   - **Validate responses** from third-party APIs (e.g., sanitize data before processing).  
+   - **Enforce TLS encryption** and verify
