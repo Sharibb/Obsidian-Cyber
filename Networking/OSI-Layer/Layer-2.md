@@ -41,36 +41,5 @@ Layer 2 ensures reliable communication within a local network, forming the found
 
 Data Link is further divided into 2 parts complete from there
 
- Certainly! The **Data Link Layer (Layer 2)** is subdivided into two sublayers to streamline its functions:
 
-### **Sublayers of the Data Link Layer:**
-1. **Logical Link Control (LLC) Sublayer**  
-   - **Function**: Manages communication between devices, independent of the underlying physical medium.  
-   - **Key Tasks**:  
-     - **Flow Control**: Coordinates data transmission rates (e.g., via acknowledgments).  
-     - **Error Control**: Detects and retransmits corrupted frames (using mechanisms like ARQ).  
-     - **Multiplexing**: Allows multiple network protocols (e.g., IP, IPX) to share a single physical link.  
-
-2. **Media Access Control (MAC) Sublayer**  
-   - **Function**: Governs how devices access and transmit data over the shared medium.  
-   - **Key Tasks**:  
-     - **Physical Addressing**: Uses MAC addresses for device identification.  
-     - **Access Control**: Implements protocols like CSMA/CD (Ethernet) or CSMA/CA (Wi-Fi) to avoid collisions.  
-     - **Frame Delimiting**: Adds headers/trailers to define frame boundaries.  
-
----
-
-### **Why Two Sublayers?**
-- The split separates **medium-independent functions** (LLC) from **medium-dependent functions** (MAC), enabling flexibility across different network types (e.g., Ethernet, Wi-Fi, PPP).  
-
----
-
-### **Example Workflow:**
-1. LLC ensures reliable delivery between two endpoints.  
-2. MAC handles addressing and collision avoidance on the local network segment.
-
-This division is standardized in the IEEE 802 model, where:  
-- LLC is defined by **IEEE 802.2**.  
-- MAC varies by technology (e.g., 802.3 for Ethernet, 802.11 for Wi-Fi).  
-
-Would you like deeper details on any specific sublayer?
+ 
