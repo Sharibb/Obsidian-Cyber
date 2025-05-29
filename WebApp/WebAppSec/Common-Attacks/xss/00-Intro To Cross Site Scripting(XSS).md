@@ -122,4 +122,37 @@ Continue from Stored XSS(persistent) Impact point
 ---
 
 ## **3. DOM-based XSS**  
-DOM-based XSS occurs when JavaScript modifies the DOM unsafely using attacker-controlled input (e.g., URL fragments or `document.location`). Unlike Reflected/Stored XSS, the server isn’t directly
+DOM-based XSS occurs when JavaScript modifies the DOM unsafely using attacker-controlled input (e.g., URL fragments or `document.location`). Unlike Reflected/Stored XSS, the server isn’t directly involved—the vulnerability is client-side.
+
+### **How It Works:**  
+1. Attacker crafts a malicious URL with a script in the fragment (`#`).  
+2. Victim visits the URL.  
+3. Client-side JavaScript processes the input and writes it to the DOM unsafely.  
+4. Malicious script executes in the victim’s browser.  
+
+### **Example:**  
+```http
+https://example.com/profile#<img src=x onerror=alert('XSS')>
+```
+If the page uses:  
+```javascript
+document.write(location.hash.substring(1)); // Unsafe DOM insertion
+```
+The payload executes.
+
+### **Impact:**  
+- Same as Reflected XSS (session hijacking, phishing, etc.).  
+- Harder to detect with server-side scanners since it’s client-side.  
+
+### **Mitigation:**  
+- Avoid unsafe DOM methods like `innerHTML`, `document.write()`.  
+- Use `.textContent` or safe DOM APIs instead.  
+- Sanitize inputs with libraries like DOMPurify.  
+
+---
+
+## **Conclusion**  
+
+| Type          | Storage Location         | Execution Trigger          | Persistence  |
+|--------------|--------------------------|----------------------------|-------------|
+| Reflected    | URL/HTTP Request         | Victim clicks malicious
