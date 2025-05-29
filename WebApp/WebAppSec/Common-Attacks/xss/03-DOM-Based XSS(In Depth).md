@@ -56,4 +56,5 @@ When visited, the script executes in the victim's browser.
 1. Identify sinks (dangerous JavaScript functions that write to DOM):
    - `innerHTML`, `outerHTML`, `document.write()`, `eval()`
    - jQuery’s `html()`, `append()`, etc.
-2. Trace input sources (`location.hash`, `location.search
+1. Trace input sources (`location.hash`, `location.search
+
