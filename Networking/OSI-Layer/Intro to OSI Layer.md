@@ -42,7 +42,6 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 - Simplifies troubleshooting by isolating layer-specific issues.  
 - Guides protocol development and network architecture design.
 
-Create a table for all the layers and add the function common protocols useds and use common cyber threats for those layers
 
 
 Here’s a structured table summarizing the **OSI Model layers**, their **functions**, **common protocols**, and associated **cyber threats**:  
@@ -53,4 +52,13 @@ Here’s a structured table summarizing the **OSI Model layers**, their **functi
 | **Layer 2**       | Data Link          | Node-to-node communication (MAC addressing), error detection (CRC).         | Ethernet (MAC), PPP, VLANs               | MAC spoofing, ARP poisoning, VLAN hopping.                                               |
 | **Layer 3**       | Network            | Logical addressing (IP), routing packets across networks.                   | IP, ICMP, BGP, OSPF                      | IP spoofing, DDoS (e.g., ICMP floods), route hijacking.                                  |
 | **Layer 4**       | Transport          | End-to-end reliability (TCP) or speed (UDP), flow control.                  | TCP, UDP, SCTP                           | SYN floods (TCP), UDP amplification attacks.                                             |
-| **Layer 5**       | Session            | Manages sessions between applications (setup/teardown).                     |
+| **Layer 5**       | Session            | Manages sessions between applications (setup/teardown).                     | NetBIOS, RPC                             | Session hijacking, man-in-the-middle (MITM) attacks.                                     |
+| **Layer 6**       | Presentation       | Data translation (encryption/compression).                                  | SSL/TLS, JPEG, MPEG                      | SSL stripping, encryption downgrade attacks.                                             |
+| **Layer 7**       | Application        | User-facing protocols for software applications.                            | HTTP(S), FTP, SMTP, DNS                  | Phishing (HTTP), SQL injection (web apps), malware delivery via SMTP/FTP.                |
+
+---
+
+### **Key Takeaways**:  
+- Each layer has unique vulnerabilities requiring targeted defenses (e.g., firewalls for L3/L4; encryption for L6).  
+- Attacks often exploit protocol weaknesses (e.g., ARP spoofing at L2; HTTP-based exploits at L7).  
+- Layered security ("defense in depth") aligns with the
