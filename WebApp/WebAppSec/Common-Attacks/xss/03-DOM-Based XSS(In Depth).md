@@ -69,16 +69,49 @@ Append From Detection & Exploitation do not write it all just continue
 1. **Identify sinks** (dangerous JavaScript functions that write to DOM):
    - `innerHTML`, `outerHTML`, `document.write()`, `eval()`
    - jQuery’s `html()`, `append()`, etc.
-1. **Trace input sources** (`location.hash`, `location.search`, `document.referrer`, form inputs).
-2. **Test payloads** in identified sources:
+2. **Trace input sources** (`location.hash`, `location.search`, `document.referrer`, form inputs).
+3. **Test payloads** in identified sources:
    - Basic probes: `<img src=x onerror=alert(1)>`
    - DOM-specific: `<svg onload=alert(document.domain)>`
 4. **Observe execution context**:
    - Is input reflected inside a JavaScript string, HTML attribute, or raw HTML?
-1. **Bypass filters**:
+5. **Bypass filters**:
    - Use alternative event handlers (`onmouseover`, `onfocus`).
    - Encode payloads to evade blacklists (e.g., `\u0061lert(1)`).
 
 ### **Automated Tools**
 - **Burp Suite DOM Invader**: Identifies DOM sinks and sources.
-- **OW
+- **OWASP ZAP**: Passive scanning for client-side XSS patterns.
+- **Browser DevTools**: Debugger to trace input flow.
+
+---
+
+## **Mitigation Strategies**
+### **1. Input Sanitization**
+- Use libraries like DOMPurify to clean user input before DOM insertion.
+  ```javascript
+  const cleanInput = DOMPurify.sanitize(userInput);
+  document.getElementById('output').innerHTML = cleanInput;
+  ```
+
+### **2. Safe Sink Alternatives**
+- Prefer `textContent` over `innerHTML` for non-HTML content.
+  ```javascript
+  document.getElementById('output').textContent = userInput; // Safe
+  ```
+
+### **3. Content Security Policy (CSP)**
+- Restrict script execution with policies like:
+  ```
+  Content-Security-Policy: script-src 'self'; object-src 'none'
+  ```
+
+### **4. Avoid Unsafe JavaScript Practices**
+- Never use `eval()` or dynamic script construction with untrusted input.
+- Sanitize JSON inputs before parsing (`JSON.parse()`).
+
+---
+
+## **Real-World Case Study**
+### **Bug Bounty Example**
+- A popular SPA (Single Page App) used `location.hash`
