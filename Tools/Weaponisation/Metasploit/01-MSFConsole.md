@@ -65,32 +65,4 @@ Here’s the completed **MSFConsole Cheat Sheet** table with additional essentia
 1. **Payload Generation**:  
    - Use `msfvenom` (outside `msfconsole`) to create standalone payloads (e.g., `.exe`, `.apk`, `.php`).  
    Example:
-continue from above
-
-
-Here’s the **finalized and polished MSFConsole Cheat Sheet**, including **payload generation examples** and **listener setup**:
-
----
-
-### **MSFConsole Cheat Sheet**  
-**Metasploit Framework (MSF)** is a powerful penetration testing tool, and `msfconsole` is its primary command-line interface. Below is a brief explanation and a cheat sheet of essential commands.
-
----
-
-### **Brief Explanation**  
-`msfconsole` provides an interactive environment to:  
-- Load & manage exploits, payloads, and auxiliary modules.  
-- Configure targets, set options, and execute attacks.  
-- Manage sessions (e.g., Meterpreter shells).  
-
----
-
-### **Cheat Sheet Table**  
-
-| **Category**       | **Command**                          | **Description**                                      |
-|--------------------|-------------------------------------|----------------------------------------------------|
-| **General**        | `help`                              | Show all available commands.                      |
-|                    | `banner`                            | Display a random Metasploit banner.               |
-|                    | `version`                           | Show Metasploit version.                          |
-|                    | `exit` / `quit`                     | Exit `msfconsole`.                                |
-| **Modules**
+continue,append but dont start from the begining
