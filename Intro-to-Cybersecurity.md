@@ -35,7 +35,7 @@ Focuses on **preventing and mitigating attacks**. Roles include:
 
 #### **2. Offensive Security (Ethical Hacking)**  
 Involves **proactively testing systems for vulnerabilities**. Roles include:  
-- **Penetration Tester**: Simulates attacks to find weaknesses (e.g., web apps, networks).  
+- **Penetration Tester**: Simulates attacks to find weaknesses (e.g., web apps, networks). **([[Intro-To-Pentesting|Get Started]])**
 - **Red Teamer**: Conducts advanced adversary simulations to test defenses.  
 
 #### **3. Governance, Risk & Compliance (GRC)**  
