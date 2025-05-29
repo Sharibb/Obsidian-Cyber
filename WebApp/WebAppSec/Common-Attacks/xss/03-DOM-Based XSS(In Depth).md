@@ -12,4 +12,41 @@ DOM-Based Cross-Site Scripting (XSS) is a type of security vulnerability where t
 - The attacker manipulates client-side JavaScript to inject malicious scripts.
 - The vulnerability arises when unsafe user input is written into the DOM without proper sanitization.
 - Common sources:
-  - `
+  - `document.location` (URL fragments, query parameters)
+  - `document.referrer`
+  - `window.name`
+  - Form inputs processed by JavaScript
+
+### **2. Example Attack Scenario**
+```javascript
+// Vulnerable code
+var userInput = document.location.hash.substring(1);
+document.write(userInput); // Unsafe DOM manipulation
+```
+**Exploitation:**
+An attacker crafts a malicious URL:
+```
+https://example.com/page#<script>alert('XSS')</script>
+```
+When visited, the script executes in the victim's browser.
+
+---
+
+## **Types of DOM-Based XSS**
+1. **Reflected DOM-XSS**  
+   - Malicious input comes from a URL parameter and is immediately reflected in the DOM.
+   - Example:  
+     ```javascript
+     var searchTerm = new URLSearchParams(window.location.search).get('q');
+     document.getElementById('search-results').innerHTML = searchTerm; // Unsafe
+     ```
+
+1. **Stored DOM-XSS**  
+   - Malicious payload is stored (e.g., in localStorage) and later retrieved & executed.
+   - Example:  
+     ```javascript
+     var storedData = localStorage.getItem('userData');
+     document.body.innerHTML += storedData; // Unsafe
+     ```
+
+3. **
