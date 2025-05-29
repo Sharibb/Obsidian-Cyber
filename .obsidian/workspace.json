@@ -192,8 +192,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "c37767688f3fbd1e",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "WebApp/WebAppSec/Untitled",
     "WebApp/WebAppSec/Intro to WebAppSec.md",
     "WebApp/Intro To WebApplication.md",
     "Networking/OSI-Layer/Layer-1.md",
@@ -236,7 +237,6 @@
     "WebApp/WebAppSec/OWASP10/09-Security Logging & Monitoring Failures.md",
     "Software/Data Integrity Failures.md",
     "Software",
-    "nsecure Design.md",
     "WebApp/WebAppSec/OWASP10",
     "WebApp/WebAppSec",
     "Interview"
