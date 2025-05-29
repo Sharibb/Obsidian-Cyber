@@ -212,6 +212,10 @@ Blind SQL Injection is a type of attack where:
 ### For Time-Based:
 - Measure response times for suspicious queries:
   - Baseline normal response time first
-  - Compare with
+  - Compare with injected query times
+  
+## Mitigation Strategies
+
+1. **Prepared Statements/Parameterized Qu
 
  
