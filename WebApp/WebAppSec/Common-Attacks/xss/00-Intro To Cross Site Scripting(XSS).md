@@ -186,4 +186,3 @@ XSS remains a top web vulnerability due to improper handling of user input. Deve
 
 --- 
 
-Let me know if you'd like
