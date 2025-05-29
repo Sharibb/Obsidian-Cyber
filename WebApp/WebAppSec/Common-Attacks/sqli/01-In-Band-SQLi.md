@@ -29,4 +29,21 @@ In-Band SQL Injection is one of the most common and straightforward types of SQL
 
 Explain Error Based and Union Based a bit more in depth
 
+ # In-Depth Explanation of Error-Based and Union-Based SQL Injection
+
+## Error-Based SQL Injection
+
+Error-based SQL injection is a technique where attackers deliberately cause the database to generate error messages that reveal information about the database structure or contents.
+
+### How it works:
+1. **Triggering Errors**: The attacker submits malicious input that causes SQL syntax errors or type conversion errors.
+2. **Information Extraction**: The error messages often contain valuable information like:
+   - Database type (MySQL, MSSQL, Oracle, etc.)
+   - Table names
+   - Column names
+   - Sometimes even actual data values
+
+### Example Techniques:
+- **Type Conversion Errors**: `AND 1=CONVERT(int, (SELECT table_name FROM information
+
  
