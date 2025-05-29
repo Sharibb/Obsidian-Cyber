@@ -1,16 +1,4 @@
 
----
-
-### **Why It Matters?** 🌍  
-- Addresses >90% of real-world application vulnerabilities.  
-- Aligns with compliance standards (e.g., PCI-DSS, ISO 27001).  
-
-Also add owasp api list and info 
-
-Here’s your updated document with the **OWASP API Security Top 10** included, formatted consistently with the existing content:
-
----
-
 ### **Introduction to OWASP Top 10**  
 The **OWASP Top 10** is a globally recognised list of the most critical web application security risks, published by the *Open Web Application Security Project (OWASP)*. It serves as a guideline for developers, security teams, and organisations to prioritise mitigation efforts.
 
@@ -81,3 +69,16 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
    - Deprecated API versions exposed or undocumented endpoints left active.  
 
 10
+
+
+---
+
+### **Why It Matters?** 🌍  
+- Addresses >90% of real-world application vulnerabilities.  
+- Aligns with compliance standards (e.g., PCI-DSS, ISO 27001).  
+
+Also add owasp api list and info 
+
+Here’s your updated document with the **OWASP API Security Top 10** included, formatted consistently with the existing content:
+
+---
