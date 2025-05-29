@@ -85,3 +85,4 @@ Bridges the gap between **Red Team (attack)** and **Blue Team (defense)** by fos
 
 ---  
 
+Add DFIR , compliance and Specialised task like cloud, append and dont write from the start
