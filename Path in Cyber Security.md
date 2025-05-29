@@ -61,3 +61,21 @@ Focuses on protecting systems by detecting and responding to threats.
 ---  
 
 Add Purple Teaming
+
+ Here’s the refined and expanded guide with **Purple Teaming** added as a dedicated section, along with corrections for duplicated content:
+
+---
+
+# **Comprehensive Guide to Major Career Paths in Cybersecurity**
+
+Cybersecurity is a vast and dynamic field with numerous specializations. Below is an in-depth breakdown of the major career paths, including required skills, certifications, job roles, and industry trends.
+
+---
+
+## **1. Offensive Security (Ethical Hacking & Penetration Testing)**
+### **Overview**  
+Professionals simulate cyberattacks to identify vulnerabilities before malicious hackers exploit them.
+
+### **Key Roles:**
+- **Penetration Tester (Pentester)** – Tests systems for weaknesses.  
+- **Red Teamer** – Conducts advanced simulated attacks
