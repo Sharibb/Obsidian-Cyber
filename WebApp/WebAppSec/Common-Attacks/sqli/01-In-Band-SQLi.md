@@ -177,4 +177,23 @@ Fix after the step-by-step implementation
    query = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'"
    
    # Fixed with parameterized query
-   cursor.execute("SELECT * FROM users WHERE username =
+   cursor.execute("SELECT * FROM users WHERE username = %s AND password = %s", (username, password))
+   ```
+
+3. **Use prepared statements**:
+   ```java
+   // Vulnerable
+   String query = "SELECT * FROM users WHERE username = '" + username + "'";
+   
+   // Fixed with prepared statement
+   PreparedStatement stmt = connection.prepareStatement("SELECT * FROM users WHERE username = ?");
+   stmt.setString(1, username);
+   ```
+
+4. **Implement input validation**:
+   - Whitelist allowed characters for each field type
+   - Example for usernames: only alphanumeric and certain special characters
+
+3. **Apply the principle of least privilege**:
+   - Database user should have only necessary permissions
+   - Avoid using admin/s
