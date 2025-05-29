@@ -85,3 +85,5 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):  
 
 1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)** – Unauthorized access to objects via
+   
+   Continue
