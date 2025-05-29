@@ -65,3 +65,5 @@ Investigates cybercrimes and analyzes breaches:
 1. Build experience via labs (TryHackMe,HackTheBox), CTFs(CTFtime,picoCTF,Vulnhub), or internships.  
 
 Cybersecurity is broad—start general, then specialize as you discover your strengths!
+
+---
