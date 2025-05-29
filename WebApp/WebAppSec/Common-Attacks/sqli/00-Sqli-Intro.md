@@ -64,4 +64,15 @@ The most common and straightforward type where results are returned in the same 
 ## 2. Blind/Inferential SQLi
 When results aren't returned directly, but attackers can infer information based on behavior.
 
-### Sub
+### Subtypes:
+- **Boolean-based Blind SQLi**: Uses true/false conditions to extract data bit by bit
+- **Time-based Blind SQLi**: Uses time delays (like SLEEP()) to infer information
+
+## 3. Out-of-band SQLi
+Uses alternative channels (DNS, HTTP requests) to retrieve data when other methods aren't possible.
+
+## Other Variations:
+- **Second-order SQLi**: Malicious input is stored and executed later
+- **Stored Procedure Injection**: Targets database stored procedures
+
+Each type requires different detection and exploitation techniques, with blind SQLi often being more time-consuming but equally dangerous when successful.
