@@ -72,4 +72,27 @@ Continue from Why Learn Web Development
 
 ### 4. Build Projects!  
 Start small:  
-- A todo list app (*
+- A todo list app (*CRUD operations*).  
+- A weather app using APIs (*fetch data from OpenWeatherMap*).  
+
+---
+
+## Challenges in Web Development  
+⚠ **Browser Compatibility**: Ensure apps work across Chrome, Firefox, Safari.  
+⚠ **Security Risks**: Prevent SQL injection, XSS attacks. Use HTTPS and sanitize inputs.   
+⚠ **Performance Optimization**: Minimize load times (*lazy loading, caching*).  
+
+---
+
+## Future Trends in Web Apps  
+🚀 **WebAssembly** (*near-native speed for complex apps*).   
+🚀 **AI Integration** (*chatbots, personalized content*).   
+🚀 **Serverless Architecture** (*AWS Lambda, Firebase Functions*).   
+
+---
+
+### Next Steps: Dive Deeper!  
+🔗 [MDN Web Docs](https://developer.mozilla.org/) for tutorials.   
+🔗 [FreeCodeCamp](https://www.freecodecamp.org/) for hands-on practice.   
+
+Would you like recommendations for specific learning paths?
