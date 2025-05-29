@@ -156,4 +156,4 @@ The payload executes.
 | Type          | Storage Location         | Execution Trigger          | Persistence  |
 |--------------|--------------------------|----------------------------|-------------|
 | Reflected    | URL/HTTP Request         | Victim clicks malicious
-Conitnue from Conclusion point a
+Conitnue from Conclusion point and append dont write ever
