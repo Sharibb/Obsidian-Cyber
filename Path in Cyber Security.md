@@ -136,7 +136,12 @@ Ensures organizations meet regulatory requirements and manage cybersecurity risk
 - **CISA (Certified Information Systems Auditor)** – Focus on IT audits.   
 - **CRISC (Certified in Risk and Information Systems Control)** – Risk management specialization.   
 
-### Industry Trends:    
+### ### **Industry Trends:**  
+- **Expansion of Privacy Regulations**: Stricter enforcement of GDPR, CCPA, and emerging laws (e.g., India’s DPDP Act) driving demand for privacy officers.  
+- **Third-Party Risk Management (TPRM)**: Focus on securing supply chains due to high-profile vendor breaches (e.g., SolarWinds).  
+- **AI in Compliance Automation**: Tools like AI-driven policy management and continuous compliance monitoring (e.g., Drata, Vanta).  
+- **ESG Integration**: Cybersecurity risk becoming a core component of Environmental, Social, and Governance (ESG) reporting.  
+- **Zero Trust Frameworks**: Adoption of NIST SP 800-207 as a compliance benchmark for access control.      
 
 
 ---
