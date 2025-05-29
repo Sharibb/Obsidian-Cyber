@@ -147,4 +147,34 @@ SELECT * FROM products WHERE id = 1 AND SUBSTRING((SELECT password FROM users WH
 | Reliability       | High (timing is unambiguous
 continue from Key differences table
 
+ # Inferential SQL Injection (Blind SQLi) - Continued from Key Differences Table
+
+## Understanding Blind SQL Injection
+
+Blind SQL Injection is a type of attack where:
+- The application doesn't display database errors or data directly in its responses
+- The attacker must infer information by observing behavioral differences in the application
+- It's slower but can be just as dangerous as regular SQLi
+
+## Types of Blind SQL Injection
+
+### 1. Boolean-Based Blind SQLi
+- The attacker sends queries that return TRUE or FALSE
+- The application's response changes visibly based on the result
+- Example: Different content when condition is true vs false
+
+```sql
+-- Example Boolean-based query
+' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='admin')='a'--
+```
+
+### 2. Time-Based Blind SQLi
+- The attacker sends queries that cause time delays when true
+- No visible content difference, only response timing changes
+- Example: Using database sleep functions
+
+```sql
+-- Example Time-based query (MySQL)
+' AND IF((SELECT SUBSTRING(password,1,1)
+
  
