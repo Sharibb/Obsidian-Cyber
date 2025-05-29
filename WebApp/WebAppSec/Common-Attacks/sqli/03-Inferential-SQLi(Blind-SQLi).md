@@ -173,4 +173,34 @@ Inferential SQL Injection (Blind SQLi) is a type of attack where the attacker ca
      - The attacker forces delays in query execution to infer data.
      - Example:  
        ```sql
-       AND IF(SUBSTRING(database(),1,1)='a', SLEEP(
+       AND IF(SUBSTRING(database(),1,1)='a', SLEEP(5), 0) --
+       ```
+     - If the condition is true, the response is delayed.
+
+---
+
+### **3. Slower Data Extraction**
+   - Since each query reveals only a small piece of information (e.g., one character at a time), extraction is much slower than in Union/Error-based attacks.
+   - Attackers often automate this process using tools like `sqlmap`.
+
+---
+
+### **4. Detection Difficulty**
+   - Harder to detect because:
+     - No visible errors are returned.
+     - Requests appear legitimate but contain subtle conditional logic.
+   - Requires monitoring for abnormal behavior (e.g., repeated similar requests with slight variations).
+
+---
+
+### **5. Common Exploitation Scenarios**
+   Blind SQLi is often found in:
+   - Login forms with generic error messages ("Login failed").
+   - Search functionalities that return "No results found."
+   - APIs that respond with HTTP status codes instead of detailed errors.
+
+---
+
+### **6. Mitigation Techniques**
+   To prevent Blind SQLi:
+   1. Use **parameterized queries** or
