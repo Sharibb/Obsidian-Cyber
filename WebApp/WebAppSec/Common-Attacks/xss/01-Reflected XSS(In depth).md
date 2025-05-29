@@ -72,4 +72,34 @@ Append AFter Prevention & Mitigation
 
 ---
 
-## **Prevention & Mitigation (
+## **Prevention & Mitigation (Continued)**  
+3. **Content Security Policy (CSP)**  
+   - Restrict inline scripts and external sources:  
+     ```http
+     Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline'
+     ```
+3. **HTTP-Only & Secure Cookies**  
+   - Prevent JavaScript access to cookies:  
+     ```http
+     Set-Cookie: sessionid=123; HttpOnly; Secure
+     ```
+3. **Framework Protections**  
+   - Use built-in protections (e.g., React’s JSX escaping, Django’s template auto-escaping).  
+
+---
+
+## **Testing for Reflected XSS**  
+### Manual Testing:  
+1. Inject simple payloads (`<script>alert(1)</script>`) into URL parameters/form inputs.  
+2. Check if payload executes or is sanitized.  
+
+### Automated Tools:  
+- **Burp Suite** (Scanner/Repeater)  
+- **OWASP ZAP** (Active Scan)  
+- **XSStrike** (Specialized XSS detection)  
+
+---
+
+## **Advanced Bypass Techniques**  
+Attackers often evade filters using:  
+1. **Case Manipulation**: `<ScRiPt>alert
