@@ -74,4 +74,6 @@ Stored XSS (also known as Persistent XSS) is one of the most dangerous types of 
 1. **Input Validation**:
 ```javascript
 // Example of whitelist validation in Node.js
-function sanitize(input
+function sanitize(input 
+```
+C
