@@ -186,4 +186,4 @@ Ensures software is developed securely by identifying and mitigating vulnerabili
 ### Industry Trends:    
 
 
-write industy trends for GRC and 
+write industy trends for GRC and Appsec append
