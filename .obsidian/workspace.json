@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "27d9ca1c9442c59f",
+        "id": "1b2aa533d158d23a",
         "type": "tabs",
         "children": [
           {
-            "id": "5082b3c65e43c060",
+            "id": "c37767688f3fbd1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,8 +192,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "5082b3c65e43c060",
+  "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
+    "[Intro to OSI Layer.md",
+    "Networking/Intro To Computer Networking.md",
     "Networking/OSI-Layer/Layer-5.md",
     "Networking/OSI-Layer/Layer-4.md",
     "Networking/OSI-Layer/Layer-3.md",
@@ -202,7 +204,6 @@
     "Networking/OSI-Layer/Layer-6.md",
     "Networking/OSI-Layer/Layer-7.md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
-    "Networking/Intro To Computer Networking.md",
     "Networking/OSI-Layer",
     "WebApp/WebAppSec/OWASP10/SSRF.md",
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
@@ -235,7 +236,6 @@
     "Software",
     "nsecure Design.md",
     "Intro to Cyber security.md",
-    "Welcome.md",
     "WebApp/WebAppSec/OWASP10",
     "WebApp/WebAppSec",
     "Interview",
