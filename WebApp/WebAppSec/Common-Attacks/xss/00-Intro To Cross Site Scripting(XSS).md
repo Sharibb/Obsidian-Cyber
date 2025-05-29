@@ -16,4 +16,22 @@ Cross-Site Scripting (XSS) is a common web security vulnerability that allows at
    - **Reflected XSS**: Malicious script is reflected off a web server in response
    - **DOM-based XSS**: Vulnerability exists in client-side code rather than server-side code
 
-3. **Common
+3. **Common Attack Vectors**:
+   ```html
+   <script>alert('XSS')</script>
+   ```
+   ```html
+   <img src="x" onerror="alert('XSS')">
+   ```
+   ```javascript
+   javascript:alert('XSS')
+   ```
+
+## Prevention Techniques
+
+- Input validation and output encoding
+- Implementing Content Security Policy (CSP)
+- Using secure frameworks that auto-escape content
+- Setting HttpOnly flag on cookies
+
+Understanding XSS is fundamental for both developers (to prevent vulnerabilities) and security professionals (to test for them).
