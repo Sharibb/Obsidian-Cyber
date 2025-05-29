@@ -42,4 +42,28 @@ Involves **proactively testing systems for vulnerabilities**. Roles include:
 
 #### **3. Governance, Risk & Compliance (GRC)**  
 Ensures organizations meet security standards/laws:  
-- **Compliance Auditor**:
+- **Compliance Auditor**: Checks adherence to regulations (GDPR, HIPAA).  
+- **Risk Manager**: Identifies risks and develops mitigation strategies.  
+
+#### **4. Digital Forensics & Incident Response (DFIR)**  
+Investigates cybercrimes and analyzes breaches:  
+- **Forensic Analyst**: Recovers data from hacked devices for legal evidence.  
+- **Malware Analyst**: Reverse-engineers malicious software to understand threats.  
+
+#### **5. Specialized Tracks**  
+- **Cloud Security**: Secures AWS/Azure/GCP environments (e.g., Cloud Security Architect).  
+- **IoT/OT Security**: Protects smart devices and industrial systems.  
+- **Cryptography**: Develops encryption algorithms and secure communication protocols.  
+
+---
+
+### **How to Choose a Path?**  
+1. Assess your interests: Hands-on hacking vs. policy/analysis vs. engineering?  
+2. Gain foundational knowledge (e.g., CompTIA Security+, Network+).  
+3. Pursue role-specific certs:  
+   - Offensive: OSCP, CEH   
+   - Defensive: CySA+, CISSP   
+   - GRC: CISA, CRISC   
+4. Build experience via labs (TryHackMe), CTFs, or internships.  
+
+Cybersecurity is broad—start general, then specialize as you discover your strengths!
