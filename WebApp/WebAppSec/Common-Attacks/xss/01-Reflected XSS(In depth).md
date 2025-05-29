@@ -106,7 +106,6 @@ Attackers often evade filters using:
 <svg/onload=alert(1)>  <!-- No spaces -->
 <script>alert`1`</script>  <!-- Backticks instead of parentheses -->
 ```
-```
 
 ---
 
