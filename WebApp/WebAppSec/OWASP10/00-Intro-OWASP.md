@@ -74,4 +74,14 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 4. **[[04-Insecure Design|Insecure Design]]** *(New in 2021)*  
 5. **[[05-Security Misconfiguration|Security Misconfiguration]]**  
 6. **[[06-Vulnerable&Outdated Components|Vulnerable and Outdated Components]]**  
-7
+7. **[[07-Identification & Authentication Failures|Identification and Authentication Failures]]**  
+8. **[[08-Software&Data Integrity Failures| Software and Data Integrity Failures]]** *(New)*  
+9. **[[09-Security Logging & Monitoring Failures]]**  
+10. **[[10-SSRF|Server Side Request Forgery(SSRF)]]** *(New)*  
+
+---
+
+### **OWASP API Security Top 10 (2019)** *(For API-Specific Risks)*   
+Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):  
+
+1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)** – Unauthorized access to objects via
