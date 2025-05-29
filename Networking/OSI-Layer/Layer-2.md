@@ -1,4 +1,4 @@
-Data Link Layer of OSI
+## Data Link Layer of OSI
 
 
 The **Data Link Layer (Layer 2)** of the **OSI model** is responsible for **node-to-node communication**, ensuring error-free data transfer between directly connected devices over a physical medium. Here’s a concise breakdown:
