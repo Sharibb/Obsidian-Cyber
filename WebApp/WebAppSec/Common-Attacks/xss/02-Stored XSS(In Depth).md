@@ -148,4 +148,11 @@ function SafeComponent({ userInput }) {
 ```
 
 ### **10. Monitoring & Incident Response**  
-Detect and mitigate exploitation
+Detect and mitigate exploitation attempts:  
+- Deploy **Web Application Firewalls (WAFs)** to block XSS payloads.  
+- Log and analyze suspicious input patterns (e.g., repeated `<script>` tags).  
+- Implement real-time alerts for DOM modifications or cookie theft.  
+
+---
+
+**Final Notes:** Stored XSS requires a *defense-in-depth* approach—combine encoding, validation, CSP, and secure frameworks to minimize risks effectively. Always test fixes in staging environments before deployment.
