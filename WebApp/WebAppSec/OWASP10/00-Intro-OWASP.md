@@ -81,48 +81,7 @@ The **OWASP Top 10** is a globally recognised list of the most critical web appl
 
 ---
 
-### **OWASP API Security Top 10 (2019)** *(For API-Specific Risks)*   
-Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):  
 
-1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)** – Unauthorized access to objects via
-   
-   Continue
-
- Here’s the continuation of the **OWASP API Security Top 10 (2019)** section, formatted for clarity and consistency with your document:
-
----
-
-### **OWASP API Security Top 10 (2019)** *(For API-Specific Risks)*  
-Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):  
-
-1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
-   - Unauthorized access to objects via insecure endpoints (e.g., `/users/{id}` exposing other users' data).  
-
-2. **[API2: Broken User Authentication](https://owasp.org/API-Security/editions/2019/en/)**  
-   - Weak or misconfigured authentication mechanisms (e.g., JWT flaws, credential stuffing).  
-
-3. **[API3: Excessive Data Exposure](https://owasp.org/API-Security/editions/2019/en/)**  
-   - APIs returning more data than needed (e.g., full user objects when only names are required).  
-
-4. **[API4: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/)**  
-   - Missing throttling leading to brute force attacks or denial-of-service (DoS).  
-
-5. **[API5: Broken Function Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
-   - Privilege escalation due to improper role checks (e.g., regular users accessing admin endpoints).  
-
-6. **[API6: Mass Assignment](https://owasp.org/API-Security/editions/2019/en/)**
-   - Binding client-provided data to internal objects without whitelisting (e.g., `isAdmin=true` in JSON payloads).  
-
-7. **[API7: Security Misconfiguration](https://owasp.org/API-Security/editions/2019/en/)**
-   - Default settings, verbose error messages, or unsecured cloud storage.  
-
-8. **[API8: Injection](https://owasp.org/API-Security/editions/2019/en/)**
-   - SQLi, NoSQLi, or command injection via unfiltered API inputs.  
-
-9. **[API9: Improper Assets Management](https://owasp.org/api-security/assets-management/)**
-  continue
-
- Here’s the complete and polished **OWASP API Security Top 10 (2019)** section, following your document's structure and style:
 
 ---
 
