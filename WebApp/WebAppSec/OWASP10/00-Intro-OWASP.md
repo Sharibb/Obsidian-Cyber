@@ -92,4 +92,17 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
 
 ---
 
-### **OW
+### **OWASP API Security Top 10 (2019)** *(For API-Specific Risks)*  
+Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):  
+
+1. **[API1: Broken Object Level Authorization](https://owasp.org/API-Security/editions/2019/en/)**  
+   - Unauthorized access to objects via insecure endpoints (e.g., `/users/{id}` exposing other users' data).  
+
+1. **[API2: Broken User Authentication](https://owasp.org/API-Security/editions/2019/en/)**  
+   - Weak or misconfigured authentication mechanisms (e.g., JWT flaws, credential stuffing).  
+
+1. **[API3: Excessive Data Exposure](https://owasp.org/API-Security/editions/2019/en/)**  
+   - APIs returning more data than needed (e.g., full user objects when only names are required).  
+
+1. **[API4: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/)**  
+   -
