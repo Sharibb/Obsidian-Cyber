@@ -96,18 +96,7 @@ A blog comment with:
 When another user loads the page, their cookies are sent to the attacker.
 
 ### **Impact:**
-- Long-term compromise of user accounts.
-- Spread of malware
 
-Continue from Stored XSS(persistent) Impact point
-
- Here's the continuation of the **Stored XSS (Persistent)** section, followed by **DOM-based XSS** and a conclusion:
-
----
-
-## **2. Stored XSS (Persistent) - Continued**
-
-### **Impact (Continued):**
 - **Mass infection of users** (e.g., in social media posts or forums).  
 - **Defacement of websites** by injecting permanent malicious content.  
 - **Keylogging** by capturing user inputs (`onkeypress` events).  
