@@ -1,5 +1,4 @@
 
-
 # In-Band SQL Injection (SQLi)
 
 In-Band SQL Injection is one of the most common and straightforward types of SQL injection attacks where the attacker uses the same communication channel to both launch the attack and gather results.
