@@ -69,7 +69,10 @@ Focused on vulnerabilities unique to APIs (REST, GraphQL, SOAP):
    - Deprecated API versions exposed or undocumented endpoints left active.  
    
 10. **[API10:2019 Insufficient Logging & Monitoring]((https://owasp.org//en/)***   
-	-   
+-  It does not produce any logs, the logging level is not set correctly, or log messages do not include enough detail.
+- Log integrity is not guaranteed (e.g., [Log Injection](https://www.owasp.org/index.php/Log_Injection)).
+- Logs are not continuously monitored.
+- API infrastructure is not continuously monitored.
 
 ---
 
