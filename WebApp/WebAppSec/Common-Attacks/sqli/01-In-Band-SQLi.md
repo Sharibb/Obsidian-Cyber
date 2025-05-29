@@ -194,7 +194,7 @@ Fix after the step-by-step implementation
    - Whitelist allowed characters for each field type
    - Example for usernames: only alphanumeric and certain special characters
 
-3. **Apply the principle of least privilege**:
+5. **Apply the principle of least privilege**:
    - Database user should have only necessary permissions
    - Avoid using admin/superuser accounts for application queries
 
@@ -214,4 +214,4 @@ Fix after the step-by-step implementation
 
 - Consider using an ORM (Object-Relational Mapping) framework which typically handles SQL injection prevention automatically
 - Implement Web Application Firewall (WAF) rules as additional protection layer
-- Regularly
+- Regularly update all database drivers and libraries
