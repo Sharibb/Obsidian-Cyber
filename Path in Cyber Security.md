@@ -187,3 +187,5 @@ Ensures software is developed securely by identifying and mitigating vulnerabili
 
 
 write industy trends for GRC and Appsec append
+
+ Here are the **appended industry trends** for **GRC (Governance, Risk & Compliance)** and **Application Security (AppSec)**, integrated into your
