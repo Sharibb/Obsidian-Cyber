@@ -194,6 +194,7 @@
   },
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
+    "README.md",
     "WebApp/WebAppSec/Common-Attacks/Injections",
     "WebApp/WebAppSec/Common-Attacks/Injections/xss/01-Reflected XSS(In depth).md",
     "WebApp/WebAppSec/Common-Attacks/Injections/xss/02-Stored XSS(In Depth).md",
@@ -238,7 +239,6 @@
     "Images/WebApp/OWASP",
     "Images/WebApp",
     "Images",
-    "Software",
-    "WebApp/WebAppSec/OWASP10"
+    "Software"
   ]
 }
