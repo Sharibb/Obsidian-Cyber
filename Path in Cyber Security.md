@@ -2,4 +2,40 @@ Explain All the Major Paths in Cyber Securtiy In depth
 
  # **Comprehensive Guide to Major Career Paths in Cybersecurity**
 
-Cybersecurity is a vast and dynamic field with numerous specializations. Below is an in-depth breakdown of the major career paths, including required skills, certifications, job roles,
+Cybersecurity is a vast and dynamic field with numerous specializations. Below is an in-depth breakdown of the major career paths, including required skills, certifications, job roles, and industry trends.
+
+---
+
+## **1. Offensive Security (Ethical Hacking & Penetration Testing)**
+### **Overview**  
+Professionals in this path simulate cyberattacks to identify vulnerabilities before malicious hackers exploit them.
+
+### **Key Roles:**
+- **Penetration Tester (Pentester)** – Tests systems for weaknesses.
+- **Red Teamer** – Conducts advanced simulated attacks.
+- **Bug Bounty Hunter** – Finds vulnerabilities for rewards.
+
+### **Required Skills:**
+- Network & Web Application Security
+- Exploit Development (Metasploit, Burp Suite)
+- Scripting (Python, Bash)
+- Social Engineering Techniques
+
+### **Certifications:**
+- **OSCP (Offensive Security Certified Professional)** – Gold standard for pentesters.
+- **CEH (Certified Ethical Hacker)** – Entry-level ethical hacking.
+- **GPEN (GIAC Penetration Tester)** – Advanced pentesting.
+
+### **Industry Trends:**
+- Increased demand for cloud and IoT security testing.
+- AI-driven penetration testing tools.
+
+---
+
+## **2. Defensive Security (Blue Team & SOC)**
+### **Overview**  
+Focuses on protecting systems by detecting and responding to threats.
+
+### **Key Roles:**
+- **SOC Analyst** – Monitors security alerts.
+- **Incident Respond
