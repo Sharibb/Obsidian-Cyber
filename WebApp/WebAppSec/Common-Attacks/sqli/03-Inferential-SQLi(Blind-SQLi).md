@@ -24,4 +24,30 @@ Inferential SQL Injection, also known as Blind SQLi, is a type of attack where t
 '; IF (1=2) WAITFOR DELAY '0:0:5' -- 
 ```
 
-## Detection
+## Detection Methods
+
+1. Observe differences in responses to true/false conditions
+2. Measure response times for time-based payloads
+3. Look for changes in HTTP status codes or error messages
+
+## Exploitation Process
+
+1. Identify injectable parameters
+2. Determine backend database type
+3. Craft conditional queries to extract data bit by bit:
+   ```sql
+   admin' AND SUBSTRING((SELECT TOP 1 password FROM users), 1, 1) = 'a' --
+   ```
+
+4. Use tools like sqlmap to automate the process:
+   ```
+   sqlmap -u "http://example.com/page?id=1" --technique=B --dbs
+   ```
+
+## Mitigation Strategies
+
+- Use parameterized queries/prepared statements
+- Implement proper input validation
+- Apply principle of least privilege for database accounts
+- Use web application firewalls (WAFs)
+- Regularly test applications for vulnerabilities
