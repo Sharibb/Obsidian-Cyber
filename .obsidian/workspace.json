@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Intro To Computer Networking.md",
+                "file": "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro To Computer Networking"
+              "title": "Cryptographic Failure"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Intro To Computer Networking.md",
+                "file": "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro To Computer Networking"
+              "title": "Outline of Cryptographic Failure"
             }
           },
           {
@@ -192,11 +192,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "c37767688f3fbd1e",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "WebApp/WebAppSec/OWASP10/01-Broken Access Control.md",
+    "Networking/Intro To Computer Networking.md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "[Intro to OSI Layer.md",
-    "Networking/Intro To Computer Networking.md",
     "Networking/OSI-Layer/Layer-5.md",
     "Networking/OSI-Layer/Layer-4.md",
     "Networking/OSI-Layer/Layer-3.md",
@@ -212,7 +213,6 @@
     "WebApp/WebAppSec/OWASP10/Injection.md",
     "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "WebApp/WebAppSec/OWASP10/Cryptographic Failure.md",
-    "WebApp/WebAppSec/OWASP10/Broken Access Control.md",
     "WebApp/WebAppSec/OWASP10/sqli/Sqli-Intro.md",
     "WebApp/WebAppSec/OWASP10/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
