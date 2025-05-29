@@ -38,4 +38,15 @@ Focuses on protecting systems by detecting and responding to threats.
 
 ### **Key Roles:**
 - **SOC Analyst** – Monitors security alerts.
-- **Incident Respond
+- **Incident Responder** – Handles breaches.
+- **Threat Hunter** – Proactively searches for threats.
+
+### **Required Skills:**
+- SIEM Tools (Splunk, ELK Stack)
+- Endpoint Detection & Response (EDR)
+- Log Analysis & Forensics
+- Network Traffic Analysis
+
+### **Certifications:**
+- **Security+ (CompTIA)** – Entry-level SOC roles.
+- **CySA+ (CompTIA Cyber Security Analyst)** – Intermediate blue teaming.
