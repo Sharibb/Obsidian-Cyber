@@ -175,6 +175,43 @@ Blind SQL Injection is a type of attack where:
 
 ```sql
 -- Example Time-based query (MySQL)
-' AND IF((SELECT SUBSTRING(password,1,1)
+' AND IF((SELECT SUBSTRING(password,1,1) FROM users WHERE username='admin')='a', SLEEP(5), 0)--
+```
+
+## Exploitation Techniques
+
+### Step-by-Step Data Extraction
+
+1. **Determine vulnerable parameter** - Find input that affects application behavior when modified with SQL logic
+
+2. **Confirm boolean condition works**:
+   ```sql
+   ' AND 1=1-- (should return normal content)
+   ' AND 1=2-- (should return different/empty content)
+   ```
+
+3. **Extract database information character by character**:
+   ```sql
+   -- Check if first character of database version is '5'
+   ' AND SUBSTRING(@@version,1,1)='5'--
+   
+   -- Check ASCII value instead for more precision
+   ' AND ASCII(SUBSTRING(@@version,1,1))=53--
+   ```
+
+4. **Automate the process** using tools like sqlmap or custom scripts
+
+## Detection Methods
+
+### For Boolean-Based:
+- Observe differences in:
+  - HTTP response codes
+  - Content length
+  - Page content (error messages, missing elements)
+  
+### For Time-Based:
+- Measure response times for suspicious queries:
+  - Baseline normal response time first
+  - Compare with
 
  
