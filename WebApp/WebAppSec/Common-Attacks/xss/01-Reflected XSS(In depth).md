@@ -116,4 +116,4 @@ Attackers often evade filters using:
 
 ## **Summary Checklist for Developers** ✅
 
-Append from Summary and dont rewrite the 
+Append from Summary and dont rewrite the whole thing just continue
