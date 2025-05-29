@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
+                "file": "Networking/Ports/00-Intro to Ports.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-DNS Protocol"
+              "title": "00-Intro to Ports"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
+                "file": "Networking/Ports/00-Intro to Ports.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 04-DNS Protocol"
+              "title": "Outline of 00-Intro to Ports"
             }
           },
           {
@@ -194,8 +194,12 @@
   },
   "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
-    "Networking/Common-Protocols/01-Application-Layer-Protocols/03-SMTP,IMAP,POP3 Protocols.md",
+    "Networking/Untitled.md",
+    "Networking/Ports/00-Intro to Ports.md",
+    "Networking/Ports",
+    "Networking/Common-Protocols/01-Application-Layer-Protocols/05-SSH Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
+    "Networking/Common-Protocols/01-Application-Layer-Protocols/03-SMTP,IMAP,POP3 Protocols.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/00-Intro-To-Application-Layer-Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/02-FTP&SFTP Protocol.md",
     "Networking/Common-Protocols/Intro-To-Common-Protocols.md",
@@ -225,11 +229,7 @@
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/00-Intro To Cross Site Scripting(XSS).md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/01-Reflected XSS(In depth).md",
-    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/02-Stored XSS(In Depth).md",
-    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/03-DOM-Based XSS(In Depth).md",
-    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/04-Blind XSS(In Depth).md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
