@@ -8,15 +8,15 @@ The **Open Systems Interconnection (OSI) model** is a conceptual framework used 
 
 ### **The 7 Layers of the OSI Model**  
 
-1. **Physical Layer ([[Layer-1]]) **  
+1. **Physical Layer ([[Layer-1]])**  
    - Deals with raw bit transmission over physical media (e.g., cables, Wi-Fi).  
    - Defines electrical, mechanical, and procedural aspects (voltage levels, pin layouts).  
 
-2. **Data Link Layer (Layer 2)**  
+1. **Data Link Layer ([[Layer-2]])**  
    - Responsible for node-to-node communication (e.g., MAC addressing in Ethernet).  
    - Error detection/correction (CRC) and framing of data into frames.  
 
-3. **Network Layer (Layer 3)**  
+1. **Network Layer ([[Layer-3]])**  
    - Handles logical addressing (IP addresses) and routing packets across networks.  
    - Protocols: IP, ICMP, routers operate here.  
 
