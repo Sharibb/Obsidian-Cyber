@@ -192,12 +192,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "c37767688f3fbd1e",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
     "WebApp/WebAppSec/OWASP10/01-Broken Access Control.md",
     "WebApp/WebAppSec/OWASP10/00-Intro-OWASP.md",
     "WebApp/Intro To WebApplication.md",
-    "WebApp/WebAppSec/API-Sec",
+    "WebApp/WebAppSec/OWASPAPI10",
     "WebApp/WebAppSec/Intro to WebAppSec.md",
     "Networking/OSI-Layer/Layer-1.md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
