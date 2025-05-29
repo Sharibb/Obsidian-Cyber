@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Common-Protocols/01-Application-Layer-Protocols/02-FTP&SFTP Protocol.md",
+                "file": "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-FTP&SFTP Protocol"
+              "title": "04-DNS Protocol"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Common-Protocols/01-Application-Layer-Protocols/02-FTP&SFTP Protocol.md",
+                "file": "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02-FTP&SFTP Protocol"
+              "title": "Outline of 04-DNS Protocol"
             }
           },
           {
@@ -194,10 +194,12 @@
   },
   "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
-    "Networking/Common-Protocols/Intro-To-Common-Protocols.md",
-    "Networking/Common-Protocols/01-Application-Layer-Protocols/02-FTP&SFTP Protocol.md",
-    "Networking/Common-Protocols/01-Application-Layer-Protocols/01-HTTP&HTTPS Protocol.md",
+    "Networking/Common-Protocols/01-Application-Layer-Protocols/03-SMTP,IMAP,POP3 Protocols.md",
+    "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/00-Intro-To-Application-Layer-Protocol.md",
+    "Networking/Common-Protocols/01-Application-Layer-Protocols/02-FTP&SFTP Protocol.md",
+    "Networking/Common-Protocols/Intro-To-Common-Protocols.md",
+    "Networking/Common-Protocols/01-Application-Layer-Protocols/01-HTTP&HTTPS Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols",
     "Networking/TCP-IP-Layer/Intro-To-TCP-IP-Layer.md",
     "Networking/Common-Protocols",
@@ -226,9 +228,7 @@
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/02-Stored XSS(In Depth).md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/03-DOM-Based XSS(In Depth).md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/04-Blind XSS(In Depth).md",
-    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/06-SQLi Payloads list.md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss",
-    "WebApp/WebAppSec/Common-Attacks/Untitled.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
