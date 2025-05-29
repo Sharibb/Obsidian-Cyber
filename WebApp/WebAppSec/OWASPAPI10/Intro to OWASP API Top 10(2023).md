@@ -63,35 +63,27 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
    - Implement multi-factor authentication (MFA).  
    - Block weak credentials and enforce short-lived tokens.  
 
-1. **[API3] Broken Object Property Level Authorization**  
+3. **[API3] Broken Object Property Level Authorization**  
    - Apply schema validation to filter sensitive properties (e.g., `user.isAdmin`).  
 
-1. **[API4] Unrestricted Resource Consumption**  
+4. **[API4] Unrestricted Resource Consumption**  
    - Set quotas, rate limits, and monitor abnormal spikes (e.g., CPU/bandwidth).  
 
-1. **[API5] Broken Function Level Authorization**  
+5. **[API5] Broken Function Level Authorization**  
    - Adopt role-based access control (RBAC) for admin endpoints.  
 
-1. **[API6] Unrestricted Access to Sensitive Business Flows**  
+6. **[API6] Unrestricted Access to Sensitive Business Flows**  
    - Detect/block excessive calls (e.g., credential stuffing, scalper bots).  
 
-1. **[API7] SSRF** *(New!)*  
+7. **[API7] SSRF** *(New!)*  
    - Sanitize user-input URLs and whitelist internal domains.  
 
 8. **[API8] Security Misconfiguration**  
    - Disable debug modes, enforce HTTPS, and automate config checks.  
 
-1. **[API9] Improper Inventory Management**  
+9. **[API9] Improper Inventory Management**  
    - Document all APIs (including deprecated ones) and retire unused endpoints.  
 
-1. **[API10] Unsafe Consumption of APIs** *(New!)*  
-    -continue
-
- Here’s the continuation of your **OWASP API Top 10 (2023)** guide, focusing on mitigation for **API10** and closing with actionable takeaways:  
-
----
-
-### **Mitigation Strategies** *(Continued)*  
 10. **[API10:2023] Unsafe Consumption of APIs**  
    - **Validate responses** from third-party APIs (e.g., sanitize data before processing).  
    - **Enforce TLS encryption** and verify certificates to prevent MITM attacks.  
