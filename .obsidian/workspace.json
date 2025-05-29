@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/xss/03-DOM-Based XSS(In Depth).md",
+                "file": "WebApp/WebAppSec/Common-Attacks/xss/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-DOM-Based XSS(In Depth)"
+              "title": "Untitled"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebApp/WebAppSec/Common-Attacks/xss/03-DOM-Based XSS(In Depth).md",
+                "file": "WebApp/WebAppSec/Common-Attacks/xss/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03-DOM-Based XSS(In Depth)"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -194,8 +194,9 @@
   },
   "active": "c37767688f3fbd1e",
   "lastOpenFiles": [
-    "WebApp/WebAppSec/Common-Attacks/xss/02-Stored XSS(In Depth).md",
     "WebApp/WebAppSec/Common-Attacks/xss/03-DOM-Based XSS(In Depth).md",
+    "WebApp/WebAppSec/Common-Attacks/xss/Untitled.md",
+    "WebApp/WebAppSec/Common-Attacks/xss/02-Stored XSS(In Depth).md",
     "WebApp/WebAppSec/Common-Attacks/xss/01-Reflected XSS(In depth).md",
     "WebApp/WebAppSec/Common-Attacks/xss/00-Intro To Cross Site Scripting(XSS).md",
     "WebApp/WebAppSec/Common-Attacks/sqli/06-SQLi Payloads list.md",
@@ -222,7 +223,6 @@
     "[Intro to OSI Layer.md",
     "Networking/OSI-Layer/Layer-5.md",
     "Networking/OSI-Layer/Layer-4.md",
-    "Networking/OSI-Layer/Layer-3.md",
     "Networking/OSI-Layer",
     "WebApp/WebAppSec/Common-Attacks/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
