@@ -1,5 +1,4 @@
 
-### **Transport Layer: Brief Explanation**
 
 The **Transport Layer** is the **4th layer** in the **OSI model** and the **3rd layer** in the **TCP/IP model**. It ensures reliable, end-to-end communication between applications running on different hosts.  
 
