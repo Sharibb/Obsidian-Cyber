@@ -42,3 +42,26 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
 ### **How to Use This Guide**  
 - **Developers**: Integrate mitigations into your API design (e.g., strict authZ checks).
 - continue
+
+ Here’s the continuation of your **OWASP API Top 10 (2023)** guide, structured for clarity and actionability:  
+
+---
+
+### **How to Use This Guide** *(Continued)*  
+- **Developers**: Integrate mitigations into your API design (e.g., strict authZ checks, rate limiting).  
+- **Security Teams**: Prioritize testing for these risks in audits and penetration tests.  
+- **Leaders**: Advocate for API security training and threat modeling in development lifecycles.  
+
+---
+
+### **Mitigation Strategies for Each Risk**  
+1. **[API1] Broken Object Level Authorization**  
+   - Enforce granular access controls (e.g., user-owned resources).  
+   - Use UUIDs instead of sequential IDs to prevent IDOR.  
+
+1. **[API2] Broken Authentication**  
+   - Implement multi-factor authentication (MFA).  
+   - Block weak credentials and enforce short-lived tokens.  
+
+1. **[API3] Broken Object Property Level Authorization**  
+   - Apply schema validation to filter sensitive properties (e.g., `
