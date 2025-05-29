@@ -11,7 +11,7 @@ Cybersecurity is a vast and dynamic field with numerous specializations. Below i
 Professionals in this path simulate cyberattacks to identify vulnerabilities before malicious hackers exploit them.
 
 ### **Key Roles:**
-- **Penetration Tester (Pentester)** – Tests systems for weaknesses.**([[Intro-to-Pentest**
+- **Penetration Tester (Pentester)** – Tests systems for weaknesses.**([[Intro-to-Pentesting|**
 - **Red Teamer** – Conducts advanced simulated attacks.
 - **Bug Bounty Hunter** – Finds vulnerabilities for rewards.
 
