@@ -29,4 +29,3 @@ The **Presentation Layer (Layer 6)** of the OSI model is responsible for data tr
 ### Why It Matters:
 Ensures seamless communication between heterogeneous systems by resolving syntactic differences and securing data before transmission.
 
-Would you like examples of how Layer 6 interacts with other OSI layers?
