@@ -48,4 +48,3 @@ A framework for network communication:
 
 ---
 
-Let me know if you'd like to dive deeper into any block!
