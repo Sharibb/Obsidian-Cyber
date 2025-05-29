@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Path in Cyber Security.md",
+                "file": "WebApp/Intro To WebApplication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Path in Cyber Security"
+              "title": "Intro To WebApplication"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Path in Cyber Security.md",
+                "file": "WebApp/Intro To WebApplication.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Path in Cyber Security"
+              "title": "Outline of Intro To WebApplication"
             }
           },
           {
@@ -194,7 +194,8 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
-    "Pentesting/WebAppPentesting/Untitled",
+    "Path in Cyber Security.md",
+    "Pentesting/WebAppPentesting(WAPT)/Untitled",
     "Pentesting/NetworkPentesting(NPT)",
     "Pentesting",
     "Intro-to-Cybersecurity.md",
@@ -205,30 +206,29 @@
     "Layer 1.md",
     "Networking/Intro To Computer Networking.md",
     "Software/Data Integrity Failures.md",
-    "Path in Cyber Security.md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/xss/00-Intro To Cross Site Scripting(XSS).md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/xss/01-Reflected XSS(In depth).md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/xss/02-Stored XSS(In Depth).md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/xss/03-DOM-Based XSS(In Depth).md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/xss/04-Blind XSS(In Depth).md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/sqli/06-SQLi Payloads list.md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/xss",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/00-Intro To Cross Site Scripting(XSS).md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/01-Reflected XSS(In depth).md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/02-Stored XSS(In Depth).md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/03-DOM-Based XSS(In Depth).md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss/04-Blind XSS(In Depth).md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/06-SQLi Payloads list.md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/xss",
     "WebApp/WebAppSec/Common-Attacks/Untitled.md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/sqli/00-Sqli-Intro.md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/sqli/05-Stored Procedure Injection.md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/sqli/04-Second Order SQLi.md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/sqli/03-Inferential-SQLi(Blind-SQLi).md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/sqli/02-Out-of-Band-SQLi.md",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/sqli/01-In-Band-SQLi.md",
-    "Pentesting/WebAppPentesting/Intro to WebAppSec.md",
-    "Pentesting/WebAppPentesting/OWASPAPI10/Intro to OWASP API Top 10(2023).md",
-    "Pentesting/WebAppPentesting/OWASP10/00-Intro-OWASP.md",
-    "Pentesting/WebAppPentesting/OWASP10/01-Broken Access Control.md",
-    "Pentesting/WebAppPentesting/OWASPAPI10",
-    "Pentesting/WebAppPentesting/Common-Attacks",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/00-Sqli-Intro.md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/05-Stored Procedure Injection.md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/04-Second Order SQLi.md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/03-Inferential-SQLi(Blind-SQLi).md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/02-Out-of-Band-SQLi.md",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/01-In-Band-SQLi.md",
+    "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/Intro to OWASP API Top 10(2023).md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks",
     "Networking/OSI-Layer",
-    "Pentesting/WebAppPentesting/Common-Attacks/Injections/sqli",
+    "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
@@ -238,7 +238,6 @@
     "Images/WebApp/OWASP/data-encryption-and-cryptographic-failures.webp",
     "Images/WebApp/OWASP/BAC2.png",
     "Images/WebApp/OWASP/BAC1.jpg",
-    "Images/WebApp/OWASP/OWASP1.png",
-    "Images/WebApp/OWASP"
+    "Images/WebApp/OWASP/OWASP1.png"
   ]
 }
