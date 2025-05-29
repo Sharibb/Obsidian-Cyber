@@ -98,3 +98,5 @@ When another user loads the page, their cookies are sent to the attacker.
 ### **Impact:**
 - Long-term compromise of user accounts.
 - Spread of malware
+
+Continue from Stored XSS(persistent)
