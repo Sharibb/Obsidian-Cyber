@@ -64,4 +64,25 @@ The **Open Web Application Security Project (OWASP)** API Top 10 is a standardiz
    - Block weak credentials and enforce short-lived tokens.  
 
 1. **[API3] Broken Object Property Level Authorization**  
-   - Apply schema validation to filter sensitive properties (e.g., `
+   - Apply schema validation to filter sensitive properties (e.g., `user.isAdmin`).  
+
+1. **[API4] Unrestricted Resource Consumption**  
+   - Set quotas, rate limits, and monitor abnormal spikes (e.g., CPU/bandwidth).  
+
+1. **[API5] Broken Function Level Authorization**  
+   - Adopt role-based access control (RBAC) for admin endpoints.  
+
+1. **[API6] Unrestricted Access to Sensitive Business Flows**  
+   - Detect/block excessive calls (e.g., credential stuffing, scalper bots).  
+
+1. **[API7] SSRF** *(New!)*  
+   - Sanitize user-input URLs and whitelist internal domains.  
+
+8. **[API8] Security Misconfiguration**  
+   - Disable debug modes, enforce HTTPS, and automate config checks.  
+
+1. **[API9] Improper Inventory Management**  
+   - Document all APIs (including deprecated ones) and retire unused endpoints.  
+
+1. **[API10] Unsafe Consumption of APIs** *(New!)*  
+    -
