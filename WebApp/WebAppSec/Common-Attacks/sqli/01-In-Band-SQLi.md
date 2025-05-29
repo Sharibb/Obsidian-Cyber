@@ -100,4 +100,7 @@ Union-based SQL injection leverages the UNION SQL operator to combine results fr
 #### **Limitations:**  
 1. **Requires Matching Columns** – The number and data types of columns in the `UNION` must match the original query, requiring trial and error.  
 2. **Visible Errors May Be Needed** – If the application does not display query results, manual probing (e.g., via error messages) is necessary to confirm injection success.  
-3. **Limited to SELECT Statements** – Only works where a `SELECT`
+3. **Limited to SELECT Statements** – Only works where a `SELECT` query is injectable; cannot directly modify data (`INSERT`, `UPDATE`, `DELETE`).  
+4. **May Trigger WAFs/IDS** – Signature-based security systems can detect common `UNION` payloads and block them.  
+
+Would you like me to expand on any specific part or add more details?
