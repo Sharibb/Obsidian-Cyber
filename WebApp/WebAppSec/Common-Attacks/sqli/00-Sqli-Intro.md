@@ -49,3 +49,19 @@ SQL Injection is a web security vulnerability that allows attackers to interfere
 - Use web application firewalls (WAFs)
 
 Explain more about the types of SQLi
+
+ # Types of SQL Injection (SQLi)
+
+SQL injection is a web security vulnerability that allows attackers to interfere with the queries an application makes to its database. There are several main types of SQL injection attacks:
+
+## 1. Classic/In-band SQLi
+The most common and straightforward type where results are returned in the same communication channel.
+
+### Subtypes:
+- **Union-based SQLi**: Uses UNION operator to combine results from multiple SELECT statements
+- **Error-based SQLi**: Relies on error messages from the database to extract information
+
+## 2. Blind/Inferential SQLi
+When results aren't returned directly, but attackers can infer information based on behavior.
+
+### Sub
