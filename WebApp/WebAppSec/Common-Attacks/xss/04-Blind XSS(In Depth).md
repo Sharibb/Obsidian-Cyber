@@ -167,11 +167,6 @@ Prevents data exfiltration via `fetch()` or `<img src="attacker.com">`.
 ## **Why Blind XSS is Dangerous**
 1. **Stealthy Persistence**: Payloads can remain dormant for weeks until triggered.
 2. **High Impact Targets**: Often exploits privileged users (admins, auditors).
-3. **B
-Continue from Why blind XSS is Dangerous Append dont write all of it
-
- ## **Why Blind XSS is Dangerous (Continued)**  
-
 3. **Bypasses Common Defenses**:  
    - Traditional XSS filters often miss blind XSS because they focus on immediate execution.  
    - Payloads may evade Web Application Firewalls (WAFs) by targeting backend systems.  
