@@ -140,4 +140,13 @@ Let's walk through a complete example of exploiting a union-based SQL injection:
 Attackers often use these functions for error-based extraction:
 
 - `CONVERT()` or `CAST()` to force type conversion errors
-- `EXEC()`
+- `EXEC()` to execute dynamic SQL that generates errors 
+- Database-specific functions like PostgreSQL's `pg_sleep()` with time-based errors
+
+**Example extracting database version**:
+```sql
+' AND 1=CONVERT(int, @@VERSION)--
+```
+Might return:
+```
+Conversion failed when converting the nvarchar value '
