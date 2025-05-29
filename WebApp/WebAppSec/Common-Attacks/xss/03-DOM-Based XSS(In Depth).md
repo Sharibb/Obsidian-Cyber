@@ -114,8 +114,7 @@ Append From Detection & Exploitation do not write it all just continue
 
 ## **Real-World Case Study**
 ### **Bug Bounty Example**
-- A popular SPA (Single Page App) used `location.hash`
- to dynamically render content without sanitization:  
+- A popular SPA (Single Page App) used `location.hash` to dynamically render content without sanitization:  
 ```javascript
 const page = window.location.hash.slice(1);  
 document.getElementById('content').innerHTML = page; // Vulnerable
