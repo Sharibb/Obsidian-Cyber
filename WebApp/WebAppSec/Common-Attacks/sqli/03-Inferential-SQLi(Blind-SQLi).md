@@ -155,4 +155,22 @@ Inferential SQL Injection (Blind SQLi) is a type of attack where the attacker ca
 
 ### **1. No Direct Output**
    - Unlike **Union-Based** or **Error-Based** SQLi, Blind SQLi does not return database results directly in the response.
-   - The attacker must deduce information indirectly by sending crafted queries
+   - The attacker must deduce information indirectly by sending crafted queries and analyzing responses.
+
+---
+
+### **2. Boolean-Based vs. Time-Based Blind SQLi**
+   - **Boolean-Based Blind SQLi**:  
+     - The application responds differently (e.g., "true" or "false") based on injected conditions.
+     - Example:  
+       ```sql
+       AND 1=1 -- (Returns normal page)
+       AND 1=2 -- (Returns error/empty page)
+       ```
+     - Used to extract data bit-by-bit by asking yes/no questions.
+
+   - **Time-Based Blind SQLi**:  
+     - The attacker forces delays in query execution to infer data.
+     - Example:  
+       ```sql
+       AND IF(SUBSTRING(database(),1,1)='a', SLEEP(
