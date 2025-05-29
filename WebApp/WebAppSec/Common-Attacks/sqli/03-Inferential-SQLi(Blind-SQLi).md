@@ -91,3 +91,24 @@ continue from exploitation process point number 3
 Remember that Blind SQLi attacks can be time-consuming but are often successful against vulnerable applications that don't properly sanitize input.
 
 Explain TIme based and Boolean Based more thorougly
+
+ # Inferential SQL Injection (Blind SQLi): Time-Based and Boolean-Based
+
+## Time-Based Blind SQL Injection
+
+Time-based blind SQL injection is a technique where the attacker infers information by observing timing differences in the database responses.
+
+### How it works:
+1. The attacker injects SQL commands that cause the database to pause for a specified time if a condition is true
+2. The application's response time indicates whether the condition was true or false
+3. By measuring response times, the attacker can extract data bit by bit
+
+### Example:
+```sql
+SELECT * FROM users WHERE username = 'admin' AND IF(1=1,SLEEP(5),0)--
+```
+- If the condition (1=1) is true, the database sleeps for 5 seconds before responding
+- If false, it responds immediately
+
+### Characteristics:
+- Relies on database functions like `SLEEP()`, `WAITFOR
