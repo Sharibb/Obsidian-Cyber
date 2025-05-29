@@ -192,7 +192,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "c37767688f3fbd1e",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
     "WebApp/WebAppSec/OWASP10/Identification & Authentication Failures.md",
     "WebApp/WebAppSec/Common-Attacks",
@@ -213,7 +213,7 @@
     "WebApp/WebAppSec/OWASP10/Vulnerable&Outdated Components.md",
     "WebApp/WebAppSec/OWASP10/Insecure Design.md",
     "WebApp/WebAppSec/OWASP10/Intro-OWASP.md",
-    "WebApp/WebAppSec/OWASP10/Injection.md",
+    "WebApp/WebAppSec/OWASP10/03-Injection.md",
     "WebApp/WebAppSec/Common-Attacks/sqli/Sqli-Intro.md",
     "WebApp/WebAppSec/Common-Attacks/sqli",
     "Images/WebApp/OWASP/Sql-injection.png",
