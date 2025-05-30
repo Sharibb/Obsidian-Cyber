@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
+                "file": "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-MSF-Payload-Modules"
+              "title": "00-Intro-To-Metasploit"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
+                "file": "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 04-MSF-Payload-Modules"
+              "title": "Outline of 00-Intro-To-Metasploit"
             }
           },
           {
@@ -194,8 +194,8 @@
   },
   "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
-    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
+    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Tools/Weaponisation/Metasploit/02-MSF-Auxilary-Modules.md",
