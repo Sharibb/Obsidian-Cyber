@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
-                "mode": "source",
+                "file": "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Intro-To-Metasploit"
+              "title": "01-MSFConsole and MSFVenom"
             }
           }
         ]
@@ -194,9 +194,9 @@
   },
   "active": "3dcdcfaca39ed188",
   "lastOpenFiles": [
+    "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
     "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
-    "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Tools/Weaponisation/Metasploit/02-MSF-Auxilary-Modules.md",
     "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
