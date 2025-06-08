@@ -194,8 +194,9 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
+    "Images/WebApp/WebSecurityAcademy/CSRF-01.png",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
+    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/02-How to Construct a CSRF attack.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
     "Images/WebApp/WebSecurityAcademy/CSRF-00.png",
@@ -230,7 +231,6 @@
     "Tools/NPT/NMAP/02-Port Scanning.md",
     "Pentesting/NetworkPentesting(NPT)/Intro-To-NPT.md",
     "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
-    "Networking/Ports/00-Intro to Ports.md",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
@@ -238,7 +238,6 @@
     "Images/WebApp/OWASP/CF2.png",
     "Images/WebApp/OWASP/CF1.png",
     "Images/WebApp/OWASP/data-encryption-and-cryptographic-failures.webp",
-    "Images/WebApp/OWASP/BAC2.png",
-    "Images/WebApp/OWASP/BAC1.jpg"
+    "Images/WebApp/OWASP/BAC2.png"
   ]
 }
