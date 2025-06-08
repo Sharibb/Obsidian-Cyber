@@ -194,7 +194,8 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
-    "Pentesting/WebAppPentesting(WAPT)/Untitled 1",
+    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/CSRF",
+    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
     "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
@@ -225,7 +226,6 @@
     "Tools/NPT",
     "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
     "Networking/Ports/00-Intro to Ports.md",
-    "Pentesting/Methodologies",
     "Networking/Untitled.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/05-SSH Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
