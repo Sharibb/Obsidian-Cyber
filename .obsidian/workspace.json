@@ -192,8 +192,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3dcdcfaca39ed188",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/WebAppPentesting(WAPT)/Untitled 1",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
     "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
@@ -229,7 +230,6 @@
     "Networking/Common-Protocols/01-Application-Layer-Protocols/05-SSH Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/03-SMTP,IMAP,POP3 Protocols.md",
-    "Networking/Common-Protocols/01-Application-Layer-Protocols/00-Intro-To-Application-Layer-Protocol.md",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
