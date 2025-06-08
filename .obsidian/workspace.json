@@ -194,6 +194,7 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
+    "Images/WebApp/WebSecurityAcademy/CSRF-06.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-05.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-04.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-03.png",
@@ -238,7 +239,6 @@
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
-    "Images/WebApp/OWASP/Owasp Vulnerability SQL Injection.webp",
-    "Images/WebApp/OWASP/CF2.png"
+    "Images/WebApp/OWASP/Owasp Vulnerability SQL Injection.webp"
   ]
 }
