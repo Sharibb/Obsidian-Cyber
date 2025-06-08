@@ -194,6 +194,7 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
+    "Images/WebApp/WebSecurityAcademy/CSRF-09.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-08.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-07.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-06.png",
@@ -238,7 +239,6 @@
     "Tools/NPT/NMAP/02-Port Scanning.md",
     "Pentesting/NetworkPentesting(NPT)/Intro-To-NPT.md",
     "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
-    "Images/WebApp/OWASP/Sql-injection.png",
-    "Images/WebApp/OWASP/command-injection.png"
+    "Images/WebApp/OWASP/Sql-injection.png"
   ]
 }
