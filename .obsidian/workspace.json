@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for 03-Lab Scenario of CSRF-I"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-Intro-To-Metasploit"
+              "title": "Outline of 03-Lab Scenario of CSRF-I"
             }
           },
           {
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -192,7 +192,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3bdbc842aaec890a",
+  "active": "2a95be740bebd857",
   "lastOpenFiles": [
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/02-How to Construct a CSRF attack.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
