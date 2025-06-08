@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d783fc190db0773",
+        "id": "0a2496136b7810ca",
         "type": "tabs",
         "children": [
           {
-            "id": "3dcdcfaca39ed188",
+            "id": "3bdbc842aaec890a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,10 +192,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3dcdcfaca39ed188",
+  "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
+    "Images/WebApp/WebSecurityAcademy/CSRF-00.png",
+    "Images/WebApp/WebSecurityAcademy",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
+    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Apprentice",
@@ -224,12 +226,10 @@
     "Tools/NPT/NMAP/04-NSE.md",
     "Tools/NPT/NMAP/02-Port Scanning.md",
     "Pentesting/NetworkPentesting(NPT)/Intro-To-NPT.md",
-    "Tools/NPT/Wireshark",
     "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
     "Networking/Ports/00-Intro to Ports.md",
     "Networking/Untitled.md",
     "Networking/Common-Protocols/01-Application-Layer-Protocols/05-SSH Protocol.md",
-    "Networking/Common-Protocols/01-Application-Layer-Protocols/04-DNS Protocol.md",
     "Images/WebApp/OWASP/Sql-injection.png",
     "Images/WebApp/OWASP/command-injection.png",
     "Images/WebApp/OWASP/Injection1.png",
@@ -238,7 +238,6 @@
     "Images/WebApp/OWASP/CF1.png",
     "Images/WebApp/OWASP/data-encryption-and-cryptographic-failures.webp",
     "Images/WebApp/OWASP/BAC2.png",
-    "Images/WebApp/OWASP/BAC1.jpg",
-    "Images/WebApp/OWASP/OWASP1.png"
+    "Images/WebApp/OWASP/BAC1.jpg"
   ]
 }
