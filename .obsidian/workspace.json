@@ -194,8 +194,12 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
+    "Hacking-Practical/PicoCTF/SST1-2.png",
     "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
+    "Images/HackingPractical/PicoCTF/SSTI1-1.png",
+    "Images/HackingPractical/PicoCTF",
+    "Images/HackingPractical",
+    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
     "Hacking-Practical/PicoCTF/SSTI1",
     "Hacking-Practical/VulnHub",
     "Hacking-Practical/PicoCTF",
@@ -229,16 +233,11 @@
     "Images/WebApp/WebSecurityAcademy/CSRF-04.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-03.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-02.png",
-    "Images/WebApp/WebSecurityAcademy/CSRF-01.png",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
-    "Images/WebApp/WebSecurityAcademy/CSRF-00.png",
-    "Images/WebApp/WebSecurityAcademy",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
-    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
-    "Tools/Weaponisation/Metasploit/02-MSF-Auxilary-Modules.md"
+    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md"
   ]
 }
