@@ -194,6 +194,9 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Untitled",
+    "Untitled.md",
+    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
     "Pentesting/Practical",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/02-How to Construct a CSRF attack.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work.md",
@@ -211,7 +214,6 @@
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/02-Out-of-Band-SQLi.md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/01-In-Band-SQLi.md",
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/00-Sqli-Intro.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
     "Images/WebApp/WebSecurityAcademy/CSRF-09.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-08.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-07.png",
@@ -234,11 +236,9 @@
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
     "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
     "Tools/Weaponisation/Metasploit/02-MSF-Auxilary-Modules.md",
-    "Path in Cyber Security.md",
     "Compliance",
     "Tools/WAPT/Burpsuite",
     "Tools/Weaponisation/Metasploit",
-    "Tools/Weaponisation",
-    "Networking/OSI-Layer/04-Transport Layer"
+    "Tools/Weaponisation"
   ]
 }
