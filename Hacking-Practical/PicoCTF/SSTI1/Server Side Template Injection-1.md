@@ -18,5 +18,5 @@ We can determine that the payload we used for checkking matches the second route
 	4.Jinja2- A python based template engine which means basic python scripting commands will work here.
 Since the payload return a value now we only need to check if it is twig or jinja2 lets try another payload:
 ```COPY
-
+{{ self.__init__.__globals__.__builtins__ }}
 ```
