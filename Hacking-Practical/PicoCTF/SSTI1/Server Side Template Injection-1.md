@@ -20,3 +20,5 @@ Since the payload return a value now we only need to check if it is twig or jinj
 ```COPY
 {{ self.__init__.__globals__.__builtins__ }}
 ```
+We get alot of info here:
+![[SSTI1-4.png]]
