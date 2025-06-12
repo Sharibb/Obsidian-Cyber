@@ -5,5 +5,7 @@ In this we have been given a input section which renders out whatever we give th
 ![[SST1-2.png]]
 Since we know it is vulnerable to basic SSTI lets try the payload:
 ```COPY
-{{10*10)}}
+{{10*10}}
 ```
+We get 100 which confirms that the input isnt sanitized
+![[SSTI1-3.png]]
