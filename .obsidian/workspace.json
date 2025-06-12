@@ -194,7 +194,12 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Hacking-Practical/VulnHub",
+    "Hacking-Practical/PicoCTF",
     "Untitled",
+    "Hacking-Practical/HackTheBox",
+    "Hacking-Practical/TryHackMe",
+    "Hacking-Practical",
     "Untitled.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
     "Pentesting/Practical",
@@ -231,14 +236,9 @@
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Apprentice",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
     "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
-    "Tools/Weaponisation/Metasploit/02-MSF-Auxilary-Modules.md",
-    "Compliance",
-    "Tools/WAPT/Burpsuite",
-    "Tools/Weaponisation/Metasploit",
-    "Tools/Weaponisation"
+    "Tools/Weaponisation/Metasploit/02-MSF-Auxilary-Modules.md"
   ]
 }
