@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
+                "file": "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Server Side Template Injection-1"
+              "title": "SSTI_Exploitation_Guide"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
+                "file": "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Server Side Template Injection-1"
+              "title": "Outline of SSTI_Exploitation_Guide"
             }
           },
           {
@@ -192,15 +192,17 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3bdbc842aaec890a",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Hacking-Practical/PicoCTF/SSTI2",
+    "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
+    "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
     "Images/HackingPractical/PicoCTF/SSTI1-6.png",
     "Pasted image 20250612234610.png",
     "Images/HackingPractical/PicoCTF/SSTI1-5.png",
     "Images/HackingPractical/PicoCTF/SSTI1-4.png",
     "Images/HackingPractical/PicoCTF/SSTI1-3.webp",
     "Hacking-Practical/PicoCTF/SSTI1/SSTI1-3.png",
-    "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
     "Hacking-Practical/PicoCTF/SSTI1/SST1-2.png",
     "Images/HackingPractical/PicoCTF/SSTI1-1.png",
     "Images/HackingPractical/PicoCTF",
@@ -233,12 +235,10 @@
     "Pentesting/WebAppPentesting(WAPT)/Common-Attacks/Injections/sqli/00-Sqli-Intro.md",
     "Images/WebApp/WebSecurityAcademy/CSRF-09.png",
     "Images/WebApp/WebSecurityAcademy/CSRF-08.png",
-    "Images/WebApp/WebSecurityAcademy/CSRF-07.png",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
-    "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
-    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md"
+    "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md"
   ]
 }
