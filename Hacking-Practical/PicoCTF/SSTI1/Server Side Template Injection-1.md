@@ -16,3 +16,7 @@ We can determine that the payload we used for checkking matches the second route
 	2.Not Known- Does give the output but we cant get to work with any known template engine
 	3.Twig- A php based template engine that means php basic commands will work here
 	4.Jinja2- A python based template engine which means basic python scripting commands will work here.
+Since the payload return a value now we only need to check if it is twig or jinja2 lets try another payload:
+```COPY
+
+```
