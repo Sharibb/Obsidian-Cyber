@@ -9,3 +9,10 @@ Since we know it is vulnerable to basic SSTI lets try the payload:
 ```
 We get 100 which confirms that the input isnt sanitized
 ![[SSTI1-3.png]]
+Now according to the following logic tree
+![[SSTI1-3.webp]]
+We can determine that the payload we used for checkking matches the second route which can be:
+	1.Non-Vulnerable- does nothing.
+	2.Not Known- Does give the output but we cant get to work with any known template engine
+	3.Twig- A php based template engine that means php basic commands will work here
+	4.Jinja2- A python based template engine which means basic python scripting commands will work here.
