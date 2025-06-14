@@ -32,7 +32,7 @@ Docker uses a **client-server architecture**:
 📦 **Legacy App Modernization** – Containerize old apps for easier management.  
 🛠️ **Development Environments** – Avoid "works on my machine" issues.  
 
-![Docker Use Cases](placeholder-for-use-cases-image.png)  
+![[docker-02.png]]
 
 ---
 
