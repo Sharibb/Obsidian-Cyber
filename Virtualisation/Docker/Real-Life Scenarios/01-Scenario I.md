@@ -37,3 +37,19 @@ docker run -d --name my_app_v2 \
   my_image:latest
 ```
 
+### 4. **Verify File Access**
+
+- **Host → Container**:
+
+```bash
+echo "Test from host" > ~/docker_shared/host_test.txt
+docker exec <container_name> cat /path/inside/container/host_test.txt
+```
+	
+- **Container → Host**:
+
+```bash
+docker exec <container_name> sh -c 'echo "Test from container" > /path/inside/container/container_test.txt'
+cat ~/docker_shared/container_test.txt
+```
+
