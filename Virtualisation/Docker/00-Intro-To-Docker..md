@@ -21,7 +21,7 @@ Docker uses a **client-server architecture**:
 - The **Docker Client** (CLI) sends commands to the **Docker Daemon**, which builds and runs containers.  
 - Images are stored in a **registry** (e.g., Docker Hub).  
 
-![Docker Architecture](placeholder-for-docker-architecture-image.png)  
+![[docker-01.png]]
 
 ---
 

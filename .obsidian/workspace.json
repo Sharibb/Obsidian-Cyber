@@ -194,6 +194,9 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
+    "Images/Virtualisation/Docker/docker-01.png",
+    "Images/Virtualisation/Docker",
+    "Images/Virtualisation",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
     "Virtualisation/Docker/00-Intro-To-Docker..md",
     "Virtualisation/Docker",
@@ -220,9 +223,7 @@
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/02-How to Construct a CSRF attack.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
-    "Images/WebApp/WebSecurityAcademy",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
@@ -238,7 +239,6 @@
     "Networking/OSI-Layer/04-Transport Layer/00-Intro-To-Transport-Layer.md",
     "Tools/NPT/NMAP/01-Host-Discovery.md",
     "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
-    "Tools/NPT/NMAP/03-OS Fingerprinting.md",
-    "Tools/NPT/NMAP/04-NSE.md"
+    "Tools/NPT/NMAP/03-OS Fingerprinting.md"
   ]
 }
