@@ -53,3 +53,10 @@ docker exec <container_name> sh -c 'echo "Test from container" > /path/inside/co
 cat ~/docker_shared/container_test.txt
 ```
 
+
+## End result command 
+
+```Bash
+ docker run -p 2222:22 -p 1234-1250:1234-1250  --network=pentesting -h kali -it --cap-add=NET_RAW --cap-add=NET_ADMIN --name kali -v /media/dork/Backup/pentest:/mnt/pentest kali2:latest
+
+```
