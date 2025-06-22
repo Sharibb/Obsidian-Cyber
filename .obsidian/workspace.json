@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
+                "file": "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSTI_Exploitation_Guide"
+              "title": "01-Scenario I"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
+                "file": "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SSTI_Exploitation_Guide"
+              "title": "Outline of 01-Scenario I"
             }
           },
           {
@@ -194,6 +194,7 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
+    "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
     "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
     "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
@@ -217,7 +218,6 @@
     "Images/HackingPractical/PicoCTF/SST1-2.png",
     "Images/HackingPractical/PicoCTF",
     "Images/HackingPractical",
-    "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
     "Hacking-Practical/PicoCTF/SSTI2",
     "Hacking-Practical/PicoCTF/SSTI1",
     "Hacking-Practical/PicoCTF",

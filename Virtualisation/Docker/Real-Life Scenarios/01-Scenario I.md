@@ -31,10 +31,10 @@ docker run -d --name <new_container_name> \
 ```
 _Example:_
 ```bash
-docker run -d --name my_app_v2 \
-  -v ~/docker_shared:/app/data \
-  -p 8080:80 \
-  my_image:latest
+docker run -d --name kali \
+  -v /media/dork/Backup/pentest:/mnt/pentest \
+  -p 1234-1250:1234-1250 \
+  kali2:latest
 ```
 
 ### 4. **Verify File Access**
