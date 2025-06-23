@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/goosie's dump.md",
+                "file": "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "goosie's dump"
+              "title": "01-Technique(RBCD)"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/goosie's dump.md",
+                "file": "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of goosie's dump"
+              "title": "Outline of 01-Technique(RBCD)"
             }
           },
           {
@@ -194,8 +194,8 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
-    "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
     "Clippings/goosie's dump.md",
+    "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
     "Clippings",
     "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
     "Pentesting/Privilege Escalation/Windows/AD/Bloodhound",
