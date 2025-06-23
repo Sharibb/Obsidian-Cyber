@@ -192,8 +192,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3bdbc842aaec890a",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/Privilege Escalation/Untitled",
+    "Pentesting/Privilege Escalation",
     "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
     "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
@@ -220,7 +222,6 @@
     "Images/HackingPractical",
     "Hacking-Practical/PicoCTF/SSTI2",
     "Hacking-Practical/PicoCTF/SSTI1",
-    "Hacking-Practical/PicoCTF",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
@@ -238,7 +239,6 @@
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "Networking/OSI-Layer/04-Transport Layer/00-Intro-To-Transport-Layer.md",
     "Tools/NPT/NMAP/01-Host-Discovery.md",
-    "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
-    "Tools/NPT/NMAP/03-OS Fingerprinting.md"
+    "Tools/NPT/NMAP/00-Intro-To-NMAP.md"
   ]
 }
