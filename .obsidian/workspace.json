@@ -192,8 +192,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3bdbc842aaec890a",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/Privilege Escalation/Windows/AD/Bloodhound",
     "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
     "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
     "Pentesting/Privilege Escalation/Windows/AD",
@@ -238,7 +239,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "Networking/OSI-Layer/04-Transport Layer/00-Intro-To-Transport-Layer.md",
-    "Tools/NPT/NMAP/01-Host-Discovery.md",
-    "Tools/NPT/NMAP/00-Intro-To-NMAP.md"
+    "Tools/NPT/NMAP/01-Host-Discovery.md"
   ]
 }
