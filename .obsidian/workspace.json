@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
+                "file": "Clippings/goosie's dump.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Technique(RBCD)"
+              "title": "goosie's dump"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
+                "file": "Clippings/goosie's dump.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-Technique(RBCD)"
+              "title": "Outline of goosie's dump"
             }
           },
           {
@@ -194,8 +194,10 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
-    "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
     "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
+    "Clippings/goosie's dump.md",
+    "Clippings",
+    "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
     "Pentesting/Privilege Escalation/Windows/AD/Bloodhound",
     "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
     "Pentesting/Privilege Escalation/Windows/AD",
@@ -222,7 +224,6 @@
     "Images/HackingPractical/PicoCTF/SSTI1-3.png",
     "Images/HackingPractical/PicoCTF/SSTI1-1.png",
     "Images/HackingPractical/PicoCTF/SST1-2.png",
-    "Images/HackingPractical/PicoCTF",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
@@ -238,7 +239,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
-    "Networking/OSI-Layer/04-Transport Layer/00-Intro-To-Transport-Layer.md",
-    "Tools/NPT/NMAP/01-Host-Discovery.md"
+    "Networking/OSI-Layer/04-Transport Layer/00-Intro-To-Transport-Layer.md"
   ]
 }
