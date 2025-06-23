@@ -194,8 +194,12 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
-    "Clippings/goosie's dump.md",
+    "Images/Pentesting/Windows/AD/RBCD-1.webp",
     "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
+    "Images/Pentesting/Windows/AD",
+    "Images/Pentesting/Windows",
+    "Images/Pentesting",
+    "Clippings/goosie's dump.md",
     "Clippings",
     "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
     "Pentesting/Privilege Escalation/Windows/AD/Bloodhound",
@@ -213,9 +217,6 @@
     "Images/Virtualisation/Docker/docker-02.png",
     "Images/Virtualisation/Docker/docker-01.png",
     "Images/Virtualisation/Docker",
-    "Images/Virtualisation",
-    "Virtualisation/Docker",
-    "Virtualisation",
     "Pasted image 20250612234610.png",
     "Images/HackingPractical/PicoCTF/SSTI1-6.png",
     "Images/HackingPractical/PicoCTF/SSTI1-5.png",
@@ -223,7 +224,6 @@
     "Images/HackingPractical/PicoCTF/SSTI1-3.webp",
     "Images/HackingPractical/PicoCTF/SSTI1-3.png",
     "Images/HackingPractical/PicoCTF/SSTI1-1.png",
-    "Images/HackingPractical/PicoCTF/SST1-2.png",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
@@ -238,7 +238,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
-    "Networking/OSI-Layer/Intro to OSI Layer.md",
-    "Networking/OSI-Layer/04-Transport Layer/00-Intro-To-Transport-Layer.md"
+    "Networking/OSI-Layer/Intro to OSI Layer.md"
   ]
 }
