@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
+                "file": "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Intro-To-AD Privilege Escalation"
+              "title": "01-Technique(RBCD)"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
+                "file": "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-Intro-To-AD Privilege Escalation"
+              "title": "Outline of 01-Technique(RBCD)"
             }
           },
           {
@@ -192,11 +192,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
+    "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
+    "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
     "Pentesting/Privilege Escalation/Windows/AD/Bloodhound",
     "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
-    "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
     "Pentesting/Privilege Escalation/Windows/AD",
     "Pentesting/Privilege Escalation/Windows",
     "Pentesting/Privilege Escalation",
@@ -222,7 +223,6 @@
     "Images/HackingPractical/PicoCTF/SSTI1-1.png",
     "Images/HackingPractical/PicoCTF/SST1-2.png",
     "Images/HackingPractical/PicoCTF",
-    "Images/HackingPractical",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work?.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
