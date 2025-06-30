@@ -409,4 +409,11 @@ Similarly if we pathfind from P.AGILA --> LDAP/CA_SVC we can see the same.
 #### Shadow Credential Attack [Reference](https://www.hackingarticles.in/shadow-credentials-attack/)
 This attack leverages the mismanagement or exploitation of Active Directory Certificate Services (AD CS) to inject custom certificates into a user account, granting attackers persistent access. As a result of modifying the msDS-KeyCredentialLink attribute, adversaries can effectively create “shadow credentials” that allow them to authenticate as the target user without needing their password or NTLM hash.
 
-So basically we need 
+The attacker identifies an Active Directory object (such as a user or computer account) where they have permissions to modify attributes. Permissions like **GenericWrite** or **GenericAll** are required to modify the **msDS-KeyCredentialLink** attribute.
+
+Since we have it all checked out lets start with the attack
+
+#### SCA
+* Required Tools:  Impacket, certipy-ad 
+There are many tools out there through which we can perform this attack like pywhisker bloody-AD etc but i chose to go with certipy-ad since it automate the lengthy process and can be resolved in single command , but make sure to check out the pywhisker method as it explains the whole thing in a way better manner.
+
