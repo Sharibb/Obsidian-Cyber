@@ -194,6 +194,7 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Windows/Fluffy-01.png",
     "Images/HackingPractical/HTB/Windows",
     "Images/HackingPractical/HTB",
     "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
@@ -213,7 +214,6 @@
     "Pentesting/Privilege Escalation/Windows/AD/Bloodhound",
     "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
     "Pentesting/Privilege Escalation/Windows/AD",
-    "Pentesting/Privilege Escalation/Windows",
     "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
     "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
