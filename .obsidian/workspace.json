@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
+                "file": "Hacking-Practical/HTB/Windows/Fluffy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Technique(RBCD)"
+              "title": "Fluffy"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
+                "file": "Hacking-Practical/HTB/Windows/Fluffy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-Technique(RBCD)"
+              "title": "Outline of Fluffy"
             }
           },
           {
@@ -194,12 +194,14 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Hacking-Practical/HTB/Windows",
+    "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
+    "Hacking-Practical/HTB/Windows/Fluffy.md",
     "Hacking-Practical/HTB",
     "Images/Pentesting/Windows/AD/RBCD-4.webp",
     "Images/Pentesting/Windows/AD/RBCD-3.webp",
     "Images/Pentesting/Windows/AD/RBCD-2.webp",
     "Images/Pentesting/Windows/AD/RBCD-1.webp",
-    "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
     "Images/Pentesting/Windows/AD",
     "Images/Pentesting/Windows",
     "Images/Pentesting",
@@ -220,7 +222,6 @@
     "Virtualisation/Docker/Real-Life Scenarios",
     "Images/Virtualisation/Docker/docker-02.png",
     "Images/Virtualisation/Docker/docker-01.png",
-    "Images/Virtualisation/Docker",
     "Pasted image 20250612234610.png",
     "Images/HackingPractical/PicoCTF/SSTI1-6.png",
     "Images/HackingPractical/PicoCTF/SSTI1-5.png",
@@ -238,7 +239,6 @@
     "Path in Cyber Security.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
-    "Networking/OSI-Layer/Intro to OSI Layer.md"
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md"
   ]
 }
