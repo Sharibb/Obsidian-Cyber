@@ -403,6 +403,8 @@ Now we have 3 Users
 	3. WINRM_SVC
 #### PATH-TO-SERVICE Account using P.AGILA
 We can utilize the pathfinding tab in bloodhound explore page for getting the path to any service account.
-
+![[Fluffy-08.png]]
+Here we can see that P.AGILA is a member of Service Accounts Managers which has Generic all on Service Accounts which has GenericWrite on WINRM_SVC
+Similarly if we pathfind from P.AGILA --> LDAP/CA_SVC we can see the same.
 #### Shadow Credential Attack [Reference](https://www.hackingarticles.in/shadow-credentials-attack/)
 This attack leverages the mismanagement or exploitation of Active Directory Certificate Services (AD CS) to inject custom certificates into a user account, granting attackers persistent access. As a result of modifying the msDS-KeyCredentialLink attribute, adversaries can effectively create “shadow credentials” that allow them to authenticate as the target user without needing their password or NTLM hash.
