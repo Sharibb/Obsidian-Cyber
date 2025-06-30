@@ -221,6 +221,6 @@ In this the Overview was quite amusing:
 ```Markdown
 NSFOCUS CERT has detected that Microsoft recently released a security update to address a critical spoofing vulnerability in Windows File Explorer, identified as **CVE-2025-24071**. This vulnerability has a CVSS score of 7.5, indicating its severity. The issue arises from the implicit trust and automatic file parsing behavior of `.library-ms` files in Windows Explorer. An unauthenticated attacker can exploit this vulnerability by constructing RAR/ZIP files containing a malicious SMB path. Upon decompression, this triggers an SMB authentication request, potentially exposing the user's NTLM hash. PoC (Proof of Concept) exploits for this vulnerability are now publicly available, making it a current threat. Affected users are strongly advised to apply the patch immediately to mitigate the risk.
 ```
-It says that this vulnerability is of windows explorer that using im 
+It says that this vulnerability is of windows explorer that is using `implicit trust and automatic file parsing` 
 
 
