@@ -115,3 +115,42 @@ The host is a domain controller of the domain fluffy.htb so lets add that to /et
 ```bash
 sudo echo "10.10.11.69 fluffy.htb DC01.fluffy.htb" >> /etc/hosts
 ```
+
+Check using 
+```bash
+cat /etc/hosts
+
+#Output
+
+127.0.0.1	localhost
+::1	localhost ip6-localhost ip6-loopback
+fe00::0	ip6-localnet
+ff00::0	ip6-mcastprefix
+ff02::1	ip6-allnodes
+ff02::2	ip6-allrouters
+172.18.0.2	kali
+10.10.11.69 fluffy.htb DC01.fluffy.htb
+
+```
+
+Also you can do ping for domain resolution
+```bash
+PING fluffy.htb (10.10.11.69) 56(84) bytes of data.
+64 bytes from fluffy.htb (10.10.11.69): icmp_seq=1 ttl=126 time=184 ms
+64 bytes from fluffy.htb (10.10.11.69): icmp_seq=2 ttl=126 time=102 ms
+64 bytes from fluffy.htb (10.10.11.69): icmp_seq=3 ttl=126 time=120 ms
+64 bytes from fluffy.htb (10.10.11.69): icmp_seq=4 ttl=126 time=97.1 ms
+64 bytes from fluffy.htb (10.10.11.69): icmp_seq=5 ttl=126 time=164 ms
+64 bytes from fluffy.htb (10.10.11.69): icmp_seq=6 ttl=126 time=187 ms
+^C
+--- fluffy.htb ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5007ms
+rtt min/avg/max/mdev = 97.064/142.441/186.935/37.249 ms
+
+```
+
+### Recon
+We see that the smb ports are open lets try to list the smb shares on the victim
+```bash
+smbclient -L \\fluffy.htb
+```
