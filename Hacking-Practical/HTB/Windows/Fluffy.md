@@ -193,3 +193,18 @@ Lets use the above to check if we can list the shares
 smbclient //fluffy.htb/IT -U fluffy.htb/j.fleischman%J0elTHEM4n1990!
 ```
 
+Now we get the access and everything looks okayish except the Upgrade_notice.pdf
+```bash
+smb: \> ls
+  .                                   D        0  Mon Jun 30 18:31:07 2025
+  ..                                  D        0  Mon Jun 30 18:31:07 2025
+  Everything-1.4.1.1026.x64           D        0  Fri Apr 18 15:08:44 2025
+  Everything-1.4.1.1026.x64.zip       A  1827464  Fri Apr 18 15:04:05 2025
+  KeePass-2.58                        D        0  Fri Apr 18 15:08:38 2025
+  KeePass-2.58.zip                    A  3225346  Fri Apr 18 15:03:17 2025
+  malicious.library-ms                A      366  Mon Jun 30 18:30:45 2025
+  Upgrade_Notice.pdf                  A   169963  Sat May 17 14:31:07 2025
+
+		5842943 blocks of size 4096. 2253598 blocks available
+```
+Lets download that and see its content
