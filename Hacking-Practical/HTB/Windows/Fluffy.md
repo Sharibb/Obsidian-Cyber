@@ -402,3 +402,4 @@ Now we have 3 Users
 	2. LDAP_SVC
 	3. WINRM_SVC
 #### Shadow Credential Attack
+Identify the modification of the msDS-KeyCredentialLink attribute in an Active Directory Computer or User Object. Attackers can abuse control over the object and create a key pair, append to raw public key in the attribute, and obtain persistent and stealthy access to the target user or computer object.
