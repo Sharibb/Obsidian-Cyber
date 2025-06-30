@@ -355,4 +355,13 @@ And we got the password for the user p.agila
 prometheusx-303
 ```
 
-Even after getting t
+Even after getting the user and pass we cant get a working shell but what we can do now is collect the data about the AD environment using any bloodhound ingestor , here i am using nxc but you can use anything you like just make sure it is compatible with your bloodhound
+```bash
+nxc ldap fluffy.htb -u p.agila -p prometheusx-303 --bloodhound --collection All --dns-server 10.10.11.69
+```
+	nxc : the netexec tool we are using 
+	fluffy.htb : our victim domain we can also use the ip
+	-u : username
+	-p : password
+	 --bloodhound : for the ingester json type
+	 --collection : all for collecting all info
