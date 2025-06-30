@@ -378,3 +378,5 @@ LDAP        10.10.11.69     389    DC01             Compressing output into /hom
 ```
 You can copy the bloodhound.zip file to your desired location and then upload it to bloodhound.
 
+![[Fluffy-03.png]]
+Click on Upload Files and select the bloodhound.zip file 
