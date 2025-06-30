@@ -419,3 +419,6 @@ There are many tools out there through which we can perform this attack like pyw
 Certipy’s shadow command has an auto action, which will add a new Key Credential to the target account, authenticate with the Key Credential to retrieve the NT hash and a TGT for the target, and finally restore the old Key Credential attribute.
 But make sure to check out the pywhisker method as it explains the whole thing in a way better manner.
 	 Required Tools:  Impacket, certipy-ad 
+```bash
+certipy shadow auto -u p.agila@fluffy.htb -p 
+```
