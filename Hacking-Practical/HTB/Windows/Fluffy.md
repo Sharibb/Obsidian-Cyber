@@ -414,6 +414,10 @@ The attacker identifies an Active Directory object (such as a user or computer a
 Since we have it all checked out lets start with the attack
 
 #### SCA
+
+There are many tools out there through which we can perform this attack like pywhisker bloody-AD etc but i chose to go with certipy-ad since it automate the lengthy process and can be resolved in single command.
+Certipy’s shadow command has an auto action, which will add a new Key Credential to the target account, authenticate with the Key Credential to retrieve the NT hash and a TGT for the target, and finally restore the old Key Credential attribute.
+But make sure to check out the pywhisker method as it explains the whole thing in a way better manner.
+
 * Required Tools:  Impacket, certipy-ad 
-There are many tools out there through which we can perform this attack like pywhisker bloody-AD etc but i chose to go with certipy-ad since it automate the lengthy process and can be resolved in single command , but make sure to check out the pywhisker method as it explains the whole thing in a way better manner.
 
