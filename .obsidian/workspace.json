@@ -194,6 +194,7 @@
   },
   "active": "3bdbc842aaec890a",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Windows/Fluffy-09.png",
     "Pentesting/Privilege Escalation/Windows/AD/02-Shadow-credential-Attack.md",
     "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
     "Hacking-Practical/HTB/Windows/Fluffy.md",
@@ -238,7 +239,6 @@
     "WebApp/Intro To WebApplication.md",
     "Path in Cyber Security.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md"
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md"
   ]
 }
