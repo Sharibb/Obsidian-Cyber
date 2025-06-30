@@ -208,3 +208,9 @@ smb: \> ls
 		5842943 blocks of size 4096. 2253598 blocks available
 ```
 Lets download that and see its content
+![[Fluffy-02.png]]
+In this page it literally tells us that system has these vulnerabilities and it should be patched
+
+#### Looking At CVE-2025-24071
+
+
