@@ -401,5 +401,5 @@ Now we have 3 Users
 	1. CA_SVC
 	2. LDAP_SVC
 	3. WINRM_SVC
-#### Shadow Credential Attack
-Identify the modification of the msDS-KeyCredentialLink attribute in an Active Directory Computer or User Object. Attackers can abuse control over the object and create a key pair, append to raw public key in the attribute, and obtain persistent and stealthy access to the target user or computer object.
+#### Shadow Credential Attack [Reference](https://www.hackingarticles.in/shadow-credentials-attack/)
+This attack leverages the mismanagement or exploitation of Active Directory Certificate Services (AD CS) to inject custom certificates into a user account, granting attackers persistent access. As a result of modifying the msDS-KeyCredentialLink attribute, adversaries can effectively create “shadow credentials” that allow them to authenticate as the target user without needing their password or NTLM hash.
