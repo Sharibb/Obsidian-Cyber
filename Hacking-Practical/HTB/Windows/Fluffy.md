@@ -154,3 +154,19 @@ We see that the smb ports are open lets try to list the smb shares on the victim
 ```bash
 smbclient -L \\fluffy.htb
 ```
+
+##### Output
+```bash
+smbclient -L \\fluffy.htb
+Password for [WORKGROUP\root]:
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	ADMIN$          Disk      Remote Admin
+	C$              Disk      Default share
+	IPC$            IPC       Remote IPC
+	IT              Disk      
+	NETLOGON        Disk      Logon server share 
+	SYSVOL          Disk      Logon server share 
+```
+We can see an unusual `Share` called `IT` but while accessing it it says 
