@@ -190,5 +190,6 @@ J0elTHEM4n1990
 ```
 Lets use the above to check if we can list the shares
 ```bash
-smbclient -U j.fleischman -P J0elTHEM4n1990 //fluffy.htb/IT
+smbclient //fluffy.htb/IT -U fluffy.htb/j.fleischman%J0elTHEM4n1990!
 ```
+
