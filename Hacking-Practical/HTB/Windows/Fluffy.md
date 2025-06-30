@@ -391,4 +391,9 @@ Click on the Profile icon and on the right side you can see the details about th
 Scroll down and click on Outbound Object Control you will see something like this
 
 ![[Fluffy-06.png]]
-Now that we know P.AGILA is a member of Service Account Managers which is directly affiliated with Service Accounts we can list all the service account 
+Now that we know P.AGILA is a member of Service Account Managers which generic all permission on Service Accounts we can list all the service account by clicking on Service Accounts.
+![[Fluffy-07.png]]
+Now we have 3 Users 
+	1. CA_SVC
+	2. LDAP_SVC
+	3. WINRM_SVC
