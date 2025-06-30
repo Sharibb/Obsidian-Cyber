@@ -170,3 +170,25 @@ Password for [WORKGROUP\root]:
 	SYSVOL          Disk      Logon server share 
 ```
 We can see an unusual `Share` called `IT` but while accessing it it says 
+```bash
+smbclient //fluffy.htb/IT
+Password for [WORKGROUP\root]:
+Try "help" to get a list of possible commands.
+smb: \> ls
+NT_STATUS_ACCESS_DENIED listing \*
+smb: \> 
+```
+
+Now lets go back to the HackTheBox page and check the creds given in the room
+Username:
+```bash
+j.fleischman
+```
+Password:
+```bash
+J0elTHEM4n1990
+```
+Lets use the above to check if we can list the shares
+```bash
+smbclient -U j.fleischman -P J0elTHEM4n1990 //fluffy.htb/IT
+```
