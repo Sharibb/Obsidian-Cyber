@@ -401,5 +401,8 @@ Now we have 3 Users
 	1. CA_SVC
 	2. LDAP_SVC
 	3. WINRM_SVC
+#### PATH-TO-SERVICE Account using P.AGILA
+We can utilize the pathfinding tab in bloodhound explore page for getting the path to any service account.
+
 #### Shadow Credential Attack [Reference](https://www.hackingarticles.in/shadow-credentials-attack/)
 This attack leverages the mismanagement or exploitation of Active Directory Certificate Services (AD CS) to inject custom certificates into a user account, granting attackers persistent access. As a result of modifying the msDS-KeyCredentialLink attribute, adversaries can effectively create “shadow credentials” that allow them to authenticate as the target user without needing their password or NTLM hash.
