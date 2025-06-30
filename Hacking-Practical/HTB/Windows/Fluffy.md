@@ -380,3 +380,15 @@ You can copy the bloodhound.zip file to your desired location and then upload it
 
 ![[Fluffy-03.png]]
 Click on Upload Files and select the bloodhound.zip file 
+![[Fluffy-04.png]]
+It will take some time roughly a min (depends on your system) to ingest the file
+
+### Bloodhound
+Now in bloodhound you can see the user p.agila on explore page --> search nodes --> p.agila --> enter 
+![[Fluffy-05.png]]
+Click on the Profile icon and on the right side you can see the details about the user
+
+Scroll down and click on Outbound Object Control you will see something like this
+
+![[Fluffy-06.png]]
+Now that we know P.AGILA is a member of Service Account Managers which is directly affiliated with Service Accounts we can list all the service account 
