@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0a2496136b7810ca",
+        "id": "7c38188ccef16f89",
         "type": "tabs",
         "children": [
           {
-            "id": "3bdbc842aaec890a",
+            "id": "640fe91facd39910",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,15 +192,16 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3bdbc842aaec890a",
+  "active": "640fe91facd39910",
   "lastOpenFiles": [
+    "page.md",
+    "Hacking-Practical/HTB/Windows/Fluffy.md",
     "Images/HackingPractical/HTB/Windows/Fluffy-12.png",
     "Images/HackingPractical/HTB/Windows/Fluffy-11.png",
     "Images/HackingPractical/HTB/Windows/Fluffy-10.png",
     "Images/HackingPractical/HTB/Windows/Fluffy-09.png",
     "Pentesting/Privilege Escalation/Windows/AD/02-Shadow-credential-Attack.md",
     "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
-    "Hacking-Practical/HTB/Windows/Fluffy.md",
     "Images/HackingPractical/HTB/Windows/Fluffy-08.png",
     "Images/HackingPractical/HTB/Windows/Fluffy-07.png",
     "Images/HackingPractical/HTB/Windows/Fluffy-06.png",
@@ -208,7 +209,6 @@
     "Images/HackingPractical/HTB/Windows/Fluffy-04.png",
     "Images/HackingPractical/HTB/Windows/Fluffy-03.png",
     "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
-    "Images/HackingPractical/HTB/Windows/Fluffy-02.png",
     "Images/HackingPractical/HTB/Windows/Upgrade_Notice",
     "Images/HackingPractical/HTB/Windows",
     "Images/HackingPractical/HTB",

@@ -650,17 +650,8 @@ Certificate Templates                   : [!] Could not find any certificate tem
 
 #### Key Finds
 
-|Field|Value|
-|---|---|
-|**Enabled**|✅ True – Template is active and can be enrolled into.|
-|**Client Authentication**|✅ True – Needed for impersonation (ESC1-type abuse).|
-|**Enrollee Supplies Subject**|❌ False – You **cannot** specify a custom UPN/CN like `administrator`.|
-|**Enrollment Rights**|❌ Only `Domain Admins` and `Enterprise Admins` – No low-priv user can request.|
-|**Write DACL/Owner Rights**|❌ Only `Domain Admins` and `Enterprise Admins` can modify template.|
-|**Private Key Exportable**|✅ `ExportableKey` – if abuse is possible, PFX export would be possible.|
-|**Key Usages**|✅ `Client Authentication`, `Encrypting File System`, `Secure Email`|
-|**Manager Approval**|❌ Not required – good for abuse (if access existed).|
-|**AutoEnrollment**|✅ Enabled – but not helpful without enrollment access.|
+We found that the template which is vulnerable is ES16 after researching for a bit i landed on this [page](https://github.com/ly4k/Certipy/wiki/06-%e2%80%90-Privilege-Escalation#esc16-security-extension-disabled-on-ca-globally).
+
 
 Lets try to exploit it
 
