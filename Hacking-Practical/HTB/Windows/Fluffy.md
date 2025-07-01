@@ -521,3 +521,11 @@ type ..\Desktop\user.txt
 ee5211{REDACTED}f170791e7
 ```
 ### Privilege Escalation to Administrator 
+Now that we have access to LDAP_SVC,WINRM_SVC and CA_SVC we can further explore in Bloodhound for a path to Administrator, since there is no direct path lets look into the accounts.
+Everything in these 3 Accounts look the same except for the number of groups they are member of .
+CA_SVC
+![[Fluffy-10.png]]
+WINRM_SVC
+![[Fluffy-11.png]]
+And Lastly LDAP_SVC
+![[Fluffy-12.png]]
