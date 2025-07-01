@@ -643,7 +643,21 @@ grep -A 40 -i "Template Name.*Administrator" 20250701005740_Certipy.txt
                                           FLUFFY.HTB\Enterprise Admins
 
 ```
-Key
+
+#### Key Finds
+
+|Field|Value|
+|---|---|
+|**Enabled**|✅ True – Template is active and can be enrolled into.|
+|**Client Authentication**|✅ True – Needed for impersonation (ESC1-type abuse).|
+|**Enrollee Supplies Subject**|❌ False – You **cannot** specify a custom UPN/CN like `administrator`.|
+|**Enrollment Rights**|❌ Only `Domain Admins` and `Enterprise Admins` – No low-priv user can request.|
+|**Write DACL/Owner Rights**|❌ Only `Domain Admins` and `Enterprise Admins` can modify template.|
+|**Private Key Exportable**|✅ `ExportableKey` – if abuse is possible, PFX export would be possible.|
+|**Key Usages**|✅ `Client Authentication`, `Encrypting File System`, `Secure Email`|
+|**Manager Approval**|❌ Not required – good for abuse (if access existed).|
+|**AutoEnrollment**|✅ Enabled – but not helpful without enrollment access.|
+
 Lets try to exploit it
 
 ### Exploit the CA_SVC
