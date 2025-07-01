@@ -529,3 +529,53 @@ WINRM_SVC
 ![[Fluffy-11.png]]
 And Lastly LDAP_SVC
 ![[Fluffy-12.png]]
+### 🔍 **1. Common Observations (All 3 Accounts):**
+
+- ✅ **Member of common low-privilege groups** (`DOMAIN USERS`, `AUTHENTICATED USERS`, etc.)
+    
+- ❌ **No Local Admin or Execution privileges**
+    
+- ✅ **All have `Inbound Object Control` = 10**
+    
+- ✅ **All have `Outbound Object Control` = 2**
+    
+
+These indicate they **can be controlled by 10 objects** and **control 2 objects**.
+
+---
+
+### 🧠 **Important Attributes Breakdown:**
+
+| Attribute                  | `CA_SVC`                                             | `WINRM_SVC`                                            | `LDAP_SVC`                        |
+| -------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | --------------------------------- |
+| **Password Never Expires** | ❌ (FALSE)                                            | ✅ (TRUE)                                               | ✅ (TRUE)                          |
+| **Password Not Required**  | ❌                                                    | ❌                                                      | ❌                                 |
+| **ServicePrincipalNames**  | `ADCS/ca.fluffy.htb`                                 | `WINRM/winrm.fluffy.htb`                               | `LDAP/ldap.fluffy.htb`            |
+| **Interesting Groups**     | `CERT PUBLISHERS`, `SERVICE ACCOUNTS`, `DCOM ACCESS` | `REMOTE MGMT USERS`, `DCOM ACCESS`, `SERVICE ACCOUNTS` | `DCOM ACCESS`, `SERVICE ACCOUNTS` |
+### 🔓 **Which One is Best for Admin Access?**
+
+Let’s evaluate each account for **potential privilege escalation**:
+
+---
+
+### 🔐 **Option 1: WINRM_SVC**
+
+- 🔸 Member of `REMOTE MANAGEMENT USERS`: Can access systems via WinRM if allowed.
+    
+- 🔸 Has SPN (`WINRM/winrm.fluffy.htb`) — can be **targeted for Kerberoasting**.
+    
+- ✅ Password never expires = good target.
+    
+### 🔐 **Option 2: LDAP_SVC**
+
+- SPN: `LDAP/ldap.fluffy.htb` → also suitable for **Kerberoasting**
+    
+- ✅ Password never expires
+### 🔐 **Option 3: CA_SVC**
+
+- SPN: `ADCS/ca.fluffy.htb` → if **ADCS (Active Directory Certificate Services)** is in play, this is gold.
+    
+- Member of `CERT PUBLISHERS` and `CERTIFICATE SERVICE DCOM ACCESS` → very interesting for **ESC1**, **ESC6**, or **ESC8** (ADCS misconfig).
+
+The only feasible method here is to elevate our privileges through CA_SVC but you are free to try.
+
