@@ -650,7 +650,10 @@ Certificate Templates                   : [!] Could not find any certificate tem
 
 #### Key Finds
 
-We found that the template which is vulnerable is ES16 after researching for a bit i landed on this [page](https://github.com/ly4k/Certipy/wiki/06-%e2%80%90-Privilege-Escalation#esc16-security-extension-disabled-on-ca-globally).
+We found that the template which is vulnerable is ES16 after researching for a bit i landed on this [page](https://github.com/ly4k/Certipy/wiki/06-%e2%80%90-Privilege-Escalation#esc16-security-extension-disabled-on-ca-globally). Which matches with our:
+- `[!] Vulnerabilities ESC16 : Security Extension is disabled.` This directly flags the CA-level misconfiguration.
+- The `Disabled Extensions` list for the CA contains the OID `1.3.6.1.4.1.311.25.2` (`szOID_NTDS_CA_SECURITY_EXT`).
+- The `[*] Remarks ESC16 : Other prerequisites...` highlights that exploitability often depends on the DC's certificate binding mode or other vulnerabilities like ESC6.
 
 
 Lets try to exploit it
