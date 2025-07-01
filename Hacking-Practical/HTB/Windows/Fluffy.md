@@ -601,18 +601,49 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 
 ```
 In the .txt output we can see:
-```text
-[+] User Enrollable Principals      : FLUFFY.HTB\Domain Users
-Enrollment Agent                    : False
-Enrollee Supplies Subject           : False
-Enrollment Permissions
-  Enrollment Rights                 : FLUFFY.HTB\Domain Admins
+```bash
+grep -A 40 -i "Template Name.*Administrator" 20250701005740_Certipy.txt
+    Template Name                       : Administrator
+    Display Name                        : Administrator
+    Certificate Authorities             : fluffy-DC01-CA
+    Enabled                             : True
+    Client Authentication               : True
+    Enrollment Agent                    : False
+    Any Purpose                         : False
+    Enrollee Supplies Subject           : False
+    Certificate Name Flag               : SubjectRequireDirectoryPath
+                                          SubjectRequireEmail
+                                          SubjectAltRequireEmail
+                                          SubjectAltRequireUpn
+    Enrollment Flag                     : AutoEnrollment
+                                          PublishToDs
+                                          IncludeSymmetricAlgorithms
+    Private Key Flag                    : ExportableKey
+    Extended Key Usage                  : Microsoft Trust List Signing
+                                          Encrypting File System
+                                          Secure Email
+                                          Client Authentication
+    Requires Manager Approval           : False
+    Requires Key Archival               : False
+    Authorized Signatures Required      : 0
+    Validity Period                     : 1 year
+    Renewal Period                      : 6 weeks
+    Minimum RSA Key Length              : 2048
+    Permissions
+      Enrollment Permissions
+        Enrollment Rights               : FLUFFY.HTB\Domain Admins
+                                          FLUFFY.HTB\Enterprise Admins
+      Object Control Permissions
+        Owner                           : FLUFFY.HTB\Enterprise Admins
+        Write Owner Principals          : FLUFFY.HTB\Domain Admins
+                                          FLUFFY.HTB\Enterprise Admins
+        Write Dacl Principals           : FLUFFY.HTB\Domain Admins
+                                          FLUFFY.HTB\Enterprise Admins
+        Write Property Principals       : FLUFFY.HTB\Domain Admins
+                                          FLUFFY.HTB\Enterprise Admins
+
 ```
-This means:
-
-Domain Users can enroll, which is one core condition.
-
-But actual Enroll rights are only assigned to Domain Admins, which contradicts the earlier line. This may be an artifact of Certipy's parsing — what really matters is the effective permissions.
+Key
 Lets try to exploit it
 
 ### Exploit the CA_SVC
