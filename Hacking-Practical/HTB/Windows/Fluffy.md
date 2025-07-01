@@ -410,6 +410,7 @@ Similarly if we pathfind from P.AGILA --> LDAP/CA_SVC we can see the same.
 So lets first add p.agila to the Service Accounts group, click on the Generic All after Service Account Manager on bloodhound and on the right side you will be able to see this.
 ![[Fluffy-09.png]]
 Now we can just follow linux abuse and Add the P.AGILA user to Service Accounts
+#### Adding P.AGILA to Service Accounts Group
 
 ```bash
 net rpc group members "Service Accounts" "p.agila" -U "fluffy.htb"/"p.agila"%"prometheusx-303" -S "DC01.fluffy.htb"
