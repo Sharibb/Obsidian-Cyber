@@ -580,7 +580,7 @@ Let’s evaluate each account for **potential privilege escalation**:
 The only feasible method here is to elevate our privileges through CA_SVC but you are free to try.
 Lets first enumerate to check if we can even proceed
 ```bash
-certipy find -u ca_svc -hashes ':ca0f4f9e9eb8a092addf53bb03fc98c8' -target fluffy.htb -dc-ip 10.10.11.69
+certipy find -vulnerable -u ca_svc -hashes ':ca0f4f9e9eb8a092addf53bb03fc98c8' -target fluffy.htb -dc-ip 10.10.11.69
 ```
 Output
 ```bash
