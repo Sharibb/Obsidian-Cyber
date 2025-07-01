@@ -520,3 +520,4 @@ type ..\Desktop\user.txt
  *Evil-WinRM* PS C:\Users\winrm_svc\Documents> type ..\Desktop\user.txt
 ee5211{REDACTED}f170791e7
 ```
+### Privilege Escalation to Administrator 
