@@ -584,64 +584,68 @@ certipy find -vulnerable -u ca_svc -hashes ':ca0f4f9e9eb8a092addf53bb03fc98c8' -
 ```
 Output
 ```bash
-Certipy v4.8.2 - by Oliver Lyak (ly4k)
+Certipy v5.0.2 - by Oliver Lyak (ly4k)
 
 [*] Finding certificate templates
 [*] Found 33 certificate templates
 [*] Finding certificate authorities
 [*] Found 1 certificate authority
 [*] Found 11 enabled certificate templates
-[*] Trying to get CA configuration for 'fluffy-DC01-CA' via CSRA
-[!] Got error while trying to get CA configuration for 'fluffy-DC01-CA' via CSRA: Could not connect: timed out
-[*] Trying to get CA configuration for 'fluffy-DC01-CA' via RRP
-[*] Got CA configuration for 'fluffy-DC01-CA'
-[*] Saved BloodHound data to '20250701005740_Certipy.zip'. Drag and drop the file into the BloodHound GUI from @ly4k
-[*] Saved text output to '20250701005740_Certipy.txt'
-[*] Saved JSON output to '20250701005740_Certipy.json'
+[*] Finding issuance policies
+[*] Found 14 issuance policies
+[*] Found 0 OIDs linked to templates
+[*] Retrieving CA configuration for 'fluffy-DC01-CA' via RRP
+[*] Successfully retrieved CA configuration for 'fluffy-DC01-CA'
+[*] Checking web enrollment for CA 'fluffy-DC01-CA' @ 'DC01.fluffy.htb'
+[!] Error checking web enrollment: timed out
+[!] Use -debug to print a stacktrace
+[!] Error checking web enrollment: timed out
+[!] Use -debug to print a stacktrace
+[*] Saving text output to '20250701012643_Certipy.txt'
+[*] Wrote text output to '20250701012643_Certipy.txt'
+[*] Saving JSON output to '20250701012643_Certipy.json'
+[*] Wrote JSON output to '20250701012643_Certipy.json'
 
 ```
 In the .txt output we can see:
 ```bash
-grep -A 40 -i "Template Name.*Administrator" 20250701005740_Certipy.txt
-    Template Name                       : Administrator
-    Display Name                        : Administrator
-    Certificate Authorities             : fluffy-DC01-CA
-    Enabled                             : True
-    Client Authentication               : True
-    Enrollment Agent                    : False
-    Any Purpose                         : False
-    Enrollee Supplies Subject           : False
-    Certificate Name Flag               : SubjectRequireDirectoryPath
-                                          SubjectRequireEmail
-                                          SubjectAltRequireEmail
-                                          SubjectAltRequireUpn
-    Enrollment Flag                     : AutoEnrollment
-                                          PublishToDs
-                                          IncludeSymmetricAlgorithms
-    Private Key Flag                    : ExportableKey
-    Extended Key Usage                  : Microsoft Trust List Signing
-                                          Encrypting File System
-                                          Secure Email
-                                          Client Authentication
-    Requires Manager Approval           : False
-    Requires Key Archival               : False
-    Authorized Signatures Required      : 0
-    Validity Period                     : 1 year
-    Renewal Period                      : 6 weeks
-    Minimum RSA Key Length              : 2048
+cat 20250701012643_Certipy.txt
+```
+Output:
+```text
+Certificate Authorities
+  0
+    CA Name                             : fluffy-DC01-CA
+    DNS Name                            : DC01.fluffy.htb
+    Certificate Subject                 : CN=fluffy-DC01-CA, DC=fluffy, DC=htb
+    Certificate Serial Number           : 3670C4A715B864BB497F7CD72119B6F5
+    Certificate Validity Start          : 2025-04-17 16:00:16+00:00
+    Certificate Validity End            : 3024-04-17 16:11:16+00:00
+    Web Enrollment
+      HTTP
+        Enabled                         : False
+      HTTPS
+        Enabled                         : False
+    User Specified SAN                  : Disabled
+    Request Disposition                 : Issue
+    Enforce Encryption for Requests     : Enabled
+    Active Policy                       : CertificateAuthority_MicrosoftDefault.Policy
+    Disabled Extensions                 : 1.3.6.1.4.1.311.25.2
     Permissions
-      Enrollment Permissions
-        Enrollment Rights               : FLUFFY.HTB\Domain Admins
+      Owner                             : FLUFFY.HTB\Administrators
+      Access Rights
+        ManageCa                        : FLUFFY.HTB\Domain Admins
                                           FLUFFY.HTB\Enterprise Admins
-      Object Control Permissions
-        Owner                           : FLUFFY.HTB\Enterprise Admins
-        Write Owner Principals          : FLUFFY.HTB\Domain Admins
+                                          FLUFFY.HTB\Administrators
+        ManageCertificates              : FLUFFY.HTB\Domain Admins
                                           FLUFFY.HTB\Enterprise Admins
-        Write Dacl Principals           : FLUFFY.HTB\Domain Admins
-                                          FLUFFY.HTB\Enterprise Admins
-        Write Property Principals       : FLUFFY.HTB\Domain Admins
-                                          FLUFFY.HTB\Enterprise Admins
-
+                                          FLUFFY.HTB\Administrators
+        Enroll                          : FLUFFY.HTB\Cert Publishers
+    [!] Vulnerabilities
+      ESC16                             : Security Extension is disabled.
+    [*] Remarks
+      ESC16                             : Other prerequisites may be required for this to be exploitable. See the wiki for more details.
+Certificate Templates                   : [!] Could not find any certificate templates
 ```
 
 #### Key Finds
