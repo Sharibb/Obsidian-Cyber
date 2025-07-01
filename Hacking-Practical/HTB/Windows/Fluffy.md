@@ -578,4 +578,7 @@ Let’s evaluate each account for **potential privilege escalation**:
 - Member of `CERT PUBLISHERS` and `CERTIFICATE SERVICE DCOM ACCESS` → very interesting for **ESC1**, **ESC6**, or **ESC8** (ADCS misconfig).
 
 The only feasible method here is to elevate our privileges through CA_SVC but you are free to try.
-
+Lets first enumerate to check if we can even proceed
+```bash
+certipy-ad find -u ca_svc -Hashes ':ca0f4f9e9eb8a092addf53bb03fc98c8' -target fluffy.htb
+```
