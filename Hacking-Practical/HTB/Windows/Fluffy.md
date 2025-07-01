@@ -529,7 +529,7 @@ WINRM_SVC
 ![[Fluffy-11.png]]
 And Lastly LDAP_SVC
 ![[Fluffy-12.png]]
-### 🔍 **1. Common Observations (All 3 Accounts):**
+#### 🔍 **1. Common Observations (All 3 Accounts):**
 
 - ✅ **Member of common low-privilege groups** (`DOMAIN USERS`, `AUTHENTICATED USERS`, etc.)
     
@@ -552,7 +552,7 @@ These indicate they **can be controlled by 10 objects** and **control 2 objects*
 | **Password Not Required**  | ❌                                                    | ❌                                                      | ❌                                 |
 | **ServicePrincipalNames**  | `ADCS/ca.fluffy.htb`                                 | `WINRM/winrm.fluffy.htb`                               | `LDAP/ldap.fluffy.htb`            |
 | **Interesting Groups**     | `CERT PUBLISHERS`, `SERVICE ACCOUNTS`, `DCOM ACCESS` | `REMOTE MGMT USERS`, `DCOM ACCESS`, `SERVICE ACCOUNTS` | `DCOM ACCESS`, `SERVICE ACCOUNTS` |
-### 🔓 **Which One is Best for Admin Access?**
+#### 🔓 **Which One is Best for Admin Access?**
 
 Let’s evaluate each account for **potential privilege escalation**:
 
