@@ -544,7 +544,7 @@ These indicate they **can be controlled by 10 objects** and **control 2 objects*
 
 ---
 
-### 🧠 **Important Attributes Breakdown:**
+#### 🧠 **Important Attributes Breakdown:**
 
 | Attribute                  | `CA_SVC`                                             | `WINRM_SVC`                                            | `LDAP_SVC`                        |
 | -------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | --------------------------------- |
@@ -558,7 +558,7 @@ Let’s evaluate each account for **potential privilege escalation**:
 
 ---
 
-### 🔐 **Option 1: WINRM_SVC**
+#### 🔐 **Option 1: WINRM_SVC**
 
 - 🔸 Member of `REMOTE MANAGEMENT USERS`: Can access systems via WinRM if allowed.
     
@@ -566,12 +566,12 @@ Let’s evaluate each account for **potential privilege escalation**:
     
 - ✅ Password never expires = good target.
     
-### 🔐 **Option 2: LDAP_SVC**
+#### 🔐 **Option 2: LDAP_SVC**
 
 - SPN: `LDAP/ldap.fluffy.htb` → also suitable for **Kerberoasting**
     
 - ✅ Password never expires
-### 🔐 **Option 3: CA_SVC**
+#### 🔐 **Option 3: CA_SVC**
 
 - SPN: `ADCS/ca.fluffy.htb` → if **ADCS (Active Directory Certificate Services)** is in play, this is gold.
     
@@ -612,3 +612,19 @@ Certipy v5.0.2 - by Oliver Lyak (ly4k)
 [*] Wrote JSON output to '20250701003816_Certipy.json'
 
 ```
+In the .txt output we can see:
+```text
+[+] User Enrollable Principals      : FLUFFY.HTB\Domain Users
+Enrollment Agent                    : False
+Enrollee Supplies Subject           : False
+Enrollment Permissions
+  Enrollment Rights                 : FLUFFY.HTB\Domain Admins
+```
+This means:
+
+Domain Users can enroll, which is one core condition.
+
+But actual Enroll rights are only assigned to Domain Admins, which contradicts the earlier line. This may be an artifact of Certipy's parsing — what really matters is the effective permissions.
+Lets try to exploit it
+
+### Exploit the CA_SVC
