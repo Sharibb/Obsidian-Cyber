@@ -766,3 +766,6 @@ Info: Establishing connection to remote endpoint
 *Evil-WinRM* PS C:\Users\Administrator\Documents> type ..\Desktop\root.txt
 8a3033{Redacted}f4046bd8
 ```
+## Fluffy Has Been PWNED
+Thank you for reading this through hope you enjoyed IT!
+![[Fluffy-13.jpg]]

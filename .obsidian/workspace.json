@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Hacking-Practical/HTB/Windows/Fluffy.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -194,6 +194,7 @@
   },
   "active": "640fe91facd39910",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Windows/Fluffy-13.jpg",
     "page.md",
     "Hacking-Practical/HTB/Windows/Fluffy.md",
     "Images/HackingPractical/HTB/Windows/Fluffy-12.png",
@@ -238,7 +239,6 @@
     "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
     "WebApp/Intro To WebApplication.md",
     "Path in Cyber Security.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md"
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md"
   ]
 }
