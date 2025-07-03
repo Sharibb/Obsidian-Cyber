@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Hacking-Practical/HTB/Windows/Fluffy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Fluffy"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "Hacking-Practical/HTB/Windows/Fluffy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Fluffy"
             }
           },
           {
@@ -194,6 +194,7 @@
   },
   "active": "640fe91facd39910",
   "lastOpenFiles": [
+    "Welcome.md",
     "Hacking-Practical/HTB/Windows/Fluffy.md",
     "Images/HackingPractical/HTB/Windows/Fluffy-13.jpg",
     "page.md",
