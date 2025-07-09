@@ -198,6 +198,7 @@ PUPPY\adam.silver
 PUPPY\jamie.williams
 ```
 Its added now lets check the smbmap using this command
+#### SmbMap 2
 ```bash
 smbmap -H puppy.htb -u levi.james -p KingofAkron2025!
 ```
@@ -227,4 +228,11 @@ SMBMap - Samba Share Enumerator v1.10.7 | Shawn Evans - ShawnDEvans@gmail.com
 	NETLOGON                                          	READ ONLY	Logon server share 
 	SYSVOL                                            	READ ONLY	Logon server share 
 [*] Closed 1 connections                                                                                                     
+```
+Now we can see READ ONLY access to `DEV-SHARE`
+
+#### SMBClient
+Now that we have access to DEV-SHARE lets see if we can find any useful stuff in there
+```bash
+smbclient 
 ```
