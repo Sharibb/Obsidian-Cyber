@@ -124,7 +124,7 @@ I tried Running SMBMap and SMBClient but no luck as the user given has no access
 ```bash
 
 ```
-
+We can see that DEVS share is there for developers of the puppy domain but we dont have any access to that
 #### RPCCLIENT
 
 ```bash
@@ -176,3 +176,8 @@ After that lets upload the zip file to the bloodhound webapp and check our user
 ![[Puppy01.png]]
 Here we can see that the user given to us is member of 2 groups one is a common group `
 `Domain Users` and other one is `HR` which is interesting lets check the HR group.
+![[Puppy02.png]]
+`HR` group has GenericWrite privilege on the `DEVS` group which means we can add our user into the DEVS group lets try doing that since we found the smb share for dev group we might be able to access it after that.
+```bash
+
+```
