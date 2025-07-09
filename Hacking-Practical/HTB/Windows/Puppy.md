@@ -286,4 +286,10 @@ We got the password of keepass its
 ```password keepass
 liverpool
 ```
+Now open keepass in your linux machine if its not installed install it using
+```bash
+sudo apt install keepass2
+```
 
+![[Puppy03.png]]
+Now go to File --> 
