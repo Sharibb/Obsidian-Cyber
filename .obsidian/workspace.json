@@ -192,6 +192,7 @@
   },
   "active": "640fe91facd39910",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Windows/Puppy",
     "Pentesting/NetworkPentesting(NPT)/Intro-To-NPT.md",
     "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
     "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration",
@@ -236,7 +237,6 @@
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
     "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
-    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md",
-    "Tools/Weaponisation/Metasploit/02-MSF-Auxilary-Modules.md"
+    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md"
   ]
 }
