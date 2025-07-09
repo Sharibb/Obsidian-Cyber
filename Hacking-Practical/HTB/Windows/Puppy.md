@@ -2,7 +2,7 @@
 ### Description
 As is common in real life pentests, you will start the Puppy box with credentials for the following account: levi.james / KingofAkron2025!
 
-### Entry Credentials
+#### Entry Credentials
 
 ```username
 levi.james
@@ -297,5 +297,8 @@ Now go to File --> Open --> Open FIle and select recovery.kdbx file then it will
 Enter master password which we got from john and click OK.
 ![[Puppy05.png]]
 Here we can see the password of the following users and we can use these to enum further
+
+
+#### Bloodhound 2
 
 
