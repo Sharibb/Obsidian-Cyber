@@ -1,0 +1,100 @@
+```bash
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: http://discord.skerritt.blog         :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+TCP handshake? More like a friendly high-five!
+
+[~] The config file is expected to be at "/root/.rustscan.toml"
+[~] File limit higher than batch size. Can increase speed by increasing batch size '-b 1048476'.
+Open 10.10.11.70:53
+Open 10.10.11.70:88
+Open 10.10.11.70:135
+Open 10.10.11.70:139
+Open 10.10.11.70:111
+Open 10.10.11.70:636
+Open 10.10.11.70:464
+Open 10.10.11.70:445
+Open 10.10.11.70:5985
+Open 10.10.11.70:9389
+Open 10.10.11.70:49664
+Open 10.10.11.70:49667
+Open 10.10.11.70:49669
+Open 10.10.11.70:49674
+Open 10.10.11.70:49689
+Open 10.10.11.70:61431
+Open 10.10.11.70:65181
+[~] Starting Script(s)
+[>] Running script "nmap -vvv -p {{port}} -{{ipversion}} {{ip}} -sV" on ip 10.10.11.70
+Depending on the complexity of the script, results may take some time to appear.
+[~] Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-09 02:32 UTC
+NSE: Loaded 47 scripts for scanning.
+Initiating Ping Scan at 02:32
+Scanning 10.10.11.70 [4 ports]
+Completed Ping Scan at 02:32, 0.12s elapsed (1 total hosts)
+Initiating SYN Stealth Scan at 02:32
+Scanning puppy.htb (10.10.11.70) [17 ports]
+Discovered open port 445/tcp on 10.10.11.70
+Discovered open port 53/tcp on 10.10.11.70
+Discovered open port 135/tcp on 10.10.11.70
+Discovered open port 61431/tcp on 10.10.11.70
+Discovered open port 111/tcp on 10.10.11.70
+Discovered open port 9389/tcp on 10.10.11.70
+Discovered open port 139/tcp on 10.10.11.70
+Discovered open port 49689/tcp on 10.10.11.70
+Discovered open port 636/tcp on 10.10.11.70
+Discovered open port 49674/tcp on 10.10.11.70
+Discovered open port 88/tcp on 10.10.11.70
+Discovered open port 49664/tcp on 10.10.11.70
+Discovered open port 49669/tcp on 10.10.11.70
+Discovered open port 65181/tcp on 10.10.11.70
+Discovered open port 5985/tcp on 10.10.11.70
+Discovered open port 49667/tcp on 10.10.11.70
+Discovered open port 464/tcp on 10.10.11.70
+Completed SYN Stealth Scan at 02:32, 0.30s elapsed (17 total ports)
+Initiating Service scan at 02:32
+Scanning 17 services on puppy.htb (10.10.11.70)
+Completed Service scan at 02:33, 57.66s elapsed (17 services on 1 host)
+NSE: Script scanning 10.10.11.70.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 02:33
+Completed NSE at 02:33, 0.56s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 02:33
+Completed NSE at 02:34, 17.34s elapsed
+Nmap scan report for puppy.htb (10.10.11.70)
+Host is up, received echo-reply ttl 126 (0.14s latency).
+Scanned at 2025-07-09 02:32:49 UTC for 76s
+
+PORT      STATE SERVICE       REASON          VERSION
+53/tcp    open  domain        syn-ack ttl 126 Simple DNS Plus
+88/tcp    open  kerberos-sec  syn-ack ttl 126 Microsoft Windows Kerberos (server time: 2025-07-08 20:39:50Z)
+111/tcp   open  rpcbind?      syn-ack ttl 126
+135/tcp   open  msrpc         syn-ack ttl 126 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 126 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds? syn-ack ttl 126
+464/tcp   open  kpasswd5?     syn-ack ttl 126
+636/tcp   open  tcpwrapped    syn-ack ttl 126
+5985/tcp  open  http          syn-ack ttl 126 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+9389/tcp  open  mc-nmf        syn-ack ttl 126 .NET Message Framing
+49664/tcp open  msrpc         syn-ack ttl 126 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 126 Microsoft Windows RPC
+49669/tcp open  msrpc         syn-ack ttl 126 Microsoft Windows RPC
+49674/tcp open  ncacn_http    syn-ack ttl 126 Microsoft Windows RPC over HTTP 1.0
+49689/tcp open  msrpc         syn-ack ttl 126 Microsoft Windows RPC
+61431/tcp open  msrpc         syn-ack ttl 126 Microsoft Windows RPC
+65181/tcp open  msrpc         syn-ack ttl 126 Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 76.22 seconds
+           Raw packets sent: 21 (900B) | Rcvd: 18 (776B)
+
+
+```
