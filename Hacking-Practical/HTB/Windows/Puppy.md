@@ -146,3 +146,9 @@ jamie.willians
 steph.cooper
 steph.cooper_adm
 ```
+
+### Bloodhound
+Start blood hound and get the bloodhound ingester files using bloodhound python
+```bash
+bloodhound-python -u  -p Ignite@987 -ns 192.168.1.172 -d ignite.local -c All
+```
