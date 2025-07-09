@@ -173,3 +173,6 @@ bloodhound-python -u levi.james -p KingofAkron2025! -ns 10.10.11.70 -d puppy.htb
 ```
 After that lets upload the zip file to the bloodhound webapp and check our user
 
+![[Puppy01.png]]
+Here we can see that the user given to us is member of 2 groups one is a common group `
+`Domain Users` and other one is `HR` which is interesting lets check the HR group.
