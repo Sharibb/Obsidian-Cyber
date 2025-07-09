@@ -197,4 +197,7 @@ PUPPY\ant.edwards
 PUPPY\adam.silver
 PUPPY\jamie.williams
 ```
-Its added 
+Its added now lets check the smbmap using this command
+```bash
+smbmap -H puppy.htb -u levi.james -p KingofAkron2025!
+```
