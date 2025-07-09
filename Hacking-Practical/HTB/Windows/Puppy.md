@@ -1,3 +1,8 @@
+
+### Network Scan
+
+#### Rustscan
+
 ```bash
 .----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
 | {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
@@ -97,4 +102,47 @@ Nmap done: 1 IP address (1 host up) scanned in 76.22 seconds
            Raw packets sent: 21 (900B) | Rcvd: 18 (776B)
 
 
+```
+
+### Enumeration
+
+#### RPCCLIENT
+
+```bash
+rpcclient -U levi.james@puppy.htb%KingofAkron2025! puppy.htb
+rpcclient $> querydominfo
+Domain:		PUPPY
+Server:		
+Comment:	
+Total Users:	44
+Total Groups:	0
+Total Aliases:	18
+Sequence No:	1
+Force Logoff:	18446744073709551615
+Domain Server State:	0x1
+Server Role:	ROLE_DOMAIN_PDC
+Unknown 3:	0x0
+rpcclient $> enumdomusers
+user:[Administrator] rid:[0x1f4]
+user:[Guest] rid:[0x1f5]
+user:[krbtgt] rid:[0x1f6]
+user:[levi.james] rid:[0x44f]
+user:[ant.edwards] rid:[0x450]
+user:[adam.silver] rid:[0x451]
+user:[jamie.williams] rid:[0x452]
+user:[steph.cooper] rid:[0x453]
+user:[steph.cooper_adm] rid:[0x457]
+```
+
+List of Users extracted:
+```text
+Administrator
+Geust
+krbtgt
+levi.james
+ant.edwards
+adam.silver
+jamie.willians
+steph.cooper
+steph.cooper_adm
 ```
