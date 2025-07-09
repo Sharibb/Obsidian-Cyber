@@ -119,6 +119,12 @@ Nmap done: 1 IP address (1 host up) scanned in 76.22 seconds
 
 ### Enumeration
 
+#### SmbMap 1
+I tried Running SMBMap and SMBClient but no luck as the user given has no access to the network drives.
+```bash
+
+```
+
 #### RPCCLIENT
 
 ```bash
@@ -163,5 +169,7 @@ steph.cooper_adm
 ### Bloodhound
 Start blood hound and get the bloodhound ingester files using bloodhound python
 ```bash
-bloodhound-python -u levi.james -p KingofAkron2025! -ns 10.10.11.70 -d puppy.htb -c All
+bloodhound-python -u levi.james -p KingofAkron2025! -ns 10.10.11.70 -d puppy.htb -c All --zip
 ```
+After that lets upload the zip file to the bloodhound webapp and check our user
+
