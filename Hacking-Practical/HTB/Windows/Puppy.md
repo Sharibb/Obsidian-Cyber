@@ -1,3 +1,16 @@
+![[Puppy00.png]]
+### Description
+As is common in real life pentests, you will start the Puppy box with credentials for the following account: levi.james / KingofAkron2025!
+
+### Entry Credentials
+
+```username
+levi.james
+```
+
+```password
+KingofAkron2025!
+```
 
 ### Network Scan
 
@@ -150,5 +163,5 @@ steph.cooper_adm
 ### Bloodhound
 Start blood hound and get the bloodhound ingester files using bloodhound python
 ```bash
-bloodhound-python -u  -p Ignite@987 -ns 192.168.1.172 -d ignite.local -c All
+bloodhound-python -u levi.james -p KingofAkron2025! -ns 10.10.11.70 -d puppy.htb -c All
 ```
