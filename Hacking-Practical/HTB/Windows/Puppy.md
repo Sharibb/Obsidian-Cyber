@@ -234,5 +234,23 @@ Now we can see READ ONLY access to `DEV-SHARE`
 #### SMBClient
 Now that we have access to DEV-SHARE lets see if we can find any useful stuff in there
 ```bash
-smbclient 
+smbclient //puppy.htb/DEV -U puppy.htb/levi.james%"KingofAkron2025!" 
+```
+
+Output
+```bash
+Try "help" to get a list of possible commands.
+smb: \> ls
+  .                                  DR        0  Sun Mar 23 12:37:57 2025
+  ..                                  D        0  Sat Mar  8 22:22:57 2025
+  KeePassXC-2.7.9-Win64.msi           A 34394112  Sun Mar 23 12:39:12 2025
+  Projects                            D        0  Sat Mar  8 22:23:36 2025
+  recovery.kdbx                       A     2677  Wed Mar 12 07:55:46 2025
+
+		5080575 blocks of size 4096. 1637057 blocks available
+
+```
+We found keePaas and Recovery.kdbx file Keepass is a password manager and recovery.kdbx might be a Backup file?? lets crack it using john and see if we find anything useful.
+```bash
+
 ```
