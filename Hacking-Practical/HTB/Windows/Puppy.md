@@ -166,7 +166,7 @@ steph.cooper
 steph.cooper_adm
 ```
 
-### Bloodhound
+#### Bloodhound 1
 Start blood hound and get the bloodhound ingester files using bloodhound python
 ```bash
 bloodhound-python -u levi.james -p KingofAkron2025! -ns 10.10.11.70 -d puppy.htb -c All --zip
@@ -296,5 +296,6 @@ Now go to File --> Open --> Open FIle and select recovery.kdbx file then it will
 ![[Puppy04.png]]
 Enter master password which we got from john and click OK.
 ![[Puppy05.png]]
-Here we can see the password of the following users and we can
+Here we can see the password of the following users and we can use these to enum further
+
 
