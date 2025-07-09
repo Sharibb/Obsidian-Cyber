@@ -259,5 +259,31 @@ Output Hash
 recovery:$keepass$*4*37*ef636ddf*67108864*19*4*bf70d9925723ccf623575d62e4c4fb590a2b2b4323ac35892cf2662853527714*d421b15d6c79e29ecb70c8e1c2e92b4b27dc8d9ae6d8107292057feb92441470*03d9a29a67fb4bb500000400021000000031c1f2e6bf714350be5805216afc5aff0304000000010000000420000000bf70d9925723ccf623575d62e4c4fb590a2b2b4323ac35892cf266285352771407100000000ab56ae17c5cebf440092907dac20a350b8b00000000014205000000245555494410000000ef636ddf8c29444b91f7a9a403e30a0c05010000004908000000250000000000000005010000004d080000000000000400000000040100000050040000000400000042010000005320000000d421b15d6c79e29ecb70c8e1c2e92b4b27dc8d9ae6d8107292057feb9244147004010000005604000000130000000000040000000d0a0d0a*31614848015626f2451cc4d07ce9a281a416c8e8c2ff8cc45c69ce1f4daef0e9
 ```
 Now save this in a file and run JTR!
-```john recovery.hash --wordlist=rockyou.txt
+```bash
+john recovery.hash --wordlist=rockyou.txt
 ```
+Output
+```bash
+KeePass-opencl: Argon2 hash(es) not supported, skipping.
+Warning: detected hash type "KeePass", but the string is also recognized as "KeePass-Argon2-opencl"
+Use the "--format=KeePass-Argon2-opencl" option to force loading these as that type instead
+Using default input encoding: UTF-8
+Loaded 1 password hash (KeePass [AES/Argon2 256/256 AVX2])
+Cost 1 (t (rounds)) is 37 for all loaded hashes
+Cost 2 (m) is 65536 for all loaded hashes
+Cost 3 (p) is 4 for all loaded hashes
+Cost 4 (KDF [0=Argon2d 2=Argon2id 3=AES]) is 0 for all loaded hashes
+Will run 16 OpenMP threads
+Note: Passwords longer than 41 [worst case UTF-8] to 124 [ASCII] rejected
+Press 'q' or Ctrl-C to abort, 'h' for help, almost any other key for status
+Failed to use huge pages (not pre-allocated via sysctl? that's fine)
+liverpool        (recovery)     
+1g 0:00:00:16 DONE (2025-07-10 01:06) 0.06028g/s 2.893p/s 2.893c/s 2.893C/s purple..1234567890
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+```
+We got the password of keepass its 
+```password keepass
+liverpool
+```
+
