@@ -301,4 +301,11 @@ Here we can see the password of the following users and we can use these to enum
 
 #### Bloodhound 2
 
+Now emuerating the users we found above in bloodhound we found 2 interesting users 
+```bash
+ADAM.SILVER@PUPPY.HTB
+```
 
+```bash
+ANT.EDWARDS@PUPPY.HTB
+```
