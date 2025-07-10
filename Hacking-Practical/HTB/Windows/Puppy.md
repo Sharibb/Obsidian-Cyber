@@ -407,3 +407,4 @@ Mode                 LastWriteTime         Length Name
 *Evil-WinRM* PS C:\Users\adam.silver\Desktop> type user.txt
 141a5{RETRACTED}4a760fc
 ```
+### Privilege Escalation
