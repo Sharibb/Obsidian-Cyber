@@ -302,14 +302,19 @@ Here we can see the password of the following users and we can use these to enum
 #### Bloodhound 2
 
 Now emuerating the users we found above in bloodhound we found 2 interesting users 
+##### User 1
 ```user1
 ADAM.SILVER@PUPPY.HTB
 ```
 ![[Puppy06.png]]
-Adam is  a member of Remote Management group which means we can try loggin in using winrm
-```bash
+Adam is  a member of Remote Management group which means we can try loggin in using winrm:
 
+```bash
+evil-winrm -i puppy.htb -u adam.silver -p 'PASSFORADAM!'
 ```
+![[Puppy07.png]]
+It failed, maybe the password we got from keepass is old?
+##### User 2
 ```user2
 ANT.EDWARDS@PUPPY.HTB
 ```
