@@ -408,3 +408,4 @@ Mode                 LastWriteTime         Length Name
 141a5{RETRACTED}4a760fc
 ```
 ### Privilege Escalation
+After logging in 
