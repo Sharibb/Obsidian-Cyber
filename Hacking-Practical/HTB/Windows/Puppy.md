@@ -318,3 +318,6 @@ It failed, maybe the password we got from keepass is old?
 ```user2
 ANT.EDWARDS@PUPPY.HTB
 ```
+Anthony is a member of `Senior Devs` group
+![[Puppy08.png]]
+Now checking the `Senior Devs` Group
