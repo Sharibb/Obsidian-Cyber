@@ -426,4 +426,10 @@ C:\Users\steph.cooper\AppData\Roaming\Microsoft\Credentials
 ```
 the file 
 ![[Puppy11.png]]
-After researching a bit online the password we got for is of DPAPI
+After researching a bit online the password we got for is of DPAPI.
+I found this awesome blog on [medium](https://z3r0th.medium.com/abusing-dpapi-40b76d3ff5eb) and followed it.
+Now according to that blog there is one more file in 
+```cmd
+C:\Users\steph.cooper\AppData\Roaming\Microsoft\Protect
+```
+
