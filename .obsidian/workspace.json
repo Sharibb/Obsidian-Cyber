@@ -192,6 +192,8 @@
   },
   "active": "640fe91facd39910",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Windows/Voleur/Voleur-00.png",
+    "Images/HackingPractical/HTB/Windows/Voleur",
     "Hacking-Practical/HTB/Linux/Artificial.md",
     "Hacking-Practical/HTB/Windows/Voleur.md",
     "Images/HackingPractical/HTB/Linux/Artificial/Artificial-03.png",
@@ -221,7 +223,6 @@
     "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration",
     "Pentesting/Untitled",
     "Pentesting/NetworkPentesting(NPT)/Windows/Untitled.md",
-    "Pentesting/NetworkPentesting(NPT)/Windows",
     "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
     "Welcome.md",
     "page.md",
@@ -236,7 +237,6 @@
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
-    "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
-    "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md"
+    "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md"
   ]
 }
