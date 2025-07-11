@@ -416,5 +416,11 @@ C:/Backups/site-backup-2024-12-30.zip
 ```
 Download and extract it then you will find this file
 ```bash
+nms-auth-config.xml.bak
+```
+It contains the password for `steph.cooper`.
+Now after that too moving around was tough there was literally 0 attack surface with steph or i am just a noob haxor.
+I found something interesting in:
+```cmd
 
 ```
