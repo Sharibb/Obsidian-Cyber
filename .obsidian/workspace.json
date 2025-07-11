@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking-Practical/HTB/Windows/Puppy.md",
+                "file": "Hacking-Practical/HTB/Linux/Artificial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Puppy"
+              "title": "Artificial"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking-Practical/HTB/Windows/Puppy.md",
+                "file": "Hacking-Practical/HTB/Linux/Artificial.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Puppy"
+              "title": "Outline of Artificial"
             }
           },
           {
@@ -192,6 +192,12 @@
   },
   "active": "640fe91facd39910",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Linux/Artificial/Artificial-00.png",
+    "Images/HackingPractical/HTB/Linux/Artificial",
+    "Images/HackingPractical/HTB/Linux",
+    "Hacking-Practical/HTB/Windows/Puppy.md",
+    "Hacking-Practical/HTB/Linux/Artificial.md",
+    "Hacking-Practical/HTB/Linux",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy14.png",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy13.png",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy12.png",
@@ -200,14 +206,12 @@
     "Pentesting/Privilege Escalation/Windows/AD/02-Shadow-credential-Attack.md",
     "Pentesting/Privilege Escalation/Windows/AD/01-Technique(RBCD).md",
     "Pentesting/Privilege Escalation/Windows/AD/00-Intro-To-AD Privilege Escalation.md",
-    "Hacking-Practical/HTB/Windows/Puppy.md",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy10.png",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy09.png",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy08.png",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy07.png",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy06.png",
     "Hacking-Practical/HTB/Windows/Fluffy.md",
-    "Images/HackingPractical/HTB/Windows/Puppy/Puppy05.png",
     "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
     "Images/Pentesting/NPT/Windows/Enumeration",
     "Images/Pentesting/NPT/Windows",
@@ -221,9 +225,6 @@
     "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
     "Welcome.md",
     "page.md",
-    "Images/HackingPractical/HTB/Windows/Upgrade_Notice",
-    "Images/HackingPractical/HTB/Windows",
-    "Images/HackingPractical/HTB",
     "Clippings/goosie's dump.md",
     "Hacking-Practical/PicoCTF/SSTI2/SSTI_Exploitation_Guide.md",
     "Hacking-Practical/PicoCTF/SSTI1/Server Side Template Injection-1.md",
@@ -236,7 +237,6 @@
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Untitled.md",
     "Tools/Weaponisation/Metasploit/01-MSFConsole and MSFVenom.md",
     "Tools/Weaponisation/Metasploit/00-Intro-To-Metasploit.md",
-    "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md",
-    "Tools/Weaponisation/Metasploit/03-MSF-Exploit-Modules.md"
+    "Tools/Weaponisation/Metasploit/04-MSF-Payload-Modules.md"
   ]
 }
