@@ -410,4 +410,7 @@ Mode                 LastWriteTime         Length Name
 ### Privilege Escalation
 **ADvise: After logging in quickly get a meterpreter shell if you can so that you can enumerate seamlessly.**
 After getting the shell i couldnt enumerate further using bloodhound or any external means(yes i have tried smb bruteforcing using steph.cooper as username and passwords similar to Steph2025!).
-
+There is a file located at
+```cmd
+C:/Backups/
+```
