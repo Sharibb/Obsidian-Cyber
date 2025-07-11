@@ -412,5 +412,9 @@ Mode                 LastWriteTime         Length Name
 After getting the shell i couldnt enumerate further using bloodhound or any external means(yes i have tried smb bruteforcing using steph.cooper as username and passwords similar to Steph2025!).
 There is a file located at
 ```cmd
-C:/Backups/
+C:/Backups/site-backup-2024-12-30.zip
+```
+Download and extract it then you will find this file
+```bash
+
 ```
