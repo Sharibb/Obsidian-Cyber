@@ -422,5 +422,6 @@ It contains the password for `steph.cooper`.
 Now after that too moving around was tough there was literally 0 attack surface with steph or i am just a noob haxor.
 I found something interesting in:
 ```cmd
-
+C:\Users\steph.cooper\AppData\Roaming\Microsoft\Credentials
 ```
+the file 
