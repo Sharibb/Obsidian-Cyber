@@ -64,5 +64,32 @@ Now that we got port 80 open lets open the `artificial.htb` website in our brows
 ![[Artificial-01.png]]
 Theres not much attack surface we can utilize but there is a login and registeration page lets register first and see what else can we do.
 After registering and logging in we can see the page below.
+![[Artificial-03.png]]
+We have a file upload section and requirements file and dockerfile
+
+Requirements
+
+```python
+tensorflow-cpu==2.13.1
+```
+
+Dockerfile
+
+```Dockerfile
+FROM python:3.8-slim
+
+WORKDIR /code
+
+RUN apt-get update && \
+    apt-get install -y curl && \
+    curl -k -LO https://files.pythonhosted.org/packages/65/ad/4e090ca3b4de53404df9d1247c8a371346737862cfe539e7516fd23149a4/tensorflow_cpu-2.13.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN pip install ./tensorflow_cpu-2.13.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+
+ENTRYPOINT ["/bin/bash"]
+```
+
+Lets handle the issue at hand right now..The Upload form, lets try uploading a malicious python file and see if we get revshell
 
 
