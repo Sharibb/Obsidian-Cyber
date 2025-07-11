@@ -479,3 +479,4 @@ Unknown     :
 Username    : steph.cooper_adm
 Unknown     : Five{REDACTED}2025!
 ```
+Now that we got the password for steph.cooper_adm lets start our DCSync attack
