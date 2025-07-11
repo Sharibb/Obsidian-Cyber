@@ -59,4 +59,7 @@ Nmap done: 1 IP address (1 host up) scanned in 10.17 seconds
            Raw packets sent: 6 (240B) | Rcvd: 3 (128B)
 
 ```
-
+### Web Enumeration
+Now that we got port 80 open lets open the `artificial.htb` website in our browser
+![[Artificial-01.png]]
+Theres not much attack surface we can 
