@@ -425,3 +425,5 @@ I found something interesting in:
 C:\Users\steph.cooper\AppData\Roaming\Microsoft\Credentials
 ```
 the file 
+![[Puppy11.png]]
+After researching a bit online the password we got for is of DPAPI
