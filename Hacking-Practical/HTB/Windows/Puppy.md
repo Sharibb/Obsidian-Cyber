@@ -436,9 +436,10 @@ C:\Users\steph.cooper\AppData\Roaming\Microsoft\Protect\S-1-5-21-1487982659-1829
 Lets download both the files and save it in our local linux machine and use impacket-dpapi to decode the password.
 ```bash
 dpapi.py masterkey -file ../../../HTB/Puppy/556a2412-1275-4ccf-b721-e6a0b4f90407 -password 'Steph2025!' -sid S-1-5-21-1487982659-1829050783-2281216199-1107 
-
 ```
-.According to the blog the C8---- file which we found in Credentials has the credential key so we gonna use that to get our key.
+1. According to the blog the file we downloaded from Protect directory is our masterkey. It is located inside the SID of the user.
+2. Get the SID from the folder and use in -sid tag
+3. Steph2025! is not a real password ffs.
 ```bash
 
 ```
