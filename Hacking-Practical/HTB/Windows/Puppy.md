@@ -463,4 +463,4 @@ Now we will use the Decrypted Key to get the password from Credentials blob
 ```bash
 dpapi.py credential -file ../../../HTB/Puppy/C8D69EBE9A43E9DEBF6B5FBD48B521B9 -key 0xd9a5707{REDACTED}e9c84
 ```
-We have used the C8--- file as the credential file (From the )
+We have used the C8--- file as the credential file (From the blog)
