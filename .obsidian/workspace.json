@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Intro to OWASP API Top 10(2023)"
+              "title": "01-Broken Object Level Authorization"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-Intro to OWASP API Top 10(2023)"
+              "title": "Outline of 01-Broken Object Level Authorization"
             }
           },
           {
@@ -192,9 +192,9 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization.md",
     "Networking/Untitled.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
     "Hacking-Practical/HTB/Windows/Voleur.md",
     "Hacking-Practical/HTB/Windows/Puppy.md",
     "Images/HackingPractical/HTB/Windows/Voleur/Voleur-00.png",
