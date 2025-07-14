@@ -192,9 +192,9 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/03-Broken Object Property Level Authorization.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/02-Broken Authentication.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/03-Broken Object Property Level Authorization.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization(BOLA).md",
     "Networking/Untitled.md",
     "Hacking-Practical/HTB/Windows/Voleur.md",
