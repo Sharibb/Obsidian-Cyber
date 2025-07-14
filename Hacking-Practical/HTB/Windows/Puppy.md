@@ -122,7 +122,7 @@ Nmap done: 1 IP address (1 host up) scanned in 76.22 seconds
 #### SmbMap 1
 I tried Running SMBMap and SMBClient but no luck as the user given has no access to the network drives.
 ```bash
-
+smbmap -H puppy.htb -u levi.james -p KingofAkron2025!
 ```
 We can see that DEVS share is there for developers of the puppy domain but we dont have any access to that
 #### RPCCLIENT
