@@ -192,6 +192,8 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/09-Improper Inventory Management.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/10-Unsafe Consumption of APIs.md",
     "Tools/NPT/NMAP/01-Host-Discovery.md",
     "Tools/NPT/NMAP/02-Port Scanning.md",
     "Tools/NPT/NMAP/04-NSE.md",
@@ -207,8 +209,6 @@
     "Hacking-Practical/HTB/Windows/Voleur.md",
     "Hacking-Practical/HTB/Windows/Fluffy.md",
     "Hacking-Practical/HTB/Linux/Artificial.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/10-Unsafe Consumption of APIs.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/09-Improper Inventory Management.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/08-Security Misconfiguration.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/07-Server Side Request Forgery.md",
