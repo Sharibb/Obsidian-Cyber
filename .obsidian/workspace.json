@@ -11,14 +11,10 @@
             "id": "f1b3a13682e705e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/10-Unsafe Consumption of APIs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10-Unsafe Consumption of APIs"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/10-Unsafe Consumption of APIs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 10-Unsafe Consumption of APIs"
+              "title": "Outline"
             }
           },
           {
@@ -192,13 +187,14 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/09-Improper Inventory Management.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/10-Unsafe Consumption of APIs.md",
+    "Intro-to-Cybersecurity.md",
+    "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
     "Tools/NPT/NMAP/01-Host-Discovery.md",
     "Tools/NPT/NMAP/02-Port Scanning.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/10-Unsafe Consumption of APIs.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/09-Improper Inventory Management.md",
     "Tools/NPT/NMAP/04-NSE.md",
     "Tools/NPT/NMAP/03-OS Fingerprinting.md",
-    "Intro-to-Cybersecurity.md",
     "Path in Cyber Security.md",
     "Networking/Intro To Computer Networking.md",
     "page.md",
@@ -218,7 +214,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization(BOLA).md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/03-Broken Object Property Level Authorization.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/02-Broken Authentication.md",
-    "Hacking-Practical/HTB/Windows/Puppy.md",
     "Images/HackingPractical/HTB/Windows/Voleur/Voleur-00.png",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial/Artificial-03.png",
