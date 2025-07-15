@@ -11,10 +11,14 @@
             "id": "f1b3a13682e705e9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00-Intro-To-Pentesting-Methodologies"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 00-Intro-To-Pentesting-Methodologies"
             }
           },
           {
@@ -187,6 +192,7 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
+    "Networking/OSI-Layer/Layer-6.md",
     "Intro-to-Cybersecurity.md",
     "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
     "Tools/NPT/NMAP/01-Host-Discovery.md",
@@ -213,7 +219,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/04-Unrestricted Resource Consumption.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization(BOLA).md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/03-Broken Object Property Level Authorization.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/02-Broken Authentication.md",
     "Images/HackingPractical/HTB/Windows/Voleur/Voleur-00.png",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial/Artificial-03.png",
