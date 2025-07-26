@@ -76,4 +76,5 @@ sudo echo "10.10.11.17 outbound.htb mail.outbound.htb" > /etc/hosts
 | ![[Outbound-01.png]] |
 | :------------------: |
 |     *RoundCube*      |
-Its a roundcube mail interface 
+Its a roundcube mail interface lets login using the default password and check if we can enumerate further.
+
