@@ -67,5 +67,9 @@ So we have 2 ports open ssh and http, lets enumerate further!
 
 Opening the website in Web Browser redirected us to `mail.outbout.htb` let's add that to our `/etc/hosts` file before beginning the web enumeration.
 
+```bash
+sudo echo "10.10.11.17 outbound.htb mail.outbound.htb" > /etc/hosts
+```
+
 ### WebApp Enumeration(Manual Approach)
 
