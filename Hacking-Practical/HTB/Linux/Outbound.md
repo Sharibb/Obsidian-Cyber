@@ -84,4 +84,5 @@ sudo echo "10.10.11.17 outbound.htb mail.outbound.htb" > /etc/hosts
 * After logging in there wasnt much to find but i got the version of Roundcube webmail.
 
 ### CVE-2025-49113
-* After checking the Version on the web, we found out that the Roundcube version 1.16.10 is vulnerable to 
+* After checking the Version on the web, we found out that the Roundcube version 1.16.10 is vulnerable to PHP object deserialization flaw.[Reference](https://www.offsec.com/blog/cve-2025-49113/)
+* 
