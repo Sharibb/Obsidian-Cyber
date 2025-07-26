@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/Intro-To-Pentesting.md",
+                "file": "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro-To-Pentesting"
+              "title": "RPCClient"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/Intro-To-Pentesting.md",
+                "file": "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro-To-Pentesting"
+              "title": "Outline of RPCClient"
             }
           },
           {
@@ -192,6 +192,8 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
+    "Hacking-Practical/HTB/Linux/Outbound.md",
+    "Pentesting/Intro-To-Pentesting.md",
     "Path in Cyber Security.md",
     "Welcome.md",
     "README.md",
@@ -217,8 +219,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/08-Security Misconfiguration.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/07-Server Side Request Forgery.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/06-Unrestricted Access to Sensitive Business Flows.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/05-Broken Function Level Authorization.md",
     "Images/HackingPractical/HTB/Windows/Voleur/Voleur-00.png",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial/Artificial-03.png",
