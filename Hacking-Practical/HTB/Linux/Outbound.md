@@ -78,3 +78,8 @@ sudo echo "10.10.11.17 outbound.htb mail.outbound.htb" > /etc/hosts
 |     *RoundCube*      |
 Its a roundcube mail interface lets login using the default password and check if we can enumerate further.
 
+After logging in there wasnt much to find but i got the version of Roundcube webmail
+ | ![[Outbound-02.png]] |
+ |:--:| 
+ | *Roundcube Version* |
+ 
