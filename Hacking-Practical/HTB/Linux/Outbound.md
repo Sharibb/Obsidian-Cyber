@@ -64,3 +64,8 @@ Nmap done: 1 IP address (1 host up) scanned in 0.34 seconds
 So we have 2 ports open ssh and http, lets enumerate further!
 
 ## Enumeration
+
+Opening the website in Web Browser redirected us to `mail.outbout.htb` let's add that to our `/etc/hosts` file before beginning the web enumeration.
+
+### WebApp Enumeration(Manual Approach)
+
