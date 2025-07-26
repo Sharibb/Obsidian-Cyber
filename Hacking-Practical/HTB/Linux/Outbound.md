@@ -73,7 +73,7 @@ sudo echo "10.10.11.17 outbound.htb mail.outbound.htb" > /etc/hosts
 
 ### WebApp Enumeration(Manual Approach)
 
-| ![[Outbound-01.png]] 
-|
+| ![[Outbound-01.png]]  |
+|:--:|
 *image_caption*
 Its a RoundCube 
