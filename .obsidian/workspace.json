@@ -192,6 +192,8 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-00.png",
+    "Images/HackingPractical/HTB/Linux/Outbound",
     "Hacking-Practical/HTB/Windows/Outbound.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work.md",
@@ -217,7 +219,6 @@
     "Tools/NPT/NMAP/02-Port Scanning.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/09-Improper Inventory Management.md",
     "Tools/NPT/NMAP/04-NSE.md",
-    "Tools/NPT/NMAP/03-OS Fingerprinting.md",
     "Pasted image 20250612234610.png",
     "Images/HackingPractical/HTB/Windows/Voleur/Voleur-00.png",
     "Images/HackingPractical/HTB/Windows/Voleur",
@@ -236,7 +237,6 @@
     "Images/Pentesting/NPT/Windows",
     "Images/Pentesting/NPT",
     "Images/HackingPractical/HTB/Windows/Puppy",
-    "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration",
-    "Pentesting/Untitled"
+    "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration"
   ]
 }
