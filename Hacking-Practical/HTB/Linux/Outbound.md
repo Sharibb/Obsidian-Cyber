@@ -75,5 +75,5 @@ sudo echo "10.10.11.17 outbound.htb mail.outbound.htb" > /etc/hosts
 
 | ![[Outbound-01.png]] |
 | :------------------: |
-|      *RoundCube      |
-Its a 
+|     *RoundCube*      |
+Its a roundcube mail interface 
