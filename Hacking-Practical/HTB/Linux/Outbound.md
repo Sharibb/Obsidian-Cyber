@@ -76,10 +76,12 @@ sudo echo "10.10.11.17 outbound.htb mail.outbound.htb" > /etc/hosts
 | ![[Outbound-01.png]] |
 | :------------------: |
 |     *RoundCube*      |
-Its a roundcube mail interface lets login using the default password and check if we can enumerate further.
-
-After logging in there wasnt much to find but i got the version of Roundcube webmail
+* Its a roundcube mail interface lets login using the default password and check if we can enumerate further.
 
 |    ![[Outbound-02.png]]     |
 | :-------------------------: |
 | *Roundcube Webmail Version* |
+* After logging in there wasnt much to find but i got the version of Roundcube webmail.
+
+### CVE-2025-49113
+* After checking the Version on the web, we found out that the Roundcube version 1.16.10 is vulnerable to 
