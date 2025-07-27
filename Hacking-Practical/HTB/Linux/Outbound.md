@@ -341,6 +341,63 @@ cat mail/INBOX/jacob
 
 Output
 ```bash
+jacob@mail:~$ cat mail/INBOX/jacob 
+From tyler@outbound.htb  Sat Jun 07 14:00:58 2025
+Return-Path: <tyler@outbound.htb>
+X-Original-To: jacob
+Delivered-To: jacob@outbound.htb
+Received: by outbound.htb (Postfix, from userid 1000)
+	id B32C410248D; Sat,  7 Jun 2025 14:00:58 +0000 (UTC)
+To: jacob@outbound.htb
+Subject: Important Update
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250607140058.B32C410248D@outbound.htb>
+Date: Sat,  7 Jun 2025 14:00:58 +0000 (UTC)
+From: tyler@outbound.htb
+X-IMAPbase: 1749304753 0000000002
+X-UID: 1
+Status: 
+X-Keywords:                                                                       
+Content-Length: 233
+
+Due to the recent change of policies your password has been changed.
+
+Please use the following credentials to log into your account: gY4Wr3a1evp4
+
+Remember to change your password when you next log into your account.
+
+Thanks!
+
+Tyler
+
+From mel@outbound.htb  Sun Jun 08 12:09:45 2025
+Return-Path: <mel@outbound.htb>
+X-Original-To: jacob
+Delivered-To: jacob@outbound.htb
+Received: by outbound.htb (Postfix, from userid 1002)
+	id 1487E22C; Sun,  8 Jun 2025 12:09:45 +0000 (UTC)
+To: jacob@outbound.htb
+Subject: Unexpected Resource Consumption
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250608120945.1487E22C@outbound.htb>
+Date: Sun,  8 Jun 2025 12:09:45 +0000 (UTC)
+From: mel@outbound.htb
+X-UID: 2
+Status: 
+X-Keywords:                                                                       
+Content-Length: 261
+
+We have been experiencing high resource consumption on our main server.
+For now we have enabled resource monitoring with Below and have granted you privileges to inspect the the logs.
+Please inform us immediately if you notice any irregularities.
+
+Thanks!
+
+Mel
 
 ```
 Now we can SSH into jacob in the main machine outside of docker 
