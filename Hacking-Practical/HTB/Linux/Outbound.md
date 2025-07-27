@@ -131,3 +131,14 @@ www-data@mail.outbound.htb:/var/www/html/roundcube/public_html$ su tyler
 ```
 
 Enter the password of tyler and boom!
+
+| ![[Outbound-03.png]] |
+| :------------------: |
+| *A shell with tyler* |
+We didnt find much in tyler and there was no flag in home dir of tyler.
+After a few manual enumeration i saw .dockerenv file in the root directory making it obvious that we are in a docker container, i started looking for docker breakout but could not find anything useful so i ran linpeas and found this
+
+
+|     |
+| --- |
+|     |
