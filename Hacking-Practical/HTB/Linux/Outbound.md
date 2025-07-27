@@ -163,5 +163,27 @@ show tables;
 Output
 
 ```mysql
-
+MariaDB [roundcube]> show tables;
++---------------------+
+| Tables_in_roundcube |
++---------------------+
+| cache               |
+| cache_index         |
+| cache_messages      |
+| cache_shared        |
+| cache_thread        |
+| collected_addresses |
+| contactgroupmembers |
+| contactgroups       |
+| contacts            |
+| dictionary          |
+| filestore           |
+| identities          |
+| responses           |
+| searches            |
+| session             |
+| system              |
+| users               |
++---------------------+
+17 rows in set (0.001 sec)
 ```
