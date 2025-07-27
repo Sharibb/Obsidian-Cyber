@@ -400,7 +400,9 @@ Thanks!
 Mel
 
 ```
-Now we can SSH into jacob in the main machine outside of docker 
+
+We got the password for jacob in main machine outside of docker!
+Now we can SSH into jacob in the main machine.
 ```bash
 ssh jacob@outbound.htb
 ```
