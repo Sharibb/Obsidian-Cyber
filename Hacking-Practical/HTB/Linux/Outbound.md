@@ -288,5 +288,7 @@ Now open a different tab with CyberChef and from the list select triple DES.
 |    *CyberChef 2*     |
 In the output we will get the password for jacob 
 ```password
-595mO8DmwGeD
+595{REDACTED}D
 ```
+
+Now we can SSH into jacob in the main ma
