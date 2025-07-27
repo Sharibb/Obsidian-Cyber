@@ -333,7 +333,11 @@ jacob@mail:~$ find
 ./.bashrc
 ```
 
-We can check if there is any mail for 
+We can check if there is any mail for Jacob in mail/INBOX
+
+```bash
+cat mail/INBOX
+```
 Now we can SSH into jacob in the main machine outside of docker 
 ```bash
 ssh jacob@outbound.htb
