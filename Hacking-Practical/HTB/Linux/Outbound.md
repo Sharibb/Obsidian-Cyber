@@ -211,7 +211,7 @@ MariaDB [roundcube]> SELECT * FROM users;
 
 We find 3 users...hmm but there are no valid hashes but in the roundcube config file we found something interesting
 
-```3des key
+```3des-key
 rcmail-!24ByteDESkey*Str
 ```
 The hashes are stored as 3DES hash we can try to decode it but we dont have a valid client hash
@@ -260,3 +260,13 @@ L7Rv00A8TuwJAr67kITxxcSgnIk25Am/
 ```Auth-secret
 DpYqv6maI9HxDL5GhcCd8JaQQW
 ```
+
+Using the above we can now decrypt the 3DES encrypted password of jacob
+
+Now what we have to do take the `des-key` from config file , hash from extracted b64 session id and chain it together to decrypt 3DES encryption.
+
+Go to [Cyberchef](https://gchq.github.io/CyberChef) and decrypt the hash as follow
+
+From bs64(Alphabet Standard) --> Hex(Byte per line 8)
+
+
