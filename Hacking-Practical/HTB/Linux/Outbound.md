@@ -305,6 +305,32 @@ find
 Output
 ```bash
 
+jacob@mail:~$ find
+.
+./.profile
+./mail
+./mail/Trash
+./mail/.imap
+./mail/.imap/Trash
+./mail/.imap/Trash/dovecot.index.cache
+./mail/.imap/Trash/dovecot.index.log
+./mail/.imap/dovecot.mailbox.log
+./mail/.imap/INBOX
+./mail/.imap/INBOX/dovecot.index.cache
+./mail/.imap/INBOX/dovecot.index.log
+./mail/.imap/dovecot.list.index.log
+./mail/.imap/dovecot-uidvalidity
+./mail/.imap/dovecot-uidvalidity.684445b1
+./mail/.subscriptions
+./mail/INBOX
+./mail/INBOX/.imap
+./mail/INBOX/.imap/jacob
+./mail/INBOX/.imap/jacob/dovecot.index.cache
+./mail/INBOX/.imap/jacob/dovecot.index.log
+./mail/INBOX/jacob
+./.bash_logout
+./.bash_history
+./.bashrc
 ```
 Now we can SSH into jacob in the main machine outside of docker 
 ```bash
