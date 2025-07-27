@@ -141,4 +141,27 @@ After a few manual enumeration i saw .dockerenv file in the root directory makin
 |  ![[Outbound-04.png]]   |
 | :---------------------: |
 | *Roundcube config file* |
-From here we can use the mysql
+From here we can use the mysql creds to access the db and extract information from there.
+```bash
+mysql -u roundcube -p
+```
+
+Then enter the password:
+```DBpass
+RCDBPass2025
+```
+After that lets use the roundcube db and check out the tables
+```mysql
+use roundcube;
+```
+
+now look for tables
+```mysql
+show tables;
+```
+
+Output
+
+```mysql
+
+```
