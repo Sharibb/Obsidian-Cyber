@@ -403,9 +403,10 @@ Mel
 
 We got the password for jacob in main machine outside of docker!
 
-## Privilege Escalation
-
-Lets SSH into jacob in the main machine.
+Lets SSH into jacob in the main machine and grab the user flag
 ```bash
 ssh jacob@outbound.htb
 ```
+
+
+## Privilege Escalation
