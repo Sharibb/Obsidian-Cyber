@@ -364,7 +364,7 @@ Content-Length: 233
 
 Due to the recent change of policies your password has been changed.
 
-Please use the following credentials to log into your account: gY4Wr3a1evp4
+Please use the following credentials to log into your account: {REDACTED}
 
 Remember to change your password when you next log into your account.
 
