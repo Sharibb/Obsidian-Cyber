@@ -295,6 +295,8 @@ Now lets switch user to Jacob in our docker container shell
 ```bash
 su jacob
 ```
+
+To look for imp
 Now we can SSH into jacob in the main machine outside of docker 
 ```bash
 ssh jacob@outbound.htb
