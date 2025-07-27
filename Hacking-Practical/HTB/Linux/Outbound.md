@@ -281,4 +281,4 @@ Now open a different tab with CyberChef and from the list select triple DES.
 	3. Keep the mode CBC.
 	4. Input type as hex
 	5. Output as Raw.
-	6. 
+	6. The input in CyberChef 2 will be the last 2 lines(16bytes) of CyberChef1
