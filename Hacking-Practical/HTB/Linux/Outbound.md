@@ -269,4 +269,7 @@ Go to [Cyberchef](https://gchq.github.io/CyberChef) and decrypt the hash as foll
 
 From bs64(Alphabet Standard) --> Hex(Byte per line 8)
 
+| ![[Outbound-06.png]] |
+| -------------------- |
+|                      |
 
