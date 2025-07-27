@@ -296,7 +296,16 @@ Now lets switch user to Jacob in our docker container shell
 su jacob
 ```
 
-To look for imp
+To look for important files in jacobs home dir we can simply run
+
+```bash
+find
+```
+
+Output
+```bash
+
+```
 Now we can SSH into jacob in the main machine outside of docker 
 ```bash
 ssh jacob@outbound.htb
