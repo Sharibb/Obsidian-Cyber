@@ -291,6 +291,7 @@ In the output we will get the password for jacob
 595{REDACTED}D
 ```
 
+N
 Now we can SSH into jacob in the main machine outside of docker 
 ```bash
 ssh jacob@outbound.htb
