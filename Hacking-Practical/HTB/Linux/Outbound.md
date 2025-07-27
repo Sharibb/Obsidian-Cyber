@@ -273,3 +273,4 @@ From bs64(Alphabet Standard) --> Hex(Byte per line 8)
 | :------------------: |
 |    *Cyberchef 1*     |
 
+**Make sure that it also dec**
