@@ -417,3 +417,5 @@ ff3fc66{REDACTED}169f9a37
 ```
 
 ## Privilege Escalation
+
+Basic enumeration 
