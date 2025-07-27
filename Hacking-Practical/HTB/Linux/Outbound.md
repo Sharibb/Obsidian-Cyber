@@ -257,6 +257,6 @@ jacob
 L7Rv00A8TuwJAr67kITxxcSgnIk25Am/
 ```
 
-```Auth secret
+```Auth-secret
 DpYqv6maI9HxDL5GhcCd8JaQQW
 ```
