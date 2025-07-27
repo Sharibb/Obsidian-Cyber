@@ -283,6 +283,6 @@ Now open a different tab with CyberChef and from the list select triple DES.
 	5. Output as Raw.
 	6. The input in CyberChef 2 will be the last 2 lines(16bytes) of CyberChef1.
 
-|     |
-| --- |
-|     |
+| ![[Outbound-07.png]] |
+| :------------------: |
+|    *CyberChef 2*     |
