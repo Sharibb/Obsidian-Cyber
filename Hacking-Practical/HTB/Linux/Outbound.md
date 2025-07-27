@@ -276,4 +276,4 @@ From bs64(Alphabet Standard) --> Hex(Byte per line 8)
 **Make sure that b64 also decodes `/`**
 
 Now open a different tab with CyberChef and from the list select triple DES.
-	1.
+	1.In key select UTF-8 and put the des key we found in config fi
