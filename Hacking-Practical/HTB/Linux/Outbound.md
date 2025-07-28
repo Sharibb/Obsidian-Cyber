@@ -543,3 +543,4 @@ We can grab the flag from /root/root.txt
 ec9(REDACTED)97
 ```
 
+![[Outbound-08.png]]
