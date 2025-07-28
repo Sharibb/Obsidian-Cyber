@@ -339,7 +339,7 @@ We can check if there is any mail for Jacob in mail/INBOX
 cat mail/INBOX/jacob
 ```
 
-Output
+#### Mail
 ```bash
 jacob@mail:~$ cat mail/INBOX/jacob 
 From tyler@outbound.htb  Sat Jun 07 14:00:58 2025
@@ -418,4 +418,79 @@ ff3fc66{REDACTED}169f9a37
 
 ## Privilege Escalation
 
-Basic enumeration gY4Wr3a1evp4
+After basic enumeration we just ran
+
+```bash
+sudo -l
+```
+
+Output
+```bash
+jacob@outbound:~$ sudo -l
+Matching Defaults entries for jacob on outbound:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin,
+    use_pty
+
+User jacob may run the following commands on outbound:
+    (ALL : ALL) NOPASSWD: /usr/bin/below *, !/usr/bin/below --config*,
+        !/usr/bin/below --debug*, !/usr/bin/below -d*
+```
+
+We can run /usr/bin/below in outbound so lets see what it does
+
+```bash
+sudo /usr/bin/below
+```
+
+Output
+
+```bash
+┌──────────────────────────────────────────────────────────────────────────────┐
+│07/28/2025 05:54:48 UTC+00:00     Elapsed: 5s     outbound     0.8.0     live │
+└──────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────┐
+│CPU            Usage    2.75%                User     0.69%                   │
+│System   1.96%                                                                │
+│Mem            Total    3.8 GB               Free     2.8 GB                  │
+│Anon     217.7 MB             File     629.1 MB                               │
+│VM             Page In  0.0 B/s              Page Out 22.7 KB/s               │
+│Swap In  0.0 B/s              Swap Out 0.0 B/s                                │
+│I/O   (Rd|Wr)  sda      0.0 B/s   |48.6 KB/s                                  │
+│Iface (Rx|Tx)  docker0  0.0 B     |0.0 B     eth0     84.7 B    |558.6 B      │
+│lo       27.8 B    |27.8 B    vethcd4dc0.0 B     |0.0 B                       │
+└──────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────┐
+│General   CPU   Mem   I/O   Pressure   Properties                             │
+│──────────────────────────────────────────────────────────────────────────────│
+│Name                                               CPU        Mem        CPU P│
+│──────────────────────────────────────────────────────────────────────────────│
+│<root>                                             5.43%      846.4 MB   0.00%│
+│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒-------------------------------------------------
+```
+
+Its a  resource monitoring program! but wait looking back at the [[Outbound#Mail|MAIL]] of mel to jacob
+
+```MAIL
+We have been experiencing high resource consumption on our main server.
+For now we have enabled resource monitoring with Below and have granted you privileges to inspect the the logs.
+Please inform us immediately if you notice any irregularities.
+```
+
+We can inspect the logs of below, lets explore in `/var/log/below`
+
+```bash
+ls -la
+
+total 16
+drwxrwxrwx  3 root  root   4096 Jul 14 16:39 .
+drwxrwxr-x 13 root  syslog 4096 Jul 28 04:01 ..
+-rw-rw-rw-  1 jacob jacob   236 Jul  8 20:45 error_jacob.log
+-rw-rw-rw-  1 root  root      0 Jul 14 16:39 error_root.log
+
+```
+
+We can see 2 files error_jacob which are logs for jacob and error_root which is log for root.
+
+What we can do here is perform symlink attack 
+
