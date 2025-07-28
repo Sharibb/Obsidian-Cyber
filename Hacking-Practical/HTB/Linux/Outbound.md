@@ -408,14 +408,11 @@ Lets SSH into jacob in the main machine and grab the user flag
 ssh jacob@outbound.htb
 ```
 
-```bash
-cat user.txt 
-```
+ We can grab the flag from `/home/jacob/user.txt` 
 ### Flag 1
 ```Flag1
 ff3fc66{REDACTED}169f9a37
 ```
-
 ## Privilege Escalation
 
 After basic enumeration we just ran
