@@ -77,3 +77,40 @@ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-11000
 	-u : url
 		-fw : using word filter for all the values consisting 4 for sorting false positives
 
+Output
+```bash
+ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "Host: FUZZ.editor.htb" -u http://editor.htb -fw 4
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://editor.htb
+ :: Wordlist         : FUZZ: /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt
+ :: Header           : Host: FUZZ.editor.htb
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response words: 4
+________________________________________________
+
+wiki                    [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 511ms]
+
+```
+
+We found a wiki subdomain lets add it to `/etc/hosts` 
+
+```bash
+echo "10.10.11.80 wiki.editor.htb" >> /etc/hosts
+```
+
+After opening it in the browser we can that it is a `Xwiki` website
