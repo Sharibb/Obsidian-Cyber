@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking-Practical/HTB/Linux/Outbound.md",
+                "file": "Hacking-Practical/HTB/Linux/Editor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Outbound"
+              "title": "Editor"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking-Practical/HTB/Linux/Outbound.md",
+                "file": "Hacking-Practical/HTB/Linux/Editor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Outbound"
+              "title": "Outline of Editor"
             }
           },
           {
@@ -190,8 +190,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05d8f3140ecf3fb4",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Linux/Editor",
+    "Hacking-Practical/HTB/Linux/Outbound.md",
+    "Hacking-Practical/HTB/Linux/Editor.md",
+    "Untitled.md",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-08.png",
     "Images/HackingPractical/HTB/Linux/Outbound/Screenshot_2025-07-26_22-08-33.png",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-07.png",
@@ -216,7 +220,6 @@
     "Hacking-Practical/HTB/Windows/Puppy.md",
     "Hacking-Practical/HTB/Windows/Voleur.md",
     "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
-    "Hacking-Practical/HTB/Linux/Outbound.md",
     "Path in Cyber Security.md",
     "Welcome.md",
     "README.md",
@@ -226,9 +229,6 @@
     "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
     "Tools/NPT/NMAP/01-Host-Discovery.md",
     "Tools/NPT/NMAP/02-Port Scanning.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/09-Improper Inventory Management.md",
-    "Tools/NPT/NMAP/04-NSE.md",
-    "Pasted image 20250612234610.png",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial",
     "Images/HackingPractical/HTB/Linux",
