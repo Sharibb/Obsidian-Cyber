@@ -120,3 +120,10 @@ It is an Open Source wiki software commonly used for Documentation.
 
 Reading the contents we can confirm it is the documentation for Code editor we found on the parent domain.
 
+On the bottom of the page we can see the version for the Xwiki running.
+
+|     ![[Editor-03.png]]     |
+| :------------------------: |
+| ***XWiki Debian 15.10.8*** |
+
+Now a simple search for the version showed us that there is a known CVE for xwiki for platform version 15.10.10.
