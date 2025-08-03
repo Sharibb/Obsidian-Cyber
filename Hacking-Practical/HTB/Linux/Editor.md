@@ -114,3 +114,9 @@ echo "10.10.11.80 wiki.editor.htb" >> /etc/hosts
 ```
 
 After opening it in the browser we can that it is a `Xwiki` website
+
+![[Editor-02.png]]
+It is an Open Source wiki software commonly used for Documentation.
+
+Reading the contents we can confirm it is the documentation for Code editor we found on the parent domain.
+
