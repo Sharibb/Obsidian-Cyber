@@ -64,3 +64,10 @@ Upon opening the website in the browser we can see that it is a code editor.
 ![[Editor-01.png]]
 Nothing much on the website only 2 binaries for windows and debian lets Download and inspect them.
 
+After inspecting using ghidra i didnt find anything useful(maybe i am wrong) but moving forward i ran a subdomain enumeration.
+
+### FFuF
+
+```bash
+
+```
