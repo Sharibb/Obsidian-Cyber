@@ -69,5 +69,11 @@ After inspecting using ghidra i didnt find anything useful(maybe i am wrong) but
 ### FFuF
 
 ```bash
-
+ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "Host: FUZZ.editor.htb" -u http://editor.htb -fw 4
 ```
+	ffuf : the fuzzing tool
+	-w : Wordlist 
+	-H : header for enumeration 
+	-u : url
+		-fw : using word filter for all the values consisting 4 for sorting false positives
+
