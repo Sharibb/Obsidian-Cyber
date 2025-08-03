@@ -192,6 +192,7 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Linux/Editor/Editor-00.png",
     "Images/HackingPractical/HTB/Linux/Editor",
     "Hacking-Practical/HTB/Linux/Outbound.md",
     "Hacking-Practical/HTB/Linux/Editor.md",
@@ -236,7 +237,6 @@
     "Images/Pentesting/NPT/Windows/Enumeration",
     "Images/Pentesting/NPT/Windows",
     "Images/Pentesting/NPT",
-    "Images/HackingPractical/HTB/Windows/Puppy",
-    "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration"
+    "Images/HackingPractical/HTB/Windows/Puppy"
   ]
 }
