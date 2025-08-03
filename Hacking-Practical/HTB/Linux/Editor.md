@@ -59,5 +59,8 @@ We got only `ssh` and `http` port open so lets head straight to web enumeration
 
 ## Web Enumeration
 
-Manual testing on browser.
+Upon opening the website in the browser we can see that it is a code editor.
+
+![[Editor-01.png]]
+Nothing much on the website only 2 binaries for windows and debian lets Download and inspect them.
 
