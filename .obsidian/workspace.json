@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/10-SSRF.md",
+                "file": "Networking/OSI-Layer/Intro to OSI Layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10-SSRF"
+              "title": "Intro to OSI Layer"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/10-SSRF.md",
+                "file": "Networking/OSI-Layer/Intro to OSI Layer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 10-SSRF"
+              "title": "Outline of Intro to OSI Layer"
             }
           },
           {
@@ -192,6 +192,7 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/10-SSRF.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/09-Security Logging & Monitoring Failures.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/08-Software&Data Integrity Failures.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/07-Identification & Authentication Failures.md",
@@ -229,7 +230,6 @@
     "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
     "Networking/OSI-Layer/Layer-6.md",
     "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
-    "Tools/NPT/NMAP/01-Host-Discovery.md",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial",
     "Images/HackingPractical/HTB/Linux",
