@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "644549dece8d6a98",
+        "id": "4057e16df868884d",
         "type": "tabs",
         "children": [
           {
-            "id": "05d8f3140ecf3fb4",
+            "id": "f1b3a13682e705e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking-Practical/HTB/Linux/Editor.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Editor"
+              "title": "02-Cryptographic Failure"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking-Practical/HTB/Linux/Editor.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Editor"
+              "title": "Outline of 02-Cryptographic Failure"
             }
           },
           {
@@ -190,36 +190,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05d8f3140ecf3fb4",
+  "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
-    "Hacking-Practical/HTB/Linux/Editor.md",
-    "Images/HackingPractical/HTB/Linux/Editor/Editor-05.png",
-    "Images/HackingPractical/HTB/Linux/Editor/Editor-04.png",
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/02-Broken Authentication.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization(BOLA).md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
+    "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
+    "WebApp/Intro To WebApplication.md",
+    "Pentesting/Intro-To-Pentesting.md",
+    "Untitled.md",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-07.png",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-08.png",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-06.png",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-05.png",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-02.png",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-04.png",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-03.png",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-01.png",
+    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-00.png",
+    "Images/HackingPractical/HTB/Linux/Outbound",
     "Images/HackingPractical/HTB/Linux/Editor/Editor-03.png",
-    "Images/HackingPractical/HTB/Linux/Editor/Editor-02.png",
-    "Images/HackingPractical/HTB/Linux/Editor/Editor-01.png",
-    "Images/HackingPractical/HTB/Linux/Editor/Editor-00.png",
     "Images/HackingPractical/HTB/Linux/Editor",
     "Hacking-Practical/HTB/Linux/Outbound.md",
-    "Untitled.md",
-    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-08.png",
-    "Images/HackingPractical/HTB/Linux/Outbound/Screenshot_2025-07-26_22-08-33.png",
-    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-07.png",
-    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-06.png",
-    "Images/HackingPractical/HTB/Linux/Outbound",
-    "Hacking-Practical/HTB/Windows/Outbound.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/02-How to Construct a CSRF attack.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/10-Unsafe Consumption of APIs.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/02-Broken Authentication.md",
-    "Pentesting/Intro-To-Pentesting.md",
-    "Pentesting/NetworkPentesting(NPT)/Intro-To-NPT.md",
-    "Hacking-Practical/HTB/Windows/Fluffy.md",
-    "Hacking-Practical/HTB/Windows/Puppy.md",
-    "Hacking-Practical/HTB/Windows/Voleur.md",
-    "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
+    "Hacking-Practical/HTB/Linux/Editor.md",
     "Path in Cyber Security.md",
     "Welcome.md",
     "README.md",
@@ -229,6 +223,13 @@
     "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
     "Tools/NPT/NMAP/01-Host-Discovery.md",
     "Tools/NPT/NMAP/02-Port Scanning.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/10-Unsafe Consumption of APIs.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/09-Improper Inventory Management.md",
+    "Tools/NPT/NMAP/04-NSE.md",
+    "Tools/NPT/NMAP/03-OS Fingerprinting.md",
+    "Networking/Intro To Computer Networking.md",
+    "page.md",
+    "Networking/Untitled.md",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial",
     "Images/HackingPractical/HTB/Linux",
