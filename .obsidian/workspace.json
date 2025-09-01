@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/04-Insecure Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Cryptographic Failure"
+              "title": "04-Insecure Design"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
+                "file": "Pentesting/WebAppPentesting(WAPT)/OWASP10/04-Insecure Design.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02-Cryptographic Failure"
+              "title": "Outline of 04-Insecure Design"
             }
           },
           {
@@ -192,6 +192,8 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/03-Injection.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/02-Broken Authentication.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization(BOLA).md",
@@ -228,8 +230,6 @@
     "Tools/NPT/NMAP/04-NSE.md",
     "Tools/NPT/NMAP/03-OS Fingerprinting.md",
     "Networking/Intro To Computer Networking.md",
-    "page.md",
-    "Networking/Untitled.md",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial",
     "Images/HackingPractical/HTB/Linux",
