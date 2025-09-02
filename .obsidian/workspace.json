@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "02-Port Scanning"
             }
-          },
-          {
-            "id": "d673b307c371260d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Tools/NPT/NMAP/02-Port Scanning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 02-Port Scanning"
             }
           },
           {
@@ -203,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d673b307c371260d",
+  "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
     "Tools/NPT/NMAP/04-NSE.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work.md",
