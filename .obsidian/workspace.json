@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking-Practical/HTB/Windows/Voleur.md",
+                "file": "Hacking-Practical/HTB/Windows/Fluffy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Voleur"
+              "title": "Fluffy"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking-Practical/HTB/Windows/Voleur.md",
+                "file": "Hacking-Practical/HTB/Windows/Fluffy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Voleur"
+              "title": "Outline of Fluffy"
             }
           },
           {
@@ -193,6 +193,8 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
+    "Hacking-Practical/HTB/Windows/Puppy.md",
+    "Hacking-Practical/HTB/Windows/Voleur.md",
     "Hacking-Practical/HTB/Linux/Editor.md",
     "Virtualisation/Docker/Real-Life Scenarios/01-Scenario I.md",
     "Tools/NPT/NMAP/02-Port Scanning.md",
@@ -217,7 +219,6 @@
     "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
     "WebApp/Intro To WebApplication.md",
     "Pentesting/Intro-To-Pentesting.md",
-    "Untitled.md",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-07.png",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-08.png",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-06.png",
@@ -230,7 +231,6 @@
     "Images/HackingPractical/HTB/Linux/Outbound",
     "Images/HackingPractical/HTB/Linux/Editor/Editor-03.png",
     "Images/HackingPractical/HTB/Linux/Editor",
-    "Hacking-Practical/HTB/Linux/Outbound.md",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial",
     "Images/HackingPractical/HTB/Linux",
