@@ -1,0 +1,1 @@
+Get all the .exes which have Everyone and User permissions:
