@@ -11,12 +11,13 @@
             "id": "f1b3a13682e705e9",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "Scripting/PowerShell/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
+              "icon": "lucide-file",
               "title": "Untitled"
             }
           }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.base",
+                "file": "Scripting/PowerShell/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,10 +191,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
-    "Clippings/goosie's dump.md",
+    "Scripting/PowerShell/00-Intro.md",
+    "Scripting/PowerShell/Untitled.md",
     "Untitled.base",
+    "Scripting/PowerShell",
+    "Intro.md",
+    "Scripting",
+    "Clippings/goosie's dump.md",
     "Hacking-Practical/HTB/Windows/Voleur.md",
     "Hacking-Practical/HTB/Windows/Puppy.md",
     "Hacking-Practical/HTB/Windows/Fluffy.md",
@@ -216,9 +222,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/02-Cryptographic Failure.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/01-Broken Access Control.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/02-Broken Authentication.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization(BOLA).md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
-    "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-07.png",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-08.png",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-06.png",
@@ -235,8 +238,6 @@
     "Images/HackingPractical/HTB/Linux/Artificial",
     "Images/HackingPractical/HTB/Linux",
     "Hacking-Practical/HTB/Linux",
-    "Images/Pentesting/NPT/Windows/Enumeration",
-    "Images/Pentesting/NPT/Windows",
-    "Images/Pentesting/NPT"
+    "Images/Pentesting/NPT/Windows/Enumeration"
   ]
 }
