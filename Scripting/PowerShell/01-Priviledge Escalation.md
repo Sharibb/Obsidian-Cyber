@@ -1,4 +1,4 @@
-Get all the .exes which have Everyone and User permissions:
+Get all the .exes in Program files which have Everyone and User permissions:
 
 ```powershell
 
@@ -19,5 +19,4 @@ $svcs = Get-CimInstance Win32_Service; Get-ChildItem "C:\Program Files" -Recurse
         }
     }
 }
-
 ```
