@@ -211,3 +211,7 @@ The linpease suggested that i am in a group called proxy lets check that out
 ```bash
 id
 ```
+
+![[6.png]]
+So we are in proxy group maybe we can access some logs 
+lets try different logs 
