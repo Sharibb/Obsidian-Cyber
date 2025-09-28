@@ -190,3 +190,24 @@ cat user.txt
 ```
 
 ## Privilege Escalation
+After enumeration and linpeas and everything i couldnt find a stable path to root then i looked at this
+```bash
+sudo -l
+```
+Output
+![[4.png]]
+It is saying the above which is not a standard error output given by sudo 
+Trying where the sudo is located
+```bash
+which sudo
+```
+
+![[5.png]]
+Sudo is located in local bin which is also an unlikely path which confirms that the sudo is a custom script.
+
+Now even trying all the shenanigans for above i couldnt reach anything related to root!
+
+The linpease suggested that i am in a group called proxy lets check that out
+```bash
+id
+```
