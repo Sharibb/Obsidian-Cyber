@@ -94,6 +94,10 @@ Output
 
 We found an ike(Internet Key Exchange) server running on udp 500
 
+## Small BG about IKE
+
+KE is the complex handshake protocol that allows two endpoints to agree on cryptographic keys and algorithms to build a secure IPsec tunnel. It has two main versions, IKEv1 and IKEv2, with IKEv1 having some known security weaknesses, particularly in its “Aggressive Mode.”
+IKEv1’s Main Mode uses six messages to protect identities. However, Aggressive Mode cuts this down to three messages for a faster connection, but at the cost of sending the initiator and responder’s identities in the clear. If the server supports it, we can force it into this mode to leak valuable information.
 ## Enumeration
 
 Since we found ike lets run some enum using ike-scan
@@ -184,3 +188,5 @@ cat user.txt
 ```bash
 7b354d{Redacted}25c0ce
 ```
+
+## Privilege Escalation

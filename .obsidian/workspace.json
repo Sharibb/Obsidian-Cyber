@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -191,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05d8f3140ecf3fb4",
+  "active": "2a95be740bebd857",
   "lastOpenFiles": [
     "Images/HackingPractical/HTB/Linux/Expressway/3.png",
     "Images/HackingPractical/HTB/Linux/Expressway/2.png",
