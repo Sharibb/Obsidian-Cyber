@@ -283,5 +283,5 @@ A client tried to access an internal-only host named `offramp.expressway.htb` th
 The logic suggests that the custom sudo binary’s policy might depend on the hostname. Sudo has a -h flag to specify a host to run a command on. Let’s try running a command with our custom sudo but telling it we are on the offramp host.
 
 ```bash
-sudo -h offramp.expressway.htb
+sudo -h offramp.expressway.htb /bin/bash
 ```
