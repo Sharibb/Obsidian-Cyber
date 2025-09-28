@@ -285,3 +285,18 @@ The logic suggests that the custom sudo binary’s policy might depend on the ho
 ```bash
 sudo -h offramp.expressway.htb /bin/bash
 ```
+Yes we got root!!
+
+![[7.png]]
+
+## Root Flag
+
+Now lets grab the root flag 
+```bash
+cd
+cat root.txt
+```
+
+```FLAG
+3f9{REDACTED}02
+```
