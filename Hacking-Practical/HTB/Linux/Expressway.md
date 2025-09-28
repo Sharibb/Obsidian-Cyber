@@ -151,5 +151,7 @@ Now we have a username (`ike`) and know the authentication method is a PSK. The 
 **Command:**
 
 ```
-sudo ike-scan -A expressway.htb --id=ike@expressway.htb -P ike.psk
+sudo ike-scan -A expressway.htb --id=ike@expressway.htb -Pike.psk
 ```
+- `--id`: Specifies the identity to use in our request.
+- `-P<file>`: Saves the PSK cracking parameters to the specified file.
