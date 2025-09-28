@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking-Practical/HTB/Linux/Editor.md",
+                "file": "Hacking-Practical/HTB/Linux/Expressway.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Editor"
+              "title": "Expressway"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking-Practical/HTB/Linux/Editor.md",
+                "file": "Hacking-Practical/HTB/Linux/Expressway.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Editor"
+              "title": "Outline of Expressway"
             }
           },
           {
@@ -157,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -167,8 +167,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -180,6 +180,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -192,7 +193,11 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Linux/Expressway/1.png",
+    "Images/HackingPractical/HTB/Linux/Expressway",
     "Hacking-Practical/HTB/Linux/Editor.md",
+    "Hacking-Practical/HTB/Linux/Expressway.md",
+    "Hacking-Practical/HTB/Windows/Certificate.md",
     "Images/HackingPractical/HTB/Linux/Editor/Editor-05.png",
     "Images/HackingPractical/HTB/Linux/Editor/Editor-04.png",
     "Images/HackingPractical/HTB/Linux/Editor/Editor-03.png",
@@ -227,15 +232,12 @@
     "Pentesting/Methodologies/00-Intro-To-Pentesting-Methodologies.md",
     "Networking/OSI-Layer/Layer-6.md",
     "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
-    "Tools/NPT/NMAP/01-Host-Discovery.md",
-    "Tools/NPT/NMAP/02-Port Scanning.md",
     "Images/HackingPractical/HTB/Windows/Voleur",
     "Images/HackingPractical/HTB/Linux/Artificial",
     "Images/HackingPractical/HTB/Linux",
     "Hacking-Practical/HTB/Linux",
     "Images/Pentesting/NPT/Windows/Enumeration",
     "Images/Pentesting/NPT/Windows",
-    "Images/Pentesting/NPT",
-    "Images/HackingPractical/HTB/Windows/Puppy"
+    "Images/Pentesting/NPT"
   ]
 }
