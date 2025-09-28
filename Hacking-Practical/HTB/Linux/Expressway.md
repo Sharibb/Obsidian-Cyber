@@ -273,3 +273,15 @@ cat access.log.1  
 
 A client tried to access an internal-only host named `offramp.expressway.htb` through the proxy. This hostname is not public and gives us a new piece of information to use.
 
+### Hostname-Based Policy Bypass
+
+
+    We have a custom sudo binary at /usr/local/bin/sudo.
+    It gives us a custom denial message that mentions our current hostname (expressway).
+    We’ve found a second, internal hostname (offramp.expressway.htb).
+
+The logic suggests that the custom sudo binary’s policy might depend on the hostname. Sudo has a -h flag to specify a host to run a command on. Let’s try running a command with our custom sudo but telling it we are on the offramp host.
+
+```bash
+sudo -h offramp.expressway.htb
+```
