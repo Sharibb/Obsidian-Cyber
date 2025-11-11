@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/03-Pentesting-Basics/02-Staying-Organized.md",
+                "file": "Pentesting/CPTS/03-Pentesting-Basics/3-VPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Staying-Organized"
+              "title": "3-VPN"
             }
           }
         ]
@@ -193,8 +193,13 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/03-Pentesting-Basics/01-Pentest-Distros.md",
     "Pentesting/CPTS/03-Pentesting-Basics/02-Staying-Organized.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/3-VPN.md",
+    "Pentesting/CPTS/Intro-To-CPTS.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization(BOLA).md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/01-Pentest-Distros.md",
     "Pentesting/CPTS/03-Pentesting-Basics/00-Infosec-Overview.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/Conclusion.md",
     "Pentesting/CPTS/03-Pentesting-Basics",
@@ -210,7 +215,6 @@
     "Pentesting/CPTS/02-PenetrationTestingPhases/03-Exploitation.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/02-VulnerabilityAssessment.md",
     "Pentesting/CPTS/Untitled.md",
-    "Pentesting/CPTS/Intro-To-CPTS.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/00-PreEngagement.md",
     "Pentesting/CPTS/01-PentestingProcess/02-PentestingProcess.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases",
@@ -223,12 +227,8 @@
     "Pentesting/CPTS/01-PentestingProcess",
     "Pentesting/CPTS/00-Intro/01-Academy.md",
     "Hacking-Practical/HTB/Linux/Outbound.md",
-    "Hacking-Practical/HTB/Linux/Expressway.md",
-    "Scripting/PowerShell/01-Priviledge Escalation.md",
-    "Scripting/PowerShell/00-Intro.md",
     "Scripting/PowerShell",
     "Scripting",
-    "Pentesting/CPTS/00-Intro/00-AcademyModulesLayout.md",
     "Pentesting/CPTS/00-Intro",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
     "Images/HackingPractical/HTB/Linux/Expressway/6.png",
