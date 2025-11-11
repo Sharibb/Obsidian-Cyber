@@ -11,13 +11,14 @@
             "id": "f1b3a13682e705e9",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled 1.base",
-                "viewName": "Table"
+                "file": "Hacking-Practical/HTB/Linux/Expressway.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled 1"
+              "icon": "lucide-file",
+              "title": "Expressway"
             }
           }
         ]
@@ -141,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.base",
+                "file": "Hacking-Practical/HTB/Linux/Expressway.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled 1"
+              "title": "Outline of Expressway"
             }
           },
           {
@@ -192,8 +193,8 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Untitled 1.base",
+    "conflict-files-obsidian-git.md",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
     "Images/HackingPractical/HTB/Linux/Expressway/6.png",
     "Images/HackingPractical/HTB/Linux/Expressway/5.png",
