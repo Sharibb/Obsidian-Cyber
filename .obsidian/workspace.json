@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/03-Pentesting-Basics/03-ServiceScanning.md",
+                "file": "Pentesting/CPTS/03-Pentesting-Basics/04-Web-Enum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-ServiceScanning"
+              "title": "04-Web-Enum"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/03-Pentesting-Basics/02-BasicTools.md",
     "Pentesting/CPTS/03-Pentesting-Basics/03-ServiceScanning.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/04-Web-Enum.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/02-BasicTools.md",
     "Pentesting/CPTS/03-Pentesting-Basics/01-Common-Terms.md",
     "Pentesting/CPTS/03-Pentesting-Basics/00-Infosec-Overview.md",
     "Pentesting/CPTS/03-Pentesting-Basics/01-Pentest-Distros.md",
@@ -224,7 +225,6 @@
     "Pentesting/CPTS/01-PentestingProcess/01-Laws&Regulation.md",
     "Welcome.md",
     "Untitled 1.base",
-    "Untitled.md",
     "Untitled.base",
     "Pentesting/CPTS/01-PentestingProcess",
     "Scripting/PowerShell",
