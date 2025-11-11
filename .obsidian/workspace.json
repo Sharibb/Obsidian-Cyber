@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/03-Pentesting-Basics/01-Pentest-Distros.md",
+                "file": "Pentesting/CPTS/03-Pentesting-Basics/02-Staying-Organized.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Pentest-Distros"
+              "title": "02-Staying-Organized"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/03-Pentesting-Basics/00-Infosec-Overview.md",
     "Pentesting/CPTS/03-Pentesting-Basics/01-Pentest-Distros.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/02-Staying-Organized.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/00-Infosec-Overview.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/Conclusion.md",
     "Pentesting/CPTS/03-Pentesting-Basics",
     "Pentesting/CPTS/02-PenetrationTestingPhases/08-Practice.md",
@@ -229,7 +230,6 @@
     "Scripting",
     "Pentesting/CPTS/00-Intro/00-AcademyModulesLayout.md",
     "Pentesting/CPTS/00-Intro",
-    "Intro.md",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
     "Images/HackingPractical/HTB/Linux/Expressway/6.png",
     "Images/HackingPractical/HTB/Linux/Expressway/5.png",
