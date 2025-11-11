@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/01-PentestingProcess/01-Laws&Regulation.md",
+                "file": "Pentesting/CPTS/01-PentestingProcess/02-PentestingProcess.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Laws&Regulation"
+              "title": "02-PentestingProcess"
             }
           }
         ]
@@ -193,11 +193,12 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
+    "Pentesting/CPTS/01-PentestingProcess/01-Laws&Regulation.md",
+    "Pentesting/CPTS/01-PentestingProcess/02-PentestingProcess.md",
     "Welcome.md",
     "Untitled 1.base",
     "Untitled.md",
     "Untitled.base",
-    "Pentesting/CPTS/01-PentestingProcess/01-Laws&Regulation.md",
     "Pentesting/CPTS/01-PentestingProcess/00-Overview.md",
     "Pentesting/CPTS/Intro-To-CPTS.md",
     "Pentesting/CPTS/01-PentestingProcess",
@@ -237,7 +238,6 @@
     "Pentesting/Intro-To-Pentesting.md",
     "Pentesting/NetworkPentesting(NPT)/Intro-To-NPT.md",
     "Hacking-Practical/HTB/Windows/Fluffy.md",
-    "Hacking-Practical/HTB/Windows/Puppy.md",
-    "Hacking-Practical/HTB/Windows/Voleur.md"
+    "Hacking-Practical/HTB/Windows/Puppy.md"
   ]
 }
