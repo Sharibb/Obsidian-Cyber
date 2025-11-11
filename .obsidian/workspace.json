@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/03-Pentesting-Basics/02-BasicTools.md",
+                "file": "Pentesting/CPTS/03-Pentesting-Basics/03-ServiceScanning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-BasicTools"
+              "title": "03-ServiceScanning"
             }
           }
         ]
@@ -194,6 +194,7 @@
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
     "Pentesting/CPTS/03-Pentesting-Basics/02-BasicTools.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/03-ServiceScanning.md",
     "Pentesting/CPTS/03-Pentesting-Basics/01-Common-Terms.md",
     "Pentesting/CPTS/03-Pentesting-Basics/00-Infosec-Overview.md",
     "Pentesting/CPTS/03-Pentesting-Basics/01-Pentest-Distros.md",
@@ -225,7 +226,6 @@
     "Untitled 1.base",
     "Untitled.md",
     "Untitled.base",
-    "Pentesting/CPTS/01-PentestingProcess/00-Overview.md",
     "Pentesting/CPTS/01-PentestingProcess",
     "Scripting/PowerShell",
     "Scripting",
