@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking-Practical/HTB/Linux/Expressway.md",
+                "file": "Pentesting/CPTS/Intro-To-CPTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Expressway"
+              "title": "Intro-To-CPTS"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking-Practical/HTB/Linux/Expressway.md",
+                "file": "Pentesting/CPTS/Intro-To-CPTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Expressway"
+              "title": "Outline of Intro-To-CPTS"
             }
           },
           {
@@ -193,6 +193,10 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
+    "Clippings/goosie's dump.md",
+    "Pentesting/CPTS/Intro-To-CPTS.md",
+    "Pentesting/CPTS",
+    "Hacking-Practical/HTB/Linux/Expressway.md",
     "Untitled 1.base",
     "conflict-files-obsidian-git.md",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
@@ -204,14 +208,12 @@
     "Images/HackingPractical/HTB/Linux/Expressway/1.png",
     "Images/HackingPractical/HTB/Linux/Expressway",
     "Hacking-Practical/HTB/Windows/Certificate.md",
-    "Hacking-Practical/HTB/Linux/Expressway.md",
     "Scripting/PowerShell/01-Priviledge Escalation.md",
     "Scripting/PowerShell/00-Intro.md",
     "Untitled.base",
     "Scripting/PowerShell",
     "Intro.md",
     "Scripting",
-    "Clippings/goosie's dump.md",
     "Hacking-Practical/HTB/Windows/Voleur.md",
     "Hacking-Practical/HTB/Windows/Puppy.md",
     "Hacking-Practical/HTB/Windows/Fluffy.md",
@@ -236,7 +238,6 @@
     "Images/HackingPractical/HTB/Linux/Outbound",
     "Images/HackingPractical/HTB/Linux/Editor",
     "Images/HackingPractical/HTB/Windows/Voleur",
-    "Images/HackingPractical/HTB/Linux/Artificial",
-    "Images/HackingPractical/HTB/Linux"
+    "Images/HackingPractical/HTB/Linux/Artificial"
   ]
 }
