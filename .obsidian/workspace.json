@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/02-PenetrationTestingPhases/Conclusion.md",
+                "file": "Pentesting/CPTS/03-Pentesting-Basics/01-Pentest-Distros.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conclusion"
+              "title": "01-Pentest-Distros"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/02-PenetrationTestingPhases/08-Practice.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/00-Infosec-Overview.md",
+    "Pentesting/CPTS/03-Pentesting-Basics/01-Pentest-Distros.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/Conclusion.md",
+    "Pentesting/CPTS/03-Pentesting-Basics",
+    "Pentesting/CPTS/02-PenetrationTestingPhases/08-Practice.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/07-Post-Engagement.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/06-Proof-of-Concept.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/05-Lateral-Movement.md",
@@ -226,7 +229,6 @@
     "Scripting",
     "Pentesting/CPTS/00-Intro/00-AcademyModulesLayout.md",
     "Pentesting/CPTS/00-Intro",
-    "Pentesting/CPTS",
     "Intro.md",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
     "Images/HackingPractical/HTB/Linux/Expressway/6.png",
@@ -235,8 +237,6 @@
     "Images/HackingPractical/HTB/Linux/Expressway/3.png",
     "Images/HackingPractical/HTB/Linux/Expressway/2.png",
     "Images/HackingPractical/HTB/Linux/Expressway/1.png",
-    "Hacking-Practical/HTB/Linux/Editor.md",
-    "Hacking-Practical/HTB/Windows/Certificate.md",
     "Images/HackingPractical/HTB/Linux/Editor/Editor-05.png",
     "Images/HackingPractical/HTB/Linux/Editor/Editor-04.png"
   ]
