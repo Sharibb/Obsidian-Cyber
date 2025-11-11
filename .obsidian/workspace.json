@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/02-PenetrationTestingPhases/05-Lateral-Movement.md",
+                "file": "Pentesting/CPTS/02-PenetrationTestingPhases/07-Post-Engagement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Lateral-Movement"
+              "title": "07-Post-Engagement"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/02-PenetrationTestingPhases/01-Information-Gathering.md",
+    "Pentesting/CPTS/02-PenetrationTestingPhases/06-Proof-of-Concept.md",
+    "Pentesting/CPTS/02-PenetrationTestingPhases/07-Post-Engagement.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/05-Lateral-Movement.md",
+    "Pentesting/CPTS/02-PenetrationTestingPhases/01-Information-Gathering.md",
     "Pentesting/CPTS/02-PenetrationTestingPhases/04-Post-Exploitation.md",
     "Images/Pentesting/CPTS/02/1.png",
     "Images/Pentesting/CPTS/02",
@@ -236,8 +238,6 @@
     "Images/HackingPractical/HTB/Linux/Editor/Editor-05.png",
     "Images/HackingPractical/HTB/Linux/Editor/Editor-04.png",
     "Hacking-Practical/HTB/Windows/Outbound.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/01-How Does CSRF work.md",
-    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md"
+    "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/00-Intro-To-CSRF.md"
   ]
 }
