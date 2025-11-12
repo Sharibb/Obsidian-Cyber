@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/02-Host&Port-Scanning.md",
+                "file": "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/03-Output.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Host&Port-Scanning"
+              "title": "03-Output"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/02-Host&Port-Scanning.md",
+                "file": "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/03-Output.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02-Host&Port-Scanning"
+              "title": "Outline of 03-Output"
             }
           },
           {
@@ -193,8 +193,9 @@
   },
   "active": "f1b3a13682e705e9",
   "lastOpenFiles": [
-    "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/01-HostDiscovery.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/02-Host&Port-Scanning.md",
+    "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/03-Output.md",
+    "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/01-HostDiscovery.md",
     "Pentesting/CPTS/03-NetworkEnum/00-Introduction.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Conclusion.md",
@@ -224,7 +225,6 @@
     "Pentesting/CPTS/02-Pentesting-Basics",
     "Pentesting/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/Conclusion.md",
     "Pentesting/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/06-Proof-of-Concept.md",
-    "Pentesting/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/08-Practice.md",
     "Pentesting/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png",
