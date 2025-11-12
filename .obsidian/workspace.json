@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-Lab-1.md",
+                "file": "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-Labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Lab-1"
+              "title": "01-Labs"
             }
           }
         ]
@@ -193,8 +193,8 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-BypassFirewall.md",
-    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-Lab-1.md",
+    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/00-BypassFirewall.md",
+    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-Labs.md",
     "conflict-files-obsidian-git.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/06-Performance.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/05-NSE.md",
