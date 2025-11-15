@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/04-Footprinting/03-People.md",
+                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-People"
+              "title": "01-FTP"
             }
           }
         ]
@@ -193,9 +193,12 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/04-Footprinting/02-Cloud.md",
-    "Pentesting/CPTS/04-Footprinting/03-People.md",
-    "Pentesting/CPTS/04-Footprinting/01-InfrastructionBased.md",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/02-Cloud.md",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/03-People.md",
     "Pentesting/CPTS/04-Footprinting/00-Introduction.md",
     "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-Labs.md",
     "Pentesting/CPTS/04-Footprinting",
@@ -225,10 +228,7 @@
     "Pentesting/CPTS/02-Pentesting-Basics/08-Transferring-Files.md",
     "Pentesting/CPTS/02-Pentesting-Basics/07-PrivilegeEscalation.md",
     "Pentesting/CPTS/02-Pentesting-Basics/06-Shells.md",
-    "Pentesting/CPTS/02-Pentesting-Basics/05-PublicExploits.md",
     "Pentesting/CPTS/02-Pentesting-Basics",
-    "Pentesting/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases",
-    "Pentesting/CPTS/01-PenetrationTestingProcess/01-PentestingProcess",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
