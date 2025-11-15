@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
+                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/3-NFS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-SMB"
+              "title": "3-NFS"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/3-NFS.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased",
@@ -227,7 +228,6 @@
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Conclusion.md",
     "Pentesting/CPTS/02-Pentesting-Basics/08-Transferring-Files.md",
-    "Pentesting/CPTS/02-Pentesting-Basics/07-PrivilegeEscalation.md",
     "Pentesting/CPTS/02-Pentesting-Basics",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png",
