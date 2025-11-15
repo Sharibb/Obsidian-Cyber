@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
+                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-FTP"
+              "title": "02-SMB"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/02-Cloud.md",
@@ -227,7 +228,6 @@
     "Pentesting/CPTS/02-Pentesting-Basics/09-Conclusion.md",
     "Pentesting/CPTS/02-Pentesting-Basics/08-Transferring-Files.md",
     "Pentesting/CPTS/02-Pentesting-Basics/07-PrivilegeEscalation.md",
-    "Pentesting/CPTS/02-Pentesting-Basics/06-Shells.md",
     "Pentesting/CPTS/02-Pentesting-Basics",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png",
