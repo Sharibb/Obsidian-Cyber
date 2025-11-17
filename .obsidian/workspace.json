@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "01-HostDiscovery"
             }
+          },
+          {
+            "id": "c7d7f5b9e9ed4c32",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad63d6d32cc79ea8",
+  "active": "c7d7f5b9e9ed4c32",
   "lastOpenFiles": [
     "Pentesting/CPTS/03-NetworkEnum/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-BypassFirewall.md",
