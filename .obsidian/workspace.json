@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d781ba45bd0b0210",
+        "id": "644549dece8d6a98",
         "type": "tabs",
         "children": [
           {
-            "id": "ad63d6d32cc79ea8",
+            "id": "05d8f3140ecf3fb4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/03-NetworkEnum/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf"
+                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Network_Enumeration_With_Nmap_Module_Cheat_Sheet"
+              "icon": "lucide-file",
+              "title": "06-IMAP&POP"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/01-HostDiscovery.md",
+                "file": "Hacking-Practical/HTB/Linux/Expressway.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-HostDiscovery"
+              "title": "Outline of Expressway"
             }
           },
           {
@@ -165,8 +167,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -189,53 +191,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/03-NetworkEnum/00-Introduction.md",
-    "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/01-HostDiscovery.md",
-    "conflict-files-obsidian-git.md",
-    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/02-Cloud.md",
-    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
-    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/03-People.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/05-SMTP.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/3-NFS.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
-    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/02-Cloud.md",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/03-People.md",
     "Pentesting/CPTS/04-Footprinting/00-Introduction.md",
-    "Pentesting/CPTS/04-Footprinting",
-    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/03-Conclusion.md",
     "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-Labs.md",
+    "Pentesting/CPTS/04-Footprinting",
     "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/00-BypassFirewall.md",
-    "Pentesting/CPTS/03-NetworkEnum/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/01-BypassFirewall.md",
+    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity/03-Conclusion.md",
+    "conflict-files-obsidian-git.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/06-Performance.md",
-    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/05-NSE.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/04-Services.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/03-Output.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/02-Host&Port-Scanning.md",
+    "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/01-HostDiscovery.md",
+    "Pentesting/CPTS/03-NetworkEnum/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
+    "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration",
-    "Pentesting/CPTS/02-Pentesting-Basics/09-Conclusion.md",
+    "Pentesting/CPTS/03-NetworkEnum/00-Introduction.md",
     "Pentesting/CPTS/03-NetworkEnum",
-    "Pentesting/CPTS/02-Pentesting-Basics/01-Common-Terms.md",
-    "Pentesting/CPTS/02-Pentesting-Basics/Getting_Started_Module_Cheat_Sheet.pdf",
-    "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/02-Foothold.md",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/05-KnowledgeCheck.md",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/04-Alternative.md",
+    "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/03-PrivilegeEscalation.md",
+    "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/02-Foothold.md",
+    "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/01-Footprinting.md",
+    "Pentesting/CPTS/02-Pentesting-Basics/Getting_Started_Module_Cheat_Sheet.pdf",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles",
-    "Pentesting/CPTS/01-PenetrationTestingProcess/01-PentestingProcess",
+    "Pentesting/CPTS/02-Pentesting-Basics",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
     "Images/HackingPractical/HTB/Linux/Expressway/6.png",
     "Images/HackingPractical/HTB/Linux/Expressway/5.png",
-    "Images/HackingPractical/HTB/Linux/Expressway/2.png",
-    "Images/HackingPractical/HTB/Linux/Expressway/3.png",
     "Images/HackingPractical/HTB/Linux/Expressway/4.png",
+    "Images/HackingPractical/HTB/Linux/Expressway/3.png",
+    "Images/HackingPractical/HTB/Linux/Expressway/2.png",
     "Images/HackingPractical/HTB/Linux/Expressway/1.png",
-    "Images/HackingPractical/HTB/Linux/Outbound/Outbound-07.png"
+    "Images/HackingPractical/HTB/Linux/Editor/Editor-05.png"
   ]
 }
