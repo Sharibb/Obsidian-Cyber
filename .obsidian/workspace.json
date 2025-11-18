@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/07-SNMP.md",
+                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/08-SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-SNMP"
+              "title": "08-SQL"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/07-SNMP.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/08-SQL.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/05-SMTP.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/3-NFS.md",
@@ -225,7 +226,6 @@
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/05-KnowledgeCheck.md",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/04-Alternative.md",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/03-PrivilegeEscalation.md",
-    "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/02-Foothold.md",
     "Pentesting/CPTS/02-Pentesting-Basics/Getting_Started_Module_Cheat_Sheet.pdf",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles",
     "Pentesting/CPTS/02-Pentesting-Basics",
