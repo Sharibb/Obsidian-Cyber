@@ -193,6 +193,11 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
+    "Images/Pentesting/CPTS/04/4.png",
+    "Images/Pentesting/CPTS/04/3.png",
+    "Images/Pentesting/CPTS/04/2.png",
+    "Images/Pentesting/CPTS/04/1.png",
+    "Images/Pentesting/CPTS/04",
     "Pentesting/CPTS/04-Footprinting/00-Labs/01-Easy.md",
     "Pentesting/CPTS/04-Footprinting/00-Labs/02-Medium.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/09-OtherDBMS.md",
@@ -223,21 +228,16 @@
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/06-Performance.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/05-NSE.md",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/04-Services.md",
-    "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/03-Output.md",
     "Pentesting/CPTS/03-NetworkEnum/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "Pentesting/CPTS/03-NetworkEnum/02-BypassSecurity",
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration",
     "Pentesting/CPTS/03-NetworkEnum",
-    "Pentesting/CPTS/02-Pentesting-Basics/Getting_Started_Module_Cheat_Sheet.pdf",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
     "Images/HackingPractical/HTB/Linux/Expressway/6.png",
     "Images/HackingPractical/HTB/Linux/Expressway/5.png",
     "Images/HackingPractical/HTB/Linux/Expressway/4.png",
-    "Images/HackingPractical/HTB/Linux/Expressway/3.png",
-    "Images/HackingPractical/HTB/Linux/Expressway/2.png",
-    "Images/HackingPractical/HTB/Linux/Expressway/1.png",
-    "Images/HackingPractical/HTB/Linux/Editor/Editor-05.png"
+    "Images/HackingPractical/HTB/Linux/Expressway/3.png"
   ]
 }
