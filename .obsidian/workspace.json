@@ -193,8 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/04-Footprinting/03-RemoteManagement/02-Windows.md",
+    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
     "Pentesting/CPTS/04-Footprinting/00-Labs/01-Easy.md",
+    "Pentesting/CPTS/04-Footprinting/03-RemoteManagement/02-Windows.md",
     "Pentesting/CPTS/04-Footprinting/00-Labs",
     "Pentesting/CPTS/04-Footprinting/03-RemoteManagement/01-Linux.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/10-IPMI.md",
@@ -208,7 +209,6 @@
     "Pentesting/CPTS/04-Footprinting/02-HostBased/3-NFS.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
-    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/02-Cloud.md",
