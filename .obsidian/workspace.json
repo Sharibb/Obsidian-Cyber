@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/10-IPMI.md",
+                "file": "Pentesting/CPTS/04-Footprinting/03-RemoteManagement/01-Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10-IPMI"
+              "title": "01-Linux"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/09-OtherDBMS.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/10-IPMI.md",
+    "Pentesting/CPTS/04-Footprinting/03-RemoteManagement/01-Linux.md",
+    "Pentesting/CPTS/04-Footprinting/03-RemoteManagement",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/09-OtherDBMS.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/08-SQL.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/07-SNMP.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
@@ -225,10 +227,8 @@
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration",
     "Pentesting/CPTS/03-NetworkEnum/00-Introduction.md",
     "Pentesting/CPTS/03-NetworkEnum",
-    "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles/05-KnowledgeCheck.md",
     "Pentesting/CPTS/02-Pentesting-Basics/Getting_Started_Module_Cheat_Sheet.pdf",
     "Pentesting/CPTS/02-Pentesting-Basics/09-Nibbles",
-    "Pentesting/CPTS/02-Pentesting-Basics",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png",
     "Images/HackingPractical/HTB/Linux/Expressway/7.png",
