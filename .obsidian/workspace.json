@@ -191,8 +191,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05d8f3140ecf3fb4",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/CPTS/04-Footprinting/Footprinting_Module_Cheat_Sheet.pdf",
     "Images/Pentesting/CPTS/04/8.png",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
     "Pentesting/CPTS/04-Footprinting/00-Labs/03-HaRd.md",
@@ -237,7 +238,6 @@
     "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration",
     "Pentesting/CPTS/03-NetworkEnum",
     "Images/Pentesting/CPTS/03/1.png",
-    "Images/Pentesting/CPTS/02/1.png",
-    "Images/HackingPractical/HTB/Linux/Expressway/7.png"
+    "Images/Pentesting/CPTS/02/1.png"
   ]
 }
