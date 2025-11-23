@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/07-SNMP.md",
+                "file": "Pentesting/CPTS/04-Footprinting/00-Labs/03-HaRd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-SNMP"
+              "title": "03-HaRd"
             }
           }
         ]
@@ -193,10 +193,15 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/04-Footprinting/00-Labs/03-HaRd.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/05-SMTP.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/3-NFS.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
+    "Pentesting/CPTS/04-Footprinting/00-Labs/03-HaRd.md",
     "Pentesting/CPTS/04-Footprinting/00-Labs/02-Medium.md",
+    "Pentesting/CPTS/04-Footprinting/02-HostBased/07-SNMP.md",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
     "Images/Pentesting/CPTS/04/5.png",
@@ -209,10 +214,6 @@
     "Pentesting/CPTS/04-Footprinting/02-HostBased/09-OtherDBMS.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/10-IPMI.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/08-SQL.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/07-SNMP.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/02-SMB.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/01-FTP.md",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/03-People.md",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/02-Cloud.md",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
@@ -220,7 +221,6 @@
     "Pentesting/CPTS/04-Footprinting/00-Labs",
     "Pentesting/CPTS/04-Footprinting/03-RemoteManagement/01-Linux.md",
     "Pentesting/CPTS/04-Footprinting/03-RemoteManagement",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/3-NFS.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased",
     "Pentesting/CPTS/04-Footprinting/00-Introduction.md",
