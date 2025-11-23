@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/04-Footprinting/00-Labs/03-HaRd.md",
+                "file": "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-HaRd"
+              "title": "06-IMAP&POP"
             }
           }
         ]
@@ -193,9 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
+    "Pentesting/CPTS/04-Footprinting/00-Labs/03-HaRd.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/06-IMAP&POP.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/05-SMTP.md",
-    "Pentesting/CPTS/04-Footprinting/00-Labs/03-HaRd.md",
     "Pentesting/CPTS/04-Footprinting/00-Labs/02-Medium.md",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
