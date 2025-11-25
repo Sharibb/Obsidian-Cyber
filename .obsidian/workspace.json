@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/05-WAPT/01-InfoGathering/05-Virtual-Hosts.md",
+                "file": "Pentesting/CPTS/05-WAPT/01-InfoGathering/01-WHOIS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Virtual-Hosts"
+              "title": "01-WHOIS"
             }
           }
         ]
@@ -193,15 +193,17 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/05-WAPT/01-InfoGathering/04-DNS-Zone-Transfer.md",
-    "Pentesting/CPTS/05-WAPT/01-InfoGathering/05-Virtual-Hosts.md",
-    "Pentesting/CPTS/05-WAPT/01-InfoGathering/03-Subdomain.md",
-    "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-DNS.md",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/01-WHOIS.md",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/00-Introduction.md",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/05-Certificate.md",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/04-Virtual-Hosts.md",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/03-DNS-Zone-Transfer.md",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/02-Subdomain.md",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/01-DNS.md",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-Subdomain",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/Untitled.md",
-    "Pentesting/CPTS/05-WAPT/01-InfoGathering/01-WHOIS.md",
-    "Pentesting/CPTS/05-WAPT/01-InfoGathering/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
-    "Pentesting/CPTS/05-WAPT/01-InfoGathering/00-Introduction.md",
     "Pentesting/CPTS/Intro-To-CPTS.md",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering",
     "Pentesting/CPTS/05-WAPT",
@@ -230,13 +232,10 @@
     "Pentesting/CPTS/04-Footprinting/02-HostBased/08-SQL.md",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/03-People.md",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/02-Cloud.md",
-    "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased/01-Domain.md",
-    "Pentesting/CPTS/04-Footprinting/03-RemoteManagement/02-Windows.md",
     "Pentesting/CPTS/04-Footprinting/00-Labs",
     "Pentesting/CPTS/04-Footprinting/03-RemoteManagement",
     "Pentesting/CPTS/04-Footprinting/02-HostBased",
     "Pentesting/CPTS/04-Footprinting/01-InfrastructureBased",
-    "Pentesting/CPTS/04-Footprinting",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png"
   ]
