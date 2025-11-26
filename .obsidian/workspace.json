@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "00-Intro"
             }
+          },
+          {
+            "id": "5741acda880d1951",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05d8f3140ecf3fb4",
+  "active": "5741acda880d1951",
   "lastOpenFiles": [
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/03-Fingerprinting.md",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/04-Crawling/00-Intro.md",
