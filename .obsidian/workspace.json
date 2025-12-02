@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/05-WAPT/01-InfoGathering/100-Summary.md",
+                "file": "Pentesting/CPTS/06-FileTransfers/00-Into-To-File-Transfers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "100-Summary"
+              "title": "00-Into-To-File-Transfers"
             }
           }
         ]
@@ -193,8 +193,12 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/05-WAPT/01-InfoGathering/99-Lab.md",
+    "Pentesting/CPTS/Intro-To-CPTS.md",
+    "Pentesting/CPTS/06-FileTransfers/00-Into-To-File-Transfers.md",
+    "Pentesting/CPTS/06-FileTransfers",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/100-Summary.md",
+    "Pentesting/CPTS/05-WAPT/Untitled",
+    "Pentesting/CPTS/05-WAPT/01-InfoGathering/99-Lab.md",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/04-Crawling/01-Robots.md",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/04-Crawling/03-Crawlers.md",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/00-Introduction.md",
@@ -216,7 +220,6 @@
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/01-DNS.md",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/02-Subdomain",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
-    "Pentesting/CPTS/Intro-To-CPTS.md",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering",
     "Pentesting/CPTS/05-WAPT",
     "Pentesting/CPTS/04-Footprinting/999-CheatSheat.pdf",
@@ -225,7 +228,6 @@
     "Images/Pentesting/CPTS/04/8.png",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/07-SNMP.md",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/05-SMTP.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/3-NFS.md",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
     "Images/Pentesting/CPTS/04/5.png",
@@ -235,8 +237,6 @@
     "Images/Pentesting/CPTS/04/1.png",
     "Images/Pentesting/CPTS/04",
     "Pentesting/CPTS/04-Footprinting/00-Labs",
-    "Pentesting/CPTS/04-Footprinting/03-RemoteManagement",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased",
     "Images/Pentesting/CPTS/03/1.png",
     "Images/Pentesting/CPTS/02/1.png"
   ]
