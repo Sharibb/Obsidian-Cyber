@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/CPTS/06-FileTransfers/00-Into-To-File-Transfers.md",
+                "file": "Pentesting/CPTS/06-FileTransfers/01-Windows-File-Transfer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Into-To-File-Transfers"
+              "title": "01-Windows-File-Transfer"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/CPTS/Intro-To-CPTS.md",
     "Pentesting/CPTS/06-FileTransfers/00-Into-To-File-Transfers.md",
+    "Pentesting/CPTS/06-FileTransfers/01-Windows-File-Transfer.md",
+    "Pentesting/CPTS/Intro-To-CPTS.md",
     "Pentesting/CPTS/06-FileTransfers",
     "Pentesting/CPTS/05-WAPT/01-InfoGathering/100-Summary.md",
     "Pentesting/CPTS/05-WAPT/Untitled",
@@ -227,7 +228,6 @@
     "Pentesting/CPTS/04-Footprinting/00-Labs/03-HaRd.md",
     "Images/Pentesting/CPTS/04/8.png",
     "Pentesting/CPTS/04-Footprinting/02-HostBased/07-SNMP.md",
-    "Pentesting/CPTS/04-Footprinting/02-HostBased/05-SMTP.md",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
     "Images/Pentesting/CPTS/04/5.png",
