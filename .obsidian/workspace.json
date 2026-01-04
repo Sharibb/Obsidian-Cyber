@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
+                "file": "Pentesting/HTB/CJCA/01-Intro/01-NetSec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Intro-To-InfoSec"
+              "title": "01-NetSec"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "05d8f3140ecf3fb4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
+    "Pentesting/HTB/CJCA/01-Intro/01-NetSec.md",
+    "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/01-Intro",
     "Hacking-Practical/HTB/Linux/Expressway.md",
     "Pentesting/HTB/CJCA",
@@ -224,7 +225,6 @@
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/06-Web-Archives.md",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/01-WHOIS.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/07-Automation-Of-Recon.md",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering",
