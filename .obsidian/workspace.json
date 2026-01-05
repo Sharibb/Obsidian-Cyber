@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
+                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/00-Network-Fundamentals/00-Intro-To-Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "99-Conclusion"
+              "title": "00-Intro-To-Networks"
             }
           }
         ],
@@ -222,13 +222,15 @@
   },
   "active": "f5c98494bf28ff8b",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/00-Network-Fundamentals/00-Intro-To-Networks.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/00-Network-Fundamentals",
     "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/02-RT.md",
     "Pentesting/HTB/CJCA/01-Intro/02-Threats/05-APT.md",
     "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
     "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
-    "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
     "Pentesting/HTB/CJCA/20-ThreatHunting",
     "Pentesting/HTB/CJCA/19-SM-and-SIEM",
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil",
@@ -238,7 +240,6 @@
     "Pentesting/HTB/CJCA/14-HackingWordpress",
     "Pentesting/HTB/CJCA/13-Footprinting",
     "Pentesting/HTB/CJCA/12-NetEnum-Nmap",
-    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell",
     "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/04-BugBountyHunter.md",
     "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/03-SOC.md",
     "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/02-PT.md",
@@ -257,7 +258,6 @@
     "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/05-CloudSec.md",
     "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/04-DRBC.md",
     "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/03-OpSec.md",
-    "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/01-NetSec.md",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
