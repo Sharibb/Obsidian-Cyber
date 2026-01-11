@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
+                "file": "Pentesting/HTB/CJCA/00-Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "100-Skill-Assesment"
+              "title": "00-Index"
             }
           }
         ],
@@ -222,8 +222,12 @@
   },
   "active": "f5c98494bf28ff8b",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
+    "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
+    "Pentesting/HTB/CJCA/00-Index.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/00-Index.md",
+    "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/01-NS.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/02-Wireless.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
@@ -237,12 +241,9 @@
     "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing",
     "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals/01-NetworkConcepts.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals/00-Intro-To-Networks.md",
-    "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals",
-    "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/02-RT.md",
     "Pentesting/HTB/CJCA/01-Intro/02-Threats/05-APT.md",
-    "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
     "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
     "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
     "Pentesting/HTB/CJCA/20-ThreatHunting",
@@ -257,7 +258,6 @@
     "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/01-CISO.md",
     "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/04-PT.md",
     "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/03-BT.md",
-    "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/01-Threat-Actors.md",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
