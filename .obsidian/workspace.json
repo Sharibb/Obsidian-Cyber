@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/00-Summary.md",
+                "file": "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Summary"
+              "title": "00-Intro"
             }
           }
         ],
@@ -222,8 +222,9 @@
   },
   "active": "f5c98494bf28ff8b",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/00-Summary.md",
+    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
+    "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
     "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
@@ -257,7 +258,6 @@
     "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/02-PT.md",
     "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/01-CISO.md",
     "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/04-PT.md",
-    "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/03-BT.md",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
