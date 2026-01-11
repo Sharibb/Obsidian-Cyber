@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
+                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-DFA"
+              "title": "100-Skill-Assesment"
             }
           }
         ],
@@ -222,8 +222,9 @@
   },
   "active": "f5c98494bf28ff8b",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/01-NS.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/01-NS.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/02-Wireless.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
     "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/01-Internet-Architechture.md",
@@ -257,7 +258,6 @@
     "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/04-PT.md",
     "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/03-BT.md",
     "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/01-Threat-Actors.md",
-    "Pentesting/HTB/CJCA/01-Intro/02-Threats/04-InsiderThreat.md",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
