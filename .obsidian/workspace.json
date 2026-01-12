@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/02-Wireless.md",
+                "file": "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Wireless"
+              "title": "00-Intro"
             }
           }
         ],
@@ -204,8 +204,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba3fa5c5b418b0d6",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/Untitled",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/01-NS.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/02-Wireless.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/01-Internet-Architechture.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/03-DNS.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/00-Network-Coms.md",
@@ -213,10 +217,7 @@
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking",
     "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/01-NS.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/02-Wireless.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/00-Summary.md",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/01-Robots.md",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/02-Well-Known.md",
@@ -233,7 +234,6 @@
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/06-Proof-of-Concept.md",
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/04-Post-Exploitation.md",
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/03-Exploitation.md",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/02-VulnerabilityAssessment.md",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain",
