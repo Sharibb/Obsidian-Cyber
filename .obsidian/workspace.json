@@ -1,0 +1,271 @@
+{
+  "main": {
+    "id": "d50520339ffc7dbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d781ba45bd0b0210",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af8e4425df91ed82",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
+          },
+          {
+            "id": "ba3fa5c5b418b0d6",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/graph.json",
+                "bFile": ".obsidian/graph.json",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: graph.json"
+            }
+          },
+          {
+            "id": "58dfbda5556a0e66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f623ee1c5a1b557d",
+    "type": "split",
+    "children": [
+      {
+        "id": "151e4791677e0b50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aadac7039e9a85dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bad95f49e85d49ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "980e6fa3d1d6b04c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "596c6345031405a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e2fc769fc8afc12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "949477132a3821d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03-Lab Scenario of CSRF-I"
+            }
+          },
+          {
+            "id": "1d9c0b0dd70e3eab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "ed9e8c8ca0555990",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2a95be740bebd857",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/01-HostDiscovery.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 01-HostDiscovery"
+            }
+          },
+          {
+            "id": "cf01a86bda5b5850",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "cd2e670c2aec56cc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "58dfbda5556a0e66",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
+    "Pentesting/HTB/CJCA/03-Introduction-to-Networking",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/01-NS.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/02-Wireless.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/00-Summary.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/03-DNS.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/01-Robots.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/02-Well-Known.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/03-Crawlers.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/05-Certificate.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/04-Virtual-Hosts.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/00-Intro.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/02-Subdomain.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/03-DNS-Zone-Transfer.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/01-DNS.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/08-Practice.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/Conclusion.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/07-Post-Engagement.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/06-Proof-of-Concept.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/04-Post-Exploitation.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/03-Exploitation.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/02-VulnerabilityAssessment.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/05-Lateral-Movement.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/01-Information-Gathering.md",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/01-PentestingProcess",
+    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering",
+    "Pentesting/HTB/CPTS/04-Footprinting/999-CheatSheat.pdf",
+    "Pentesting/HTB/CPTS/04-Footprinting/03-RemoteManagement",
+    "Images/Pentesting/CPTS/04/4.png",
+    "Images/Pentesting/CPTS/04/8.png",
+    "Images/Pentesting/CPTS/04/6.png",
+    "Images/Pentesting/CPTS/04/3.png",
+    "Images/Pentesting/CPTS/04/7.png",
+    "Images/Pentesting/CPTS/04/5.png",
+    "Images/Pentesting/CPTS/04/2.png",
+    "Images/Pentesting/CPTS/04/1.png",
+    "Images/Pentesting/CPTS/03/1.png",
+    "Images/Pentesting/CPTS/02/1.png"
+  ]
+}
