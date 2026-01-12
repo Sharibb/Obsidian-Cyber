@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/00-Index.md",
+                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/01-DHCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Index"
+              "title": "01-DHCP"
             }
           }
         ],
@@ -206,8 +206,8 @@
   },
   "active": "ba3fa5c5b418b0d6",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/03-DNS.md",
     "Pentesting/HTB/CJCA/00-Index.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/03-DNS.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure/01-Network-types.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure",
