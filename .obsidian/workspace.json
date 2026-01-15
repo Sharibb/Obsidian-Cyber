@@ -4,37 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "d781ba45bd0b0210",
+        "id": "644549dece8d6a98",
         "type": "tabs",
         "children": [
           {
-            "id": "af8e4425df91ed82",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
-            }
-          },
-          {
-            "id": "ba3fa5c5b418b0d6",
+            "id": "05d8f3140ecf3fb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/01-DHCP.md",
+                "file": "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/08-IOT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-DHCP"
+              "title": "08-IOT"
+            }
+          },
+          {
+            "id": "99153243cd87bc12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00-Intro-To-InfoSec"
+            }
+          },
+          {
+            "id": "f5c98494bf28ff8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure/02-Networking-Topologies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-Networking-Topologies"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pentesting/CPTS/03-NetworkEnum/01-Host-Enumeration/01-HostDiscovery.md",
+                "file": "Hacking-Practical/HTB/Linux/Expressway.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-HostDiscovery"
+              "title": "Outline of Expressway"
             }
           },
           {
@@ -180,8 +196,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -204,50 +220,50 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba3fa5c5b418b0d6",
+  "active": "f5c98494bf28ff8b",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/00-Index.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/03-DNS.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure/01-Network-types.md",
+    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure/02-Networking-Topologies.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure",
+    "Images/HackingPractical/HTB/Linux/Artificial/Thumbs.db",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/00-Summary.md",
+    "Pentesting/HTB/CJCA/00-Index.md",
+    "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
+    "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/01-NS.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/02-Wireless.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/01-Internet-Architechture.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/00-Network-Coms.md",
-    "conflict-files-obsidian-git.md",
-    "Pentesting/HTB/CJCA/03-Introduction-to-Networking",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/00-Summary.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/01-Robots.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/02-Well-Known.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/03-Crawlers.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/05-Certificate.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/04-Virtual-Hosts.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/00-Intro.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/02-Subdomain.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/03-DNS-Zone-Transfer.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/01-DNS.md",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/08-Practice.md",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/Conclusion.md",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/07-Post-Engagement.md",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/06-Proof-of-Concept.md",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/04-Post-Exploitation.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/01-PentestingProcess",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering",
-    "Pentesting/HTB/CPTS/04-Footprinting/999-CheatSheat.pdf",
-    "Images/Pentesting/CPTS/04/4.png",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT/01-Internet-Architechture.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/03-DNS.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/02-NAT.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/01-DHCP.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/00-Network-Coms.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals/03-NetworkComponents.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals/01-NetworkConcepts.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals/00-Intro-To-Networks.md",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals",
+    "Pentesting/HTB/CJCA/01-Intro/03-Cyber-Team/02-RT.md",
+    "Pentesting/HTB/CJCA/01-Intro/02-Threats/05-APT.md",
+    "Pentesting/WebAppPentesting(WAPT)/Intro to WebAppSec.md",
+    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
+    "Pentesting/HTB/CJCA/20-ThreatHunting",
+    "Pentesting/HTB/CJCA/19-SM-and-SIEM",
+    "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil",
+    "Pentesting/HTB/CJCA/17-Incident-Handling",
+    "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/04-BugBountyHunter.md",
+    "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/03-SOC.md",
+    "Pentesting/HTB/CJCA/01-Intro/04-JobRoles/02-PT.md",
     "Images/Pentesting/CPTS/04/8.png",
-    "Images/Pentesting/CPTS/04/6.png",
-    "Images/Pentesting/CPTS/04/3.png",
     "Images/Pentesting/CPTS/04/7.png",
+    "Images/Pentesting/CPTS/04/6.png",
     "Images/Pentesting/CPTS/04/5.png",
+    "Images/Pentesting/CPTS/04/4.png",
+    "Images/Pentesting/CPTS/04/3.png",
     "Images/Pentesting/CPTS/04/2.png",
     "Images/Pentesting/CPTS/04/1.png",
     "Images/Pentesting/CPTS/03/1.png",
