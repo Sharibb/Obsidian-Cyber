@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/01-NetSec.md",
+                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/02-Working-With-Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-NetSec"
+              "title": "02-Working-With-Files"
             }
           }
         ],
@@ -236,8 +236,10 @@
   },
   "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/01-Navigation.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/02-Working-With-Files.md",
+    "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/01-NetSec.md",
+    "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/03-Sysinfo.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/02-Getting-help.md",
@@ -266,10 +268,8 @@
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure/02-Networking-Topologies.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/02-Networking-Workflow/01-Networking-Models.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/02-Networking-Workflow",
-    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure",
     "Images/HackingPractical/HTB/Linux/Artificial/Thumbs.db",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/00-Summary.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
     "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT",
     "Images/Pentesting/CPTS/04/8.png",
