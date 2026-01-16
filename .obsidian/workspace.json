@@ -53,12 +53,14 @@
             "id": "ba5a385a4de2e74d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/02-Getting-help.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "icon": "lucide-file",
+              "title": "02-Getting-help"
             }
           }
         ],
@@ -234,6 +236,10 @@
   },
   "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/01-Promp-Desc.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/02-Getting-help.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/00-Introduction.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/03-TCP-UDP.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/04-Cryptography.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/02-Auth-Protocols.md",
@@ -263,13 +269,9 @@
     "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
     "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/100-Skill-Assesment.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/02-DFA.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA/01-NS.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
     "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT",
     "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
