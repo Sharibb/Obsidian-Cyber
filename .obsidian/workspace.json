@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "04-Cryptography"
             }
+          },
+          {
+            "id": "ba5a385a4de2e74d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5c98494bf28ff8b",
+  "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/03-TCP-UDP.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/04-Cryptography.md",
