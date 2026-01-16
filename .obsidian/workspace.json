@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/02-Getting-help.md",
+                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/03-Sysinfo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Getting-help"
+              "title": "03-Sysinfo"
             }
           }
         ],
@@ -236,8 +236,9 @@
   },
   "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/01-Promp-Desc.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/02-Getting-help.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/03-Sysinfo.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell/01-Promp-Desc.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/00-Introduction.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/03-TCP-UDP.md",
@@ -268,7 +269,6 @@
     "Pentesting/HTB/CJCA/02-Network-Foundations/00-Summary.md",
     "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
-    "Pentesting/HTB/CJCA/01-Intro/99-Conclusion.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
     "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT",
     "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing",
