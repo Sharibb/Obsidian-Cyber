@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/09-User-Mgmt.md",
+                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/02-PackageMgmt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-User-Mgmt"
+              "title": "02-PackageMgmt"
             }
           }
         ],
@@ -236,9 +236,11 @@
   },
   "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/01-User-Mgmt.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/02-PackageMgmt.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/Linux_Fundamentals_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/08-Permission-Management.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/09-User-Mgmt.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/07-RegEx.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/06-Filter-Content.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/05-File-Descriptors.md",
@@ -270,8 +272,6 @@
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/02-Networking-Workflow",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure",
     "Images/HackingPractical/HTB/Linux/Artificial/Thumbs.db",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/04-NS-and-DFA",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/03-IA-and-WT",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
