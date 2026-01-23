@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/07-RegEx.md",
+                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/08-Permission-Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-RegEx"
+              "title": "08-Permission-Management"
             }
           }
         ],
@@ -236,8 +236,9 @@
   },
   "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/06-Filter-Content.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/07-RegEx.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/08-Permission-Management.md",
+    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/06-Filter-Content.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/05-File-Descriptors.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/04-Find-files.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/03-Editing-files.md",
@@ -265,7 +266,6 @@
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/04-Protocols",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/03-Addressing/04-Mac-Adresses.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/03-Addressing/03-subnetting.md",
-    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/03-Addressing/02-IPv4-addresses.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/03-Addressing",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/02-Networking-Workflow",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure",
