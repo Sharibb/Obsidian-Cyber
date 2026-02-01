@@ -62,21 +62,9 @@
               "icon": "lucide-file",
               "title": "03-ServiceAndProcessMgmt"
             }
-          },
-          {
-            "id": "d82bb6ff2be37df6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -246,7 +234,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d82bb6ff2be37df6",
+  "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/02-PackageMgmt.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/03-ServiceAndProcessMgmt.md",
