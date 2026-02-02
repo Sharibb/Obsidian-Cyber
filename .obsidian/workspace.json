@@ -35,14 +35,14 @@
             "id": "42013ecb5b46c4b0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/07-Backup&Restore.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "07-Backup&Restore"
             }
           }
         ],
@@ -218,6 +218,7 @@
   },
   "active": "42013ecb5b46c4b0",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/00-Intro.md",
     "conflict-files-obsidian-git.md",
     "Images/HackingPractical/HTB/Windows/Puppy/Puppy15.png",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/04-Cryptography.md",
