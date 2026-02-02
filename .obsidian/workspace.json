@@ -23,14 +23,12 @@
             "id": "ba3fa5c5b418b0d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/01-DHCP.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/HackingPractical/HTB/Windows/Puppy/Puppy15.png"
               },
-              "icon": "lucide-file",
-              "title": "01-DHCP"
+              "icon": "lucide-image",
+              "title": "Puppy15"
             }
           }
         ],
@@ -206,6 +204,18 @@
   },
   "active": "ba3fa5c5b418b0d6",
   "lastOpenFiles": [
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy13.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy12.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy14.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy11.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy10.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy09.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy08.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy07.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy06.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy05.png",
+    "Images/HackingPractical/HTB/Windows/Puppy/Puppy04.png",
+    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/01-DHCP.md",
     "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/03-DNS.md",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/01-Networking-Structure/01-Network-types.md",
@@ -233,24 +243,12 @@
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/08-Practice.md",
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/Conclusion.md",
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/07-Post-Engagement.md",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/06-Proof-of-Concept.md",
-    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/04-Post-Exploitation.md",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/Information_Gathering_Web_Edition_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain",
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases",
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/01-PentestingProcess",
     "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering",
-    "Pentesting/HTB/CPTS/04-Footprinting/999-CheatSheat.pdf",
-    "Images/Pentesting/CPTS/04/4.png",
-    "Images/Pentesting/CPTS/04/8.png",
-    "Images/Pentesting/CPTS/04/6.png",
-    "Images/Pentesting/CPTS/04/3.png",
-    "Images/Pentesting/CPTS/04/7.png",
-    "Images/Pentesting/CPTS/04/5.png",
-    "Images/Pentesting/CPTS/04/2.png",
-    "Images/Pentesting/CPTS/04/1.png",
-    "Images/Pentesting/CPTS/03/1.png",
-    "Images/Pentesting/CPTS/02/1.png"
+    "Pentesting/HTB/CPTS/04-Footprinting/999-CheatSheat.pdf"
   ]
 }
