@@ -234,8 +234,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba5a385a4de2e74d",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/01-Conditional-Arguments.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/04-Arithmetic.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/03-Comparison-Operators.md",
@@ -268,7 +269,6 @@
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/07-RegEx.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/06-Filter-Content.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/05-File-Descriptors.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/04-Find-files.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment",
