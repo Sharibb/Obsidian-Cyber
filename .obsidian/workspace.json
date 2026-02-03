@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/02-Arguments-Variables-Arrays.md",
+                "file": "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/03-Comparison-Operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Arguments-Variables-Arrays"
+              "title": "03-Comparison-Operators"
             }
           }
         ],
@@ -236,8 +236,10 @@
   },
   "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/01-Conditional-Arguments.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/02-Arguments-Variables-Arrays.md",
+    "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/03-Comparison-Operators.md",
+    "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/Untitled",
+    "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/01-Conditional-Arguments.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/00-Intro.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/07-Backup&Restore.md",
@@ -267,11 +269,9 @@
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/05-File-Descriptors.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/04-Find-files.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/03-Editing-files.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/02-Working-With-Files.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment",
-    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/04-Protocols",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
