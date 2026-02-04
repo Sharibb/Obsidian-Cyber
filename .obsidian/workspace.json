@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/01-I&O.md",
+                "file": "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/02-Flow-Control-Loops.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-I&O"
+              "title": "02-Flow-Control-Loops"
             }
           }
         ],
@@ -236,8 +236,9 @@
   },
   "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/04-Arithmetic.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/01-I&O.md",
+    "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/02-Flow-Control-Loops.md",
+    "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/04-Arithmetic.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/01-Conditional-Arguments.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/03-Comparison-Operators.md",
@@ -269,7 +270,6 @@
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/08-Permission-Management.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/07-RegEx.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/06-Filter-Content.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow/05-File-Descriptors.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/01-Shell",
     "Images/Pentesting/CPTS/04/8.png",
