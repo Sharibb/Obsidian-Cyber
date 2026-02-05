@@ -44,9 +44,21 @@
               "icon": "lucide-file",
               "title": "99-Shortcuts"
             }
+          },
+          {
+            "id": "2bad159eb68d9afe",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -216,7 +228,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42013ecb5b46c4b0",
+  "active": "2bad159eb68d9afe",
   "lastOpenFiles": [
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/06-Solaris/00-Intro.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/99-Shortcuts.md",
