@@ -234,8 +234,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba5a385a4de2e74d",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/Windows_Fundamentals_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/01-Functions.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/02-Debugging.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/03-Flow-Control-Branches.md",
@@ -268,7 +269,6 @@
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/04-Task-Scheduling.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/03-ServiceAndProcessMgmt.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/02-PackageMgmt.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/01-User-Mgmt.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/Linux_Fundamentals_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow",
