@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/03-NTFS.md",
+                "file": "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/03-NTFS-Permissions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-NTFS"
+              "title": "03-NTFS-Permissions"
             }
           }
         ],
@@ -237,7 +237,7 @@
   "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/02-FileSystem.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/03-NTFS.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/03-NTFS-Permissions.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/01-OS-Structure.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/00-Intro-To-Windows.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS",
