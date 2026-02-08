@@ -55,28 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/02-Debugging.md",
+                "file": "Pentesting/HTB/CJCA/06-Windows-Fundamentals/00-Intro-To-Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Debugging"
-            }
-          },
-          {
-            "id": "516cdeafd54adea2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "title": "00-Intro-To-Windows"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -246,11 +234,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "516cdeafd54adea2",
+  "active": "ba5a385a4de2e74d",
   "lastOpenFiles": [
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/Windows_Fundamentals_Module_Cheat_Sheet.pdf",
-    "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/01-Functions.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/00-Intro-To-Windows.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/02-Debugging.md",
+    "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/01-Functions.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/03-Flow-Control-Branches.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow",
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/02-Flow-Control-Loops.md",
@@ -280,10 +269,8 @@
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/05-Network-Services.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/04-Task-Scheduling.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/03-ServiceAndProcessMgmt.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/02-PackageMgmt.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/Linux_Fundamentals_Module_Cheat_Sheet.pdf",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/02-Workflow",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
