@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/04-Windows-Security.md",
+                "file": "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Windows-Security"
+              "title": "01-Windows Services and Processes"
             }
           }
         ],
@@ -220,19 +220,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5c98494bf28ff8b",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/03-DE-Vs-Server.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/04-Windows-Security.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/02-WSL.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/01-MMC.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/03-WMI.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/02-Interacting with the Windows Operating System.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/01-Sessions.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/Introduction_To_Windows_Command_Line_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/02-Service-Permissions.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/03-DE-Vs-Server.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/02-WSL.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/03-WMI.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/02-Interacting with the Windows Operating System.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/04-Windows-Security.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/01-MMC.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/01-Sessions.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/04-Cryptography.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/03-NTFS-Permissions.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process",
@@ -256,7 +257,6 @@
     "Pentesting/HTB/CJCA/05-Intro-toBash/00-Intro.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/07-Backup&Restore.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/99-Shortcuts.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/06-Solaris",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
