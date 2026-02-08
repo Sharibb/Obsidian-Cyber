@@ -41,30 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/04-Cryptography.md",
+                "file": "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Cryptography"
-            }
-          },
-          {
-            "id": "ba5a385a4de2e74d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/03-NTFS-Permissions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03-NTFS-Permissions"
+              "title": "01-Windows Services and Processes"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -234,10 +220,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba5a385a4de2e74d",
+  "active": "f5c98494bf28ff8b",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/02-FileSystem.md",
+    "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/04-Cryptography.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/03-NTFS-Permissions.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/02-FileSystem.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/01-OS-Structure.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/00-Intro-To-Windows.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS",
@@ -269,9 +258,6 @@
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/04-Linux-Networking",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/09-Containerization.md",
     "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/08-Filesystem-Management.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/06-Web-Services.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/05-Network-Services.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
