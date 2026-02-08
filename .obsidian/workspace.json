@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "02-Debugging"
             }
+          },
+          {
+            "id": "516cdeafd54adea2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -234,7 +246,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "516cdeafd54adea2",
   "lastOpenFiles": [
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/Windows_Fundamentals_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/01-Functions.md",
