@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "644549dece8d6a98",
+        "id": "e9dc73abfe8ea4fd",
         "type": "tabs",
         "children": [
           {
-            "id": "05d8f3140ecf3fb4",
+            "id": "bae72f1c488d70c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/08-IOT.md",
+                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-IOT"
-            }
-          },
-          {
-            "id": "99153243cd87bc12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00-Intro-To-InfoSec"
-            }
-          },
-          {
-            "id": "f5c98494bf28ff8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-Windows Services and Processes"
+              "title": "00-Intro"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,15 +191,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
+    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
+    "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
+    "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/08-IOT.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/Introduction_To_Windows_Command_Line_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/02-Service-Permissions.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/03-DE-Vs-Server.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/02-WSL.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/03-WMI.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/02-Interacting with the Windows Operating System.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/04-Windows-Security.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive/01-MMC.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive",
@@ -254,10 +228,7 @@
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/03-Comparison-Operators.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/02-Arguments-Variables-Arrays.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/Untitled",
-    "Pentesting/HTB/CJCA/05-Intro-toBash/00-Intro.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/03-System-Management/07-Backup&Restore.md",
-    "Pentesting/HTB/CJCA/04-Linux-Fundamentals/06-Solaris",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
