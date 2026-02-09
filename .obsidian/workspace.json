@@ -191,8 +191,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bae72f1c488d70c4",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
     "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
@@ -226,7 +227,6 @@
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/01-Conditional-Arguments.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/03-Comparison-Operators.md",
-    "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/02-Arguments-Variables-Arrays.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/Untitled",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components",
     "Images/Pentesting/CPTS/04/8.png",
