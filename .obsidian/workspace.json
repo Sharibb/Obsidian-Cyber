@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/03-Directories-and-Files.md",
+                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/04-System-info.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Directories-and-Files"
+              "title": "04-System-info"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/02-Navigation.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/03-Directories-and-Files.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/04-System-info.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/02-Navigation.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/01-Help.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/00-Basics.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
@@ -226,7 +227,6 @@
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/03-Flow-Control-Branches.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow",
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/02-Flow-Control-Loops.md",
-    "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control/01-I&O.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/Untitled",
     "Images/Pentesting/CPTS/04/8.png",
