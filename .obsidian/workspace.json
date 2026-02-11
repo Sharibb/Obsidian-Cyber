@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/06-ENV.md",
+                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/07-Services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-ENV"
+              "title": "07-Services"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/05-Find.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/06-ENV.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/07-Services.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/05-Find.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/04-System-info.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/03-Directories-and-Files.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/02-Navigation.md",
@@ -225,7 +226,6 @@
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/Windows_Fundamentals_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/02-Debugging.md",
-    "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow/01-Functions.md",
     "Pentesting/HTB/CJCA/05-Intro-toBash/03-Execution-flow",
     "Pentesting/HTB/CJCA/05-Intro-toBash/02-Script-Control",
     "Pentesting/HTB/CJCA/05-Intro-toBash/01-Working-Components/Untitled",
