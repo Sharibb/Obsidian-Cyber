@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/03-User-Group-Management.md",
+                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/05-Finding-and-Filtering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-User-Group-Management"
+              "title": "05-Finding-and-Filtering"
             }
           }
         ]
@@ -193,10 +193,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/03-User-Group-Management.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/05-Finding-and-Filtering.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/04-Directories-and-Files.md",
     "Untitled 2.base",
     "Untitled 3.base",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/03-User-Group-Management.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/02-CMDLet-Modules.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/00-Intro-To-Powershell.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/08-Scheduled-Task.md",
