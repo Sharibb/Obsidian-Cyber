@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/03-User-Group-Management.md",
+                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/04-Directories-and-Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-User-Group-Management"
+              "title": "04-Directories-and-Files"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/02-CMDLet-Modules.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/03-User-Group-Management.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/04-Directories-and-Files.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/02-CMDLet-Modules.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/00-Intro-To-Powershell.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/08-Scheduled-Task.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell",
@@ -223,7 +224,6 @@
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os/01-Sessions.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os",
     "Pentesting/HTB/CJCA/03-Introduction-to-Networking/05-Connection-Establishment/04-Cryptography.md",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS/03-NTFS-Permissions.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/01-Core-of-OS",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/Windows_Fundamentals_Module_Cheat_Sheet.pdf",
