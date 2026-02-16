@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/04-Compliance.md",
+                "file": "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains/01-WAPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Compliance"
+              "title": "01-WAPT"
             }
           }
         ]
@@ -193,8 +193,17 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/03-Penetration-Testing-Benefits.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview/04-Methodology-and-framework.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains/01-WAPT.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview/03-Required-Skills.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview/02-Prerequisite.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview/01-Structure.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/06-VAPT.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/05-Ethics.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/04-Compliance.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/03-Penetration-Testing-Benefits.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/02-Areas-and-Domains.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/01-Type-of-Pentest.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals",
@@ -218,17 +227,8 @@
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/03-Frontend-Vulnerabilities",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/01-Frontend/02-CSS.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/01-Frontend/01-HTML.md",
-    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/02-Stack.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/01-Frontend",
-    "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/03-CRUD.md",
-    "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/01-GET.md",
-    "Pentesting/HTB/CJCA/00-Index.md",
-    "Pentesting/HTB/CJCA/02-Network-Foundations/02-NetCom-Addressing/01-DHCP.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/00-Intro-OWASP.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASP10/10-SSRF.md",
     "Pentesting/HTB/CJCA/08-WebRequest/02-Methods",
-    "Pentesting/HTB/CJCA/08-WebRequest/Web_Requests_Module_Cheat_Sheet.pdf",
-    "Pentesting/HTB/CJCA/08-WebRequest/01-HTTP",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
