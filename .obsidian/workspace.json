@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,17 +194,17 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/05-Finding-and-Filtering.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/08-Event-logs.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/07-Registry.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/06-Services.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/12-Assesment.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/05-Finding-and-Filtering.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/04-Directories-and-Files.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/03-User-Group-Management.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/11-Scripting-and-Automation.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/10-Web.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/09-Networking.md",
     "Pentesting/HTB/CJCA/00-Index.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/08-Event-logs.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/07-Registry.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/06-Services.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/Untitled",
     "Untitled 2.base",
     "Untitled 3.base",
