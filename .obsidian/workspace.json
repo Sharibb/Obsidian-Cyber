@@ -11,14 +11,10 @@
             "id": "bae72f1c488d70c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pentesting/HTB/CJCA/09-Intro-to-WebApp/00-Introduction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00-Introduction"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -193,8 +189,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/03-CRUD.md",
+    "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/02-VulnerabilityAssessment.md",
+    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/02-Stack.md",
+    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/01-WEB-Layout.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/00-Introduction.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/03-CRUD.md",
     "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/02-POST.md",
     "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/01-GET.md",
     "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/00-Intro.md",
@@ -223,10 +222,7 @@
     "Untitled 2.base",
     "Untitled 3.base",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/02-CMDLet-Modules.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/00-Intro-To-Powershell.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/08-Scheduled-Task.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/07-Services.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive",
     "Images/Pentesting/CPTS/04/8.png",
