@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/08-WebRequest/HTTP/03-Headers.md",
+                "file": "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/01-GET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Headers"
+              "title": "01-GET"
             }
           }
         ]
@@ -193,11 +193,15 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/08-WebRequest/HTTP/02-Request-and-Response.md",
-    "Pentesting/HTB/CJCA/08-WebRequest/HTTP/03-Headers.md",
-    "Pentesting/HTB/CJCA/08-WebRequest/HTTP/01-HTTPS.md",
-    "Pentesting/HTB/CJCA/08-WebRequest/HTTP/00-Intro.md",
-    "Pentesting/HTB/CJCA/08-WebRequest/HTTP",
+    "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/00-Intro.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/01-GET.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/01-HTTP/03-Headers.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/02-Methods",
+    "Pentesting/HTB/CJCA/08-WebRequest/Web_Requests_Module_Cheat_Sheet.pdf",
+    "Pentesting/HTB/CJCA/08-WebRequest/01-HTTP/02-Request-and-Response.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/01-HTTP/01-HTTPS.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/01-HTTP/00-Intro.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/01-HTTP",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/99-Beyond-Windows-Cli.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/Introduction_To_Windows_Command_Line_Module_Cheat_Sheet.pdf",
@@ -223,12 +227,8 @@
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/06-ENV.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/05-Find.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/04-System-info.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/03-Directories-and-Files.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/02-Navigation.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
