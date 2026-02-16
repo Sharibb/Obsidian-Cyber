@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains/01-WAPT.md",
+                "file": "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains/02-NPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-WAPT"
+              "title": "02-NPT"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview/04-Methodology-and-framework.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains/01-WAPT.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains/02-NPT.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview/04-Methodology-and-framework.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview/03-Required-Skills.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/01-Overview/02-Prerequisite.md",
@@ -226,7 +227,6 @@
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/03-Frontend-Vulnerabilities/Untitled",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/03-Frontend-Vulnerabilities",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/01-Frontend/02-CSS.md",
-    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/01-Frontend/01-HTML.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/01-Frontend",
     "Pentesting/HTB/CJCA/08-WebRequest/02-Methods",
     "Images/Pentesting/CPTS/04/8.png",
