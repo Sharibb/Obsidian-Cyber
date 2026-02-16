@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/11-Scripting-and-Automation.md",
+                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/12-Assesment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-Scripting-and-Automation"
+              "title": "12-Assesment"
             }
           }
         ]
@@ -193,17 +193,18 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/10-Web.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/05-Finding-and-Filtering.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/12-Assesment.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/04-Directories-and-Files.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/03-User-Group-Management.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/11-Scripting-and-Automation.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/10-Web.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/09-Networking.md",
     "Pentesting/HTB/CJCA/00-Index.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/08-Event-logs.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/07-Registry.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/06-Services.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/05-Finding-and-Filtering.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/Untitled",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/03-User-Group-Management.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/04-Directories-and-Files.md",
     "Untitled 2.base",
     "Untitled 3.base",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/02-CMDLet-Modules.md",
@@ -224,7 +225,6 @@
     "Pentesting/HTB/CJCA/01-Intro/00-Intro-To-InfoSec.md",
     "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/08-IOT.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/Introduction_To_Windows_Command_Line_Module_Cheat_Sheet.pdf",
-    "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/02-Service-Permissions.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process",
