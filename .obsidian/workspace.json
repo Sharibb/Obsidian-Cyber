@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/04-API's.md",
+                "file": "Pentesting/HTB/CJCA/09-Intro-to-WebApp/05-Backend-Vulnerabilities/01-CWV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-API's"
+              "title": "01-CWV"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/03-Databases.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/04-API's.md",
+    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/05-Backend-Vulnerabilities/01-CWV.md",
+    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/05-Backend-Vulnerabilities",
+    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/03-Databases.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/01-Servers.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/Untitled",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/00-Intro.md",
@@ -223,12 +225,10 @@
     "Pentesting/HTB/CPTS/01-PenetrationTestingProcess/02-PenetrationTestingPhases/02-VulnerabilityAssessment.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/01-WEB-Layout.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/00-Introduction.md",
-    "Pentesting/HTB/CJCA/08-WebRequest/02-Methods/02-POST.md",
     "Pentesting/HTB/CJCA/08-WebRequest/02-Methods",
     "Pentesting/HTB/CJCA/08-WebRequest/Web_Requests_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/08-WebRequest/01-HTTP",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/Introduction_To_Windows_Command_Line_Module_Cheat_Sheet.pdf",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/Untitled",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
