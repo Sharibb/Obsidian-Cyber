@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/08-WebRequest/00-Intro.md",
+                "file": "Pentesting/HTB/CJCA/08-WebRequest/HTTP/00-Intro.md",
                 "mode": "source",
                 "source": false
               },
@@ -193,9 +193,9 @@
   },
   "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/08-WebRequest/Untitled",
+    "Pentesting/HTB/CJCA/08-WebRequest/HTTP",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
-    "Pentesting/HTB/CJCA/08-WebRequest/00-Intro.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/HTTP/00-Intro.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/99-Beyond-Windows-Cli.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/Introduction_To_Windows_Command_Line_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/12-Assesment.md",
