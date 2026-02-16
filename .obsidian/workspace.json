@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/08-WebRequest/HTTP/02-Request-and-Response.md",
+                "file": "Pentesting/HTB/CJCA/08-WebRequest/HTTP/03-Headers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Request-and-Response"
+              "title": "03-Headers"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/08-WebRequest/HTTP/01-HTTPS.md",
     "Pentesting/HTB/CJCA/08-WebRequest/HTTP/02-Request-and-Response.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/HTTP/03-Headers.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/HTTP/01-HTTPS.md",
     "Pentesting/HTB/CJCA/08-WebRequest/HTTP/00-Intro.md",
     "Pentesting/HTB/CJCA/08-WebRequest/HTTP",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
@@ -224,7 +225,6 @@
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/04-System-info.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/03-Directories-and-Files.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/02-Navigation.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/01-Help.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/03-Interacting-with-os",
