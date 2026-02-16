@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
+                "file": "Pentesting/HTB/CJCA/08-WebRequest/00-Intro.md",
                 "mode": "source",
                 "source": false
               },
@@ -193,6 +193,8 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
+    "Pentesting/HTB/CJCA/08-WebRequest/00-Intro.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/99-Beyond-Windows-Cli.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/Introduction_To_Windows_Command_Line_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/12-Assesment.md",
@@ -221,7 +223,6 @@
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/02-Navigation.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/01-Help.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/00-Basics.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/00-Intro.md",
     "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/02-Services&Process/01-Windows Services and Processes.md",
     "Pentesting/HTB/CJCA/06-Windows-Fundamentals/04-Deep-Dive",
