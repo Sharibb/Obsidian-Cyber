@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/10-Intro-to-Pentest/04-Pentester-Daily-Life/03-Profession.md",
+                "file": "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/00-Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Profession"
+              "title": "00-Introduction"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/04-Pentester-Daily-Life/02-Routine.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/Pentest_In_A_Nutshell_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/04-Pentester-Daily-Life/03-Profession.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/00-Introduction.md",
+    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/04-Pentester-Daily-Life/02-Routine.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/04-Pentester-Daily-Life/01-Utilization.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/02-Domains/07-Reverse-Engineering.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/04-Pentester-Daily-Life",
@@ -221,9 +223,7 @@
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/99-Conclusion.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/05-Backend-Vulnerabilities/02-Public-Vulnerabilities.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/05-Backend-Vulnerabilities/01-CWV.md",
-    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/04-API's.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/05-Backend-Vulnerabilities",
-    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/03-Databases.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/Untitled",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/03-Frontend-Vulnerabilities/Untitled",
