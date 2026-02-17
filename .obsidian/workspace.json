@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/01-Pre-Engagement/01-Scope-Definition.md",
+                "file": "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/02-Network/01-Scanning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Scope-Definition"
+              "title": "01-Scanning"
             }
           }
         ]
@@ -193,8 +193,14 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/00-Introduction.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/02-Network/00-Information-Gathering.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/02-Network/01-Scanning.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/02-Network/02-Low-Hanging-Fruits.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/01-Pre-Engagement/03-Agreement.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/02-Network",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/01-Pre-Engagement/02-Rules-of-Engagement.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/01-Pre-Engagement/01-Scope-Definition.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/00-Introduction.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/01-Pre-Engagement",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/Untitled.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/Pentest_In_A_Nutshell_Module_Cheat_Sheet.pdf",
@@ -219,16 +225,10 @@
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/05-Ethics.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/04-Compliance.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/03-Penetration-Testing-Benefits.md",
-    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/02-Areas-and-Domains.md",
-    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals/01-Type-of-Pentest.md",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Fundamentals",
-    "Pentesting/HTB/CJCA/10-Intro-to-Pentest/00-Intro.md",
-    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/99-Conclusion.md",
-    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/05-Backend-Vulnerabilities/02-Public-Vulnerabilities.md",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/05-Backend-Vulnerabilities",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend/Untitled",
     "Pentesting/HTB/CJCA/09-Intro-to-WebApp/04-Backend",
-    "Pentesting/HTB/CJCA/09-Intro-to-WebApp/03-Frontend-Vulnerabilities/Untitled",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
