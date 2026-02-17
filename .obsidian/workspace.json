@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/04-Privilege-Escalation.md",
+                "file": "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/05-Pillaging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Privilege-Escalation"
+              "title": "05-Pillaging"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/03-VA.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/04-Privilege-Escalation.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/05-Pillaging.md",
+    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/03-VA.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/02-Enumeration.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/01-Initial-Access.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/00-Introduction.md",
@@ -221,7 +222,6 @@
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/02-Network",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/01-Pre-Engagement/02-Rules-of-Engagement.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/01-Pre-Engagement/01-Scope-Definition.md",
-    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/00-Introduction.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/01-Pre-Engagement",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/Pentest_In_A_Nutshell_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/10-Intro-to-Pentest/04-Pentester-Daily-Life",
