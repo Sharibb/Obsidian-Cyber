@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/15-MSF/01-Components/05-Databases.md",
+                "file": "Pentesting/HTB/CJCA/15-MSF/01-Components/06-Plugins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Databases"
+              "title": "06-Plugins"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/15-MSF/01-Components/04-Encoders.md",
     "Pentesting/HTB/CJCA/15-MSF/01-Components/05-Databases.md",
+    "Pentesting/HTB/CJCA/15-MSF/01-Components/06-Plugins.md",
+    "Pentesting/HTB/CJCA/15-MSF/01-Components/04-Encoders.md",
     "Pentesting/HTB/CJCA/15-MSF/01-Components/03-Payloads.md",
     "Pentesting/HTB/CJCA/15-MSF/01-Components/02-Targets.md",
     "Pentesting/HTB/CJCA/15-MSF/01-Components/01-Modules.md",
@@ -224,7 +225,6 @@
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/05-Reporting",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/00-Introduction.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/01-Initial-Access.md",
-    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows/00-Introduction.md",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/03-Linux",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/02-Network",
