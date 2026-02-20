@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features/03-Evasion.md",
+                "file": "Pentesting/HTB/CJCA/15-MSF/99-Conclusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Evasion"
+              "title": "99-Conclusion"
             }
           }
         ]
@@ -193,9 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features/03-Evasion.md",
+    "Pentesting/HTB/CJCA/15-MSF/99-Conclusion.md",
     "Pentesting/HTB/CJCA/15-MSF/Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features/02-MSFvenom.md",
-    "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features/03-Evasion.md",
     "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features/01-Writing-Importing-Modules.md",
     "Pentesting/HTB/CJCA/15-MSF/02-Sessions/02-Meterpreter.md",
     "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features",
@@ -228,7 +229,6 @@
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/06-Post-Engagement",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/05-Reporting",
     "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/04-Windows",
-    "Pentesting/HTB/CJCA/11-Pentest-in-a-Nutshell/03-Linux",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
