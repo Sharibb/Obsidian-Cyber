@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/17-Incident-Handling/03-Research-on-NexusBreach.md",
+                "file": "Pentesting/HTB/CJCA/17-Incident-Handling/04-Skill-Assesment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Research-on-NexusBreach"
+              "title": "04-Skill-Assesment"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/17-Incident-Handling/02-Process/04-Post-Incident.md",
     "Pentesting/HTB/CJCA/17-Incident-Handling/03-Research-on-NexusBreach.md",
+    "Pentesting/HTB/CJCA/17-Incident-Handling/04-Skill-Assesment.md",
+    "Pentesting/HTB/CJCA/17-Incident-Handling/02-Process/04-Post-Incident.md",
     "Pentesting/HTB/CJCA/17-Incident-Handling/02-Process/03-DR.md",
     "Pentesting/HTB/CJCA/17-Incident-Handling/02-Process/02-Detection&Analysis.md",
     "Pentesting/HTB/CJCA/17-Incident-Handling/02-Process/01-Preparation-Stage.md",
@@ -225,7 +226,6 @@
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/01-Networking",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Intro_To_Network_Traffic_Analysis_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/15-MSF/99-Conclusion.md",
-    "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features/03-Evasion.md",
     "Pentesting/HTB/CJCA/15-MSF/Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features",
     "Pentesting/HTB/CJCA/15-MSF/02-Sessions",
