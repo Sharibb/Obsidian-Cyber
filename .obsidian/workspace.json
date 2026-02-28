@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/19-SM-and-SIEM/01-SIEM/05-Use-Cases.md",
+                "file": "Pentesting/HTB/CJCA/19-SM-and-SIEM/02-SIEM-Visualisation/01-Example 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Use-Cases"
+              "title": "01-Example 1"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CJCA/19-SM-and-SIEM/01-SIEM/04-MITRE.md",
     "Pentesting/HTB/CJCA/19-SM-and-SIEM/01-SIEM/05-Use-Cases.md",
+    "Pentesting/HTB/CJCA/19-SM-and-SIEM/02-SIEM-Visualisation/01-Example 1.md",
+    "Pentesting/HTB/CJCA/19-SM-and-SIEM/02-SIEM-Visualisation",
+    "Pentesting/HTB/CJCA/19-SM-and-SIEM/01-SIEM/04-MITRE.md",
     "Pentesting/HTB/CJCA/19-SM-and-SIEM/01-SIEM/03-SOC.md",
     "Pentesting/HTB/CJCA/19-SM-and-SIEM/01-SIEM/02-Elastic-Stack.md",
     "Pentesting/HTB/CJCA/19-SM-and-SIEM/01-SIEM/01-Fundamentals.md",
@@ -222,14 +224,12 @@
     "Pentesting/HTB/CJCA/17-Incident-Handling/00-Introduction.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/04-Wireshark/06-Decrypting-RDP.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/04-Wireshark/05-Guided-Lab.md",
-    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/04-Wireshark/04-Packet-Inspection.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/04-Wireshark",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/03-TCPDUMP",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/02-Analysis",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/01-Networking",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Intro_To_Network_Traffic_Analysis_Module_Cheat_Sheet.pdf",
-    "Pentesting/HTB/CJCA/15-MSF/Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
