@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/01-ETW/01-ETW.md",
+                "file": "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/04-Skill-Assesment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-ETW"
-            }
-          },
-          {
-            "id": "f101ec4e1307a665",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "title": "04-Skill-Assesment"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,11 +191,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f101ec4e1307a665",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/03-WinEvent.md",
+    "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/04-Skill-Assesment.md",
+    "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/01-ETW/02-ETW-GoingIn.md",
+    "Tools/NPT/NMAP/03-OS Fingerprinting.md",
+    "Tools/NPT/NMAP/02-Port Scanning.md",
+    "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
+    "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/01-ETW/01-ETW.md",
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/01-ETW",
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/00-Introduction/02-Finding-Evil.md",
-    "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/01-ETW/01-ETW.md",
     "Pentesting/HTB/CJCA/17-Incident-Handling/03-Research-on-NexusBreach.md",
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/00-Introduction/01-Basics.md",
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/00-Introduction",
@@ -231,18 +224,12 @@
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/04-Wireshark",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/03-TCPDUMP/04-Analysis.md",
-    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/03-TCPDUMP/02-LAB.md",
-    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/03-TCPDUMP/01-Fundamentals.md",
-    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/03-TCPDUMP",
-    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/02-Analysis/02-Practice.md",
-    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/02-Analysis/01-Process.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/02-Analysis",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/01-Networking",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Intro_To_Network_Traffic_Analysis_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/15-MSF/Using_The_Metasploit_Framework_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/15-MSF/03-Additional-Features",
-    "Pentesting/HTB/CJCA/15-MSF/02-Sessions",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
     "Images/Pentesting/CPTS/04/6.png",
