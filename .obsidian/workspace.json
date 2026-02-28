@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "01-ETW"
             }
+          },
+          {
+            "id": "f101ec4e1307a665",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "f101ec4e1307a665",
   "lastOpenFiles": [
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/01-ETW",
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/00-Introduction/02-Finding-Evil.md",
