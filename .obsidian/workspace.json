@@ -11,12 +11,14 @@
             "id": "c5fc20839dc6daf6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Intro_To_Network_Traffic_Analysis_Module_Cheat_Sheet.pdf"
+                "file": "Pentesting/HTB/CJCA/19-SM-and-SIEM/03-Triaging/01-Alert.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Intro_To_Network_Traffic_Analysis_Module_Cheat_Sheet"
+              "icon": "lucide-file",
+              "title": "01-Alert"
             }
           }
         ]
@@ -205,6 +207,15 @@
   },
   "active": "c5fc20839dc6daf6",
   "lastOpenFiles": [
+    "Pentesting/HTB/CJCA/19-SM-and-SIEM/99-Skill Assesment.md",
+    "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/04-Skill-Assesment.md",
+    "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/00-Introduction/01-Basics.md",
+    "Pentesting/HTB/CJCA/17-Incident-Handling/04-Skill-Assesment.md",
+    "Pentesting/HTB/CJCA/17-Incident-Handling/03-Research-on-NexusBreach.md",
+    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/03-TCPDUMP/01-Fundamentals.md",
+    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/03-TCPDUMP/04-Analysis.md",
+    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/03-TCPDUMP/03-Packet-Packetfiltering.md",
+    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Intro_To_Network_Traffic_Analysis_Module_Cheat_Sheet.pdf",
     "Pentesting/HTB/CJCA/20-ThreatHunting/02-Research/01-Stuxbot.md",
     "Scripting/PowerShell/00-Intro.md",
     "Scripting/PowerShell/01-Priviledge Escalation.md",
@@ -232,15 +243,6 @@
     "Tools/Weaponisation/Metasploit",
     "Tools/NPT/NMAP",
     "Tools/Weaponisation",
-    "Tools/NPT",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/03-Crawlers.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/05-Certificate.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/04-Virtual-Hosts.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/02-Well-Known.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/03-DNS-Zone-Transfer.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/02-Subdomain.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/02-Subdomain/01-DNS.md",
-    "Pentesting/HTB/CPTS/05-WAPT/01-InfoGathering/04-Crawling/01-Robots.md",
     "Images/Pentesting/NPT/Windows/Enumeration/RPCClient07.png",
     "Images/Pentesting/NPT/Windows/Enumeration/RPCClient04.png",
     "Images/Pentesting/NPT/Windows/Enumeration/RPCClient06.png",
