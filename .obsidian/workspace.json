@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/19-SM-and-SIEM/03-Triaging/01-Alert.md",
+                "file": "Pentesting/HTB/CJCA/20-ThreatHunting/01-Fundamentals/01-Threat-Hunting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Alert"
+              "title": "01-Threat-Hunting"
             }
           }
         ]
@@ -208,6 +208,7 @@
   "active": "c5fc20839dc6daf6",
   "lastOpenFiles": [
     "Pentesting/HTB/CJCA/19-SM-and-SIEM/99-Skill Assesment.md",
+    "Pentesting/HTB/CJCA/19-SM-and-SIEM/03-Triaging/01-Alert.md",
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/04-Skill-Assesment.md",
     "Pentesting/HTB/CJCA/18-EventLogs-and-Finding-evil/00-Introduction/01-Basics.md",
     "Pentesting/HTB/CJCA/17-Incident-Handling/04-Skill-Assesment.md",
@@ -239,7 +240,6 @@
     "Tools/NPT/NMAP/02-Port Scanning.md",
     "Tools/NPT/NMAP/03-OS Fingerprinting.md",
     "Tools/NPT/NMAP/01-Host-Discovery.md",
-    "Tools/NPT/NMAP/00-Intro-To-NMAP.md",
     "Tools/Weaponisation/Metasploit",
     "Tools/NPT/NMAP",
     "Tools/Weaponisation",
