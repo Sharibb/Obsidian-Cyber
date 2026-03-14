@@ -202,7 +202,7 @@ Kali Container (172.30.x.x) ↓ Docker Bridge ↓ Docker Gateway
 The issue occurs because **Docker containers don't inherit host VPN
 routes**.
 
-Adding the VPN route manually allows traffic to flow:
+Adding the VPN route qwer1234manually allows traffic to flow:
 
 container → docker bridge → host → VPN
 
