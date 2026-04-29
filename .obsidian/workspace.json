@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/06-FileTransfers/05-Protected-File-Transfers.md",
+                "file": "Pentesting/HTB/CPTS/06-FileTransfers/08-Detection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-Protected-File-Transfers"
+              "title": "08-Detection"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/06-FileTransfers/04-Miscellaneous-File-Transfer.md",
+    "Pentesting/HTB/CPTS/06-FileTransfers/07-Living-of-the-land.md",
+    "Pentesting/HTB/CPTS/06-FileTransfers/08-Detection.md",
+    "Pentesting/HTB/CPTS/06-FileTransfers/06-HTTP(S)-File-Transfers.md",
     "Pentesting/HTB/CPTS/06-FileTransfers/05-Protected-File-Transfers.md",
+    "Pentesting/HTB/CPTS/06-FileTransfers/04-Miscellaneous-File-Transfer.md",
     "Pentesting/HTB/CPTS/06-FileTransfers/03-Coding-File-Transfer.md",
     "Pentesting/HTB/CPTS/06-FileTransfers/02-Linux-File-Transfer.md",
     "Pentesting/HTB/CPTS/06-FileTransfers/01-Windows-File-Transfer.md",
@@ -217,9 +220,6 @@
     "Pentesting/HTB/CJCA/13-Footprinting/999-CheatSheat.pdf",
     "Pentesting/HTB/CJCA/13-Footprinting/99-Conclusion.md",
     "Pentesting/HTB/CJCA/13-Footprinting/02-HostBased/02-SMB.md",
-    "Pentesting/HTB/CJCA/13-Footprinting/02-HostBased/05-SMTP.md",
-    "Pentesting/HTB/CJCA/13-Footprinting/02-HostBased/08-SQL.md",
-    "Pentesting/HTB/CJCA/13-Footprinting/02-HostBased/4-DNS.md",
     "Pentesting/HTB/CJCA/13-Footprinting/01-InfrastructureBased",
     "Pentesting/HTB/CJCA/13-Footprinting/02-HostBased",
     "Pentesting/HTB/CJCA/13-Footprinting/03-RemoteManagement",
