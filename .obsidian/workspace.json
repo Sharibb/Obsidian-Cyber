@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/06-FileTransfers/09-Evading-Detection.md",
+                "file": "Pentesting/HTB/CPTS/07-Shells&Payloads/00-Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-Evading-Detection"
+              "title": "00-Introduction"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/06-FileTransfers/08-Detection.md",
     "Pentesting/HTB/CPTS/06-FileTransfers/09-Evading-Detection.md",
+    "Pentesting/HTB/CPTS/07-Shells&Payloads/00-Introduction.md",
+    "Pentesting/HTB/CPTS/07-Shells&Payloads",
+    "Pentesting/HTB/CPTS/Untitled.md",
+    "Pentesting/HTB/CPTS/06-FileTransfers/08-Detection.md",
     "Pentesting/HTB/CPTS/06-FileTransfers/07-Living-of-the-land.md",
     "Pentesting/HTB/CPTS/06-FileTransfers/06-HTTP(S)-File-Transfers.md",
     "Pentesting/HTB/CPTS/06-FileTransfers/05-Protected-File-Transfers.md",
@@ -217,9 +220,7 @@
     "Pentesting/HTB/CJCA/13-Footprinting/00-Labs/02-Medium.md",
     "Pentesting/HTB/CJCA/13-Footprinting/00-Labs/01-Easy.md",
     "Pentesting/Intro-To-Pentesting.md",
-    "Pentesting/HTB/CJCA/13-Footprinting/00-Introduction.md",
     "Pentesting/HTB/CJCA/13-Footprinting/999-CheatSheat.pdf",
-    "Pentesting/HTB/CJCA/13-Footprinting/99-Conclusion.md",
     "Pentesting/HTB/CJCA/13-Footprinting/01-InfrastructureBased",
     "Pentesting/HTB/CJCA/13-Footprinting/02-HostBased",
     "Pentesting/HTB/CJCA/13-Footprinting/03-RemoteManagement",
@@ -228,7 +229,6 @@
     "03-RemoteManagement",
     "02-HostBased",
     "01-InfrastructureBased",
-    "00-Labs",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
