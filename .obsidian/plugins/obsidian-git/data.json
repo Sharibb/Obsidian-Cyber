@@ -1,7 +1,7 @@
 {
   "commitMessage": "vault backup: {{date}}\nComitted Device: {{hostname}}\nNo. Of Files: {{numFiles}}\nChanged Files: {{files}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 1,
+  "autoSaveInterval": 2,
   "autoPushInterval": 0,
   "autoPullInterval": 1,
   "autoPullOnBoot": true,
