@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/07-Shells&Payloads/05-Web-shells/03-PHP.md",
+                "file": "Pentesting/HTB/CPTS/07-Shells&Payloads/06-Skill-Assesment/00-The Live Engagement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-PHP"
+              "title": "00-The Live Engagement"
             }
           }
         ]
@@ -194,9 +194,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/07-Shells&Payloads/05-Web-shells/03-PHP.md",
+    "Pentesting/HTB/CPTS/07-Shells&Payloads/06-Skill-Assesment/00-The Live Engagement.md",
+    "Pentesting/HTB/CPTS/07-Shells&Payloads/06-Skill-Assesment",
     "Pentesting/HTB/CPTS/07-Shells&Payloads/Shells & Payloads - cheatsheet.pdf",
     "Pentesting/HTB/CPTS/07-Shells&Payloads/05-Web-shells/02-Antak Webshell.md",
-    "Pentesting/HTB/CPTS/07-Shells&Payloads/05-Web-shells/03-PHP.md",
     "Pasted image 20260502223210.png",
     "Pentesting/HTB/CPTS/07-Shells&Payloads/05-Web-shells/01-Laudanum.md",
     "Pentesting/HTB/CPTS/07-Shells&Payloads/05-Web-shells/00-Introduction.md",
@@ -229,8 +231,6 @@
     "Pentesting/HTB/CPTS/06-FileTransfers/00-Into-To-File-Transfers.md",
     "Pentesting/HTB/CJCA/13-Footprinting/999-CheatSheat.pdf",
     "Pentesting/HTB/CJCA/13-Footprinting/01-InfrastructureBased",
-    "Pentesting/HTB/CJCA/13-Footprinting/02-HostBased",
-    "Pentesting/HTB/CJCA/13-Footprinting/03-RemoteManagement",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
