@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/07-Shells&Payloads/02-Payloads/02-MSFVenom.md",
+                "file": "Pentesting/HTB/CPTS/07-Shells&Payloads/03-Windows-Shell/01-Infiltrating.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-MSFVenom"
+              "title": "01-Infiltrating"
             }
           }
         ]
@@ -194,8 +194,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/07-Shells&Payloads/02-Payloads/01-MSF.md",
     "Pentesting/HTB/CPTS/07-Shells&Payloads/02-Payloads/02-MSFVenom.md",
+    "Pentesting/HTB/CPTS/07-Shells&Payloads/03-Windows-Shell/01-Infiltrating.md",
+    "Pentesting/HTB/CPTS/07-Shells&Payloads/03-Windows-Shell",
+    "Pentesting/HTB/CPTS/07-Shells&Payloads/02-Payloads/01-MSF.md",
     "Pentesting/HTB/CPTS/07-Shells&Payloads/02-Payloads/00-Intro.md",
     "Pentesting/HTB/CPTS/07-Shells&Payloads/01-Shell-Basics/03-Reverse-shell.md",
     "Pentesting/HTB/CPTS/07-Shells&Payloads/02-Payloads",
@@ -222,14 +224,12 @@
     "Pentesting/HTB/CJCA/20-ThreatHunting/03-Skill Assesment.md",
     "Pentesting/HTB/CJCA/02-Network-Foundations/01-Network-Fundamentals/00-Intro-To-Networks.md",
     "Pentesting/HTB/CJCA/01-Intro/01-InfoSec/02-AppSec.md",
-    "Pentesting/HTB/CJCA/13-Footprinting/01-InfrastructureBased/03-People.md",
     "Pentesting/HTB/CJCA/13-Footprinting/999-CheatSheat.pdf",
     "Pentesting/HTB/CJCA/13-Footprinting/01-InfrastructureBased",
     "Pentesting/HTB/CJCA/13-Footprinting/02-HostBased",
     "Pentesting/HTB/CJCA/13-Footprinting/03-RemoteManagement",
     "Pentesting/HTB/CJCA/13-Footprinting/00-Labs",
     "999-CheatSheat.pdf",
-    "03-RemoteManagement",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas",
     "Images/Pentesting/CPTS/04/8.png",
     "Images/Pentesting/CPTS/04/7.png",
