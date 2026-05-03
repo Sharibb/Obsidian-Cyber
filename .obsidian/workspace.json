@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/03-Hashcat.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/04-Custom Wordlists and Rules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Hashcat"
+              "title": "04-Custom Wordlists and Rules"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Virtualisation/WSL/01-Scripts/WSL2-HTB-Setup.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/03-Hashcat.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/04-Custom Wordlists and Rules.md",
+    "Virtualisation/WSL/01-Scripts/WSL2-HTB-Setup.md",
     "Virtualisation/WSL/WSL2-HTB-Setup.md",
     "Virtualisation/WSL/01-Scripts/WSL2-Diag-Linux 1.sh",
     "Virtualisation/WSL/01-Scripts/WSL2-PortProxy 1.ps1",
@@ -229,7 +230,6 @@
     "Pentesting/HTB/CPTS/07-MSF/02-Sessions/02-Meterpreter.md",
     "Pentesting/HTB/CPTS/07-MSF/03-Additional-Features/01-Writing-Importing-Modules.md",
     "Pentesting/HTB/CPTS/07-MSF/02-Sessions/01-Sessions.md",
-    "Pentesting/HTB/CPTS/07-MSF/01-Components/05-Databases.md",
     "Pasted image 20260502223210.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas",
     "Images/Pentesting/CPTS/04/8.png",
