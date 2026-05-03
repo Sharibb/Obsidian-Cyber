@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtualisation/WSL/01-Scripts/WSL2-HTB-Setup.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/03-Hashcat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WSL2-HTB-Setup"
+              "title": "03-Hashcat"
             }
           }
         ]
@@ -194,10 +194,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Virtualisation/WSL/01-Scripts/WSL2-HTB-Setup.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/03-Hashcat.md",
     "Virtualisation/WSL/WSL2-HTB-Setup.md",
     "Virtualisation/WSL/01-Scripts/WSL2-Diag-Linux 1.sh",
     "Virtualisation/WSL/01-Scripts/WSL2-PortProxy 1.ps1",
-    "Virtualisation/WSL/01-Scripts/WSL2-HTB-Setup.md",
     "Virtualisation/WSL/01-Scripts/WSL2-Diag-Windows 1.ps1",
     "Virtualisation/WSL/01-Scripts/WSL2-Diag-Windows.ps1",
     "Virtualisation/WSL/01-Scripts/WSL2-Diag-Linux.sh",
