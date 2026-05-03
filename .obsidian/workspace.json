@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/02-Remote-Password-Attacks/02-Methedology.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/01-Authentication Process.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Methedology"
+              "title": "01-Authentication Process"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/09-Password-Attacks/02-Remote-Password-Attacks/01-Network-Services.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/02-Remote-Password-Attacks/02-Methedology.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/01-Authentication Process.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/02-Remote-Password-Attacks/01-Network-Services.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/06-Cracking-Protected-Archives.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/02-Remote-Password-Attacks",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/05-Cracking Protected Files.md",
@@ -210,9 +213,7 @@
     "Virtualisation/WSL/01-Scripts/WSL2-PortProxy.ps1",
     "Virtualisation/WSL/01-Scripts",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/02-JTR.md",
-    "Virtualisation/WSL",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/01-Hash-Cracking.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques",
     "Pentesting/HTB/CPTS/09-Password-Attacks/00-Introduction.md",
     "Pentesting/HTB/CPTS/08-MSF/03-Additional-Features/02-MSFvenom.md",
     "Pentesting/HTB/CPTS/08-MSF/03-Additional-Features/01-Writing-Importing-Modules.md",
@@ -228,7 +229,6 @@
     "Pentesting/HTB/CPTS/08-MSF/01-Components/02-Targets.md",
     "Pentesting/HTB/CPTS/08-MSF/02-Sessions/02-Meterpreter.md",
     "Pentesting/HTB/CPTS/08-MSF/02-Sessions/01-Sessions.md",
-    "Pentesting/HTB/CPTS/07-MSF/03-Additional-Features/03-Evasion.md",
     "Pasted image 20260502223210.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas",
     "Images/Pentesting/CPTS/04/8.png",
