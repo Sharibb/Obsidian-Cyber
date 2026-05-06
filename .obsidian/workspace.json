@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/04-Credential-Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-LSASS"
+              "title": "04-Credential-Manager"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/04-Credential-Manager.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/01-Authentication Process.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/02-Remote-Password-Attacks/02-Methedology.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows",
@@ -228,7 +229,6 @@
     "Pentesting/HTB/CPTS/08-MSF/01-Components/04-Encoders.md",
     "Pentesting/HTB/CPTS/08-MSF/01-Components/03-Payloads.md",
     "Pentesting/HTB/CPTS/08-MSF/01-Components/01-Modules.md",
-    "Pentesting/HTB/CPTS/08-MSF/01-Components/02-Targets.md",
     "Pasted image 20260502223210.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas",
     "Images/Pentesting/CPTS/04/8.png",
