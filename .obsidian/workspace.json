@@ -191,8 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bae72f1c488d70c4",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows",
+    "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions",
+    "Images/HTB/01-CPTS/09-Password-Attacks",
+    "Images/HTB/01-CPTS",
+    "Images/HTB",
     "Pasted image 20260506235029.png",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/04-Credential-Manager.md",
@@ -212,10 +217,6 @@
     "Virtualisation/WSL/01-Scripts/WSL2-Diag-Linux 1.sh",
     "Virtualisation/WSL/01-Scripts/WSL2-PortProxy 1.ps1",
     "Virtualisation/WSL/01-Scripts/WSL2-Diag-Windows 1.ps1",
-    "Virtualisation/WSL/01-Scripts/WSL2-Diag-Windows.ps1",
-    "Virtualisation/WSL/01-Scripts/WSL2-Diag-Linux.sh",
-    "Virtualisation/WSL/01-Scripts/WSL2-PortProxy.ps1",
-    "Virtualisation/WSL/01-Scripts",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/02-JTR.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/01-Hash-Cracking.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/00-Introduction.md",
@@ -238,7 +239,6 @@
     "Images/Pentesting/CPTS/04/4.png",
     "Images/Pentesting/CPTS/04/3.png",
     "Images/Pentesting/CPTS/04/2.png",
-    "Images/Pentesting/CPTS/04/1.png",
-    "Images/Pentesting/CPTS/03/1.png"
+    "Images/Pentesting/CPTS/04/1.png"
   ]
 }
