@@ -1,4 +1,4 @@
-![[1.png]]
+![[Images/Pentesting/CPTS/03/1.png]]
 
 Add the `expressway.htb` to /etc/hosts
 ```bash
@@ -168,7 +168,7 @@ hashcat ike.psk /usr/share/wordlists/rockyou.txt
 
 We found the password
 
-![[2.png]]
+![[Images/Pentesting/CPTS/04/2.png]]
 
 Lets use these creds to check if we can log in via SSH
 
@@ -177,7 +177,7 @@ ssh ike@expressway.htb
 ```
 
 We got in!!
-![[3.png]]
+![[Images/Pentesting/CPTS/04/3.png]]
 Lets grab the user flag
 ## User flag
 
@@ -195,14 +195,14 @@ After enumeration and linpeas and everything i couldnt find a stable path to roo
 sudo -l
 ```
 Output
-![[4.png]]
+![[Images/Pentesting/CPTS/04/4.png]]
 It is saying the above which is not a standard error output given by sudo 
 Trying where the sudo is located
 ```bash
 which sudo
 ```
 
-![[5.png]]
+![[Images/Pentesting/CPTS/04/5.png]]
 Sudo is located in local bin which is also an unlikely path which confirms that the sudo is a custom script.
 
 Now even trying all the shenanigans for above i couldnt reach anything related to root!
@@ -212,7 +212,7 @@ The linpease suggested that i am in a group called proxy lets check that out
 id
 ```
 
-![[6.png]]
+![[Images/Pentesting/CPTS/04/6.png]]
 So we are in proxy group maybe we can access some logs 
 lets try different logs , the only interesting log  was in /var/log/squid/access.log.1
 
@@ -287,7 +287,7 @@ sudo -h offramp.expressway.htb /bin/bash
 ```
 Yes we got root!!
 
-![[7.png]]
+![[Images/Pentesting/CPTS/04/7.png]]
 
 ## Root Flag
 
