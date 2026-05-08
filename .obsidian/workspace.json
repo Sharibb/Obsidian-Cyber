@@ -191,8 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bae72f1c488d70c4",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/02-Linux",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/05-Active Directory and NTDS.dit.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/06-Password-Hunting.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/04-Credential-Manager.md",
@@ -225,7 +227,6 @@
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/03-Hashcat.md",
     "Virtualisation/WSL/01-Scripts/WSL2-HTB-Setup.md",
     "Virtualisation/WSL/WSL2-HTB-Setup.md",
-    "Virtualisation/WSL/01-Scripts/WSL2-Diag-Linux 1.sh",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/02-JTR.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/01-Hash-Cracking.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/00-Introduction.md",
@@ -237,7 +238,6 @@
     "Pentesting/HTB/CPTS/08-MSF/03-Additional-Features/03-Evasion.md",
     "Pentesting/HTB/CPTS/08-MSF/01-Components/05-Databases.md",
     "Pentesting/HTB/CPTS/08-MSF/01-Components/06-Plugins.md",
-    "Pentesting/HTB/CPTS/08-MSF/01-Components/04-Encoders.md",
     "Pasted image 20260502223210.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
