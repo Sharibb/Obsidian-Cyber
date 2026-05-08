@@ -191,8 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/01-Credential-Hunting-1.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
     "Tools/System/02-Linux/01-Loot",
     "Tools/System/02-Linux",
     "Tools/System/01-Windows",
@@ -200,8 +202,6 @@
     "Tools/System/02-Linux/01-Loot/Lazagne/00-lazagne_portable_build_guide.md",
     "Intro.md",
     "Tools/System/02-Linux/01-Loot/Lazagne",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/01-Credential-Hunting-1.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/00-Introduction.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/02-Linux/02-Credential-Hunting.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/02-Linux/01-Authentication.md",
@@ -221,7 +221,6 @@
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/2.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions",
-    "Images/HTB/01-CPTS/09-Password-Attacks",
     "Pasted image 20260506235029.png",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
