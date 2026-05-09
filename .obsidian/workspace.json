@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Credential-Hunting-2"
+              "title": "01-Pass-The-Hash"
             }
           }
         ]
@@ -191,11 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/01-Credential-Hunting-1.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
     "Tools/System/02-Linux/01-Loot",
     "Tools/System/02-Linux",
     "Tools/System/01-Windows",
@@ -221,7 +222,6 @@
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/3.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/2.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows",
-    "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions",
     "Pasted image 20260506235029.png",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
