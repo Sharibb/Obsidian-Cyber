@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/02-Pass-the-Ticket.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/04-Pass-The-Ticket-Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Pass-the-Ticket"
+              "title": "04-Pass-The-Ticket-Linux"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/Kerberos_PTT_RDP_vs_EvilWinRM.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/02-Pass-the-Ticket.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/04-Pass-The-Ticket-Linux.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/03-Kerberos_PTT_RDP_vs_EvilWinRM.md",
+    "Pentesting/HTB/CPTS/Intro-To-CPTS.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/Untitled",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques",
@@ -223,7 +226,6 @@
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/4.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/3.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/2.png",
-    "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows",
     "Pasted image 20260506235029.png",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
@@ -236,8 +238,6 @@
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/03-Hashcat.md",
     "Virtualisation/WSL/01-Scripts/WSL2-HTB-Setup.md",
     "Virtualisation/WSL/WSL2-HTB-Setup.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/02-JTR.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/01-Hash-Cracking.md",
     "Pasted image 20260502223210.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
