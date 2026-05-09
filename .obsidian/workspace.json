@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/Kerberos_PTT_RDP_vs_EvilWinRM.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/02-Pass-the-Ticket.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/01-Credential-Hunting-1.md",
@@ -237,7 +238,6 @@
     "Virtualisation/WSL/WSL2-HTB-Setup.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/02-JTR.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/01-Password-Cracking-Techniques/01-Hash-Cracking.md",
-    "Pentesting/HTB/CPTS/08-MSF/03-Additional-Features/02-MSFvenom.md",
     "Pasted image 20260502223210.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
