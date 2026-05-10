@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JMP01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-SAM and System"
+              "title": "03-JMP01"
             }
           }
         ],
@@ -222,6 +222,8 @@
   },
   "active": "1c179397f6b76259",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/4.png",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/02-Linux/01-Authentication.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JMP01.md",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/3.png",
@@ -260,14 +262,12 @@
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques",
     "Tools/System/02-Linux/01-Loot/Lazagne/00-lazagne_portable_build_guide.md",
     "Intro.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/02-Linux/02-Credential-Hunting.md",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/8.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/1.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/7.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/6.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/5.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/4.png",
-    "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/3.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
