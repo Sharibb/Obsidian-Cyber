@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/04-DC01.md",
+                "file": "Tools/NPT/Ligolo-Ng/03-Windows Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-DC01"
+              "title": "03-Windows Setup"
             }
           }
         ],
@@ -222,12 +222,13 @@
   },
   "active": "1c179397f6b76259",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/00-Instructions.md",
+    "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
+    "Tools/NPT/Ligolo-Ng/03-Windows Setup.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/04-DC01.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/00-Instructions.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JMP01.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/01-DM01.md",
     "Tools/NPT/Ligolo-Ng/02-troubleshooting-web-ui-ligolo.md",
-    "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
     "Virtualisation/WSL/WSL2-HTB-Setup.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
@@ -262,7 +263,6 @@
     "Pentesting/HTB/CPTS/09-Password-Attacks/05-Password-Management/02-Password-Manager.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment",
     "Pentesting/HTB/CPTS/09-Password-Attacks/05-Password-Management/01-Password-Policy.md",
-    "Pentesting/HTB/CPTS/Kerberos_Configuration_Pentesting_Notes.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/05-Password-Management",
     "Pentesting/HTB/CPTS/09-Password-Attacks/Password Attacks - cheatsheet.pdf",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/Untitled",
