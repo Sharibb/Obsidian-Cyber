@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/00-Instructions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Credential-Hunting-2"
+              "title": "00-Instructions"
             }
           }
         ],
@@ -222,8 +222,10 @@
   },
   "active": "1c179397f6b76259",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/01-Credential-Hunting-1.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JUM01.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/02-FILE01.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/01-Credential-Hunting-1.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/00-Instructions.md",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/1.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01",
@@ -252,7 +254,6 @@
     "Pentesting/HTB/CPTS/Intro-To-CPTS.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/Untitled",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques",
     "Tools/System/02-Linux/01-Loot/Lazagne/00-lazagne_portable_build_guide.md",
     "Intro.md",
