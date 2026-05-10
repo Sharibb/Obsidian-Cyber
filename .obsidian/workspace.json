@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JMP01.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/04-DC01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-JMP01"
+              "title": "04-DC01"
             }
           }
         ],
@@ -222,8 +222,8 @@
   },
   "active": "1c179397f6b76259",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/04-DC01.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JMP01.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/04-DC01.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/04-Credential-Manager.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/02-FILE01.md",
