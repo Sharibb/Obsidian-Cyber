@@ -39,14 +39,12 @@
             "id": "1c179397f6b76259",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Tools/NPT/Ligolo-Ng/03-Windows Setup.md",
-                "mode": "source",
-                "source": false
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/HTB-CPTS-Report 1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "03-Windows Setup"
+              "icon": "lucide-file-text",
+              "title": "HTB-CPTS-Report 1"
             }
           }
         ],
@@ -220,12 +218,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c179397f6b76259",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/09-Password-Attack.drawio(1).png",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/HTB-CPTS-Report 1.pdf",
+    "Pentesting/HTB/CPTS/HTB-CPTS-Report.pdf",
+    "Tools/NPT/Ligolo-Ng/03-Windows Setup.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/09-Password-Attack.drawio.xml",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/Nexura-LLC-Attack-Flow.drawio",
     "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
-    "Tools/NPT/Ligolo-Ng/03-Windows Setup.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/04-DC01.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/00-Instructions.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JMP01.md",
@@ -264,10 +265,6 @@
     "Pentesting/HTB/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/05-Password-Management/02-Password-Manager.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/05-Password-Management",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/Password Attacks - cheatsheet.pdf",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/Untitled",
-    "Images/HTB/01-CPTS/09-Password-Attacks/03-Password-Extractions/01-Windows/04-Credman/8.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
