@@ -1,0 +1,271 @@
+{
+  "main": {
+    "id": "d50520339ffc7dbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9dc73abfe8ea4fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bae72f1c488d70c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/NPT/Ligolo-Ng/02-troubleshooting-web-ui-ligolo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-troubleshooting-web-ui-ligolo"
+            }
+          },
+          {
+            "id": "1bfdcd78e2df25ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-ligolo_ng_complete_cpts_pivoting_notes_revised"
+            }
+          },
+          {
+            "id": "1c179397f6b76259",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/HTB-CPTS-Report 1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "HTB-CPTS-Report 1"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f623ee1c5a1b557d",
+    "type": "split",
+    "children": [
+      {
+        "id": "151e4791677e0b50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aadac7039e9a85dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bad95f49e85d49ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:(reg key hklm)",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "980e6fa3d1d6b04c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.5
+  },
+  "right": {
+    "id": "596c6345031405a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e2fc769fc8afc12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "949477132a3821d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pentesting/WebAppPentesting(WAPT)/WebSecurityAcademy(BurpSuite)/Practitioner/CSRF/03-Lab Scenario of CSRF-I.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03-Lab Scenario of CSRF-I"
+            }
+          },
+          {
+            "id": "1d9c0b0dd70e3eab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "ed9e8c8ca0555990",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2a95be740bebd857",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pentesting/HTB/CPTS/06-FileTransfers/02-Linux-File-Transfer.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 02-Linux-File-Transfer"
+            }
+          },
+          {
+            "id": "cf01a86bda5b5850",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "cd2e670c2aec56cc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "aadac7039e9a85dc",
+  "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/Penetration-Test-Report-Nexura-Password-Assessment.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/09-Password-Attack.drawio(1).png",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/HTB-CPTS-Report 1.pdf",
+    "Pentesting/HTB/CPTS/HTB-CPTS-Report.pdf",
+    "Tools/NPT/Ligolo-Ng/03-Windows Setup.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/09-Password-Attack.drawio.xml",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/Nexura-LLC-Attack-Flow.drawio",
+    "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/04-DC01.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/00-Instructions.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JMP01.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/01-DM01.md",
+    "Tools/NPT/Ligolo-Ng/02-troubleshooting-web-ui-ligolo.md",
+    "Virtualisation/WSL/WSL2-HTB-Setup.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/04-Credential-Manager.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/06-Password-Hunting.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/9.png",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/8.png",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/7.png",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/6.png",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/02-Pass-the-Ticket.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/04-Pass-The-Ticket-Linux.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/02-FILE01.md",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/5.png",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/03-Kerberos_PTT_RDP_vs_EvilWinRM.md",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/4.png",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/02-Linux/01-Authentication.md",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/3.png",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/2.png",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/01-Credential-Hunting-1.md",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/1.png",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/New folder",
+    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment",
+    "Images/HTB/01-CPTS/09-Password-Attacks/New folder",
+    "Pentesting/HTB/CPTS/ligolo_ng_complete_cpts_pivoting_notes(1).md",
+    "Tools/NPT/Ligolo-Ng",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/00-Introduction.md",
+    "Pentesting/HTB/CPTS/ligolo_ng_complete_cpts_pivoting_notes.md",
+    "Pentesting/HTB/CPTS/04-Footprinting/02-HostBased/4-DNS.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/05-Password-Management/02-Password-Manager.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment",
+    "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
+  ]
+}
