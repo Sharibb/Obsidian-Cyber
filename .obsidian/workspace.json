@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP.md",
+                "file": "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP/02-Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-FTP"
+              "title": "02-Vulnerabilities"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP/01-FTP.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP/02-Vulnerabilities.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP",
     "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks/03-Information.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services",
     "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks/02-Misconfiguration.md",
     "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks/01-Concept.md",
@@ -231,14 +233,12 @@
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/6.png",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/02-Pass-the-Ticket.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/04-Pass-The-Ticket-Linux.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/02-FILE01.md",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/5.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/4.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/3.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/2.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/1.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01",
-    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/New folder",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
