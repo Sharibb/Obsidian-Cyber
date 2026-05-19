@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/10-Common-Services/00-Introduction.md",
+                "file": "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks/01-Concept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Introduction"
+              "title": "01-Concept"
             }
           }
         ]
@@ -193,9 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/09-Password-Attacks/100-Cheatsheet.md",
     "Pentesting/HTB/CPTS/10-Common-Services/00-Introduction.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/01-",
+    "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks/01-Concept.md",
+    "Pentesting/HTB/CPTS/09-Password-Attacks/100-Cheatsheet.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks",
     "Pentesting/HTB/CPTS/10-Common-Services",
     "Pentesting/HTB/CPTS/00-Intro/Untitled",
     "Pentesting/HTB/CPTS/09-Password-Attacks/00-Introduction.md",
@@ -234,7 +235,6 @@
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/3.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/2.png",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/02-Credential-Hunting-2.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/03-Network/01-Credential-Hunting-1.md",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/1.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/New folder",
