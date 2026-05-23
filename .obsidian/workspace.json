@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP/02-Vulnerabilities.md",
+                "file": "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/05-DNS/01-Attacking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Vulnerabilities"
+              "title": "01-Attacking"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP/01-Attacks.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP/02-Vulnerabilities.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/05-DNS/01-Attacking.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/05-DNS",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP/01-Attacks.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/03-SQL/02-Vulnerabilities.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/03-SQL/03-Skill-Assesment.md",
@@ -221,7 +223,6 @@
     "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
     "Pentesting/HTB/CPTS/Kerberos_Configuration_Pentesting_Notes.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/Penetration-Test-Report-Nexura-Password-Assessment.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/HTB-CPTS-Report 1.pdf",
     "Tools/NPT/Ligolo-Ng/02-troubleshooting-web-ui-ligolo.md",
     "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/09-Password-Attack.drawio(1).png",
@@ -229,7 +230,6 @@
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/04-DC01.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/00-Instructions.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/03-JMP01.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/01-DM01.md",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/9.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/8.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/7.png",
