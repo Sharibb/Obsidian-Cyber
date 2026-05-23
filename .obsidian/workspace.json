@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/Untitled.md",
+                "file": "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/01-Easy/01-Attacking Common Services - Easy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "01-Attacking Common Services - Easy"
             }
           }
         ]
@@ -191,13 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/03-Hard",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/02-Medium",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/01-Easy",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/06-Email/02-Vulnerabilities.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/Untitled.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/01-Easy/01-Attacking Common Services - Easy.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/06-Email/03-Assesment.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/06-Email/01-Attacking.md",
