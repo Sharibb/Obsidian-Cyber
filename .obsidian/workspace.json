@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/06-Email/01-Attacking.md",
+                "file": "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Attacking"
+              "title": "Untitled"
             }
           }
         ]
@@ -191,8 +191,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bae72f1c488d70c4",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/03-Hard",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/02-Medium",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/01-Easy",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/06-Email/02-Vulnerabilities.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/Untitled.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/06-Email/03-Assesment.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/06-Email/01-Attacking.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/05-DNS/02-Vulnerabilities.md",
@@ -216,19 +222,13 @@
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP/02-Vulnerabilities.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP",
     "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks/03-Information.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services",
     "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks/02-Misconfiguration.md",
     "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks/01-Concept.md",
     "Pentesting/HTB/CPTS/10-Common-Services/00-Introduction.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/100-Cheatsheet.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/01-Protocol-Based-Attacks",
-    "Pentesting/HTB/CPTS/10-Common-Services",
     "Pentesting/HTB/CPTS/09-Password-Attacks/00-Introduction.md",
     "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
     "Pentesting/HTB/CPTS/Kerberos_Configuration_Pentesting_Notes.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/Penetration-Test-Report-Nexura-Password-Assessment.md",
-    "Tools/NPT/Ligolo-Ng/02-troubleshooting-web-ui-ligolo.md",
-    "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/09-Password-Attack.drawio(1).png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/9.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/8.png",
