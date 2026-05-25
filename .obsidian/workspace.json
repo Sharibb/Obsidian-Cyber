@@ -191,11 +191,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/03-SQL/01-Attacks.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/03-Hard/01-Attacking Common Services - Hard.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/03-SQL/03-Skill-Assesment.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/03-SQL/02-Vulnerabilities.md",
     "Images/HTB/01-CPTS/10-Common Services/07-Assesment/3.png",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/02-Medium/01-Attacking Common Services - Medium.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/03-Hard/01-Attacking Common Services - Hard.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/01-Easy/01-Attacking Common Services - Easy.md",
     "Images/HTB/01-CPTS/10-Common Services/07-Assesment/2.png",
     "Images/HTB/01-CPTS/10-Common Services/07-Assesment/1.png",
@@ -218,9 +221,6 @@
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/05-DNS/01-Attacking.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP/02-Vulnerabilities.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP/01-Attacks.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/03-SQL/02-Vulnerabilities.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/03-SQL/03-Skill-Assesment.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/03-SQL/01-Attacks.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/02-SMB/02-Vulnerabilities.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/02-SMB/03-Assesment.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/02-SMB/01-Attacks.md",
@@ -238,7 +238,6 @@
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/6.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/5.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/4.png",
-    "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/3.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
