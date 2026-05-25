@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(reg key hklm)",
+                "query": "crackmapexec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bae72f1c488d70c4",
+  "active": "bad95f49e85d49ce",
   "lastOpenFiles": [
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/02-Medium/01-Attacking Common Services - Medium.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/03-Hard/01-Attacking Common Services - Hard.md",
