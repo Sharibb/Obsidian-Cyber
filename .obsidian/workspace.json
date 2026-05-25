@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crackmapexec",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,8 +191,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bad95f49e85d49ce",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Images/HTB/01-CPTS/10-Common Services/07-Assesment/3.png",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/02-Medium/01-Attacking Common Services - Medium.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/03-Hard/01-Attacking Common Services - Hard.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/01-Easy/01-Attacking Common Services - Easy.md",
@@ -231,7 +231,6 @@
     "Pentesting/HTB/CPTS/10-Common-Services/00-Introduction.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/100-Cheatsheet.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/00-Introduction.md",
-    "Pentesting/NetworkPentesting(NPT)/Windows/Enumeration/RPCClient.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/09-Password-Attack.drawio(1).png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/9.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/8.png",
