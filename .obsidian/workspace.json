@@ -191,8 +191,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bae72f1c488d70c4",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/03-Tackling-Obstacles",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/02-Socat/01-Reverse Shell.md",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/02-Socat/02-Bind Shell.md",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/01-Tunneling/03-Meterpreter-Tunneling-&-Port-Forwarding.md",
@@ -234,7 +235,6 @@
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/02-SMB/02-Vulnerabilities.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/02-SMB/03-Assesment.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/02-SMB/01-Attacks.md",
-    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/01-FTP/02-Vulnerabilities.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/99-Skill-Asssesment/09-Password-Attack.drawio(1).png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/9.png",
     "Images/HTB/01-CPTS/09-Password-Attacks/99-Assesment/02-FILE01/8.png",
