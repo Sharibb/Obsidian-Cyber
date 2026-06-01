@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/06-Skill-Assessment/01-Attacking&Tunneling.md",
+                "file": "Tools/NPT/Ligolo-Ng/03-Windows Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Attacking&Tunneling"
+              "title": "03-Windows Setup"
             }
           }
         ]
@@ -193,12 +193,12 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
+    "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/06-Skill-Assessment/01-Attacking&Tunneling.md",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/06-Skill-Assessment/00-Introduction.md",
     "Pentesting/NetworkPentesting(NPT)/Windows/Untitled.md",
     "Tools/NPT/Ligolo-Ng/02-troubleshooting-web-ui-ligolo.md",
     "Tools/NPT/Ligolo-Ng/03-Windows Setup.md",
-    "Tools/NPT/Ligolo-Ng/01-ligolo_ng_complete_cpts_pivoting_notes_revised.md",
-    "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/06-Skill-Assessment/01-Attacking&Tunneling.md",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/5.png",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP/01-Attacks.md",
     "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/07-Skill-Assessment/03-Hard/01-Attacking Common Services - Hard.md",
