@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/02-Kerberoasted.md",
+                "file": "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL/01-Abuse Primer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Kerberoasted"
+              "title": "01-Abuse Primer"
             }
           }
         ]
@@ -191,11 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/02-Kerberoasted.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL/01-Abuse Primer.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL",
     "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/01-Kerberoasting.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/02-Kerberoasted.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/02-Sniffing/01-LLMNR Poisoning-1.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/04-LOTL.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting",
@@ -223,7 +224,6 @@
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/07-Additional/01-Detection-&-Prevention.md",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/07-Additional/02-Beyond",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/06-Skill-Assessment/01-Attacking&Tunneling.md",
-    "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/07-Additional",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/8.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/9.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/7.png",
