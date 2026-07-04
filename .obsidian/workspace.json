@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/04-LOTL.md",
+                "file": "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/01-Kerberoasting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-LOTL"
+              "title": "01-Kerberoasting"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/03-Credential Enumeration - 2.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/04-LOTL.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/01-Kerberoasting.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting",
+    "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/03-Credential Enumeration - 2.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/02-Credential Enumeration - 1.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/01-Security-Controls.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying/03-Password-Spraying.md",
@@ -231,13 +233,11 @@
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/03-Tackling-Obstacles/01-Plink (Windows).md",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/03-Tackling-Obstacles/02-SSHUTTLE.md",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/03-Tackling-Obstacles/03-RPivot.md",
-    "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/03-Tackling-Obstacles/04-NETSH (Windows).md",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/5.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/4.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/3.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/2.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/1.png",
-    "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/2.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
