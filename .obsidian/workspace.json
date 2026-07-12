@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/02-Attaking-Domain-Trust.md",
+                "file": "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/03-Attacking-Trust(SELF).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Attaking-Domain-Trust"
+              "title": "03-Attacking-Trust(SELF)"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/01-Domain-Trust.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/02-Attaking-Domain-Trust.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/03-Attacking-Trust(SELF).md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/01-Domain-Trust.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/05-Misconfigurations.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust",
     "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/04-Vulnerabilities.md",
@@ -228,7 +229,6 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/02-Sniffing/02-LLMNR Poisoning -2.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying",
     "Pentesting/HTB/CPTS/12-Active-Directory/02-Sniffing",
-    "Pentesting/HTB/CPTS/12-Active-Directory/01-Enumeration/02-Initial-Enumeration-of-AD.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/01-Enumeration",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/8.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/9.png",
