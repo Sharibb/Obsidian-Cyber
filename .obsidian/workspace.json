@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/06-Attacking-Forest-Trust-2.md",
+                "file": "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/01-Defense-Consideration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-Attacking-Forest-Trust-2"
+              "title": "01-Defense-Consideration"
             }
           }
         ]
@@ -191,14 +191,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadac7039e9a85dc",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/06-Attacking-Forest-Trust-2.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/01-Defense-Consideration.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening",
     "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL/03-Abusing-ACL.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/02-Sniffing/02-LLMNR Poisoning -2.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL/02-ACL Enumeration.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/01-Privilege Access.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/06-Attacking-Forest-Trust-2.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/05-Attacking-Forest-Trust-1.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/04-Attacking-Domain-Trust-2.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/03-Attacking-Trust(SELF).md",
@@ -229,7 +230,6 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying",
     "Pentesting/HTB/CPTS/12-Active-Directory/02-Sniffing",
-    "Pentesting/HTB/CPTS/12-Active-Directory/01-Enumeration",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/8.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/9.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/7.png",
