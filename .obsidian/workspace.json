@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/00-Basics.md",
+                "file": "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/02-Credential Enumeration - 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-Basics"
+              "title": "02-Credential Enumeration - 1"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(powershell user)",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,10 +191,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bad95f49e85d49ce",
+  "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
     "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/02-Kerberoasted.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/01-Kerberoasting.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/01-CMD/00-Basics.md",
+    "Pentesting/HTB/CPTS/10-Common-Services/02-Attacking-Services/04-RDP/01-Attacks.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/02-CMDLet-Modules.md",
+    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/07-Registry.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/01-Easy.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/02-Auditing.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment",
@@ -219,15 +222,11 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL/04-DCSync.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck",
     "Pentesting/HTB/CPTS/12-Active-Directory/00-Introduction/01-Tools.md",
-    "Pentesting/HTB/CJCA/07-Intro-to-WinCli/02-Powershell/02-CMDLet-Modules.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/02-Credential Enumeration - 1.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/03-Credential Enumeration - 2.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/Active Directory Enumeration & Attacks - cheatsheet.pdf",
-    "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL/01-Abuse Primer.md",
     "Images/HTB/01-CPTS/12- AD/ACE.png",
     "Images/HTB/01-CPTS/12- AD",
     "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL",
-    "Pentesting/HTB/CPTS/12-Active-Directory/02-Sniffing/01-LLMNR Poisoning-1.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying",
