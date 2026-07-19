@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,9 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/12-Active-Directory/02-Sniffing/01-LLMNR Poisoning-1.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Medium.md",
     "Pentesting/HTB/CJCA/17-Incident-Handling/01-Cyber-Kill-Chain.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/02-Linux/02-Credential-Hunting.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Medium.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/01-Easy.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/01-Easy/1.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/01-Easy",
@@ -222,7 +222,6 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying/01-Enumeration.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying/02-UserList Creation.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying/03-Password-Spraying.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/02-Sniffing/01-LLMNR Poisoning-1.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/01-Enumeration/01-Initial Enumeration.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/01-Security-Controls.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/02-Credential Enumeration - 1.md",
