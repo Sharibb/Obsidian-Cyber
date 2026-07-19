@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Medium.md",
+                "file": "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Medium"
+              "title": "01-Pass-The-Hash"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SPN",
+                "query": "pth xfreerd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,8 +194,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/02-Socat/01-Reverse Shell.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Medium.md",
+    "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/2.png",
+    "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/02-Socat/01-Reverse Shell.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/Active Directory Enumeration & Attacks - cheatsheet.pdf",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying/01-Enumeration.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying/02-UserList Creation.md",
@@ -219,7 +221,6 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/05-Misconfigurations.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/02-Double Hop.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/01-Kerberoasting.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/05-Kerberoasting/02-Kerberoasted.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/1.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/New folder",
@@ -238,7 +239,6 @@
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/6.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/5.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/4.png",
-    "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/3.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
