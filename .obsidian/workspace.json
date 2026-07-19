@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pth xfreerd",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,9 +193,23 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/7.png",
+    "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/6.png",
+    "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/5.png",
+    "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/4.png",
+    "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/02-Auditing.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/01-Defense-Consideration.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/06-Attacking-Forest-Trust-2.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/01-Domain-Trust.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/05-Misconfigurations.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Medium.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/05-Attacking-Forest-Trust-1.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/03-Attacking-Trust(SELF).md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/02-Attaking-Domain-Trust.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL/01-Abuse Primer.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/06-ACL/02-ACL Enumeration.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/3.png",
     "Pentesting/HTB/CPTS/09-Password-Attacks/04-Windows-Lateral-Movement-Techniques/01-Pass-The-Hash.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Medium.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/2.png",
     "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/02-Socat/01-Reverse Shell.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/Active Directory Enumeration & Attacks - cheatsheet.pdf",
@@ -212,16 +225,6 @@
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/01-Authentication Process.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/06-Password-Hunting.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/05-Active Directory and NTDS.dit.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/04-Attacking-Domain-Trust-2.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/02-Auditing.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/03-Attacking-Trust(SELF).md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/02-Attaking-Domain-Trust.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/01-Domain-Trust.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/06-Attacking-Forest-Trust-2.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/05-Misconfigurations.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/02-Double Hop.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium/1.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Medium",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/New folder",
@@ -236,10 +239,6 @@
     "Images/HTB/01-CPTS/12- AD/ACE.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/8.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/9.png",
-    "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/7.png",
-    "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/6.png",
-    "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/5.png",
-    "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/4.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
