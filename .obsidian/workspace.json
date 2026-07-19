@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/12-Active-Directory/100-Conclusion.md",
+                "file": "Pentesting/HTB/CPTS/13-Web-Proxies/00-Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "100-Conclusion"
+              "title": "00-Introduction"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Hard.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/100-Conclusion.md",
+    "Pentesting/HTB/CPTS/13-Web-Proxies/00-Introduction.md",
+    "Pentesting/HTB/CPTS/13-Web-Proxies",
+    "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Hard.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/7.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/6.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/5.png",
@@ -225,7 +227,6 @@
     "Pentesting/HTB/CPTS/09-Password-Attacks/02-Remote-Password-Attacks/01-Network-Services.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/01-Authentication Process.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/03-LSASS.md",
-    "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/1.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/New folder",
@@ -236,7 +237,6 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment",
     "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust",
-    "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck",
     "Images/HTB/01-CPTS/12- AD/ACE.png",
     "Images/HTB/01-CPTS/11-Pivotin-Tunneling-Port-Forwarding/Assesment/8.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
