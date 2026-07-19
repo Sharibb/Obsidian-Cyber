@@ -193,6 +193,8 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/11-Pivoting-Tunneling-and-Port-Forwarding/02-Socat/01-Reverse Shell.md",
+    "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Medium.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/Active Directory Enumeration & Attacks - cheatsheet.pdf",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying/01-Enumeration.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/03-Password-Spraying/02-UserList Creation.md",
@@ -208,7 +210,6 @@
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/02-SAM and System.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/06-Password-Hunting.md",
     "Pentesting/HTB/CPTS/09-Password-Attacks/03-Password-Extraction/01-Windows/05-Active Directory and NTDS.dit.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Medium.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/04-Attacking-Domain-Trust-2.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/02-Auditing.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/03-Attacking-Trust(SELF).md",
