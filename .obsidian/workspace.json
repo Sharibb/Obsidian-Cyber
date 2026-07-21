@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy/04-Automatic Modification.md",
+                "file": "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy/05-Repeating.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Automatic Modification"
+              "title": "05-Repeating"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy/03-Intercepting Response.md",
     "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy/04-Automatic Modification.md",
+    "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy/05-Repeating.md",
+    "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy/03-Intercepting Response.md",
     "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy/02-Intercepting Requests.md",
     "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy/01-Setup.md",
     "Pentesting/HTB/CPTS/13-Web-Proxies/00-Introduction.md",
@@ -227,7 +228,6 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/01-Security-Controls.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/02-Credential Enumeration - 1.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/04-Enumerating-Security/03-Credential Enumeration - 2.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/01-Privilege Access.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/1.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/New folder",
