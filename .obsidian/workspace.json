@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/14-Fuff/01-Basic-Fuzzing/01-Basics.md",
+                "file": "Pentesting/HTB/CPTS/14-Fuff/01-Basic-Fuzzing/02-Page-Fuzzing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Basics"
+              "title": "02-Page-Fuzzing"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/14-Fuff/00-Intro.md",
     "Pentesting/HTB/CPTS/14-Fuff/01-Basic-Fuzzing/01-Basics.md",
+    "Pentesting/HTB/CPTS/14-Fuff/01-Basic-Fuzzing/02-Page-Fuzzing.md",
+    "Pentesting/HTB/CPTS/14-Fuff/00-Intro.md",
     "Pentesting/HTB/CPTS/14-Fuff/01-Basic-Fuzzing",
     "Pentesting/HTB/CPTS/13-Web-Proxies/04-Skill-Assesment/01-Skills Assessment - Using Web Proxies.md",
     "Pentesting/HTB/CPTS/14-Fuff",
@@ -231,7 +232,6 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/07-Stacking-The-Deck/05-Misconfigurations.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/05-Attacking-Forest-Trust-1.md",
     "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/03-Attacking-Trust(SELF).md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/08-AD-Trust/02-Attaking-Domain-Trust.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/3.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/2.png",
     "Pentesting/HTB/CPTS/12-Active-Directory/Active Directory Enumeration & Attacks - cheatsheet.pdf",
