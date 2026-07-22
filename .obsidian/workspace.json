@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/14-Fuff/02-Domain-Fuzzing/04-Filtering.md",
+                "file": "Pentesting/HTB/CPTS/14-Fuff/03-Parameter-Fuzzing/01-GET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Filtering"
+              "title": "01-GET"
             }
           }
         ]
@@ -193,8 +193,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/14-Fuff/02-Domain-Fuzzing/03-VHOST-Fuzzing.md",
     "Pentesting/HTB/CPTS/14-Fuff/02-Domain-Fuzzing/04-Filtering.md",
+    "Pentesting/HTB/CPTS/14-Fuff/03-Parameter-Fuzzing/01-GET.md",
+    "Pentesting/HTB/CPTS/14-Fuff/03-Parameter-Fuzzing",
+    "Pentesting/HTB/CPTS/14-Fuff/02-Domain-Fuzzing/03-VHOST-Fuzzing.md",
     "Pentesting/HTB/CPTS/14-Fuff/02-Domain-Fuzzing/02-Subdomain-Fuzzing.md",
     "Pentesting/HTB/CPTS/14-Fuff/02-Domain-Fuzzing/01-DNS.md",
     "Pentesting/HTB/CPTS/14-Fuff/01-Basic-Fuzzing/03-Recursive-Fuzzing.md",
@@ -225,14 +227,12 @@
     "Pentesting/HTB/CPTS/13-Web-Proxies/00-Introduction.md",
     "Pentesting/HTB/CPTS/13-Web-Proxies/01-Web-Proxy",
     "Pentesting/HTB/CPTS/12-Active-Directory/100-Conclusion.md",
-    "Pentesting/HTB/CPTS/13-Web-Proxies",
     "Pentesting/HTB/CPTS/12-Active-Directory/10-Skill-Assessment/02-Hard.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/7.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/6.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/5.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/4.png",
     "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/02-Auditing.md",
-    "Pentesting/HTB/CPTS/12-Active-Directory/09-Hardening/01-Defense-Consideration.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/3.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/2.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/1.png",
