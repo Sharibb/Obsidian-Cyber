@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/15-Login-Bruteforce/05-Skill-Assessment/01-Skill-Assessment-1.md",
+                "file": "Pentesting/HTB/CPTS/15-Login-Bruteforce/03-Medusa/02-WebServices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Skill-Assessment-1"
+              "title": "02-WebServices"
             }
           }
         ]
@@ -193,15 +193,16 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/15-Login-Bruteforce/04-Custom-Wordlist/01-Pilot.md",
+    "Pentesting/HTB/CPTS/15-Login-Bruteforce/05-Skill-Assessment/02-Skill-Assessment-2.md",
+    "Pentesting/HTB/CPTS/15-Login-Bruteforce/02-Hydra/02-Basic-Auth.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/05-Skill-Assessment/01-Skill-Assessment-1.md",
+    "Pentesting/HTB/CPTS/15-Login-Bruteforce/04-Custom-Wordlist/01-Pilot.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/05-Skill-Assessment",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/03-Medusa/02-WebServices.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/04-Custom-Wordlist",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/03-Medusa/01-Basics.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/02-Hydra/03-Forms.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/03-Medusa",
-    "Pentesting/HTB/CPTS/15-Login-Bruteforce/02-Hydra/02-Basic-Auth.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/02-Hydra/01-Basics.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/01-Bruteforce-Attacks/03-Hybrid.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/02-Hydra",
@@ -228,7 +229,6 @@
     "Pentesting/HTB/CPTS/14-Fuff/00-Intro.md",
     "Pentesting/HTB/CPTS/13-Web-Proxies/04-Skill-Assesment/01-Skills Assessment - Using Web Proxies.md",
     "Pentesting/HTB/CPTS/13-Web-Proxies/03-Web-Scanners/03-Extensions.md",
-    "Pentesting/HTB/CPTS/13-Web-Proxies/03-Web-Scanners/02-Zap-Scanner.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/7.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/6.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/5.png",
