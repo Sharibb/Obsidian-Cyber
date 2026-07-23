@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/03-Query.md",
+                "file": "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/04-Operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Query"
+              "title": "04-Operators"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/02-Statements.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/03-Query.md",
+    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/04-Operators.md",
+    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/02-Statements.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/01-Intro.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/01-Databases/02-Types.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql",
@@ -228,7 +229,6 @@
     "Pentesting/HTB/CPTS/14-Fuff/03-Parameter-Fuzzing/03-Value-Fuzzing.md",
     "Pentesting/HTB/CPTS/14-Fuff/03-Parameter-Fuzzing/01-GET.md",
     "Pentesting/HTB/CPTS/14-Fuff/02-Domain-Fuzzing/04-Filtering.md",
-    "Pentesting/HTB/CPTS/14-Fuff/02-Domain-Fuzzing/03-VHOST-Fuzzing.md",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/7.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/6.png",
     "Images/HTB/01-CPTS/12- AD/10-Assesment/02-Hard/5.png",
