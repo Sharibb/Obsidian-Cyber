@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="dev" data-themeable="true" theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="csrf-token" content="gdaQagIa-H1girmPIHBJgeBiRDJRZucECHR0">
+    
+    
+    <meta name="description" content="中文教學">
+    
+    <title>Live Hosting a Collaborative Session - HackMD</title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+	<link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+	<!--  meta value for server side given sign in boolean -->
+    <meta name="signin" content="false">
+
+    <script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">
+  (() => {
+    const resolveTheme = (preferredTheme) => {
+      if (preferredTheme) return preferredTheme
+      if (
+        typeof window.matchMedia === 'function' &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      ) {
+        return 'dark'
+      }
+      return 'light'
+    }
+
+    const isPrint = new URL(window.location.href).searchParams.get('print') === 'true'
+    const uiTheme = resolveTheme('dark' || null)
+    const contentTheme = isPrint ? 'light' : resolveTheme('' || null)
+
+    window.__HMD_IS_PRINT_MODE__ = isPrint
+    document.documentElement.setAttribute('theme', uiTheme)
+    window.__HMD_INITIAL_UI_THEME__ = uiTheme
+    window.__HMD_INITIAL_CONTENT_THEME__ = contentTheme
+  })()
+</script>
+
+    
+<script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">
+  window.domain = 'hackmd.io'
+  window.urlpath = ''
+  window.debug = false || window.localStorage.getItem('HMD_DEBUG_FLAG') === 'true'
+  window.version = '1.3.0'
+  window.brand = 'HackMD'
+
+  
+  window.NOTE_ID = 'q4yV0jU4TIuTgJQ0z3hnqQ'
+  
+
+  
+  window.PUBLISH_TYPE = 'view'
+  
+
+  window.GOOGLE_DRIVE_API_KEY = 'AIzaSyAHmcP5gL_64ZafuAYOvJruFAIaYgHQaY4'
+  window.GOOGLE_DRIVE_CLIENT_ID = '65857506266-76uhhee8se8dgs1i0q8fhtj1prg0ar27.apps.googleusercontent.com'
+  window.DROPBOX_APP_KEY = 'rdoizrlnkuha23r'
+  
+  window.PLANTUML_SERVER = 'https://ptuml.hackmd.io'
+
+  window.ASSET_URL = 'https://assets.hackmd.io'
+
+  window.USER_CAN_CREATE_TEAM = true
+  window.USER_CAN_DELETE_ACCOUNT = true
+  window.USER_DELETE_ACCOUNT_VIA_EMAIL = true
+  window.PAYMENT_ENABLED = true
+  window.PAYMENT_PROMOTION_BANNER_ENABLED = false
+  window.GITHUB_SYNC_ENABLED = true
+  window.GITLAB_SYNC_ENABLED = false
+  window.GITLAB_SYNC_BASE_URL = ''
+  window.VCS_SYNC_MODE = 'github'
+  window.VCS_PROVIDER_NAME = 'GitHub'
+  window.FREE_TEAM_NUM = 20
+  window.FREE_TEAM_MEMBER_NUM = 3
+  window.FREE_PUBLIC_TEAM_NUM = 10
+  window.FOLDER_ENABLE = true
+
+  
+  window.EE_SITE_ENABLE = false
+  window.EE_SITE_NAME = 'false'
+  window.EE_SITE_LINK = 'false'
+  window.EESITE_INFO = false
+  window.ENTERPRISE_DISCOVERY_ENABLE = false
+  window.ENTERPRISE_DISCOVERY_TEAM = true
+  window.ENTERPRISE_DISCOVERY_NOTE = true
+  window.ENTERPRISE_DISCOVERY_VIEW_PERMISSION = 'guest'
+  
+  window.ALLOW_ANONYMOUS = true
+  window.ALLOW_ANONYMOUS_EDIT = false
+  window.ALLOW_DOWNLOAD_PDF = true
+  window.PUBLIC_OVERVIEW = false
+  window.INTERNAL_PUBLIC_OVERVIEW = false
+  window.FULL_TEXT_SEARCH_ENABLE = false
+  window.ALGOLIA_SEARCH_ENABLE = true
+  window.MARKETING_EMAIL_ENABLE = true
+  window.EMAIL_INVITATION_ENABLE = true
+  
+  
+  
+    window.WALLET_CONNECT_PROJECT_ID = '91d6fa182b725b5895a17a170a5878c1'
+  
+  window.API_MANAGEMENT_UI_ENABLE = true
+  window.FEEDBACK_UI_ENABLE = true
+  window.PUBLISH_ENABLE = true
+
+  
+
+  
+  window.SHOW_OVERVIEW = false
+  
+
+  
+  window.MENTIONS = {}
+  
+
+  
+  window.MENTION_ANCHORS = []
+  
+
+  
+  window.COMMENT_ANCHORS = []
+  
+
+  
+  window.IS_OWNER = false
+  
+
+  
+  window.IS_TEAM_ADMIN = false
+  
+
+  
+  window.IS_TEAM_MEMBER = false
+  
+
+  
+  window.IS_INVITEE_ADMIN = false
+  
+
+  
+  window.USER_PROFILE = '%7B%22name%22%3A%22Guest%20Campbell%22%7D'
+  
+
+  
+  window.VERSION_TIME = '1746515918226'
+  
+
+  
+  window.canEdit = false
+  
+
+  
+  window.canWriteComment = false
+  
+
+  
+  window.canHideComment = false
+  
+
+  window.TRASH_NOTE_DELETE_AFTER_FREE = 3
+  window.TRASH_NOTE_DELETE_AFTER_PAID = 30
+
+  
+    window.ENABLED_PREVIEW_FEATURE = {}
+  
+
+  
+
+  
+
+  
+
+  
+    window.IS_OWNER_UPGRADED = true
+  
+
+  
+    window.IMGUR_FALLBACK_CDN = 'https://imgur-backup.hackmd.io'
+  
+
+  
+    window.YAML_METADATA_ENABLED = false
+  
+
+  
+    window.NOTE_CAPACITY_LIMIT = 50
+  
+
+  
+    window.DOCUMENT_MAX_LENGTH = 100000
+  
+
+  
+    window.SOCIAL_NETWORK_FEATURES_ENABLED = true
+  
+
+  
+    window.PUBLISHMENT_MODERATION_ENABLED = true
+  
+
+  
+    window.COMMENT_ENABLED = true
+  
+
+  
+    window.COMMENT_PERMISSION = "forbidden"
+  
+
+  window.SUGGEST_EDIT_ENABLED = true
+  
+    window.SUGGEST_EDIT_ENABLED = true
+  
+
+  
+    window.SUGGEST_EDIT_PERMISSION = "forbidden"
+  
+  
+    window.canWriteSuggestEdit = false
+  
+
+  window.CITATION_ENABLED = true
+
+  window.NOTE_FROM_COMMENT_ENABLED = true
+
+  
+    window.NOTE_FEATURES = {"emoji-reply":"signed_in_users","citation":"disabled"}
+  
+
+  
+    window.REALTIME_CLIENT_WITH_CREDENTIALS = false
+  
+
+  
+
+  
+    window.PREFERRED_UI_THEME = "dark"
+  
+
+  
+
+  
+    window.CUSTOM_STYLE_ENABLED = "true"
+  
+
+  
+
+  
+    window.ITERABLE_ENABLED = false
+  
+  
+    window.ITERABLE_API_KEY = "c2c36a44c2614fb19aa3b46d660bbce2"
+  
+
+  
+    window.CUSTOMERIO_ENABLED = true
+  
+  
+    window.CUSTOMERIO_WRITE_KEY = "90283c80a6498bb8d1ee"
+  
+  
+    window.CUSTOMERIO_SITE_ID = "9947d0d46b7ece25dea7"
+  
+
+  
+    window.TEXT_SELECTION_CHANGED = false
+  
+
+  
+    window.CAN_VIEW_HISTORY_AT_REVISION = false
+  
+
+  
+    window.GUIDED_COMMENT_ENABLED = true
+  
+
+  
+    window.ENCODED_SESSION_ID = "4lLl9/+tv61xW/ayhI2N8/6Fp6xtkisdDl8ftPrwZ88="
+  
+
+  
+    window.COMMUNITY_ENABLED = true
+  
+
+  
+    window.NOTE_INSIGHTS_DEBUG_API_ENABLED = false
+  
+
+  
+
+  
+</script>
+
+
+    
+<!-- Google Tag Manager -->
+<script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLW9Z3');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+
+
+
+
+
+
+    <meta property="fb:app_id" content="1436904003272070">
+
+
+
+    <meta name="robots" content="index, follow">
+
+
+
+
+    <meta name="twitter:image:src" content="https://hackmd.io/api/_/preview/q4yV0jU4TIuTgJQ0z3hnqQ">
+    <meta name="twitter:image:alt" content="Live Hosting a Collaborative Session - HackMD">
+
+
+<meta name="twitter:site" content="@hackmdio" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Live Hosting a Collaborative Session - HackMD" />
+
+
+    <meta name="twitter:description" content="中文教學" />
+
+
+
+    <meta property="og:image" content="https://hackmd.io/api/_/preview/q4yV0jU4TIuTgJQ0z3hnqQ">
+    <meta property="og:image:alt" content="Live Hosting a Collaborative Session - HackMD">
+
+
+<meta property="og:site_name" content="HackMD" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Live Hosting a Collaborative Session - HackMD" />
+
+
+    <meta property="og:description" content="中文教學" />
+
+
+
+    <link rel="canonical" href="https://hackmd.io/s/live-hosting" />
+    <meta property="og:url" content="https://hackmd.io/s/live-hosting" />
+    <meta property="twitter:url" content="https://hackmd.io/s/live-hosting" />
+
+    <link rel="alternate" type="text/markdown" href="https://hackmd.io/s/live-hosting.md" title="Pure markdown version">
+    <link rel="alternate" type="text/markdown" href="https://hackmd.io/s/live-hosting.md?no-meta" title="Pure markdown version without metadata">
+
+
+<!-- article meta -->
+
+
+
+
+
+<!-- profile meta -->
+
+
+
+     <link href="https://assets.hackmd.io/build/font-vendor.ea8218d7d4f468b2c430.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/common-vendor.fd34b1d1ad1390fa8864.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/pretty-vendor.8a8442e30c89d342d615.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/pretty.0ce5b1257beb6eb700e7.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+<![endif]-->
+
+    
+
+
+    <script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">
+  window.__shouldIgnoreTracker = function() {
+    const isDebug = window.debug === true
+    const isLocal = /^localhost$|^127(\.[0-9]+){0,2}\.[0-9]+$|^\[::1?\]$|^local\.localhost$/.test(location.hostname) || location.protocol === 'file:'
+    const isAutomation = Boolean(window._phantom || window.__nightmare || window.navigator.webdriver || window.Cypress)
+    return isDebug || isLocal || isAutomation
+  }
+</script>
+
+<!-- plausible -->
+<script defer data-domain="hackmd.io" src="https://tracks.hackmd.io/js/script.js"></script>
+<script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">
+  window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments); }
+  const keyboardWhiteList = ['a', 'span', 'button']
+
+  function getTaggedEventAttributes (e) {
+    const eventAttrs = { name: null, props: {} }
+    if (!e || !e.classList) return eventAttrs
+    const psEvent = /plausible-event-(.+)(=|--)(.+)/
+    for (const className of [...e.classList]) {
+      const [, key, , val] = className.match(psEvent) || []
+      if (!key || !val) continue
+      const value = val.replace(/\+/g, ' ')
+      switch (key.toLowerCase()) {
+        case 'name':
+          eventAttrs.name = value
+          break
+        default:
+          eventAttrs.props[key] = value
+          break
+      }
+    }
+    return eventAttrs
+  }
+
+  function shouldIgnore () {
+    return window.__shouldIgnoreTracker() || window.localStorage.getItem('plausible_ignore') === 'true'
+  }
+
+  function handler (e) {
+    if (!window.plausible) return
+    if (!e.target || !('className' in e.target)) return
+    const ele = e.target
+
+    const eventAttrs = getTaggedEventAttributes(ele)
+    if (!eventAttrs.name) return
+    if (ele?.href) eventAttrs.props.url = ele.href
+
+    if (shouldIgnore()) {
+      if (window.debug) logDebugEventMsg(eventAttrs)
+      return
+    }
+    window.plausible(eventAttrs.name, { props: eventAttrs.props })
+  }
+
+  function logDebugEventMsg (eventAttrs) {
+    console.warn(
+      `Ignoring Event: "${eventAttrs.name}"`,
+      eventAttrs,
+    )
+  }
+
+  function keydownHandler (e) {
+    if (e.key !== 'Enter') return
+    if (e.target.nodeName.toLowerCase() === 'input') {
+      switch (e.target.type.toLowerCase()) {
+        case 'submit':
+        case 'button':
+        case 'reset':
+        case 'checkbox':
+        case 'radio':
+        case 'file':
+        case 'image':
+        case 'color':
+          break
+        default:
+          return
+      }
+    } else if (!keyboardWhiteList.includes(e.target.nodeName.toLowerCase())) {
+      return
+    }
+    handler(e)
+  }
+
+  document.addEventListener('mousedown', handler)
+  document.addEventListener('keydown', keydownHandler)
+</script>
+
+    
+<script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">
+  window.publishProps = JSON.parse(`{"isOwnerAnonymous":false,"isOwnedByTeam":true,"ownerInfo":{"name":"docs","path":"docs","avatarUrl":"https%3A%2F%2Fuploads-public.hackmd.io%2Fupload_ced7efc9a15be4e9c55a92bde4f9d79d.jpg","description":"All%20feature%20docs%20are%20here!%0A%0A%20HackMD%20%E6%89%80%E6%9C%89%E7%9A%84%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E%E9%83%BD%E5%9C%A8%E9%80%99%E8%A3%A1%EF%BC%81"},"isPublished":true,"createTime":1566021682055,"updateTime":1746515918226,"vcsSyncMode":"github","vcsProviderName":"GitHub","canEdit":false,"hardBreaks":true,"onlyOwnerCanEdit":true,"isCommentEnabled":true,"likedCount":7,"isNotificationEnabled":true,"notificationType":"never","hasEmail":false,"canWriteComment":false,"viewCount":60540,"markdown":"%0A%5B**%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8**%5D(%2Fc%2Ftutorials-tw%2F%252Fs%252Flive-hosting-tw)%0A%0A%7B%25hackmd%20rJ_1SdPkxx%20%25%7D%0A%0A%23%20Live%20Hosting%20a%20Collaborative%20Session%0A%0AYou%20can%20sync%20your%20window%20scrolling%20with%20your%20collaborators%2C%20as%20if%20you're%20live%20streaming%20a%20collaborative%20note.%20This%20is%20helpful%20when%20you're%20in%20a%20meeting%20and%20you%20want%20others%20to%20see%20what%20you're%20seeing.%0A%0AClick%20on%20the%20top%20right%20**%3Ci%20class%3D%22fa%20fa-users%22%3E%3C%2Fi%3E%20%3F%20ONLINE**%20button%2C%20and%20you%20can%20assign%20the%20host%20who%20will%20share%20the%20view%20he%2Fshe%20sees.%0A%0AIn%20the%20below%20gif%20demo%2C%20User%20B%20is%20hosting%20the%20note%20so%20User%20A%20can%20see%20where%20she%20is%20referring%20to.%0A%0A!%5Bstart%20hosting%20a%20note%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrJG7ktKwR.gif)%0A%0A%3A%3A%3Ainfo%0A%3Abulb%3A%20**Hint**%3A%20Only%20people%20with%20Admin%20permission%20on%20the%20note%20(note%20owner%20and%20invited%20admins)%20have%20the%20privilege%20to%20assign%20host.%20It%20is%20not%20unexpected%20if%20people%20fight%20for%20hosting.%20%3Agrin%3A%0A%3A%3A%3A%0A%0A%5BLearn%20more%20about%20invited%20admins.%5D(%2Fc%2Ftutorials%2F%252Fs%252Finvite)%0A%0A%23%20Un-follow%20and%20Resume%20Following%0AWhen%20someone%20else%20is%20hosting%20the%20note%20but%20you%20want%20to%20check%20out%20different%20section%20of%20the%20note%2C%20you%20can%20unfollow%20the%20host%20from%20the%20same%20dropdown%20menu.%0A%0A!%5Bunfollow%20host%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSkGjXKtP0.gif)%0A%0AAnd%20when%20you%20are%20ready%20to%20resume%20following%2C%20click%20%2B%2Bfollow%2B%2B%20again%20and%20you%20would%20jump%20right%20to%20the%20host's%20current%20focus.%0A%0A!%5Bimage%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHJ_O0_KPR.png%20%3D300x)%0A%0A","viewMode":"publish","unreadState":[],"isOwner":false,"isSignIn":false,"isLiked":false,"isBookmarked":false,"publishType":"view","commentCount":0,"isNotesRecommendationsEnabled":true,"lastChangeUserInfo":{"name":"Andy","path":"Andy-hackmd","avatarUrl":"https%3A%2F%2Fwww.gravatar.com%2Favatar%2F1ef8a4e3e62dda92a633b9ce81cf53aa%3Fs%3D96"}}`);
+  window.owner = "";
+  (function () {
+    const decodeStringProps = (props) => {
+      for (const key in props) {
+        if (typeof props[key] === 'string') {
+          props[key] = decodeURIComponent(props[key])
+        } else if (typeof props[key] === 'object') {
+          decodeStringProps(props[key])
+        }
+      }
+    }
+    decodeStringProps(window.publishProps)
+  })()
+</script>
+
+
+    <script src="https://tally.so/widgets/embed.js"></script>
+
+    
+</head>
+
+<body class="ui-pretty-page" style="display:none;">
+    <div id="toasts-container" class="toasts-container z-[2000]"></div>
+    <div id="publish-page">
+[**中文教學**](/c/tutorials-tw/%2Fs%2Flive-hosting-tw)
+
+{%hackmd rJ_1SdPkxx %}
+
+# Live Hosting a Collaborative Session
+
+You can sync your window scrolling with your collaborators, as if you&#39;re live streaming a collaborative note. This is helpful when you&#39;re in a meeting and you want others to see what you&#39;re seeing.
+
+Click on the top right **&lt;i class=&#34;fa fa-users&#34;&gt;&lt;/i&gt; ? ONLINE** button, and you can assign the host who will share the view he/she sees.
+
+In the below gif demo, User B is hosting the note so User A can see where she is referring to.
+
+![start hosting a note](https://hackmd.io/_uploads/rJG7ktKwR.gif)
+
+:::info
+:bulb: **Hint**: Only people with Admin permission on the note (note owner and invited admins) have the privilege to assign host. It is not unexpected if people fight for hosting. :grin:
+:::
+
+[Learn more about invited admins.](/c/tutorials/%2Fs%2Finvite)
+
+# Un-follow and Resume Following
+When someone else is hosting the note but you want to check out different section of the note, you can unfollow the host from the same dropdown menu.
+
+![unfollow host](https://hackmd.io/_uploads/SkGjXKtP0.gif)
+
+And when you are ready to resume following, click ++follow++ again and you would jump right to the host&#39;s current focus.
+
+![image](https://hackmd.io/_uploads/HJ_O0_KPR.png =300x)
+
+</div>
+    <!-- signin modal -->
+
+<div class="modal fade signin-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 10px; right: 20px; position: absolute;"><span aria-hidden="true">&times;</span></button>
+            
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<h3 class="!mt-[30px] md:!mt-[52px]">Sign in</h3>
+
+<form data-toggle="validator" role="form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded" id="signin-form">
+    <div class="hmd-dn"><input type="hidden" name="_csrf" value="gdaQagIa-H1girmPIHBJgeBiRDJRZucECHR0"></div>
+    <div class="hmd-dn"><input type="hidden" name="create_team" value="false"></div>
+    <div class="hmd-dn"><input type="hidden" name="create_paid_team" value="false"></div>
+    
+    <div class="form-group  ">
+        <label for="email" class="control-label">Email</label>
+        <label for="inputEmail" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="margin-top: 14px"></span>
+        <div class="input-block">
+            
+                <input type="email" class="form-control" name="email" placeholder="Your email" required autocomplete="email" id="inputEmail">
+            
+            <span class="error-sign"></span>
+        </div>
+    </div>
+    <div class="form-group ">
+        <label for="password" class="control-label">Password</label>
+        <label for="inputPassword" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="margin-top: 14px"></span>
+        <div class="input-block">
+            <input type="password" class="form-control" name="password" placeholder="Your password" required autocomplete="current-password" maxlength="128">
+            <span class="error-sign"></span>
+            
+                <span class="control-label pull-right !text-normal !leading-normal !font-normal !mt-1.5"><a href="https://hackmd.io/settings/forgotPassword" style="text-decoration: underline;">Forgot password</a></span>
+            
+        </div>
+    </div>
+    <div
+        id="hmd-captcha"
+        data-provider=""
+        data-captcha-data=""
+        class="flex justify-center"
+        style="display: none;"
+    ></div>
+</form>
+
+
+    <div class="last-login-submit-container relative">
+        <input type="submit" data-login-method="email" class="neo-btn neo-btn-primary w-full !justify-center !py-[11px] !text-lg !leading-lg !mx-0" value="Sign in" form="signin-form" formaction="https://hackmd.io/login">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="!space-y-4">
+    
+        
+            <div class="relative isolate">
+                <span class="bg-background-default text-body leading-normal text-text-subtle px-1.5">or</span>
+                <span class="z-[-1] h-[1px] w-full flex absolute translate-y-[-9.5px] border border-solid border-border-default " aria-hidden="true"></span>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+<div class="oauth-sign-container !space-y-1.5 !m-0">
+    
+    <a href="https://hackmd.io/auth/google" data-login-method="google" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/google.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Google
+        </span>
+    </a>
+    
+
+    <!-- A 1:1 clone of the exact dark button gsi provides. Just in case if Google is not happy with the custom button
+    
+    <a href="https://hackmd.io/auth/google" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline !bg-[#131314] !border-[#8E918F] hocus:!bg-[#131314] hocus:!border-[#8E918F] !text-[#E3E3E3] font-['Roboto_Medium'] isolate group/google-button overflow-hidden relative">
+        <div aria-hidden="true" class="absolute top-0 left-0 z-[-1] bg-white/[.08] tw-hide w-full h-full group-hover/google-button:flex group-focus/google-button:flex"></div>
+        <img src="/social/google.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Google
+        </span>
+    </a>
+    
+    -->
+
+    
+    <a href="https://hackmd.io/auth/facebook" data-login-method="facebook" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/facebook.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Facebook
+        </span>
+    </a>
+    
+
+    
+    <a href="https://hackmd.io/auth/twitter" data-login-method="twitter" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/x.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via X(Twitter)
+        </span>
+    </a>
+    
+
+    
+    <a href="https://hackmd.io/auth/github" data-login-method="github" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/github.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via GitHub
+        </span>
+    </a>
+    
+    
+    <a href="https://hackmd.io/auth/dropbox" data-login-method="dropbox" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/dropbox.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Dropbox
+        </span>
+    </a>
+    
+    
+    
+      <a href="#" data-login-method="web3" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline btn-web3">
+          <img src="https://hackmd.io/images/wallet.svg" width="28">
+          <span class="sign-in-wallet-text flex-1 text-center">
+              Sign in with Wallet
+          </span>
+
+          <div class="inline-flex items-center justify-between flex-1 hidden web3-wallet-info">
+              <span>
+                   Wallet
+                   (
+                    <span class="web3-wallet-address"></span>
+                   )
+              </span>
+
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+      </a>
+
+      <small class="web3-wallet-info hidden text-left hocus:text-white underline hocus:underline block pt-2 ui-disconnect-connected-wallets text-gray-600 cursor-pointer">
+          Connect another wallet
+      </small>
+    
+
+    <button type="button" class="ui-continue-with-different neo-btn neo-btn-ghost w-full items-center !py-[7px] !px-[9px] hidden">
+        Continue with a different method
+    </button>
+</div>
+<script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">
+const displayCount = 4
+;(() => {
+    const container = document.querySelector('.oauth-sign-container')
+    if (!container) return
+    const buttons = Array.from(container.querySelectorAll(':is(a, button).neo-btn.neo-btn-tertiary'))
+    const continueWithDifferent = container.querySelector('.ui-continue-with-different')
+    if (!continueWithDifferent) return
+    if (buttons.length <= displayCount) return
+
+    continueWithDifferent.classList.remove('hidden')
+    for (let i = displayCount; i < buttons.length; i++) {
+        buttons[i].classList.add('hidden')
+    }
+
+    continueWithDifferent.addEventListener('click', () => {
+        continueWithDifferent.classList.add('hidden')
+        const currentButtons = Array.from(container.querySelectorAll(':is(a, button).neo-btn.neo-btn-tertiary'))
+        for (const button of currentButtons) {
+            button.classList.remove('hidden')
+        }
+    })
+})()
+</script>
+
+    
+
+    
+        <div>
+            <p class="!m-0 text-body leading-normal">New to HackMD? <a href="https://hackmd.io/join" class="!text-text-primary hocus:!text-link-text-hover plausible-event-name=LoginModalSignUp">Sign up</a></p>
+        </div>
+    
+</div>
+
+
+
+
+
+    <p class="!text-sm !leading-sm !text-text-subtle">By signing in, you agree to our <a class="!text-text-subtle hocus:!text-text-default" href="https://hackmd.io/s/terms" target="_blank">terms of service</a>.</p>
+
+
+        </div>
+    </div>
+</div>
+
+    
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-NGVZMM6DR6"></script>
+    <script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        let userid = (document.cookie.match('(^|; )userid=([^;]*)')||0)[2];
+        gtag('config', 'G-NGVZMM6DR6', {'user_id': userid});
+        
+    </script>
+
+
+    
+<script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" crossorigin="anonymous"></script>
+<script nonce="dd25eab5-dd69-458e-b637-47bb66e914fa">
+  Sentry.init({ dsn: 'https://73410f1915d84abc8b2dd1f1aabd1c82@sentry.hackmd.dev/4', environment: 'production', integrations: function (intrus) { return intrus.filter(function (itr) { return itr.name !== 'TryCatch' }) } });
+  const sentryUserId = document.cookie
+    .split('; ')
+    .map(cookie => cookie.split('='))
+    .reduce((acc, [k, v]) => k === 'userid' ? v : acc, '');
+  Sentry.setUser(sentryUserId ? { id: sentryUserId } : null);
+</script>
+
+
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLW9Z3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+    <script src="https://hackmd.io/api/i18n.js"></script>
+     <script src="https://assets.hackmd.io/build/font-vendor.da2ff914b6696699c15e.js" defer="defer"></script><script src="https://assets.hackmd.io/build/common-vendor.d6e5c1bdd49586874403.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty-vendor.950210cf11a0f5dfba4b.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty-common.dbca79efbc63d9e96ef6.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty.7c15dd61fbf06b8fada0.js" defer="defer"></script>
+
+    
+
+</body>
+</html>

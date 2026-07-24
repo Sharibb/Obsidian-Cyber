@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="dev" data-themeable="true" theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="csrf-token" content="V7OpeTwc-Ao3NRYb0Y1d4fVotraTRKoGQnc8">
+    
+    
+    <meta name="description" content="中文教學">
+    
+    <title>How to Use Template - HackMD</title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+	<link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+	<!--  meta value for server side given sign in boolean -->
+    <meta name="signin" content="false">
+
+    <script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">
+  (() => {
+    const resolveTheme = (preferredTheme) => {
+      if (preferredTheme) return preferredTheme
+      if (
+        typeof window.matchMedia === 'function' &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      ) {
+        return 'dark'
+      }
+      return 'light'
+    }
+
+    const isPrint = new URL(window.location.href).searchParams.get('print') === 'true'
+    const uiTheme = resolveTheme('dark' || null)
+    const contentTheme = isPrint ? 'light' : resolveTheme('' || null)
+
+    window.__HMD_IS_PRINT_MODE__ = isPrint
+    document.documentElement.setAttribute('theme', uiTheme)
+    window.__HMD_INITIAL_UI_THEME__ = uiTheme
+    window.__HMD_INITIAL_CONTENT_THEME__ = contentTheme
+  })()
+</script>
+
+    
+<script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">
+  window.domain = 'hackmd.io'
+  window.urlpath = ''
+  window.debug = false || window.localStorage.getItem('HMD_DEBUG_FLAG') === 'true'
+  window.version = '1.3.0'
+  window.brand = 'HackMD'
+
+  
+  window.NOTE_ID = 'qTDiIzSPSc6uSer0bKDZXQ'
+  
+
+  
+  window.PUBLISH_TYPE = 'view'
+  
+
+  window.GOOGLE_DRIVE_API_KEY = 'AIzaSyAHmcP5gL_64ZafuAYOvJruFAIaYgHQaY4'
+  window.GOOGLE_DRIVE_CLIENT_ID = '65857506266-76uhhee8se8dgs1i0q8fhtj1prg0ar27.apps.googleusercontent.com'
+  window.DROPBOX_APP_KEY = 'rdoizrlnkuha23r'
+  
+  window.PLANTUML_SERVER = 'https://ptuml.hackmd.io'
+
+  window.ASSET_URL = 'https://assets.hackmd.io'
+
+  window.USER_CAN_CREATE_TEAM = true
+  window.USER_CAN_DELETE_ACCOUNT = true
+  window.USER_DELETE_ACCOUNT_VIA_EMAIL = true
+  window.PAYMENT_ENABLED = true
+  window.PAYMENT_PROMOTION_BANNER_ENABLED = false
+  window.GITHUB_SYNC_ENABLED = true
+  window.GITLAB_SYNC_ENABLED = false
+  window.GITLAB_SYNC_BASE_URL = ''
+  window.VCS_SYNC_MODE = 'github'
+  window.VCS_PROVIDER_NAME = 'GitHub'
+  window.FREE_TEAM_NUM = 20
+  window.FREE_TEAM_MEMBER_NUM = 3
+  window.FREE_PUBLIC_TEAM_NUM = 10
+  window.FOLDER_ENABLE = true
+
+  
+  window.EE_SITE_ENABLE = false
+  window.EE_SITE_NAME = 'false'
+  window.EE_SITE_LINK = 'false'
+  window.EESITE_INFO = false
+  window.ENTERPRISE_DISCOVERY_ENABLE = false
+  window.ENTERPRISE_DISCOVERY_TEAM = true
+  window.ENTERPRISE_DISCOVERY_NOTE = true
+  window.ENTERPRISE_DISCOVERY_VIEW_PERMISSION = 'guest'
+  
+  window.ALLOW_ANONYMOUS = true
+  window.ALLOW_ANONYMOUS_EDIT = false
+  window.ALLOW_DOWNLOAD_PDF = true
+  window.PUBLIC_OVERVIEW = false
+  window.INTERNAL_PUBLIC_OVERVIEW = false
+  window.FULL_TEXT_SEARCH_ENABLE = false
+  window.ALGOLIA_SEARCH_ENABLE = true
+  window.MARKETING_EMAIL_ENABLE = true
+  window.EMAIL_INVITATION_ENABLE = true
+  
+  
+  
+    window.WALLET_CONNECT_PROJECT_ID = '91d6fa182b725b5895a17a170a5878c1'
+  
+  window.API_MANAGEMENT_UI_ENABLE = true
+  window.FEEDBACK_UI_ENABLE = true
+  window.PUBLISH_ENABLE = true
+
+  
+
+  
+  window.SHOW_OVERVIEW = false
+  
+
+  
+  window.MENTIONS = {}
+  
+
+  
+  window.MENTION_ANCHORS = []
+  
+
+  
+  window.COMMENT_ANCHORS = []
+  
+
+  
+  window.IS_OWNER = false
+  
+
+  
+  window.IS_TEAM_ADMIN = false
+  
+
+  
+  window.IS_TEAM_MEMBER = false
+  
+
+  
+  window.IS_INVITEE_ADMIN = false
+  
+
+  
+  window.USER_PROFILE = '%7B%22name%22%3A%22Guest%20Campbell%22%7D'
+  
+
+  
+  window.VERSION_TIME = '1746158700903'
+  
+
+  
+  window.canEdit = false
+  
+
+  
+  window.canWriteComment = false
+  
+
+  
+  window.canHideComment = false
+  
+
+  window.TRASH_NOTE_DELETE_AFTER_FREE = 3
+  window.TRASH_NOTE_DELETE_AFTER_PAID = 30
+
+  
+    window.ENABLED_PREVIEW_FEATURE = {}
+  
+
+  
+
+  
+
+  
+
+  
+    window.IS_OWNER_UPGRADED = true
+  
+
+  
+    window.IMGUR_FALLBACK_CDN = 'https://imgur-backup.hackmd.io'
+  
+
+  
+    window.YAML_METADATA_ENABLED = false
+  
+
+  
+    window.NOTE_CAPACITY_LIMIT = 50
+  
+
+  
+    window.DOCUMENT_MAX_LENGTH = 100000
+  
+
+  
+    window.SOCIAL_NETWORK_FEATURES_ENABLED = true
+  
+
+  
+    window.PUBLISHMENT_MODERATION_ENABLED = true
+  
+
+  
+    window.COMMENT_ENABLED = true
+  
+
+  
+    window.COMMENT_PERMISSION = "signed_in_users"
+  
+
+  window.SUGGEST_EDIT_ENABLED = true
+  
+    window.SUGGEST_EDIT_ENABLED = true
+  
+
+  
+    window.SUGGEST_EDIT_PERMISSION = "signed_in_users"
+  
+  
+    window.canWriteSuggestEdit = false
+  
+
+  window.CITATION_ENABLED = true
+
+  window.NOTE_FROM_COMMENT_ENABLED = true
+
+  
+    window.NOTE_FEATURES = {"emoji-reply":"signed_in_users","citation":"disabled"}
+  
+
+  
+    window.REALTIME_CLIENT_WITH_CREDENTIALS = false
+  
+
+  
+
+  
+    window.PREFERRED_UI_THEME = "dark"
+  
+
+  
+
+  
+    window.CUSTOM_STYLE_ENABLED = "true"
+  
+
+  
+
+  
+    window.ITERABLE_ENABLED = false
+  
+  
+    window.ITERABLE_API_KEY = "c2c36a44c2614fb19aa3b46d660bbce2"
+  
+
+  
+    window.CUSTOMERIO_ENABLED = true
+  
+  
+    window.CUSTOMERIO_WRITE_KEY = "90283c80a6498bb8d1ee"
+  
+  
+    window.CUSTOMERIO_SITE_ID = "9947d0d46b7ece25dea7"
+  
+
+  
+    window.TEXT_SELECTION_CHANGED = false
+  
+
+  
+    window.CAN_VIEW_HISTORY_AT_REVISION = false
+  
+
+  
+    window.GUIDED_COMMENT_ENABLED = true
+  
+
+  
+    window.ENCODED_SESSION_ID = "4lLl9/+tv61xW/ayhI2N8/6Fp6xtkisdDl8ftPrwZ88="
+  
+
+  
+    window.COMMUNITY_ENABLED = true
+  
+
+  
+    window.NOTE_INSIGHTS_DEBUG_API_ENABLED = false
+  
+
+  
+
+  
+</script>
+
+
+    
+<!-- Google Tag Manager -->
+<script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLW9Z3');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+
+
+
+
+
+
+    <meta property="fb:app_id" content="1436904003272070">
+
+
+
+    <meta name="robots" content="noindex, nofollow">
+
+
+
+
+    <meta name="twitter:image:src" content="https://hackmd.io/api/_/preview/qTDiIzSPSc6uSer0bKDZXQ">
+    <meta name="twitter:image:alt" content="How to Use Template - HackMD">
+
+
+<meta name="twitter:site" content="@hackmdio" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="How to Use Template - HackMD" />
+
+
+    <meta name="twitter:description" content="中文教學" />
+
+
+
+    <meta property="og:image" content="https://hackmd.io/api/_/preview/qTDiIzSPSc6uSer0bKDZXQ">
+    <meta property="og:image:alt" content="How to Use Template - HackMD">
+
+
+<meta property="og:site_name" content="HackMD" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="How to Use Template - HackMD" />
+
+
+    <meta property="og:description" content="中文教學" />
+
+
+
+
+<!-- article meta -->
+
+
+
+
+
+<!-- profile meta -->
+
+
+
+     <link href="https://assets.hackmd.io/build/font-vendor.ea8218d7d4f468b2c430.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/common-vendor.fd34b1d1ad1390fa8864.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/pretty-vendor.8a8442e30c89d342d615.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/pretty.0ce5b1257beb6eb700e7.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+<![endif]-->
+
+    
+
+
+    <script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">
+  window.__shouldIgnoreTracker = function() {
+    const isDebug = window.debug === true
+    const isLocal = /^localhost$|^127(\.[0-9]+){0,2}\.[0-9]+$|^\[::1?\]$|^local\.localhost$/.test(location.hostname) || location.protocol === 'file:'
+    const isAutomation = Boolean(window._phantom || window.__nightmare || window.navigator.webdriver || window.Cypress)
+    return isDebug || isLocal || isAutomation
+  }
+</script>
+
+<!-- plausible -->
+<script defer data-domain="hackmd.io" src="https://tracks.hackmd.io/js/script.js"></script>
+<script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">
+  window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments); }
+  const keyboardWhiteList = ['a', 'span', 'button']
+
+  function getTaggedEventAttributes (e) {
+    const eventAttrs = { name: null, props: {} }
+    if (!e || !e.classList) return eventAttrs
+    const psEvent = /plausible-event-(.+)(=|--)(.+)/
+    for (const className of [...e.classList]) {
+      const [, key, , val] = className.match(psEvent) || []
+      if (!key || !val) continue
+      const value = val.replace(/\+/g, ' ')
+      switch (key.toLowerCase()) {
+        case 'name':
+          eventAttrs.name = value
+          break
+        default:
+          eventAttrs.props[key] = value
+          break
+      }
+    }
+    return eventAttrs
+  }
+
+  function shouldIgnore () {
+    return window.__shouldIgnoreTracker() || window.localStorage.getItem('plausible_ignore') === 'true'
+  }
+
+  function handler (e) {
+    if (!window.plausible) return
+    if (!e.target || !('className' in e.target)) return
+    const ele = e.target
+
+    const eventAttrs = getTaggedEventAttributes(ele)
+    if (!eventAttrs.name) return
+    if (ele?.href) eventAttrs.props.url = ele.href
+
+    if (shouldIgnore()) {
+      if (window.debug) logDebugEventMsg(eventAttrs)
+      return
+    }
+    window.plausible(eventAttrs.name, { props: eventAttrs.props })
+  }
+
+  function logDebugEventMsg (eventAttrs) {
+    console.warn(
+      `Ignoring Event: "${eventAttrs.name}"`,
+      eventAttrs,
+    )
+  }
+
+  function keydownHandler (e) {
+    if (e.key !== 'Enter') return
+    if (e.target.nodeName.toLowerCase() === 'input') {
+      switch (e.target.type.toLowerCase()) {
+        case 'submit':
+        case 'button':
+        case 'reset':
+        case 'checkbox':
+        case 'radio':
+        case 'file':
+        case 'image':
+        case 'color':
+          break
+        default:
+          return
+      }
+    } else if (!keyboardWhiteList.includes(e.target.nodeName.toLowerCase())) {
+      return
+    }
+    handler(e)
+  }
+
+  document.addEventListener('mousedown', handler)
+  document.addEventListener('keydown', keydownHandler)
+</script>
+
+    
+<script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">
+  window.publishProps = JSON.parse(`{"isOwnerAnonymous":false,"isOwnedByTeam":true,"ownerInfo":{"name":"docs","path":"docs","avatarUrl":"https%3A%2F%2Fuploads-public.hackmd.io%2Fupload_ced7efc9a15be4e9c55a92bde4f9d79d.jpg","description":"All%20feature%20docs%20are%20here!%0A%0A%20HackMD%20%E6%89%80%E6%9C%89%E7%9A%84%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E%E9%83%BD%E5%9C%A8%E9%80%99%E8%A3%A1%EF%BC%81"},"isPublished":false,"createTime":1554415392851,"updateTime":1746158700903,"vcsSyncMode":"github","vcsProviderName":"GitHub","canEdit":false,"hardBreaks":true,"onlyOwnerCanEdit":true,"isCommentEnabled":true,"likedCount":3,"isNotificationEnabled":true,"notificationType":"never","hasEmail":false,"canWriteComment":false,"viewCount":27895,"markdown":"%5B**%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8**%5D(%2Fc%2Ftutorials%2F%252Fs%252Fhow-to-use-template-tw)%0A%0A%7B%25hackmd%20rJ_1SdPkxx%20%25%7D%0A%0A%23%20How%20to%20Use%20Template%0A%0ATemplate%20helps%20you%20use%20HackMD%20easier%20and%20faster%2C%20especially%20in%20these%20three%20ways%3A%0A%0A1.%20Save%20your%20time%20copy-pasting%20from%20recurring%20notes%2C%20such%20as%20your%20weekly%20meeting%20minutes.%0A2.%20Keep%20your%20contents%20consistent%2C%20use%20the%20same%20styling%20for%20all%20your%20blog%20posts%20and%20study%20notes.%0A3.%20Re-use%20complex%20components%2C%20such%20as%20UML%20diagrams%2C%20so%20you%20don't%20have%20to%20build%20them%20from%20scratch%20every%20time.%0A%0A%3A%3A%3Ainfo%0A%3Abulb%3A%20**Hint%3A**%20If%20you%20want%20to%20use%20template%20for%20styling%20(using%20HTML%20%60%3Cstyle%3E%60)%2C%20embedding%20the%20template%20might%20be%20the%20better%20way.%0AYou%20could%20find%20the%20tutorial%20and%20some%20example%20styling%20template%20below%3A%0A-%20%5BEmbedding%20note%20tutorial%5D(%2Fc%2Ftutorials%2F%252Fs%252Fhow-to-embed-note)%0A-%20%5BDark%20theme%5D(%2Fhackmd-dark-theme%3Fboth)%0A-%20%5BVertical%20alignment%20theme%5D(%2Fhackmd-vertical-writing-theme%3Fboth)%20(common%20in%20some%20Asian%20languages)%0A%3A%3A%3A%0A%0A%0A%23%23%20Apply%20template%0A%0A%23%23%23%201.%20Create%20a%20new%20note%20with%20template%0AClick%20on%20the%20%3Ci%20class%3D%22fa%20fa-ellipsis-v%22%20aria-hidden%3D%22true%22%3E%3C%2Fi%3E%20button%20next%20to%20the%20%5C%5BNew%20note%5C%5D%20and%20click%20**%5C%5B%20%3Ci%20class%3D%22fa%20fa-file-image-o%22%20aria-hidden%3D%22true%22%3E%3C%2Fi%3E%20Create%20a%20note%20from%20template%5C%5D**%20in%20the%20drop%20down%20menu.%20You%20will%20then%20see%20the%20template%20panel.%20Choose%20which%20template%20to%20use%20and%20hit%20**%5C%5BUse%20this%20template%5C%5D**.%0A%0A!%5Bcreatenote%20with%20template01%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrJVcMh7w1l.gif)%0A%0AAlternatively%2C%20you%20could%20create%20a%20new%20empty%20note%20and%20see%20the%20last%20three%20templates%20you%20used%20at%20the%20bottom%20of%20the%20editing%20area.%20Click%20to%20apply.%0A%0A!%5Bcreatenote%20with%20template02%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJ7PCjXDJg.gif)%0A%0A%23%23%23%202.%20Insert%20template%20to%20a%20note%20%0AYou%20could%20save%20block%20of%20contents%20as%20templates%20and%20re-use%20them%20when%20needed.%20Click%20the%20menu%20icon%20%3Ci%20class%3D%22fa%20fa-ellipsis-h%20fa-18%22%3E%3C%2Fi%3E%20at%20the%20top-right%20corner%20and%20hit%20%22%3Ci%20class%3D%22fa%20fa-plus%20fa-fw%22%3E%3C%2Fi%3E%20Insert%20from%20template%22%20to%20see%20the%20template%20panel.%20The%20chosen%20template%20will%20be%20inserted%20to%20your%20cursor%20position%20in%20the%20note%20when%20you%20click%20**%5C%5BUse%20this%20template%5D**.%0A%0A!%5Bimage%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHywO7cQDke.png%20%3D350x)%0A%0A%23%23%20Custom%20template%0A%23%23%23%20Save%20current%20note%20as%20template%3A%0AClick%20%22%3Ci%20class%3D%22fa%20fa-file-image-o%22%20aria-hidden%3D%22true%22%3E%3C%2Fi%3E%20Save%20as%20template%22%20in%20the%20menu%20%3Ci%20class%3D%22fa%20fa-ellipsis-h%20fa-18%22%3E%3C%2Fi%3E%20at%20the%20top-right%20corner%2C%20and%20give%20your%20template%20a%20name.%0A%0A!%5BSave%20current%20note%20as%20template%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FH1hHkXKP0.gif)%0A%0A%23%23%23%20Create%20a%20template%20from%20scratch%0AYou%20could%20%22Create%20new%20template%22%20from%20the%20button%20on%20the%20top%20right%20corner%20on%20the%20template%20panel.%0A%0A%3A%3A%3Ainfo%0A%3Abulb%3A%20**Hint%3A**%20The%20template%20created%20this%20way%20will%20receive%20its%20title%20from%20the%20template%20name%2C%20but%20changing%20the%20title%20doesn't%20change%20the%20template%20name.%20To%20change%20that%2C%20see%20%5Bmanage%20template%5D(%23Manage-template)%0A%3A%3A%3A%0A%0A!%5BCreate%20a%20template%20from%20scratch%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHyrVscmDkl.gif)%0A%0A%23%23%20Manage%20template%0A%0AYou%20could%20manage%20(rename%2C%20edit%2C%20and%20delete)%20your%20templates%20in%20the%20template%20panel.%0A%0A%3A%3A%3Ainfo%0A%3Abulb%3A%20**Hint%3A**%20The%20preview%20of%20a%20template%20in%20the%20template%20panel%20would%20be%20its%20rendered%20view%2C%20so%20those%20invisible%20elements%2C%20such%20as%20YAML%20metadata%E3%80%81contents%20of%20HTML%20%60%3Cstyle%3E%60%20or%20%60%3C!--%20blocks%20commented%20out%20--%3E%60%20will%20not%20show.%0A%3A%3A%3A%0A%0ASince%20templates%20are%20just%20normal%20notes%20marked%20as%20templates%2C%20when%20you%20try%20to%20delete%20a%20template%2C%20HackMD%20will%20confirm%20the%20deletion%20of%20the%20underlying%20note.%20If%20you%20want%20to%20keep%20the%20note%2C%20don't%20forget%20to%20check%20the%20checkbox%20to%20keep%20the%20content.%0A%0A!%5Bimage%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FB1fqO9mvkl.png)%0A%0A%3A%3A%3Adanger%0A%3Awarning%3A%20**Warning**%0AOn%20the%20other%20hand%2C%20if%20you%20want%20to%20delete%20a%20template%20but%20don't%20want%20to%20lose%20the%20content.%20You%20should%20check%20the%20option%20%60Turn%20this%20template%20into%20a%20regular%20note%20and%20keep%20its%20content%60%20!%0A%3A%3A%3A%0A%0AEditing%20template%20is%20pretty%20much%20the%20same%20as%20editing%20regular%20notes%20-%20all%20your%20edits%20will%20be%20automatically%20saved%2C%20except%20you%20will%20see%20a%20green%20banner%20telling%20you%20that%20you're%20editing%20a%20template.%0A%0A!%5Bimage%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrJKxYqmv1x.png)%0A**%E2%96%B2%20Green%20banner%20shows%20under%20template%20editing%20mode**%0A%0AIf%20you%20unintentionally%20modify%20the%20template%2C%20you%20could%20always%20recover%20your%20content%20in%20**%5C%5BMy%20Trash%EF%BC%8FTeam%20Trash%5D**%20.%0A%0A%3A%3A%3Ainfo%0A%3Abulb%3A%20**Hint%3A**%20New%20changes%20on%20a%20template%20won't%20get%20applied%20to%20notes%20previously%20created%20with%20that%20template.%20If%20that's%20what%20you%20want%2C%20try%20%5Bembedding%20the%20template%5D(%2Fc%2Ftutorials%2F%252Fs%252Fhow-to-embed-note).%0A%3A%3A%3A%0A%0A%0A%23%23%20Default%20template%0A%0A%3A%3A%3Asuccess%0A**Default%20template%20is%20a%20Prime%20feacture.**%0A%3A%3A%3A%0ATemplates%20saves%20time%20and%20efforts%20and%20you%20can%20set%20one%20of%20them%20as%20the%20default%20template%20so%20that%20every%20new%20note%20will%20apply%20the%20same%20template.%0A%0AYou%20can%20set%20default%20template%20for%20each%20workspace.%0A%0A%3A%3A%3Awarning%0A%3Awarning%3A%20%20You%20cannot%20set%20a%20personal%20template%20as%20the%20default%20template%20for%20a%20team.%0A%3A%3A%3A%0A%0A%23%23%23%20My%20Workspace%0AVisit%20My%20Workspace%20%E2%86%92%20Settings%20%E2%86%92%20Notes%20%E2%86%92%20%5BTemplate%5D(https%3A%2F%2Fhackmd.io%2Fsettings%23note)%0A!%5Bimage%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FH1WwqBQwkg.png)%0A%0A**%E2%96%B2%20Set%20default%20template%20for%20My%20Workspace**%0A%0A%0A%23%23%23%20Team%20Workspace%0AVisit%20Team%20Workspace%20%E2%86%92%20Team%20Settings%20%E2%86%92%20Notes%20%E2%86%92%20%5BTemplate%5D(https%3A%2F%2Fhackmd.io%2Fteam%2Fdocs%2Fmanage%23note)%0A!%5Bimage%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBkgLFr7Pye.png)%0A**%E2%96%B2%20Set%20default%20template%20for%20a%20Team%20Workspace**%0A","viewMode":"publish","unreadState":[],"isOwner":false,"isSignIn":false,"isLiked":false,"isBookmarked":false,"publishType":"view","commentCount":0,"isNotesRecommendationsEnabled":true,"lastChangeUserInfo":{"name":"Andy","path":"Andy-hackmd","avatarUrl":"https%3A%2F%2Fwww.gravatar.com%2Favatar%2F1ef8a4e3e62dda92a633b9ce81cf53aa%3Fs%3D96"}}`);
+  window.owner = "";
+  (function () {
+    const decodeStringProps = (props) => {
+      for (const key in props) {
+        if (typeof props[key] === 'string') {
+          props[key] = decodeURIComponent(props[key])
+        } else if (typeof props[key] === 'object') {
+          decodeStringProps(props[key])
+        }
+      }
+    }
+    decodeStringProps(window.publishProps)
+  })()
+</script>
+
+
+    <script src="https://tally.so/widgets/embed.js"></script>
+
+    
+</head>
+
+<body class="ui-pretty-page" style="display:none;">
+    <div id="toasts-container" class="toasts-container z-[2000]"></div>
+    <div id="publish-page">[**中文教學**](/c/tutorials/%2Fs%2Fhow-to-use-template-tw)
+
+{%hackmd rJ_1SdPkxx %}
+
+# How to Use Template
+
+Template helps you use HackMD easier and faster, especially in these three ways:
+
+1. Save your time copy-pasting from recurring notes, such as your weekly meeting minutes.
+2. Keep your contents consistent, use the same styling for all your blog posts and study notes.
+3. Re-use complex components, such as UML diagrams, so you don&#39;t have to build them from scratch every time.
+
+:::info
+:bulb: **Hint:** If you want to use template for styling (using HTML `&lt;style&gt;`), embedding the template might be the better way.
+You could find the tutorial and some example styling template below:
+- [Embedding note tutorial](/c/tutorials/%2Fs%2Fhow-to-embed-note)
+- [Dark theme](/hackmd-dark-theme?both)
+- [Vertical alignment theme](/hackmd-vertical-writing-theme?both) (common in some Asian languages)
+:::
+
+
+## Apply template
+
+### 1. Create a new note with template
+Click on the &lt;i class=&#34;fa fa-ellipsis-v&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; button next to the \[New note\] and click **\[ &lt;i class=&#34;fa fa-file-image-o&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Create a note from template\]** in the drop down menu. You will then see the template panel. Choose which template to use and hit **\[Use this template\]**.
+
+![createnote with template01](https://hackmd.io/_uploads/rJVcMh7w1l.gif)
+
+Alternatively, you could create a new empty note and see the last three templates you used at the bottom of the editing area. Click to apply.
+
+![createnote with template02](https://hackmd.io/_uploads/SJ7PCjXDJg.gif)
+
+### 2. Insert template to a note 
+You could save block of contents as templates and re-use them when needed. Click the menu icon &lt;i class=&#34;fa fa-ellipsis-h fa-18&#34;&gt;&lt;/i&gt; at the top-right corner and hit &#34;&lt;i class=&#34;fa fa-plus fa-fw&#34;&gt;&lt;/i&gt; Insert from template&#34; to see the template panel. The chosen template will be inserted to your cursor position in the note when you click **\[Use this template]**.
+
+![image](https://hackmd.io/_uploads/HywO7cQDke.png =350x)
+
+## Custom template
+### Save current note as template:
+Click &#34;&lt;i class=&#34;fa fa-file-image-o&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Save as template&#34; in the menu &lt;i class=&#34;fa fa-ellipsis-h fa-18&#34;&gt;&lt;/i&gt; at the top-right corner, and give your template a name.
+
+![Save current note as template](https://hackmd.io/_uploads/H1hHkXKP0.gif)
+
+### Create a template from scratch
+You could &#34;Create new template&#34; from the button on the top right corner on the template panel.
+
+:::info
+:bulb: **Hint:** The template created this way will receive its title from the template name, but changing the title doesn&#39;t change the template name. To change that, see [manage template](#Manage-template)
+:::
+
+![Create a template from scratch](https://hackmd.io/_uploads/HyrVscmDkl.gif)
+
+## Manage template
+
+You could manage (rename, edit, and delete) your templates in the template panel.
+
+:::info
+:bulb: **Hint:** The preview of a template in the template panel would be its rendered view, so those invisible elements, such as YAML metadata、contents of HTML `&lt;style&gt;` or `&lt;!-- blocks commented out --&gt;` will not show.
+:::
+
+Since templates are just normal notes marked as templates, when you try to delete a template, HackMD will confirm the deletion of the underlying note. If you want to keep the note, don&#39;t forget to check the checkbox to keep the content.
+
+![image](https://hackmd.io/_uploads/B1fqO9mvkl.png)
+
+:::danger
+:warning: **Warning**
+On the other hand, if you want to delete a template but don&#39;t want to lose the content. You should check the option `Turn this template into a regular note and keep its content` !
+:::
+
+Editing template is pretty much the same as editing regular notes - all your edits will be automatically saved, except you will see a green banner telling you that you&#39;re editing a template.
+
+![image](https://hackmd.io/_uploads/rJKxYqmv1x.png)
+**▲ Green banner shows under template editing mode**
+
+If you unintentionally modify the template, you could always recover your content in **\[My Trash／Team Trash]** .
+
+:::info
+:bulb: **Hint:** New changes on a template won&#39;t get applied to notes previously created with that template. If that&#39;s what you want, try [embedding the template](/c/tutorials/%2Fs%2Fhow-to-embed-note).
+:::
+
+
+## Default template
+
+:::success
+**Default template is a Prime feacture.**
+:::
+Templates saves time and efforts and you can set one of them as the default template so that every new note will apply the same template.
+
+You can set default template for each workspace.
+
+:::warning
+:warning:  You cannot set a personal template as the default template for a team.
+:::
+
+### My Workspace
+Visit My Workspace → Settings → Notes → [Template](https://hackmd.io/settings#note)
+![image](https://hackmd.io/_uploads/H1WwqBQwkg.png)
+
+**▲ Set default template for My Workspace**
+
+
+### Team Workspace
+Visit Team Workspace → Team Settings → Notes → [Template](https://hackmd.io/team/docs/manage#note)
+![image](https://hackmd.io/_uploads/BkgLFr7Pye.png)
+**▲ Set default template for a Team Workspace**
+</div>
+    <!-- signin modal -->
+
+<div class="modal fade signin-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 10px; right: 20px; position: absolute;"><span aria-hidden="true">&times;</span></button>
+            
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<h3 class="!mt-[30px] md:!mt-[52px]">Sign in</h3>
+
+<form data-toggle="validator" role="form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded" id="signin-form">
+    <div class="hmd-dn"><input type="hidden" name="_csrf" value="V7OpeTwc-Ao3NRYb0Y1d4fVotraTRKoGQnc8"></div>
+    <div class="hmd-dn"><input type="hidden" name="create_team" value="false"></div>
+    <div class="hmd-dn"><input type="hidden" name="create_paid_team" value="false"></div>
+    
+    <div class="form-group  ">
+        <label for="email" class="control-label">Email</label>
+        <label for="inputEmail" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="margin-top: 14px"></span>
+        <div class="input-block">
+            
+                <input type="email" class="form-control" name="email" placeholder="Your email" required autocomplete="email" id="inputEmail">
+            
+            <span class="error-sign"></span>
+        </div>
+    </div>
+    <div class="form-group ">
+        <label for="password" class="control-label">Password</label>
+        <label for="inputPassword" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="margin-top: 14px"></span>
+        <div class="input-block">
+            <input type="password" class="form-control" name="password" placeholder="Your password" required autocomplete="current-password" maxlength="128">
+            <span class="error-sign"></span>
+            
+                <span class="control-label pull-right !text-normal !leading-normal !font-normal !mt-1.5"><a href="https://hackmd.io/settings/forgotPassword" style="text-decoration: underline;">Forgot password</a></span>
+            
+        </div>
+    </div>
+    <div
+        id="hmd-captcha"
+        data-provider=""
+        data-captcha-data=""
+        class="flex justify-center"
+        style="display: none;"
+    ></div>
+</form>
+
+
+    <div class="last-login-submit-container relative">
+        <input type="submit" data-login-method="email" class="neo-btn neo-btn-primary w-full !justify-center !py-[11px] !text-lg !leading-lg !mx-0" value="Sign in" form="signin-form" formaction="https://hackmd.io/login">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="!space-y-4">
+    
+        
+            <div class="relative isolate">
+                <span class="bg-background-default text-body leading-normal text-text-subtle px-1.5">or</span>
+                <span class="z-[-1] h-[1px] w-full flex absolute translate-y-[-9.5px] border border-solid border-border-default " aria-hidden="true"></span>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+<div class="oauth-sign-container !space-y-1.5 !m-0">
+    
+    <a href="https://hackmd.io/auth/google" data-login-method="google" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/google.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Google
+        </span>
+    </a>
+    
+
+    <!-- A 1:1 clone of the exact dark button gsi provides. Just in case if Google is not happy with the custom button
+    
+    <a href="https://hackmd.io/auth/google" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline !bg-[#131314] !border-[#8E918F] hocus:!bg-[#131314] hocus:!border-[#8E918F] !text-[#E3E3E3] font-['Roboto_Medium'] isolate group/google-button overflow-hidden relative">
+        <div aria-hidden="true" class="absolute top-0 left-0 z-[-1] bg-white/[.08] tw-hide w-full h-full group-hover/google-button:flex group-focus/google-button:flex"></div>
+        <img src="/social/google.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Google
+        </span>
+    </a>
+    
+    -->
+
+    
+    <a href="https://hackmd.io/auth/facebook" data-login-method="facebook" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/facebook.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Facebook
+        </span>
+    </a>
+    
+
+    
+    <a href="https://hackmd.io/auth/twitter" data-login-method="twitter" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/x.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via X(Twitter)
+        </span>
+    </a>
+    
+
+    
+    <a href="https://hackmd.io/auth/github" data-login-method="github" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/github.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via GitHub
+        </span>
+    </a>
+    
+    
+    <a href="https://hackmd.io/auth/dropbox" data-login-method="dropbox" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/dropbox.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Dropbox
+        </span>
+    </a>
+    
+    
+    
+      <a href="#" data-login-method="web3" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline btn-web3">
+          <img src="https://hackmd.io/images/wallet.svg" width="28">
+          <span class="sign-in-wallet-text flex-1 text-center">
+              Sign in with Wallet
+          </span>
+
+          <div class="inline-flex items-center justify-between flex-1 hidden web3-wallet-info">
+              <span>
+                   Wallet
+                   (
+                    <span class="web3-wallet-address"></span>
+                   )
+              </span>
+
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+      </a>
+
+      <small class="web3-wallet-info hidden text-left hocus:text-white underline hocus:underline block pt-2 ui-disconnect-connected-wallets text-gray-600 cursor-pointer">
+          Connect another wallet
+      </small>
+    
+
+    <button type="button" class="ui-continue-with-different neo-btn neo-btn-ghost w-full items-center !py-[7px] !px-[9px] hidden">
+        Continue with a different method
+    </button>
+</div>
+<script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">
+const displayCount = 4
+;(() => {
+    const container = document.querySelector('.oauth-sign-container')
+    if (!container) return
+    const buttons = Array.from(container.querySelectorAll(':is(a, button).neo-btn.neo-btn-tertiary'))
+    const continueWithDifferent = container.querySelector('.ui-continue-with-different')
+    if (!continueWithDifferent) return
+    if (buttons.length <= displayCount) return
+
+    continueWithDifferent.classList.remove('hidden')
+    for (let i = displayCount; i < buttons.length; i++) {
+        buttons[i].classList.add('hidden')
+    }
+
+    continueWithDifferent.addEventListener('click', () => {
+        continueWithDifferent.classList.add('hidden')
+        const currentButtons = Array.from(container.querySelectorAll(':is(a, button).neo-btn.neo-btn-tertiary'))
+        for (const button of currentButtons) {
+            button.classList.remove('hidden')
+        }
+    })
+})()
+</script>
+
+    
+
+    
+        <div>
+            <p class="!m-0 text-body leading-normal">New to HackMD? <a href="https://hackmd.io/join" class="!text-text-primary hocus:!text-link-text-hover plausible-event-name=LoginModalSignUp">Sign up</a></p>
+        </div>
+    
+</div>
+
+
+
+
+
+    <p class="!text-sm !leading-sm !text-text-subtle">By signing in, you agree to our <a class="!text-text-subtle hocus:!text-text-default" href="https://hackmd.io/s/terms" target="_blank">terms of service</a>.</p>
+
+
+        </div>
+    </div>
+</div>
+
+    
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-NGVZMM6DR6"></script>
+    <script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        let userid = (document.cookie.match('(^|; )userid=([^;]*)')||0)[2];
+        gtag('config', 'G-NGVZMM6DR6', {'user_id': userid});
+        
+    </script>
+
+
+    
+<script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" crossorigin="anonymous"></script>
+<script nonce="7aeea060-0712-462d-951e-994c15e6a0fd">
+  Sentry.init({ dsn: 'https://73410f1915d84abc8b2dd1f1aabd1c82@sentry.hackmd.dev/4', environment: 'production', integrations: function (intrus) { return intrus.filter(function (itr) { return itr.name !== 'TryCatch' }) } });
+  const sentryUserId = document.cookie
+    .split('; ')
+    .map(cookie => cookie.split('='))
+    .reduce((acc, [k, v]) => k === 'userid' ? v : acc, '');
+  Sentry.setUser(sentryUserId ? { id: sentryUserId } : null);
+</script>
+
+
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLW9Z3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+    <script src="https://hackmd.io/api/i18n.js"></script>
+     <script src="https://assets.hackmd.io/build/font-vendor.da2ff914b6696699c15e.js" defer="defer"></script><script src="https://assets.hackmd.io/build/common-vendor.d6e5c1bdd49586874403.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty-vendor.950210cf11a0f5dfba4b.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty-common.dbca79efbc63d9e96ef6.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty.7c15dd61fbf06b8fada0.js" defer="defer"></script>
+
+    
+
+</body>
+</html>

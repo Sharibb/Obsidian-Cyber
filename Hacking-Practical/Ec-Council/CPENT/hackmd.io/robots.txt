@@ -1,0 +1,68 @@
+# ---------- Default for any crawler not listed below ----------
+User-agent: *
+Allow: /
+
+# ==============================================================
+# AI TRAINING crawlers — Disallow site-wide.
+# These tokens are documented as training-only or training-and-grounding
+# controls (independent of each vendor's search token).
+# ==============================================================
+
+# OpenAI training crawler.
+# https://platform.openai.com/docs/bots
+User-agent: GPTBot
+Disallow: /
+
+# Google Gemini training & grounding (control-only token; rides on Googlebot UA).
+# https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers
+User-agent: Google-Extended
+Disallow: /
+
+# Apple Intelligence foundation-model training (control-only token; rides on Applebot UA).
+# https://support.apple.com/en-us/119829
+User-agent: Applebot-Extended
+Disallow: /
+
+# Anthropic training crawler.
+# https://support.anthropic.com/en/articles/8896518
+User-agent: ClaudeBot
+Disallow: /
+
+# Legacy Anthropic token still seen in the wild (defensive entry).
+User-agent: anthropic-ai
+Disallow: /
+
+# Common Crawl — feeds many open-source LLM corpora.
+# https://commoncrawl.org/ccbot
+User-agent: CCBot
+Disallow: /
+
+# Meta foundation-model training.
+# https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# ByteDance / Doubao training crawler.
+User-agent: Bytespider
+Disallow: /
+
+# Cohere training crawlers.
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# Amazon AI / Alexa data ingestion.
+User-agent: Amazonbot
+Disallow: /
+
+# Diffbot AI structured extraction.
+User-agent: Diffbot
+Disallow: /
+
+# Meta legacy bot listed by Cloudflare AI Crawl Control directory.
+User-agent: FacebookBot
+Disallow: /
+
+Sitemap: https://hackmd.io/sitemap.xml
