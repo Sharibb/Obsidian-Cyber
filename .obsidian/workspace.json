@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/03-Sqli/04-Union-Injection.md",
+                "file": "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/04-Exploitation/00-Enum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Union-Injection"
+              "title": "00-Enum"
             }
           }
         ]
@@ -185,8 +185,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/03-Sqli/03-Union.md",
+    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/01-Intro.md",
+    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/04-Exploitation/00-Enum.md",
+    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/04-Exploitation",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/03-Sqli/04-Union-Injection.md",
+    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/03-Sqli/03-Union.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/03-Sqli/02-Comments.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/03-Sqli/01-Query-Logic.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/03-Sqli/00-Intro.md",
@@ -210,7 +213,6 @@
     "Hacking-Practical/Ec-Council/CPENT/CPENT-exam-notes-Vincent-hackmd",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/03-Query.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/02-Statements.md",
-    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/01-Intro.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/01-Databases/02-Types.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/01-Databases/01-Introduction.md",
@@ -229,8 +231,6 @@
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/01-Bruteforce-Attacks/03-Hybrid.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/02-Hydra",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/01-Bruteforce-Attacks/02-Dictionary-Attack.md",
-    "Pentesting/HTB/CPTS/15-Login-Bruteforce/01-Bruteforce-Attacks/01-Pilot.md",
-    "Pentesting/HTB/CPTS/15-Login-Bruteforce/01-Bruteforce-Attacks",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
