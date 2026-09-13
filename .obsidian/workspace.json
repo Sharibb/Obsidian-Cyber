@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Pentesting/HTB/CPTS/18-XSS/04-Assessment/01-Assessment.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,9 +185,15 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/18-XSS/00-Introduction.md",
+    "Pentesting/HTB/CPTS/18-XSS/04-Assessment/01-Assessment.md",
+    "Images/HTB/01-CPTS/18-XSS/3.png",
+    "Images/HTB/01-CPTS/18-XSS/2.png",
+    "Images/HTB/01-CPTS/18-XSS/1.png",
+    "Images/HTB/01-CPTS/18-XSS",
+    "Images/HTB/01-CPTS/New folder",
     "Pentesting/HTB/CPTS/18-XSS/Cross-Site Scripting (XSS) - cheatsheet.pdf",
     "Pentesting/HTB/CPTS/18-XSS/03-Prevention/01-Fix.md",
-    "Pentesting/HTB/CPTS/18-XSS/04-Assessment/01-Assessment.md",
     "Pentesting/HTB/CPTS/18-XSS/04-Assessment",
     "Pentesting/HTB/CPTS/18-XSS/02-Attacks/03-Session-Hijacking.md",
     "Pentesting/HTB/CPTS/18-XSS/03-Prevention",
@@ -198,7 +204,6 @@
     "Pentesting/HTB/CPTS/18-XSS/01-Basics/03-DOM-XSS.md",
     "Pentesting/HTB/CPTS/18-XSS/01-Basics/02-Reflected-XSS.md",
     "Pentesting/HTB/CPTS/18-XSS/01-Basics/01-Stored-XSS.md",
-    "Pentesting/HTB/CPTS/18-XSS/00-Introduction.md",
     "Pentesting/HTB/CPTS/18-XSS/01-Basics",
     "Pentesting/HTB/CPTS/17-SQLMap/04-Assesment/01-Assessment.md",
     "Pentesting/HTB/CPTS/17-SQLMap/03-Advanced-Usage/01-WAF-Bypass.md",
@@ -218,9 +223,6 @@
     "Networking/OSI-Layer/Layer-5.md",
     "Pentesting/HTB/CPTS/17-SQLMap/03-Advanced-Usage/Untitled",
     "Pentesting/HTB/CPTS/17-SQLMap/03-Advanced-Usage",
-    "Pentesting/HTB/CPTS/17-SQLMap/02-DB-Enumeration'",
-    "Pentesting/HTB/CPTS/17-SQLMap/01-Attacking",
-    "Pentesting/HTB/CPTS/17-SQLMap/00-Basics",
     "Images/HTB/01-CPTS/15-SQLi/10.png",
     "Images/HTB/01-CPTS/15-SQLi/9.png",
     "Images/HTB/01-CPTS/15-SQLi/8.png",
@@ -228,9 +230,6 @@
     "Images/HTB/01-CPTS/15-SQLi/6.png",
     "Images/HTB/01-CPTS/15-SQLi/5.png",
     "Images/HTB/01-CPTS/15-SQLi/4.png",
-    "Images/HTB/01-CPTS/15-SQLi/3.png",
-    "Images/HTB/01-CPTS/15-SQLi/2.png",
-    "Images/HTB/01-CPTS/15-SQLi/1.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
