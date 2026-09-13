@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/17-SQLMap/02-DB-Enumeration'/01-Basics.md",
+                "file": "Pentesting/HTB/CPTS/17-SQLMap/02-DB-Enumeration'/02-Advance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Basics"
+              "title": "02-Advance"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/17-SQLMap/01-Attacking/03-Tuning.md",
     "Pentesting/HTB/CPTS/17-SQLMap/02-DB-Enumeration'/01-Basics.md",
+    "Pentesting/HTB/CPTS/17-SQLMap/02-DB-Enumeration'/02-Advance.md",
+    "Pentesting/HTB/CPTS/17-SQLMap/01-Attacking/03-Tuning.md",
     "Pentesting/HTB/CPTS/17-SQLMap/02-DB-Enumeration'",
     "Pentesting/HTB/CPTS/17-SQLMap/01-Attacking/01-Basic-Attacks.md",
     "Pentesting/HTB/CPTS/17-SQLMap/01-Attacking/02-Detecting-Errors.md",
@@ -230,7 +231,6 @@
     "Hacking-Practical/Ec-Council/CPENT/cpent-vincent-slides",
     "Hacking-Practical/Ec-Council/CPENT/CPENT-exam-notes-Vincent-hackmd/CPENT-exam-notes-Vincent-hackmd.md",
     "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/03-Query.md",
-    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/02-Mysql/02-Statements.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
