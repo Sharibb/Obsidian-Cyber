@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/06-Skill-Assessment/01-D_Assesment.md",
+                "file": "Pentesting/HTB/CPTS/19-File-Inclusion/00-Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-D_Assesment"
+              "title": "00-Introduction"
             }
           }
         ]
@@ -185,6 +185,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/17-SQLMap/04-Assesment/01-Assessment.md",
+    "Pentesting/HTB/CPTS/17-SQLMap/00-Introduction.md",
+    "Pentesting/HTB/CPTS/16-SQLi-Fundamentals/06-Skill-Assessment/01-D_Assesment.md",
     "Pentesting/HTB/CPTS/18-XSS/04-Assessment/01-Assessment.md",
     "Pentesting/HTB/CPTS/19-File-Inclusion/00-Introduction.md",
     "Pentesting/HTB/CPTS/18-XSS/00-Introduction.md",
@@ -206,7 +209,6 @@
     "Pentesting/HTB/CPTS/18-XSS/01-Basics/02-Reflected-XSS.md",
     "Pentesting/HTB/CPTS/18-XSS/01-Basics/01-Stored-XSS.md",
     "Pentesting/HTB/CPTS/18-XSS/01-Basics",
-    "Pentesting/HTB/CPTS/17-SQLMap/04-Assesment/01-Assessment.md",
     "Pentesting/HTB/CPTS/17-SQLMap/03-Advanced-Usage/01-WAF-Bypass.md",
     "Pentesting/HTB/CPTS/17-SQLMap/04-Assesment",
     "Pentesting/HTB/CPTS/17-SQLMap/03-Advanced-Usage/02-OS-Exploitation.md",
@@ -220,8 +222,6 @@
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "Networking/OSI-Layer/Layer-6.md",
     "Networking/Intro To Computer Networking.md",
-    "Networking/OSI-Layer/Layer-7.md",
-    "Networking/OSI-Layer/Layer-5.md",
     "Pentesting/HTB/CPTS/17-SQLMap/03-Advanced-Usage/Untitled",
     "Pentesting/HTB/CPTS/17-SQLMap/03-Advanced-Usage",
     "Images/HTB/01-CPTS/15-SQLi/10.png",
