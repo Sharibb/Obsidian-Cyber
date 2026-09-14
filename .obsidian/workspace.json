@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/19-File-Inclusion/01-LFI/02-Bypasses.md",
+                "file": "Pentesting/HTB/CPTS/19-File-Inclusion/01-LFI/03-Filters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Bypasses"
+              "title": "03-Filters"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/19-File-Inclusion/01-LFI/01-Basics.md",
     "Pentesting/HTB/CPTS/19-File-Inclusion/01-LFI/02-Bypasses.md",
+    "Pentesting/HTB/CPTS/19-File-Inclusion/01-LFI/03-Filters.md",
+    "Pentesting/HTB/CPTS/19-File-Inclusion/01-LFI/01-Basics.md",
     "Pentesting/HTB/CPTS/19-File-Inclusion/00-Introduction.md",
     "Pentesting/HTB/CPTS/19-File-Inclusion/01-LFI",
     "Pentesting/HTB/CPTS/18-XSS/04-Assessment/01-Assessment.md",
@@ -222,7 +223,6 @@
     "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/00-Intro to OWASP API Top 10(2023).md",
     "Networking/OSI-Layer/Intro to OSI Layer.md",
     "Networking/OSI-Layer/Layer-6.md",
-    "Networking/Intro To Computer Networking.md",
     "Pentesting/HTB/CPTS/17-SQLMap/03-Advanced-Usage/Untitled",
     "Images/HTB/01-CPTS/15-SQLi/10.png",
     "Images/HTB/01-CPTS/15-SQLi/9.png",
