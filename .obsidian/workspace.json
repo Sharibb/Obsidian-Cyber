@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/19-File-Inclusion/02-RCE/03-File-Upload.md",
+                "file": "Pentesting/HTB/CPTS/19-File-Inclusion/02-RCE/04-Log-Poisoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-File-Upload"
+              "title": "04-Log-Poisoning"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/19-File-Inclusion/02-RCE/02-RFI.md",
     "Pentesting/HTB/CPTS/19-File-Inclusion/02-RCE/03-File-Upload.md",
+    "Pentesting/HTB/CPTS/19-File-Inclusion/02-RCE/04-Log-Poisoning.md",
+    "Pentesting/HTB/CPTS/19-File-Inclusion/02-RCE/02-RFI.md",
     "Pentesting/HTB/CPTS/19-File-Inclusion/02-RCE/01-Wrappers.md",
     "Pentesting/HTB/CPTS/19-File-Inclusion/01-LFI/03-Filters.md",
     "Pentesting/HTB/CPTS/19-File-Inclusion/02-RCE",
@@ -223,7 +224,6 @@
     "Pentesting/HTB/CPTS/12-Active-Directory/100-Conclusion.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/05-Skill-Assessment/02-Skill-Assessment-2.md",
     "Pentesting/HTB/CPTS/15-Login-Bruteforce/05-Skill-Assessment/01-Skill-Assessment-1.md",
-    "Pentesting/WebAppPentesting(WAPT)/OWASPAPI10/01-Broken Object Level Authorization(BOLA).md",
     "Images/HTB/01-CPTS/15-SQLi/10.png",
     "Images/HTB/01-CPTS/15-SQLi/9.png",
     "Images/HTB/01-CPTS/15-SQLi/8.png",
