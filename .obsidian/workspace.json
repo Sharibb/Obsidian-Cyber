@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/03-Whitelist.md",
+                "file": "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/04-Type.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Whitelist"
+              "title": "04-Type"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/02-Blacklist.md",
     "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/03-Whitelist.md",
+    "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/04-Type.md",
+    "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/02-Blacklist.md",
     "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/01-Client-side.md",
     "Pentesting/HTB/CPTS/20-File-Upload/01-Basics/02-Exploitation.md",
     "Pentesting/HTB/CPTS/20-File-Upload/01-Basics/01-Validation.md",
@@ -223,7 +224,6 @@
     "Pentesting/HTB/CPTS/18-XSS/02-Attacks/01-Defacing.md",
     "Pentesting/HTB/CPTS/18-XSS/01-Basics/04-Discovery-of-XSS.md",
     "Pentesting/HTB/CPTS/18-XSS/01-Basics/03-DOM-XSS.md",
-    "Pentesting/HTB/CPTS/18-XSS/01-Basics/02-Reflected-XSS.md",
     "Images/HTB/01-CPTS/15-SQLi/10.png",
     "Images/HTB/01-CPTS/15-SQLi/9.png",
     "Images/HTB/01-CPTS/15-SQLi/8.png",
