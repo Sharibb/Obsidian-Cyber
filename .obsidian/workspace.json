@@ -185,10 +185,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/20-File-Upload/04-Prevention/01-Preventing.md",
-    "Pentesting/HTB/CPTS/20-File-Upload/05-Skill-Assessment/01-Assessment.md",
-    "Pentesting/HTB/CPTS/20-File-Upload/03-Other-Attacks/02-Other-Attacks.md",
     "Pentesting/HTB/CPTS/20-File-Upload/03-Other-Attacks/01-Limited-File-Upload.md",
+    "Pentesting/HTB/CPTS/20-File-Upload/03-Other-Attacks/02-Other-Attacks.md",
+    "Pentesting/HTB/CPTS/20-File-Upload/05-Skill-Assessment/01-Assessment.md",
+    "Pentesting/HTB/CPTS/20-File-Upload/04-Prevention/01-Preventing.md",
     "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/04-Type.md",
     "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/03-Whitelist.md",
     "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/02-Blacklist.md",
