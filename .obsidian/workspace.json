@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/03-Prevention.md",
+                "file": "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/00-Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Prevention"
+              "title": "00-Intro"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/02-SecurityFiltersBypass.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/03-Prevention.md",
+    "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/00-Intro.md",
+    "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR",
+    "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/02-SecurityFiltersBypass.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/01-BasicAuth-Bypass.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/00-Introduction.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/00-Introduction.md",
@@ -234,10 +236,8 @@
     "Pentesting/HTB/CPTS/20-File-Upload/03-Other-Attacks/02-Other-Attacks.md",
     "Pentesting/HTB/CPTS/20-File-Upload/04-Prevention/01-Preventing.md",
     "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/04-Type.md",
-    "Pentesting/HTB/CPTS/20-File-Upload/02-Filter-Bypasses/03-Whitelist.md",
     "Pentesting/HTB/CPTS/20-File-Upload/05-Skill-Assessment",
     "Pentesting/HTB/CPTS/20-File-Upload/04-Prevention",
-    "Pentesting/HTB/CPTS/20-File-Upload/03-Other-Attacks",
     "Images/HTB/01-CPTS/18-XSS/3.png",
     "Images/HTB/01-CPTS/18-XSS/2.png",
     "Images/HTB/01-CPTS/18-XSS/1.png",
