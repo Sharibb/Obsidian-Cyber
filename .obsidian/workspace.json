@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress/01-Enumeration.md",
+                "file": "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress/02-Attacking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Enumeration"
+              "title": "02-Attacking"
             }
           }
         ]
@@ -195,9 +195,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress/01-Enumeration.md",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress/02-Attacking.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/00-Intro/01-Application-Discovery.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/101-Cheatsheet.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/00-Intro",
@@ -237,7 +238,6 @@
     "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/01-BasicAuth-Bypass.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/00-Introduction.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/00-Introduction.md",
-    "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering",
     "Pentesting/HTB/CPTS/21-Command-Injection/04-Skill-Assessment/01-Assessment.md",
     "Pentesting/HTB/CPTS/21-Command-Injection/02-Filter-Evasion/03-Other-Filters.md",
     "Pentesting/HTB/CPTS/21-Command-Injection/02-Filter-Evasion/01-Space-Filters.md",
