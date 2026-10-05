@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/02-Jenkins/02-Attacking.md",
+                "file": "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/03-Monitoring-Tools/01-Splunk/01-Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Attacking"
+              "title": "01-Enumeration"
             }
           }
         ]
@@ -195,8 +195,11 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/02-Jenkins/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/02-Jenkins/02-Attacking.md",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/03-Monitoring-Tools/01-Splunk/01-Enumeration.md",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/03-Monitoring-Tools/01-Splunk",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/03-Monitoring-Tools",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/02-Jenkins/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/01-Tomcat/02-Attacking.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/01-Tomcat/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/02-Jenkins",
@@ -228,8 +231,6 @@
     "Images/HTB/01-CPTS/22-Web-Attacks/00-Assessment/9.png",
     "Images/HTB/01-CPTS/22-Web-Attacks/00-Assessment/8.png",
     "Images/HTB/01-CPTS/22-.md",
-    "Images/HTB/01-CPTS/22-Web-Attacks/00-Assessment",
-    "Images/HTB/01-CPTS/22-Web-Attacks/New folder",
     "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE/04-Prevention.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE/01-Local-File-Disclosure.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE/02-Advance-File-Disclosure.md",
@@ -240,7 +241,6 @@
     "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/04-Insecure-Encoding.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/03-Encoding-Bypasses.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/01-Enumeration.md",
-    "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/00-Intro.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
