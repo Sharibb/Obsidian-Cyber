@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/02-Joomla/02-Attacking.md",
+                "file": "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/03-Drupal/01-Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Attacking"
+              "title": "01-Enumeration"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/02-Joomla/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/02-Joomla/02-Attacking.md",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/03-Drupal/01-Enumeration.md",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/03-Drupal",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/02-Joomla/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress/02-Attacking.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/02-Joomla",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress/01-Enumeration.md",
@@ -229,7 +231,6 @@
     "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE/03-Blind-Exfilteration.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE/00-Intro.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/06-Prevention.md",
-    "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE",
     "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/05-Chaining.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/04-Insecure-Encoding.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/02-IDOR/03-Encoding-Bypasses.md",
@@ -240,7 +241,6 @@
     "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/01-BasicAuth-Bypass.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/01-Verb-Tampering/00-Introduction.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/00-Introduction.md",
-    "Pentesting/HTB/CPTS/21-Command-Injection/04-Skill-Assessment/01-Assessment.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
