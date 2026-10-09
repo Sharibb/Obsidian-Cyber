@@ -193,8 +193,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bae72f1c488d70c4",
+  "active": "aadac7039e9a85dc",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/07-ThickClient",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/06-Common-Gateways/01-Tomcat-CGI.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/06-Common-Gateways/02-Shellshock.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/05-Version-Control-Systems/01-GitLab/02-Attacking.md",
@@ -240,7 +241,6 @@
     "Images/HTB/01-CPTS/22-.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE/04-Prevention.md",
     "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE/01-Local-File-Disclosure.md",
-    "Pentesting/HTB/CPTS/22-Web-Attacks/03-XXE/02-Advance-File-Disclosure.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
