@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/05-Linux-Internal-Based/03-Shared-Object-Hijaking.md",
+                "file": "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/05-Linux-Internal-Based/04-Python-Library.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Shared-Object-Hijaking"
+              "title": "04-Python-Library"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/05-Linux-Internal-Based/02-LDD_Preload.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/05-Linux-Internal-Based/03-Shared-Object-Hijaking.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/05-Linux-Internal-Based/04-Python-Library.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/05-Linux-Internal-Based/02-LDD_Preload.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/05-Linux-Internal-Based/01-Kernel.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based/07-Miscelleneous.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based/06-Logrotate.md",
@@ -232,7 +233,6 @@
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard/1.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/01-I.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/02-II.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/Untitled",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/5.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/4.png",
