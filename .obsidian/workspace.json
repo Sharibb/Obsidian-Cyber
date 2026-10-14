@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based/01-Vulnerable-Services.md",
+                "file": "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based/03-Containers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Vulnerable-Services"
+              "title": "03-Containers"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/04-Capabilities.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based/02-Cron-Job.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based/03-Containers.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based/01-Vulnerable-Services.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/04-Capabilities.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/03-Privileged-Groups.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/02-Sudo.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/01-Special-Permissions.md",
@@ -239,8 +241,6 @@
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/06-Others/01-Others.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/05-Applications-Connecting-To-Services/01-Attacking.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/04-Mass-Assignment/01-Attack.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/03-LDAP/01-Attacking.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/02-IIS/01-Tilde.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
