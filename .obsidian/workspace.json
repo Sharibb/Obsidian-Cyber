@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/03-III.md",
+                "file": "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering/01-Environment-Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-III"
+              "title": "01-Environment-Enumeration"
             }
           }
         ]
@@ -195,33 +195,37 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/00-Introduction.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering/01-Environment-Enumeration.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/08-Skill-Assessment",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/07-Hardnening",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/06-0-Days",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/05-Linux-Internal-Based",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/02-Environment-Based",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering",
+    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/03-III.md",
+    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard/3.png",
+    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard/2.png",
+    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard/1.png",
+    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/01-I.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/02-II.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/03-III.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment/Untitled",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/5.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/4.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/3.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/2.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/1.png",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/Gitlab/2.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/Gitlab/1.png",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/Gitlab",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/Blog/1.png",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/Blog",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/01-CMS/01-Wordpress/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/01-Tomcat/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/02-Servelet&SoftwareDevelopement/01-Tomcat/02-Attacking.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/09-Prevention/01-Hardening.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/10-Skill-Assessment",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/06-Others/01-Others.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/09-Prevention",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/05-Applications-Connecting-To-Services/01-Attacking.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/06-Others",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/04-Mass-Assignment/01-Attack.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/03-LDAP/01-Attacking.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/08-Miscellaenous/02-IIS/01-Tilde.md",
@@ -237,10 +241,6 @@
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/04-Ticketing-Systems/01-osTicket.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/03-Monitoring-Tools/02-PRTG/01-Network-Monitor.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/03-Monitoring-Tools/01-Splunk/02-Attacking.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/03-Monitoring-Tools/01-Splunk/01-Enumeration.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/101-Cheatsheet.md",
-    "Images/HTB/01-CPTS/22-Web-Attacks/00-Assessment/17.png",
-    "Images/HTB/01-CPTS/22-Web-Attacks/00-Assessment/16.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
