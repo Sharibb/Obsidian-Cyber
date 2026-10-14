@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/08-Skill-Assessment/01-Assessment.md",
+                "file": "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land/01-Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Assessment"
+              "title": "01-Enumeration"
             }
           }
         ]
@@ -195,10 +195,17 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
+    "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/00-Intro/01-Tools.md",
+    "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land/01-Enumeration.md",
+    "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land",
+    "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/00-Intro/00-Introduction.md",
+    "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/00-Intro",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/08-Skill-Assessment/01-Assessment.md",
+    "Images/HTB/01-CPTS/24-Linux-priv-esc/3.png",
+    "Images/HTB/01-CPTS/24-Linux-priv-esc/2.png",
     "Images/HTB/01-CPTS/24-Linux-priv-esc/1.png",
     "Images/HTB/01-CPTS/24-Linux-priv-esc",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based/06-Logrotate.md",
-    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/08-Skill-Assessment/01-Assessment.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/07-Hardnening/01-Hardnening.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/06-0-Days/04-Netfilter.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/06-0-Days/03-Dirty-pipe.md",
@@ -220,8 +227,6 @@
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/01-Special-Permissions.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/02-Environment-Based/03-Escaping-Restricted-Shell.md",
     "Pentesting/HTB/CPTS/21-Command-Injection/02-Filter-Evasion/04-Blacklisted-Commands.md",
-    "Pentesting/HTB/CPTS/21-Command-Injection/02-Filter-Evasion/05-Advanced-Obfuscation.md",
-    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/02-Environment-Based/02-Wildcard-Abuse.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/08-Skill-Assessment",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/07-Hardnening",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/06-0-Days",
@@ -229,18 +234,13 @@
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/04-Service-Based",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/02-Environment-Based",
-    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard/3.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard/2.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard/1.png",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/03-hard",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/5.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/4.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/3.png",
     "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/2.png",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/monitoring/1.png",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/Gitlab/2.png",
-    "Images/HTB/01-CPTS/23-Attacking-Common-Apps/01-Assessment/02-Medium/Gitlab/1.png",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
