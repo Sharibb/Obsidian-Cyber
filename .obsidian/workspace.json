@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering/02-Internal-Enumeration.md",
+                "file": "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering/03-Credential-Hunting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Internal-Enumeration"
+              "title": "03-Credential-Hunting"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering/01-Environment-Enumeration.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering/02-Internal-Enumeration.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering/03-Credential-Hunting.md",
+    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/01-Infromation-Gathering/01-Environment-Enumeration.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/00-Introduction.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/08-Skill-Assessment",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/07-Hardnening",
@@ -240,7 +241,6 @@
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/05-Version-Control-Systems/01-GitLab/02-Attacking.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/05-Version-Control-Systems/01-GitLab/01-Enumeration.md",
     "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/04-Ticketing-Systems/01-osTicket.md",
-    "Pentesting/HTB/CPTS/23-Attacking-Common-Applications/03-Monitoring-Tools/02-PRTG/01-Network-Monitor.md",
     "Pentesting/HTB/CJCA/16-Intro-to-NetTrafficAnalysis/Untitled.canvas"
   ]
 }
