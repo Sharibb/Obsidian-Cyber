@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land/02-Enumeration-II.md",
+                "file": "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land/03-Process-Communication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Enumeration-II"
+              "title": "03-Process-Communication"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "bae72f1c488d70c4",
   "lastOpenFiles": [
-    "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land/01-Enumeration.md",
     "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land/02-Enumeration-II.md",
+    "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land/03-Process-Communication.md",
+    "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land/01-Enumeration.md",
     "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/00-Intro/01-Tools.md",
     "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/01-Lay-of-The-Land",
     "Pentesting/HTB/CPTS/25-Windows-Priv-ESC/00-Intro/00-Introduction.md",
@@ -226,7 +227,6 @@
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/03-Privileged-Groups.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/02-Sudo.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/03-Permission-Based/01-Special-Permissions.md",
-    "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/02-Environment-Based/03-Escaping-Restricted-Shell.md",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/08-Skill-Assessment",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/07-Hardnening",
     "Pentesting/HTB/CPTS/24-Linux-Priv-ESC/06-0-Days",
